@@ -1,0 +1,371 @@
+{
+  "uid" : "f4f126702e5983d8",
+  "name" : "test_download_document",
+  "fullName" : "tests.test_decrees.test_decrees.TestDecrees#test_download_document",
+  "historyId" : "b1cd480e4b8e23a049ed2d51bb130aab",
+  "time" : {
+    "start" : 1643561128585,
+    "stop" : 1643561152815,
+    "duration" : 24230
+  },
+  "description" : "\n        Проверка скачивания подписанного приказа\n        ",
+  "descriptionHtml" : "<pre><code>    Проверка скачивания подписанного приказа\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\")).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643561120009/1643561120010.png\nPageSource: file:///home/seluser/.selene/screenshots/1643561120009/1643561120010.html",
+  "statusTrace" : "self = <selene.core.wait.Wait object at 0x7f4847bdb490>\nfn = <selene.core.wait.Command object at 0x7f4847bdb520>\n\n    def for_(self, fn: Callable[[E], R]) -> R:\n        finish_time = time.time() + self._timeout\n    \n        while True:\n            try:\n>               return fn(self._entity)\n\n/usr/local/lib/python3.8/dist-packages/selene/core/wait.py:102: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selene.core.wait.Command object at 0x7f4847bdb520>\nentity = <selene.core.entity.Element object at 0x7f4847bdb670>\n\n    def __call__(self, entity: T) -> R:\n>       return self._fn(entity)\n\n/usr/local/lib/python3.8/dist-packages/selene/core/wait.py:56: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nelement = <selene.core.entity.Element object at 0x7f4847bdb670>\n\n>   self.wait.command('click', lambda element: element().click())\n\n/usr/local/lib/python3.8/dist-packages/selene/core/entity.py:325: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selene.core.entity.Element object at 0x7f4847bdb670>\n\n    def __call__(self) -> WebElement:\n>       return self._locator()\n\n/usr/local/lib/python3.8/dist-packages/selene/core/entity.py:174: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selene.core.locator.Locator object at 0x7f4847bd1b20>\n\n    def __call__(self) -> T:\n>       return self._locate()\n\n/usr/local/lib/python3.8/dist-packages/selene/core/locator.py:34: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\n>           f'{self}.element({by})', lambda: self.driver.find_element(*by)\n        ),\n        self.config,\n    )\n\n/usr/local/lib/python3.8/dist-packages/selene/core/entity.py:1367: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"8908e5b282b151143bcfad17575da451\")>\nby = 'xpath'\nvalue = \"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\"\n\n    def find_element(self, by=By.ID, value=None):\n        \"\"\"\n        Find an element given a By strategy and locator. Prefer the find_element_by_* methods when\n        possible.\n    \n        :Usage:\n            element = driver.find_element(By.ID, 'foo')\n    \n        :rtype: WebElement\n        \"\"\"\n        if self.w3c:\n            if by == By.ID:\n                by = By.CSS_SELECTOR\n                value = '[id=\"%s\"]' % value\n            elif by == By.TAG_NAME:\n                by = By.CSS_SELECTOR\n            elif by == By.CLASS_NAME:\n                by = By.CSS_SELECTOR\n                value = \".%s\" % value\n            elif by == By.NAME:\n                by = By.CSS_SELECTOR\n                value = '[name=\"%s\"]' % value\n>       return self.execute(Command.FIND_ELEMENT, {\n            'using': by,\n            'value': value})['value']\n\n/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py:976: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"8908e5b282b151143bcfad17575da451\")>\ndriver_command = 'findElement'\nparams = {'using': 'xpath', 'value': \"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\"}\n\n    def execute(self, driver_command, params=None):\n        \"\"\"\n        Sends a command to be executed by a command.CommandExecutor.\n    \n        :Args:\n         - driver_command: The name of the command to execute as a string.\n         - params: A dictionary of named parameters to send with the command.\n    \n        :Returns:\n          The command's JSON response loaded into a dictionary object.\n        \"\"\"\n        if self.session_id is not None:\n            if not params:\n                params = {'sessionId': self.session_id}\n            elif 'sessionId' not in params:\n                params['sessionId'] = self.session_id\n    \n        params = self._wrap_value(params)\n        response = self.command_executor.execute(driver_command, params)\n        if response:\n>           self.error_handler.check_response(response)\n\n/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py:321: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x7f4847c58dc0>\nresponse = {'status': 404, 'value': '{\"value\":{\"error\":\"no such element\",\"message\":\"no such element: Unable to locate element: {\\...\\\\n#16 0x55c9fc9bbc68 \\\\u003Cunknown>\\\\n#17 0x55c9fc9d6aad \\\\u003Cunknown>\\\\n#18 0x7faf4b6bb609 \\\\u003Cunknown>\\\\n\"}}'}\n\n    def check_response(self, response):\n        \"\"\"\n        Checks that a JSON response from the WebDriver does not have an error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get('status', None)\n        if status is None or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(\"message\", \"\")\n        screen = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get('value', None)\n            if value_json and isinstance(value_json, basestring):\n                import json\n                try:\n                    value = json.loads(value_json)\n                    if len(value.keys()) == 1:\n                        value = value['value']\n                    status = value.get('error', None)\n                    if status is None:\n                        status = value[\"status\"]\n                        message = value[\"value\"]\n                        if not isinstance(message, basestring):\n                            value = message\n                            message = message.get('message')\n                    else:\n                        message = value.get('message', None)\n                except ValueError:\n                    pass\n    \n        exception_class = ErrorInResponseException\n        if status in ErrorCode.NO_SUCH_ELEMENT:\n            exception_class = NoSuchElementException\n        elif status in ErrorCode.NO_SUCH_FRAME:\n            exception_class = NoSuchFrameException\n        elif status in ErrorCode.NO_SUCH_WINDOW:\n            exception_class = NoSuchWindowException\n        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:\n            exception_class = StaleElementReferenceException\n        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:\n            exception_class = ElementNotVisibleException\n        elif status in ErrorCode.INVALID_ELEMENT_STATE:\n            exception_class = InvalidElementStateException\n        elif status in ErrorCode.INVALID_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER:\n            exception_class = InvalidSelectorException\n        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:\n            exception_class = ElementNotSelectableException\n        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:\n            exception_class = ElementNotInteractableException\n        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:\n            exception_class = InvalidCookieDomainException\n        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:\n            exception_class = UnableToSetCookieException\n        elif status in ErrorCode.TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.SCRIPT_TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.UNKNOWN_ERROR:\n            exception_class = WebDriverException\n        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:\n            exception_class = UnexpectedAlertPresentException\n        elif status in ErrorCode.NO_ALERT_OPEN:\n            exception_class = NoAlertPresentException\n        elif status in ErrorCode.IME_NOT_AVAILABLE:\n            exception_class = ImeNotAvailableException\n        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:\n            exception_class = ImeActivationFailedException\n        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:\n            exception_class = MoveTargetOutOfBoundsException\n        elif status in ErrorCode.JAVASCRIPT_ERROR:\n            exception_class = JavascriptException\n        elif status in ErrorCode.SESSION_NOT_CREATED:\n            exception_class = SessionNotCreatedException\n        elif status in ErrorCode.INVALID_ARGUMENT:\n            exception_class = InvalidArgumentException\n        elif status in ErrorCode.NO_SUCH_COOKIE:\n            exception_class = NoSuchCookieException\n        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:\n            exception_class = ScreenshotException\n        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:\n            exception_class = ElementClickInterceptedException\n        elif status in ErrorCode.INSECURE_CERTIFICATE:\n            exception_class = InsecureCertificateException\n        elif status in ErrorCode.INVALID_COORDINATES:\n            exception_class = InvalidCoordinatesException\n        elif status in ErrorCode.INVALID_SESSION_ID:\n            exception_class = InvalidSessionIdException\n        elif status in ErrorCode.UNKNOWN_METHOD:\n            exception_class = UnknownMethodException\n        else:\n            exception_class = WebDriverException\n        if value == '' or value is None:\n            value = response['value']\n        if isinstance(value, basestring):\n            if exception_class == ErrorInResponseException:\n                raise exception_class(response, value)\n            raise exception_class(value)\n        if message == \"\" and 'message' in value:\n            message = value['message']\n    \n        screen = None\n        if 'screen' in value:\n            screen = value['screen']\n    \n        stacktrace = None\n        if 'stackTrace' in value and value['stackTrace']:\n            stacktrace = []\n            try:\n                for frame in value['stackTrace']:\n                    line = self._value_or_default(frame, 'lineNumber', '')\n                    file = self._value_or_default(frame, 'fileName', '<anonymous>')\n                    if line:\n                        file = \"%s:%s\" % (file, line)\n                    meth = self._value_or_default(frame, 'methodName', '<anonymous>')\n                    if 'className' in frame:\n                        meth = \"%s.%s\" % (frame['className'], meth)\n                    msg = \"    at %s (%s)\"\n                    msg = msg % (meth, file)\n                    stacktrace.append(msg)\n            except TypeError:\n                pass\n        if exception_class == ErrorInResponseException:\n            raise exception_class(response, message)\n        elif exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if 'data' in value:\n                alert_text = value['data'].get('text')\n            elif 'alert' in value:\n                alert_text = value['alert'].get('text')\n            raise exception_class(message, screen, stacktrace, alert_text)\n>       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\"}\nE         (Session info: chrome=97.0.4692.99)\n\n/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/errorhandler.py:242: NoSuchElementException\n\nDuring handling of the above exception, another exception occurred:\n\nself = <tests.test_decrees.test_decrees.TestDecrees object at 0x7f4847c41970>\nfor_download = None\n\n    @pytest.mark.smoke\n    @pytest.mark.seconds\n    def test_download_document(self, for_download):\n        \"\"\"\n        Проверка скачивания подписанного приказа\n        \"\"\"\n        admin_panel.auth_as_user(UsersConstants.LEYSAN_MUHAMETZYANOVA)\n>       decrees_list_page.open_decree()\n\ntests/test_decrees/test_decrees.py:372: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/document_management/decrees/decrees_list_page.py:45: in open_decree\n    s(self.decree_name_link).click()\n/usr/local/lib/python3.8/dist-packages/selene/core/entity.py:325: in click\n    self.wait.command('click', lambda element: element().click())\n/usr/local/lib/python3.8/dist-packages/selene/core/wait.py:136: in command\n    self.for_(Command(description, fn))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selene.core.wait.Wait object at 0x7f4847bdb490>\nfn = <selene.core.wait.Command object at 0x7f4847bdb520>\n\n        def for_(self, fn: Callable[[E], R]) -> R:\n            finish_time = time.time() + self._timeout\n    \n            while True:\n                try:\n                    return fn(self._entity)\n                except Exception as reason:\n                    if time.time() > finish_time:\n    \n                        reason_message = str(reason)\n    \n                        reason_string = '{name}: {message}'.format(\n                            name=reason.__class__.__name__, message=reason_message\n                        )\n                        # todo: think on how can we improve logging failures in selene, e.g. reverse msg and stacktrace\n                        # stacktrace = getattr(reason, 'stacktrace', None)\n                        timeout = self._timeout\n                        entity = self._entity\n    \n                        failure = TimeoutException(\n                            f'''\n    \n    Timed out after {timeout}s, while waiting for:\n    {entity}.{fn}\n    \n    Reason: {reason_string}'''\n                        )\n    \n>                       raise self._hook_failure(failure)\nE                       selene.core.exceptions.TimeoutException: Message: \nE                       \nE                       Timed out after 10s, while waiting for:\nE                       browser.element(('xpath', \"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\")).click\nE                       \nE                       Reason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\"}\nE                         (Session info: chrome=97.0.4692.99)\nE                       \nE                       Screenshot: file:///home/seluser/.selene/screenshots/1643561120009/1643561120010.png\nE                       PageSource: file:///home/seluser/.selene/screenshots/1643561120009/1643561120010.html\n\n/usr/local/lib/python3.8/dist-packages/selene/core/wait.py:125: TimeoutException",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1643561120608,
+      "stop" : 1643561120704,
+      "duration" : 96
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_admin",
+    "time" : {
+      "start" : 1643561120704,
+      "stop" : 1643561124885,
+      "duration" : 4181
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "for_download",
+    "time" : {
+      "start" : 1643561124886,
+      "stop" : 1643561128584,
+      "duration" : 3698
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        Проверка скачивания подписанного приказа\n        ",
+    "status" : "failed",
+    "statusMessage" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\")).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643561120009/1643561120010.png\nPageSource: file:///home/seluser/.selene/screenshots/1643561120009/1643561120010.html",
+    "statusTrace" : "self = <selene.core.wait.Wait object at 0x7f4847bdb490>\nfn = <selene.core.wait.Command object at 0x7f4847bdb520>\n\n    def for_(self, fn: Callable[[E], R]) -> R:\n        finish_time = time.time() + self._timeout\n    \n        while True:\n            try:\n>               return fn(self._entity)\n\n/usr/local/lib/python3.8/dist-packages/selene/core/wait.py:102: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selene.core.wait.Command object at 0x7f4847bdb520>\nentity = <selene.core.entity.Element object at 0x7f4847bdb670>\n\n    def __call__(self, entity: T) -> R:\n>       return self._fn(entity)\n\n/usr/local/lib/python3.8/dist-packages/selene/core/wait.py:56: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nelement = <selene.core.entity.Element object at 0x7f4847bdb670>\n\n>   self.wait.command('click', lambda element: element().click())\n\n/usr/local/lib/python3.8/dist-packages/selene/core/entity.py:325: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selene.core.entity.Element object at 0x7f4847bdb670>\n\n    def __call__(self) -> WebElement:\n>       return self._locator()\n\n/usr/local/lib/python3.8/dist-packages/selene/core/entity.py:174: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selene.core.locator.Locator object at 0x7f4847bd1b20>\n\n    def __call__(self) -> T:\n>       return self._locate()\n\n/usr/local/lib/python3.8/dist-packages/selene/core/locator.py:34: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\n>           f'{self}.element({by})', lambda: self.driver.find_element(*by)\n        ),\n        self.config,\n    )\n\n/usr/local/lib/python3.8/dist-packages/selene/core/entity.py:1367: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"8908e5b282b151143bcfad17575da451\")>\nby = 'xpath'\nvalue = \"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\"\n\n    def find_element(self, by=By.ID, value=None):\n        \"\"\"\n        Find an element given a By strategy and locator. Prefer the find_element_by_* methods when\n        possible.\n    \n        :Usage:\n            element = driver.find_element(By.ID, 'foo')\n    \n        :rtype: WebElement\n        \"\"\"\n        if self.w3c:\n            if by == By.ID:\n                by = By.CSS_SELECTOR\n                value = '[id=\"%s\"]' % value\n            elif by == By.TAG_NAME:\n                by = By.CSS_SELECTOR\n            elif by == By.CLASS_NAME:\n                by = By.CSS_SELECTOR\n                value = \".%s\" % value\n            elif by == By.NAME:\n                by = By.CSS_SELECTOR\n                value = '[name=\"%s\"]' % value\n>       return self.execute(Command.FIND_ELEMENT, {\n            'using': by,\n            'value': value})['value']\n\n/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py:976: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"8908e5b282b151143bcfad17575da451\")>\ndriver_command = 'findElement'\nparams = {'using': 'xpath', 'value': \"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\"}\n\n    def execute(self, driver_command, params=None):\n        \"\"\"\n        Sends a command to be executed by a command.CommandExecutor.\n    \n        :Args:\n         - driver_command: The name of the command to execute as a string.\n         - params: A dictionary of named parameters to send with the command.\n    \n        :Returns:\n          The command's JSON response loaded into a dictionary object.\n        \"\"\"\n        if self.session_id is not None:\n            if not params:\n                params = {'sessionId': self.session_id}\n            elif 'sessionId' not in params:\n                params['sessionId'] = self.session_id\n    \n        params = self._wrap_value(params)\n        response = self.command_executor.execute(driver_command, params)\n        if response:\n>           self.error_handler.check_response(response)\n\n/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py:321: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x7f4847c58dc0>\nresponse = {'status': 404, 'value': '{\"value\":{\"error\":\"no such element\",\"message\":\"no such element: Unable to locate element: {\\...\\\\n#16 0x55c9fc9bbc68 \\\\u003Cunknown>\\\\n#17 0x55c9fc9d6aad \\\\u003Cunknown>\\\\n#18 0x7faf4b6bb609 \\\\u003Cunknown>\\\\n\"}}'}\n\n    def check_response(self, response):\n        \"\"\"\n        Checks that a JSON response from the WebDriver does not have an error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get('status', None)\n        if status is None or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(\"message\", \"\")\n        screen = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get('value', None)\n            if value_json and isinstance(value_json, basestring):\n                import json\n                try:\n                    value = json.loads(value_json)\n                    if len(value.keys()) == 1:\n                        value = value['value']\n                    status = value.get('error', None)\n                    if status is None:\n                        status = value[\"status\"]\n                        message = value[\"value\"]\n                        if not isinstance(message, basestring):\n                            value = message\n                            message = message.get('message')\n                    else:\n                        message = value.get('message', None)\n                except ValueError:\n                    pass\n    \n        exception_class = ErrorInResponseException\n        if status in ErrorCode.NO_SUCH_ELEMENT:\n            exception_class = NoSuchElementException\n        elif status in ErrorCode.NO_SUCH_FRAME:\n            exception_class = NoSuchFrameException\n        elif status in ErrorCode.NO_SUCH_WINDOW:\n            exception_class = NoSuchWindowException\n        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:\n            exception_class = StaleElementReferenceException\n        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:\n            exception_class = ElementNotVisibleException\n        elif status in ErrorCode.INVALID_ELEMENT_STATE:\n            exception_class = InvalidElementStateException\n        elif status in ErrorCode.INVALID_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER:\n            exception_class = InvalidSelectorException\n        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:\n            exception_class = ElementNotSelectableException\n        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:\n            exception_class = ElementNotInteractableException\n        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:\n            exception_class = InvalidCookieDomainException\n        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:\n            exception_class = UnableToSetCookieException\n        elif status in ErrorCode.TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.SCRIPT_TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.UNKNOWN_ERROR:\n            exception_class = WebDriverException\n        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:\n            exception_class = UnexpectedAlertPresentException\n        elif status in ErrorCode.NO_ALERT_OPEN:\n            exception_class = NoAlertPresentException\n        elif status in ErrorCode.IME_NOT_AVAILABLE:\n            exception_class = ImeNotAvailableException\n        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:\n            exception_class = ImeActivationFailedException\n        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:\n            exception_class = MoveTargetOutOfBoundsException\n        elif status in ErrorCode.JAVASCRIPT_ERROR:\n            exception_class = JavascriptException\n        elif status in ErrorCode.SESSION_NOT_CREATED:\n            exception_class = SessionNotCreatedException\n        elif status in ErrorCode.INVALID_ARGUMENT:\n            exception_class = InvalidArgumentException\n        elif status in ErrorCode.NO_SUCH_COOKIE:\n            exception_class = NoSuchCookieException\n        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:\n            exception_class = ScreenshotException\n        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:\n            exception_class = ElementClickInterceptedException\n        elif status in ErrorCode.INSECURE_CERTIFICATE:\n            exception_class = InsecureCertificateException\n        elif status in ErrorCode.INVALID_COORDINATES:\n            exception_class = InvalidCoordinatesException\n        elif status in ErrorCode.INVALID_SESSION_ID:\n            exception_class = InvalidSessionIdException\n        elif status in ErrorCode.UNKNOWN_METHOD:\n            exception_class = UnknownMethodException\n        else:\n            exception_class = WebDriverException\n        if value == '' or value is None:\n            value = response['value']\n        if isinstance(value, basestring):\n            if exception_class == ErrorInResponseException:\n                raise exception_class(response, value)\n            raise exception_class(value)\n        if message == \"\" and 'message' in value:\n            message = value['message']\n    \n        screen = None\n        if 'screen' in value:\n            screen = value['screen']\n    \n        stacktrace = None\n        if 'stackTrace' in value and value['stackTrace']:\n            stacktrace = []\n            try:\n                for frame in value['stackTrace']:\n                    line = self._value_or_default(frame, 'lineNumber', '')\n                    file = self._value_or_default(frame, 'fileName', '<anonymous>')\n                    if line:\n                        file = \"%s:%s\" % (file, line)\n                    meth = self._value_or_default(frame, 'methodName', '<anonymous>')\n                    if 'className' in frame:\n                        meth = \"%s.%s\" % (frame['className'], meth)\n                    msg = \"    at %s (%s)\"\n                    msg = msg % (meth, file)\n                    stacktrace.append(msg)\n            except TypeError:\n                pass\n        if exception_class == ErrorInResponseException:\n            raise exception_class(response, message)\n        elif exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if 'data' in value:\n                alert_text = value['data'].get('text')\n            elif 'alert' in value:\n                alert_text = value['alert'].get('text')\n            raise exception_class(message, screen, stacktrace, alert_text)\n>       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\"}\nE         (Session info: chrome=97.0.4692.99)\n\n/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/errorhandler.py:242: NoSuchElementException\n\nDuring handling of the above exception, another exception occurred:\n\nself = <tests.test_decrees.test_decrees.TestDecrees object at 0x7f4847c41970>\nfor_download = None\n\n    @pytest.mark.smoke\n    @pytest.mark.seconds\n    def test_download_document(self, for_download):\n        \"\"\"\n        Проверка скачивания подписанного приказа\n        \"\"\"\n        admin_panel.auth_as_user(UsersConstants.LEYSAN_MUHAMETZYANOVA)\n>       decrees_list_page.open_decree()\n\ntests/test_decrees/test_decrees.py:372: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/document_management/decrees/decrees_list_page.py:45: in open_decree\n    s(self.decree_name_link).click()\n/usr/local/lib/python3.8/dist-packages/selene/core/entity.py:325: in click\n    self.wait.command('click', lambda element: element().click())\n/usr/local/lib/python3.8/dist-packages/selene/core/wait.py:136: in command\n    self.for_(Command(description, fn))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selene.core.wait.Wait object at 0x7f4847bdb490>\nfn = <selene.core.wait.Command object at 0x7f4847bdb520>\n\n        def for_(self, fn: Callable[[E], R]) -> R:\n            finish_time = time.time() + self._timeout\n    \n            while True:\n                try:\n                    return fn(self._entity)\n                except Exception as reason:\n                    if time.time() > finish_time:\n    \n                        reason_message = str(reason)\n    \n                        reason_string = '{name}: {message}'.format(\n                            name=reason.__class__.__name__, message=reason_message\n                        )\n                        # todo: think on how can we improve logging failures in selene, e.g. reverse msg and stacktrace\n                        # stacktrace = getattr(reason, 'stacktrace', None)\n                        timeout = self._timeout\n                        entity = self._entity\n    \n                        failure = TimeoutException(\n                            f'''\n    \n    Timed out after {timeout}s, while waiting for:\n    {entity}.{fn}\n    \n    Reason: {reason_string}'''\n                        )\n    \n>                       raise self._hook_failure(failure)\nE                       selene.core.exceptions.TimeoutException: Message: \nE                       \nE                       Timed out after 10s, while waiting for:\nE                       browser.element(('xpath', \"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\")).click\nE                       \nE                       Reason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\"}\nE                         (Session info: chrome=97.0.4692.99)\nE                       \nE                       Screenshot: file:///home/seluser/.selene/screenshots/1643561120009/1643561120010.png\nE                       PageSource: file:///home/seluser/.selene/screenshots/1643561120009/1643561120010.html\n\n/usr/local/lib/python3.8/dist-packages/selene/core/wait.py:125: TimeoutException",
+    "steps" : [ {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1643561128586,
+        "stop" : 1643561137164,
+        "duration" : 8578
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1643561128586,
+          "stop" : 1643561129424,
+          "duration" : 838
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "<common.user.User object at 0x7f487cd93160>"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открыть приказ по названию",
+      "time" : {
+        "start" : 1643561137164,
+        "stop" : 1643561152813,
+        "duration" : 15649
+      },
+      "status" : "failed",
+      "statusMessage" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\")).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643561120009/1643561120010.png\nPageSource: file:///home/seluser/.selene/screenshots/1643561120009/1643561120010.html\n\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.8/dist-packages/allure_commons/_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"/app/pages/document_management/decrees/decrees_list_page.py\", line 45, in open_decree\n    s(self.decree_name_link).click()\n  File \"/usr/local/lib/python3.8/dist-packages/selene/core/entity.py\", line 325, in click\n    self.wait.command('click', lambda element: element().click())\n  File \"/usr/local/lib/python3.8/dist-packages/selene/core/wait.py\", line 136, in command\n    self.for_(Command(description, fn))\n  File \"/usr/local/lib/python3.8/dist-packages/selene/core/wait.py\", line 125, in for_\n    raise self._hook_failure(failure)\n",
+      "steps" : [ {
+        "name" : "Открыть список приказов",
+        "time" : {
+          "start" : 1643561137164,
+          "stop" : 1643561142406,
+          "duration" : 5242
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Screen-shot done",
+      "time" : {
+        "start" : 1643561152945,
+        "stop" : 1643561153191,
+        "duration" : 246
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b93591a8c27399d7",
+        "name" : "screenshot",
+        "source" : "b93591a8c27399d7.png",
+        "type" : "image/png",
+        "size" : 312625
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "5602b6d7ff7ad758",
+      "name" : "log",
+      "source" : "5602b6d7ff7ad758.txt",
+      "type" : "text/plain",
+      "size" : 633
+    }, {
+      "uid" : "ec8f8d8f914a16c4",
+      "name" : "stderr",
+      "source" : "ec8f8d8f914a16c4.txt",
+      "type" : "text/plain",
+      "size" : 434
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "for_download::0",
+    "time" : {
+      "start" : 1643561153192,
+      "stop" : 1643561172276,
+      "duration" : 19084
+    },
+    "status" : "failed",
+    "statusMessage" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\")).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643561120009/1643561120011.png\nPageSource: file:///home/seluser/.selene/screenshots/1643561120009/1643561120011.html\n\n",
+    "statusTrace" : "  File \"/usr/local/lib/python3.8/dist-packages/allure_commons/_allure.py\", line 200, in __call__\n    return self._fixture_function(*args, **kwargs)\n  File \"/usr/local/lib/python3.8/dist-packages/_pytest/fixtures.py\", line 941, in _teardown_yield_fixture\n    next(it)\n  File \"/app/tests/test_decrees/conftest.py\", line 112, in for_download\n    decrees_list_page.open_decree()\n  File \"/usr/local/lib/python3.8/dist-packages/allure_commons/_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"/app/pages/document_management/decrees/decrees_list_page.py\", line 45, in open_decree\n    s(self.decree_name_link).click()\n  File \"/usr/local/lib/python3.8/dist-packages/selene/core/entity.py\", line 325, in click\n    self.wait.command('click', lambda element: element().click())\n  File \"/usr/local/lib/python3.8/dist-packages/selene/core/wait.py\", line 136, in command\n    self.for_(Command(description, fn))\n  File \"/usr/local/lib/python3.8/dist-packages/selene/core/wait.py\", line 125, in for_\n    raise self._hook_failure(failure)\n",
+    "steps" : [ {
+      "name" : "Авторизоваться под администратором портала",
+      "time" : {
+        "start" : 1643561153192,
+        "stop" : 1643561153812,
+        "duration" : 620
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Открыть приказ по названию",
+      "time" : {
+        "start" : 1643561156890,
+        "stop" : 1643561172275,
+        "duration" : 15385
+      },
+      "status" : "failed",
+      "statusMessage" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\")).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643561120009/1643561120011.png\nPageSource: file:///home/seluser/.selene/screenshots/1643561120009/1643561120011.html\n\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.8/dist-packages/allure_commons/_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"/app/pages/document_management/decrees/decrees_list_page.py\", line 45, in open_decree\n    s(self.decree_name_link).click()\n  File \"/usr/local/lib/python3.8/dist-packages/selene/core/entity.py\", line 325, in click\n    self.wait.command('click', lambda element: element().click())\n  File \"/usr/local/lib/python3.8/dist-packages/selene/core/wait.py\", line 136, in command\n    self.for_(Command(description, fn))\n  File \"/usr/local/lib/python3.8/dist-packages/selene/core/wait.py\", line 125, in for_\n    raise self._hook_failure(failure)\n",
+      "steps" : [ {
+        "name" : "Открыть список приказов",
+        "time" : {
+          "start" : 1643561156890,
+          "stop" : 1643561161805,
+          "duration" : 4915
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "auth_admin::0",
+    "time" : {
+      "start" : 1643561236167,
+      "stop" : 1643561236184,
+      "duration" : 17
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "seconds"
+  }, {
+    "name" : "tag",
+    "value" : "decrees"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.test_decrees"
+  }, {
+    "name" : "suite",
+    "value" : "test_decrees"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDecrees"
+  }, {
+    "name" : "host",
+    "value" : "portal-test-qa-vtdt9"
+  }, {
+    "name" : "thread",
+    "value" : "9-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_decrees.test_decrees"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "efe94650084aeecf",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\")).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643534355253/1643534355254.png\nPageSource: file:///home/seluser/.selene/screenshots/1643534355253/1643534355254.html",
+      "time" : {
+        "start" : 1643534364469,
+        "stop" : 1643534386207,
+        "duration" : 21738
+      }
+    }, {
+      "uid" : "4f40bd0a96bc6e34",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\")).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643533693040/1643533693041.png\nPageSource: file:///home/seluser/.selene/screenshots/1643533693040/1643533693041.html",
+      "time" : {
+        "start" : 1643533707665,
+        "stop" : 1643533747223,
+        "duration" : 39558
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "4d9919d1be8e6643",
+        "reportUrl" : "../4/index.html#testresult/4d9919d1be8e6643",
+        "status" : "failed",
+        "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\")).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643534355253/1643534355254.png\nPageSource: file:///home/seluser/.selene/screenshots/1643534355253/1643534355254.html",
+        "time" : {
+          "start" : 1643534364469,
+          "stop" : 1643534386207,
+          "duration" : 21738
+        }
+      }, {
+        "uid" : "3600c821db4bf82b",
+        "reportUrl" : "../3/index.html#testresult/3600c821db4bf82b",
+        "status" : "failed",
+        "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\")).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643534355253/1643534355254.png\nPageSource: file:///home/seluser/.selene/screenshots/1643534355253/1643534355254.html",
+        "time" : {
+          "start" : 1643534364469,
+          "stop" : 1643534386207,
+          "duration" : 21738
+        }
+      }, {
+        "uid" : "c903d4c93140bbf2",
+        "reportUrl" : "../2/index.html#testresult/c903d4c93140bbf2",
+        "status" : "failed",
+        "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\")).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643533693040/1643533693041.png\nPageSource: file:///home/seluser/.selene/screenshots/1643533693040/1643533693041.html",
+        "time" : {
+          "start" : 1643533707665,
+          "stop" : 1643533747223,
+          "duration" : 39558
+        }
+      } ]
+    },
+    "tags" : [ "seconds", "decrees", "smoke" ]
+  },
+  "source" : "f4f126702e5983d8.json",
+  "parameterValues" : [ ]
+}

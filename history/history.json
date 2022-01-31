@@ -1,0 +1,2079 @@
+{
+  "86c19758dead9f168f942d4d52c7ae96" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "d19c4819327ee485",
+      "reportUrl" : "../5/index.html#testresult/d19c4819327ee485",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623649.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623649.html",
+      "time" : {
+        "start" : 1643541784916,
+        "stop" : 1643541784916,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "de03ade3ca74b56",
+      "reportUrl" : "../4/index.html#testresult/de03ade3ca74b56",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623649.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623649.html",
+      "time" : {
+        "start" : 1643541784916,
+        "stop" : 1643541784916,
+        "duration" : 0
+      }
+    } ]
+  },
+  "38cacc0adb84175eec1734c489f37b80" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "3b9c4f92ed1d6a13",
+      "reportUrl" : "../5/index.html#testresult/3b9c4f92ed1d6a13",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', 'h2')).has text Договор купли продажи с самозанятым тест6\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"h2\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623635.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623635.html",
+      "time" : {
+        "start" : 1643540611633,
+        "stop" : 1643540611633,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "12483c063717fc0d",
+      "reportUrl" : "../4/index.html#testresult/12483c063717fc0d",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', 'h2')).has text Договор купли продажи с самозанятым тест6\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"h2\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623635.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623635.html",
+      "time" : {
+        "start" : 1643540611633,
+        "stop" : 1643540611633,
+        "duration" : 0
+      }
+    } ]
+  },
+  "60beda8ef815fa725a95a7045c845030" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "aa311580f2018a8b",
+      "reportUrl" : "../5/index.html#testresult/aa311580f2018a8b",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', 'li#bx_left_menu_bp_tasks_subitem_bizproc_contract_gpd  .menu-item-link-text')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"li#bx_left_menu_bp_tasks_subitem_bizproc_contract_gpd  .menu-item-link-text\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623636.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623636.html",
+      "time" : {
+        "start" : 1643541181030,
+        "stop" : 1643541205406,
+        "duration" : 24376
+      }
+    }, {
+      "uid" : "ad2435df1cf781f4",
+      "reportUrl" : "../4/index.html#testresult/ad2435df1cf781f4",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', 'li#bx_left_menu_bp_tasks_subitem_bizproc_contract_gpd  .menu-item-link-text')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"li#bx_left_menu_bp_tasks_subitem_bizproc_contract_gpd  .menu-item-link-text\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623636.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623636.html",
+      "time" : {
+        "start" : 1643541181030,
+        "stop" : 1643541205406,
+        "duration" : 24376
+      }
+    } ]
+  },
+  "766dcca6873f791706ea66c1fa4389f6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "c391b8d49f7dc80c",
+      "reportUrl" : "../5/index.html#testresult/c391b8d49f7dc80c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643541989709,
+        "stop" : 1643542046347,
+        "duration" : 56638
+      }
+    }, {
+      "uid" : "c378eddd420dba5b",
+      "reportUrl" : "../4/index.html#testresult/c378eddd420dba5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643541989709,
+        "stop" : 1643542046347,
+        "duration" : 56638
+      }
+    } ]
+  },
+  "ad864e89b1584e2c319c72841644dae6" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "8ccd002f0576d6fe",
+      "reportUrl" : "../5/index.html#testresult/8ccd002f0576d6fe",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', 'h2')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"h2\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623652.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623652.html",
+      "time" : {
+        "start" : 1643543771238,
+        "stop" : 1643543847598,
+        "duration" : 76360
+      }
+    }, {
+      "uid" : "e6841c1b1b5a8e29",
+      "reportUrl" : "../4/index.html#testresult/e6841c1b1b5a8e29",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', 'h2')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"h2\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623652.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623652.html",
+      "time" : {
+        "start" : 1643543771238,
+        "stop" : 1643543847598,
+        "duration" : 76360
+      }
+    } ]
+  },
+  "6e663199cdc0a47ea2330bfeccb56b1c" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "f3294192a72fef23",
+      "reportUrl" : "../5/index.html#testresult/f3294192a72fef23",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.employee-position-input > select:nth-child(1) > option:nth-child(3)')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".employee-position-input > select:nth-child(1) > option:nth-child(3)\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.html",
+      "time" : {
+        "start" : 1643538892299,
+        "stop" : 1643538892299,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "db5286c9ac11db9b",
+      "reportUrl" : "../4/index.html#testresult/db5286c9ac11db9b",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.employee-position-input > select:nth-child(1) > option:nth-child(3)')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".employee-position-input > select:nth-child(1) > option:nth-child(3)\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.html",
+      "time" : {
+        "start" : 1643538892299,
+        "stop" : 1643538892299,
+        "duration" : 0
+      }
+    } ]
+  },
+  "4441e6f78a09da6518f305d1c08cff8b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "89fa5dc48302dbf8",
+      "reportUrl" : "../5/index.html#testresult/89fa5dc48302dbf8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643541976341,
+        "stop" : 1643541989706,
+        "duration" : 13365
+      }
+    }, {
+      "uid" : "9f008c9cc4729170",
+      "reportUrl" : "../4/index.html#testresult/9f008c9cc4729170",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643541976341,
+        "stop" : 1643541989706,
+        "duration" : 13365
+      }
+    } ]
+  },
+  "fc0f14bc6c18cd78ec4d343cd908c04f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "344bf0d7cdc6765a",
+      "reportUrl" : "../5/index.html#testresult/344bf0d7cdc6765a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643540892548,
+        "stop" : 1643541159823,
+        "duration" : 267275
+      }
+    }, {
+      "uid" : "33504744dbfdedb8",
+      "reportUrl" : "../4/index.html#testresult/33504744dbfdedb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643540892548,
+        "stop" : 1643541159823,
+        "duration" : 267275
+      }
+    } ]
+  },
+  "0aa2d7e09423b4d3da85f948012ccac6" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "fde710447c02f3d",
+      "reportUrl" : "../5/index.html#testresult/fde710447c02f3d",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 95s, while waiting for:\nbrowser.element(('css selector', ' .tt-selectable.tt-suggestion.tt-user')).is present in DOM\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\" .tt-selectable.tt-suggestion.tt-user\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623650.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623650.html",
+      "time" : {
+        "start" : 1643541822735,
+        "stop" : 1643541933477,
+        "duration" : 110742
+      }
+    }, {
+      "uid" : "e32e528597881db9",
+      "reportUrl" : "../4/index.html#testresult/e32e528597881db9",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 95s, while waiting for:\nbrowser.element(('css selector', ' .tt-selectable.tt-suggestion.tt-user')).is present in DOM\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\" .tt-selectable.tt-suggestion.tt-user\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623650.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623650.html",
+      "time" : {
+        "start" : 1643541822735,
+        "stop" : 1643541933477,
+        "duration" : 110742
+      }
+    } ]
+  },
+  "895876314fa7570acd40005c79213c2a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "7eae43150e81c8f6",
+      "reportUrl" : "../5/index.html#testresult/7eae43150e81c8f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643540638240,
+        "stop" : 1643540872749,
+        "duration" : 234509
+      }
+    }, {
+      "uid" : "ee041cd601003bcb",
+      "reportUrl" : "../4/index.html#testresult/ee041cd601003bcb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643540638240,
+        "stop" : 1643540872749,
+        "duration" : 234509
+      }
+    } ]
+  },
+  "b13bc05edbff0e53fec196010564ae65" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "266894fc02920622",
+      "reportUrl" : "../5/index.html#testresult/266894fc02920622",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643539419854,
+        "stop" : 1643539552865,
+        "duration" : 133011
+      }
+    }, {
+      "uid" : "6d9ad0a54c27f44e",
+      "reportUrl" : "../4/index.html#testresult/6d9ad0a54c27f44e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643539419854,
+        "stop" : 1643539552865,
+        "duration" : 133011
+      }
+    } ]
+  },
+  "672d64de427ea4b813d838b91720f0a1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "5914ebf455caa42e",
+      "reportUrl" : "../5/index.html#testresult/5914ebf455caa42e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643540346769,
+        "stop" : 1643540463080,
+        "duration" : 116311
+      }
+    }, {
+      "uid" : "99e27036893c41aa",
+      "reportUrl" : "../4/index.html#testresult/99e27036893c41aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643540346769,
+        "stop" : 1643540463080,
+        "duration" : 116311
+      }
+    } ]
+  },
+  "ad10944bc4e183de4609753b14081727" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "cab8a7fe85534ea4",
+      "reportUrl" : "../5/index.html#testresult/cab8a7fe85534ea4",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.employee-position-input > select:nth-child(1) > option:nth-child(3)')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".employee-position-input > select:nth-child(1) > option:nth-child(3)\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.html",
+      "time" : {
+        "start" : 1643538892666,
+        "stop" : 1643538892666,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1f7179f3660710ae",
+      "reportUrl" : "../4/index.html#testresult/1f7179f3660710ae",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.employee-position-input > select:nth-child(1) > option:nth-child(3)')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".employee-position-input > select:nth-child(1) > option:nth-child(3)\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.html",
+      "time" : {
+        "start" : 1643538892666,
+        "stop" : 1643538892666,
+        "duration" : 0
+      }
+    } ]
+  },
+  "d10e3270ec7a198065704aa4826188c9" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "7ed03dd6ee603def",
+      "reportUrl" : "../5/index.html#testresult/7ed03dd6ee603def",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623637.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623637.html",
+      "time" : {
+        "start" : 1643541299129,
+        "stop" : 1643541348318,
+        "duration" : 49189
+      }
+    }, {
+      "uid" : "f306ecd6500061cf",
+      "reportUrl" : "../4/index.html#testresult/f306ecd6500061cf",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623637.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623637.html",
+      "time" : {
+        "start" : 1643541299129,
+        "stop" : 1643541348318,
+        "duration" : 49189
+      }
+    } ]
+  },
+  "c2eaf3735898ff053fce6fd44bce19cb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "66d9332b8cd6496c",
+      "reportUrl" : "../5/index.html#testresult/66d9332b8cd6496c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643539930231,
+        "stop" : 1643540038859,
+        "duration" : 108628
+      }
+    }, {
+      "uid" : "95aca642f039f81a",
+      "reportUrl" : "../4/index.html#testresult/95aca642f039f81a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643539930231,
+        "stop" : 1643540038859,
+        "duration" : 108628
+      }
+    } ]
+  },
+  "5e54508d45a350b789d8e300b5f96b53" : {
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "b8531847a9814fc2",
+      "reportUrl" : "../5/index.html#testresult/b8531847a9814fc2",
+      "status" : "broken",
+      "statusDetails" : "TypeError: not all arguments converted during string formatting",
+      "time" : {
+        "start" : 1643561172925,
+        "stop" : 1643561189799,
+        "duration" : 16874
+      }
+    }, {
+      "uid" : "3325d5706f95e3ae",
+      "reportUrl" : "../4/index.html#testresult/3325d5706f95e3ae",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//tr/td/a[contains(text(), 'Договор УКЭП четыре подписи')]\")).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//tr/td/a[contains(text(), 'Договор УКЭП четыре подписи')]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643534355253/1643534355256.png\nPageSource: file:///home/seluser/.selene/screenshots/1643534355253/1643534355256.html",
+      "time" : {
+        "start" : 1643534405472,
+        "stop" : 1643534427787,
+        "duration" : 22315
+      }
+    }, {
+      "uid" : "16b1745a20eee3d4",
+      "reportUrl" : "../3/index.html#testresult/16b1745a20eee3d4",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//tr/td/a[contains(text(), 'Договор УКЭП четыре подписи')]\")).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//tr/td/a[contains(text(), 'Договор УКЭП четыре подписи')]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643534355253/1643534355256.png\nPageSource: file:///home/seluser/.selene/screenshots/1643534355253/1643534355256.html",
+      "time" : {
+        "start" : 1643534405472,
+        "stop" : 1643534427787,
+        "duration" : 22315
+      }
+    }, {
+      "uid" : "a9becf3865889d85",
+      "reportUrl" : "../2/index.html#testresult/a9becf3865889d85",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//tr/td/a[contains(text(), 'Договор УКЭП четыре подписи')]\")).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//tr/td/a[contains(text(), 'Договор УКЭП четыре подписи')]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643533693040/1643533693043.png\nPageSource: file:///home/seluser/.selene/screenshots/1643533693040/1643533693043.html",
+      "time" : {
+        "start" : 1643533771452,
+        "stop" : 1643533792540,
+        "duration" : 21088
+      }
+    } ]
+  },
+  "d8d7f87150eced7a58c0d0fe0e0b9fcd" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "10af27c014a16171",
+      "reportUrl" : "../5/index.html#testresult/10af27c014a16171",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623640.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623640.html",
+      "time" : {
+        "start" : 1643541425469,
+        "stop" : 1643541425469,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "17dbd665b62925ed",
+      "reportUrl" : "../4/index.html#testresult/17dbd665b62925ed",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623640.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623640.html",
+      "time" : {
+        "start" : 1643541425469,
+        "stop" : 1643541425469,
+        "duration" : 0
+      }
+    } ]
+  },
+  "dc959d9441ab5c0ccc27968b91c05ec0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "b8272b4b45a4469c",
+      "reportUrl" : "../5/index.html#testresult/b8272b4b45a4469c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643543182836,
+        "stop" : 1643543261283,
+        "duration" : 78447
+      }
+    }, {
+      "uid" : "8fd13b23be8fd1e0",
+      "reportUrl" : "../4/index.html#testresult/8fd13b23be8fd1e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643543182836,
+        "stop" : 1643543261283,
+        "duration" : 78447
+      }
+    } ]
+  },
+  "de59633c9639ca25322e9f4560aca9ed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "a13379ba8dc90d33",
+      "reportUrl" : "../5/index.html#testresult/a13379ba8dc90d33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643541271362,
+        "stop" : 1643541299125,
+        "duration" : 27763
+      }
+    }, {
+      "uid" : "50313f89dbc6d9a9",
+      "reportUrl" : "../4/index.html#testresult/50313f89dbc6d9a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643541271362,
+        "stop" : 1643541299125,
+        "duration" : 27763
+      }
+    } ]
+  },
+  "8d13308fdc810491e714b702b6444d79" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "11a138b5fb57f74b",
+      "reportUrl" : "../5/index.html#testresult/11a138b5fb57f74b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643543368779,
+        "stop" : 1643543476800,
+        "duration" : 108021
+      }
+    }, {
+      "uid" : "a55264fa643d0a05",
+      "reportUrl" : "../4/index.html#testresult/a55264fa643d0a05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643543368779,
+        "stop" : 1643543476800,
+        "duration" : 108021
+      }
+    } ]
+  },
+  "9bc4a5adcb43371f96e150dbb327d38b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "aedc942f10d36667",
+      "reportUrl" : "../5/index.html#testresult/aedc942f10d36667",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643543085624,
+        "stop" : 1643543103122,
+        "duration" : 17498
+      }
+    }, {
+      "uid" : "5738ccc758af02a2",
+      "reportUrl" : "../4/index.html#testresult/5738ccc758af02a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643543085624,
+        "stop" : 1643543103122,
+        "duration" : 17498
+      }
+    } ]
+  },
+  "768c6ea10126fa4e3ea6556e4808165f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "847d98dc6985c581",
+      "reportUrl" : "../5/index.html#testresult/847d98dc6985c581",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643542225178,
+        "stop" : 1643542355905,
+        "duration" : 130727
+      }
+    }, {
+      "uid" : "39f181548128f53f",
+      "reportUrl" : "../4/index.html#testresult/39f181548128f53f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643542225178,
+        "stop" : 1643542355905,
+        "duration" : 130727
+      }
+    } ]
+  },
+  "8f2f57482f584b88ef1091919ab7c288" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "8a7b0279c70397b2",
+      "reportUrl" : "../5/index.html#testresult/8a7b0279c70397b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643542164700,
+        "stop" : 1643542225175,
+        "duration" : 60475
+      }
+    }, {
+      "uid" : "ce68fca4fff1d877",
+      "reportUrl" : "../4/index.html#testresult/ce68fca4fff1d877",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643542164700,
+        "stop" : 1643542225175,
+        "duration" : 60475
+      }
+    } ]
+  },
+  "938c614718cd22eb1ee98bdc09f3ee57" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "eb03d7fa32483ca2",
+      "reportUrl" : "../5/index.html#testresult/eb03d7fa32483ca2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643543598173,
+        "stop" : 1643543708116,
+        "duration" : 109943
+      }
+    }, {
+      "uid" : "7646d565b76ca1b0",
+      "reportUrl" : "../4/index.html#testresult/7646d565b76ca1b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643543598173,
+        "stop" : 1643543708116,
+        "duration" : 109943
+      }
+    } ]
+  },
+  "d8be85dc1173adce902a6a6ae49074cb" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "a4681193f44244d3",
+      "reportUrl" : "../5/index.html#testresult/a4681193f44244d3",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623644.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623644.html",
+      "time" : {
+        "start" : 1643541584917,
+        "stop" : 1643541584917,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "71cec4b55c56bf7",
+      "reportUrl" : "../4/index.html#testresult/71cec4b55c56bf7",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623644.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623644.html",
+      "time" : {
+        "start" : 1643541584917,
+        "stop" : 1643541584917,
+        "duration" : 0
+      }
+    } ]
+  },
+  "d9c8c3d87372218464684a47013b0c20" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "afc3761983a6b8b9",
+      "reportUrl" : "../5/index.html#testresult/afc3761983a6b8b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643540129092,
+        "stop" : 1643540219455,
+        "duration" : 90363
+      }
+    }, {
+      "uid" : "10b4e190f27b9296",
+      "reportUrl" : "../4/index.html#testresult/10b4e190f27b9296",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643540129092,
+        "stop" : 1643540219455,
+        "duration" : 90363
+      }
+    } ]
+  },
+  "d062f708f6100c25bf9724443a90423b" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "f252c4d99ab7fde4",
+      "reportUrl" : "../5/index.html#testresult/f252c4d99ab7fde4",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623646.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623646.html",
+      "time" : {
+        "start" : 1643541667155,
+        "stop" : 1643541667155,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "93c73ed7b1e3dcfa",
+      "reportUrl" : "../4/index.html#testresult/93c73ed7b1e3dcfa",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623646.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623646.html",
+      "time" : {
+        "start" : 1643541667155,
+        "stop" : 1643541667155,
+        "duration" : 0
+      }
+    } ]
+  },
+  "48b9f2277c6c84fa677024014f0d64d8" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "b9393d38b038a627",
+      "reportUrl" : "../5/index.html#testresult/b9393d38b038a627",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.employee-position-input > select:nth-child(1) > option:nth-child(3)')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".employee-position-input > select:nth-child(1) > option:nth-child(3)\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.html",
+      "time" : {
+        "start" : 1643538892435,
+        "stop" : 1643538892435,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b8c0081633423e74",
+      "reportUrl" : "../4/index.html#testresult/b8c0081633423e74",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.employee-position-input > select:nth-child(1) > option:nth-child(3)')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".employee-position-input > select:nth-child(1) > option:nth-child(3)\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.html",
+      "time" : {
+        "start" : 1643538892435,
+        "stop" : 1643538892435,
+        "duration" : 0
+      }
+    } ]
+  },
+  "94498e75a02c60e906648367cff6f1ec" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "a9cca1d78769f879",
+      "reportUrl" : "../5/index.html#testresult/a9cca1d78769f879",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.employee-position-input > select:nth-child(1) > option:nth-child(3)')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".employee-position-input > select:nth-child(1) > option:nth-child(3)\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.html",
+      "time" : {
+        "start" : 1643538892596,
+        "stop" : 1643538892596,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "da58a140f769b49d",
+      "reportUrl" : "../4/index.html#testresult/da58a140f769b49d",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.employee-position-input > select:nth-child(1) > option:nth-child(3)')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".employee-position-input > select:nth-child(1) > option:nth-child(3)\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.html",
+      "time" : {
+        "start" : 1643538892596,
+        "stop" : 1643538892596,
+        "duration" : 0
+      }
+    } ]
+  },
+  "7b184d760b797dac09bb70119f5eeecf" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "bfd7737ee46d6ba2",
+      "reportUrl" : "../5/index.html#testresult/bfd7737ee46d6ba2",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.employee-position-input > select:nth-child(1) > option:nth-child(3)')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".employee-position-input > select:nth-child(1) > option:nth-child(3)\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.html",
+      "time" : {
+        "start" : 1643538871383,
+        "stop" : 1643538871383,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "dbe5698fcbe76674",
+      "reportUrl" : "../4/index.html#testresult/dbe5698fcbe76674",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.employee-position-input > select:nth-child(1) > option:nth-child(3)')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".employee-position-input > select:nth-child(1) > option:nth-child(3)\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.html",
+      "time" : {
+        "start" : 1643538871383,
+        "stop" : 1643538871383,
+        "duration" : 0
+      }
+    } ]
+  },
+  "e567e4c0114248fc12db523fe5e8fe1b" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "6c97484a417a044a",
+      "reportUrl" : "../5/index.html#testresult/6c97484a417a044a",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623641.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623641.html",
+      "time" : {
+        "start" : 1643541465223,
+        "stop" : 1643541465223,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e5745fc3fb39b5fa",
+      "reportUrl" : "../4/index.html#testresult/e5745fc3fb39b5fa",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623641.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623641.html",
+      "time" : {
+        "start" : 1643541465223,
+        "stop" : 1643541465223,
+        "duration" : 0
+      }
+    } ]
+  },
+  "a56bc86d0abcdb75feb3047d62ea35e7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "2f12ef85ae5915e0",
+      "reportUrl" : "../5/index.html#testresult/2f12ef85ae5915e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643539013816,
+        "stop" : 1643539100198,
+        "duration" : 86382
+      }
+    }, {
+      "uid" : "a77beb02492ca526",
+      "reportUrl" : "../4/index.html#testresult/a77beb02492ca526",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643539013816,
+        "stop" : 1643539100198,
+        "duration" : 86382
+      }
+    } ]
+  },
+  "b9ecba405eebe07df4685a1067bf0bbe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "465970113e2eddaf",
+      "reportUrl" : "../5/index.html#testresult/465970113e2eddaf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643539656029,
+        "stop" : 1643539724318,
+        "duration" : 68289
+      }
+    }, {
+      "uid" : "a4dd6bad41f7eb38",
+      "reportUrl" : "../4/index.html#testresult/a4dd6bad41f7eb38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643539656029,
+        "stop" : 1643539724318,
+        "duration" : 68289
+      }
+    } ]
+  },
+  "f5b80ba6143171975f38b3716118d24b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "e28cd6fc9cca801b",
+      "reportUrl" : "../5/index.html#testresult/e28cd6fc9cca801b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643540527403,
+        "stop" : 1643540611631,
+        "duration" : 84228
+      }
+    }, {
+      "uid" : "fe63aefd23b5ef0c",
+      "reportUrl" : "../4/index.html#testresult/fe63aefd23b5ef0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643540527403,
+        "stop" : 1643540611631,
+        "duration" : 84228
+      }
+    } ]
+  },
+  "8b0148e1661fd0fbc2daf4c08ddbf506" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "9d55c69f02583d56",
+      "reportUrl" : "../5/index.html#testresult/9d55c69f02583d56",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623648.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623648.html",
+      "time" : {
+        "start" : 1643541745321,
+        "stop" : 1643541745321,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "73f8aa6c014902d7",
+      "reportUrl" : "../4/index.html#testresult/73f8aa6c014902d7",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623648.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623648.html",
+      "time" : {
+        "start" : 1643541745321,
+        "stop" : 1643541745321,
+        "duration" : 0
+      }
+    } ]
+  },
+  "628156753e7c7683c7d122f896378501" : {
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "df202522406a5534",
+      "reportUrl" : "../5/index.html#testresult/df202522406a5534",
+      "status" : "broken",
+      "statusDetails" : "TypeError: not all arguments converted during string formatting",
+      "time" : {
+        "start" : 1643561206305,
+        "stop" : 1643561221836,
+        "duration" : 15531
+      }
+    }, {
+      "uid" : "ccc623b4608bbf4b",
+      "reportUrl" : "../4/index.html#testresult/ccc623b4608bbf4b",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//tr/td/a[contains(text(), 'Договор ПЭП четыре подписи')]\")).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//tr/td/a[contains(text(), 'Договор ПЭП четыре подписи')]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643534355253/1643534355258.png\nPageSource: file:///home/seluser/.selene/screenshots/1643534355253/1643534355258.html",
+      "time" : {
+        "start" : 1643534446053,
+        "stop" : 1643534465968,
+        "duration" : 19915
+      }
+    }, {
+      "uid" : "5ac7fcf44e4e2f0",
+      "reportUrl" : "../3/index.html#testresult/5ac7fcf44e4e2f0",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//tr/td/a[contains(text(), 'Договор ПЭП четыре подписи')]\")).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//tr/td/a[contains(text(), 'Договор ПЭП четыре подписи')]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643534355253/1643534355258.png\nPageSource: file:///home/seluser/.selene/screenshots/1643534355253/1643534355258.html",
+      "time" : {
+        "start" : 1643534446053,
+        "stop" : 1643534465968,
+        "duration" : 19915
+      }
+    }, {
+      "uid" : "fdab9b16a81d942e",
+      "reportUrl" : "../2/index.html#testresult/fdab9b16a81d942e",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//tr/td/a[contains(text(), 'Договор ПЭП четыре подписи')]\")).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//tr/td/a[contains(text(), 'Договор ПЭП четыре подписи')]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643533693040/1643533693045.png\nPageSource: file:///home/seluser/.selene/screenshots/1643533693040/1643533693045.html",
+      "time" : {
+        "start" : 1643533811580,
+        "stop" : 1643533832320,
+        "duration" : 20740
+      }
+    } ]
+  },
+  "666f14fa8d4410175fd86299a8c63248" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "c9096341447ac83e",
+      "reportUrl" : "../5/index.html#testresult/c9096341447ac83e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643539254316,
+        "stop" : 1643539342994,
+        "duration" : 88678
+      }
+    }, {
+      "uid" : "72ee21b8625636da",
+      "reportUrl" : "../4/index.html#testresult/72ee21b8625636da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643539254316,
+        "stop" : 1643539342994,
+        "duration" : 88678
+      }
+    } ]
+  },
+  "68993f7b9b29b557d2df04bf97325c3f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "d528460897614330",
+      "reportUrl" : "../5/index.html#testresult/d528460897614330",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643542046350,
+        "stop" : 1643542104491,
+        "duration" : 58141
+      }
+    }, {
+      "uid" : "a9ac4818f945e27f",
+      "reportUrl" : "../4/index.html#testresult/a9ac4818f945e27f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643542046350,
+        "stop" : 1643542104491,
+        "duration" : 58141
+      }
+    } ]
+  },
+  "79cdff9cb0c8034c37f8e985c2c8ac24" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "a7824404384b8407",
+      "reportUrl" : "../5/index.html#testresult/a7824404384b8407",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623639.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623639.html",
+      "time" : {
+        "start" : 1643541386918,
+        "stop" : 1643541386918,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7f3cad4c813635cd",
+      "reportUrl" : "../4/index.html#testresult/7f3cad4c813635cd",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623639.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623639.html",
+      "time" : {
+        "start" : 1643541386918,
+        "stop" : 1643541386918,
+        "duration" : 0
+      }
+    } ]
+  },
+  "a6f3e869f07ac6a4bdc0c3cda5b427d5" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "532890ca5b44d4f3",
+      "reportUrl" : "../5/index.html#testresult/532890ca5b44d4f3",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.employee-position-input > select:nth-child(1) > option:nth-child(3)')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".employee-position-input > select:nth-child(1) > option:nth-child(3)\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.html",
+      "time" : {
+        "start" : 1643538892367,
+        "stop" : 1643538892367,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "837ea6d866aa2868",
+      "reportUrl" : "../4/index.html#testresult/837ea6d866aa2868",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.employee-position-input > select:nth-child(1) > option:nth-child(3)')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".employee-position-input > select:nth-child(1) > option:nth-child(3)\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.html",
+      "time" : {
+        "start" : 1643538892367,
+        "stop" : 1643538892367,
+        "duration" : 0
+      }
+    } ]
+  },
+  "c41d69d2211b94317ad51e340a06e424" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "c069f8cdce933237",
+      "reportUrl" : "../5/index.html#testresult/c069f8cdce933237",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643539773815,
+        "stop" : 1643539845273,
+        "duration" : 71458
+      }
+    }, {
+      "uid" : "8588da710dcb4cae",
+      "reportUrl" : "../4/index.html#testresult/8588da710dcb4cae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643539773815,
+        "stop" : 1643539845273,
+        "duration" : 71458
+      }
+    } ]
+  },
+  "8d8464934b33c7bd8508fbe457494437" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "a4f8c59defb0d2af",
+      "reportUrl" : "../5/index.html#testresult/a4f8c59defb0d2af",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623638.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623638.html",
+      "time" : {
+        "start" : 1643541348599,
+        "stop" : 1643541348599,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "922c5dc398d3b069",
+      "reportUrl" : "../4/index.html#testresult/922c5dc398d3b069",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623638.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623638.html",
+      "time" : {
+        "start" : 1643541348599,
+        "stop" : 1643541348599,
+        "duration" : 0
+      }
+    } ]
+  },
+  "fae217360b9e0b02ffc31837252a37ba" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "c129d677356f3fe3",
+      "reportUrl" : "../5/index.html#testresult/c129d677356f3fe3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643543847882,
+        "stop" : 1643543891193,
+        "duration" : 43311
+      }
+    }, {
+      "uid" : "8e6abb524b680b7",
+      "reportUrl" : "../4/index.html#testresult/8e6abb524b680b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643543847882,
+        "stop" : 1643543891193,
+        "duration" : 43311
+      }
+    } ]
+  },
+  "e0036a8dec10afcb90e6de5cbf7dab3d" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "89891c0af118e56d",
+      "reportUrl" : "../5/index.html#testresult/89891c0af118e56d",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.employee-position-input > select:nth-child(1) > option:nth-child(3)')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".employee-position-input > select:nth-child(1) > option:nth-child(3)\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.html",
+      "time" : {
+        "start" : 1643538892805,
+        "stop" : 1643538892805,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6a09919ff312efeb",
+      "reportUrl" : "../4/index.html#testresult/6a09919ff312efeb",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.employee-position-input > select:nth-child(1) > option:nth-child(3)')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".employee-position-input > select:nth-child(1) > option:nth-child(3)\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.html",
+      "time" : {
+        "start" : 1643538892805,
+        "stop" : 1643538892805,
+        "duration" : 0
+      }
+    } ]
+  },
+  "e0f2ddf66656b778f170c2342842e1a6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "fe4ddd37ede4bc05",
+      "reportUrl" : "../5/index.html#testresult/fe4ddd37ede4bc05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643543103125,
+        "stop" : 1643543182833,
+        "duration" : 79708
+      }
+    }, {
+      "uid" : "3b07c937989e58f3",
+      "reportUrl" : "../4/index.html#testresult/3b07c937989e58f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643543103125,
+        "stop" : 1643543182833,
+        "duration" : 79708
+      }
+    } ]
+  },
+  "e8c5cfcda623a930edf04f65a04b17af" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "1f4ad23cb2517bd5",
+      "reportUrl" : "../5/index.html#testresult/1f4ad23cb2517bd5",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.employee-position-input > select:nth-child(1) > option:nth-child(3)')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".employee-position-input > select:nth-child(1) > option:nth-child(3)\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623629.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623629.html",
+      "time" : {
+        "start" : 1643538828781,
+        "stop" : 1643538852741,
+        "duration" : 23960
+      }
+    }, {
+      "uid" : "335ddc019a7e6fe2",
+      "reportUrl" : "../4/index.html#testresult/335ddc019a7e6fe2",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.employee-position-input > select:nth-child(1) > option:nth-child(3)')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".employee-position-input > select:nth-child(1) > option:nth-child(3)\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623629.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623629.html",
+      "time" : {
+        "start" : 1643538828781,
+        "stop" : 1643538852741,
+        "duration" : 23960
+      }
+    } ]
+  },
+  "39b1f8add898dfe21b17d55df363aedf" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "be762554db6c2d2a",
+      "reportUrl" : "../5/index.html#testresult/be762554db6c2d2a",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.employee-position-input > select:nth-child(1) > option:nth-child(3)')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".employee-position-input > select:nth-child(1) > option:nth-child(3)\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.html",
+      "time" : {
+        "start" : 1643538892526,
+        "stop" : 1643538892526,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e671c28e3692ca9",
+      "reportUrl" : "../4/index.html#testresult/e671c28e3692ca9",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.employee-position-input > select:nth-child(1) > option:nth-child(3)')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".employee-position-input > select:nth-child(1) > option:nth-child(3)\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.html",
+      "time" : {
+        "start" : 1643538892526,
+        "stop" : 1643538892526,
+        "duration" : 0
+      }
+    } ]
+  },
+  "54b6b33e55d3fa6431845bc7c4b6ac12" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "7a19778f0b96b9c0",
+      "reportUrl" : "../5/index.html#testresult/7a19778f0b96b9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643542104494,
+        "stop" : 1643542164697,
+        "duration" : 60203
+      }
+    }, {
+      "uid" : "69eab8c057035c58",
+      "reportUrl" : "../4/index.html#testresult/69eab8c057035c58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643542104494,
+        "stop" : 1643542164697,
+        "duration" : 60203
+      }
+    } ]
+  },
+  "c90a1e19686f11320e14761c7c9e3414" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "a52ef7ad20c3cc29",
+      "reportUrl" : "../5/index.html#testresult/a52ef7ad20c3cc29",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', 'h2')).has text Договор ППС тест5\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"h2\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623634.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623634.html",
+      "time" : {
+        "start" : 1643539126008,
+        "stop" : 1643539126008,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6a34b1db4ec435a7",
+      "reportUrl" : "../4/index.html#testresult/6a34b1db4ec435a7",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', 'h2')).has text Договор ППС тест5\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"h2\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623634.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623634.html",
+      "time" : {
+        "start" : 1643539126008,
+        "stop" : 1643539126008,
+        "duration" : 0
+      }
+    } ]
+  },
+  "7aa5446a19cb24d159c2756b5fb8a947" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "fc5f5eb5ee0559b5",
+      "reportUrl" : "../5/index.html#testresult/fc5f5eb5ee0559b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643543708120,
+        "stop" : 1643543771235,
+        "duration" : 63115
+      }
+    }, {
+      "uid" : "1a38755c5dd3cd92",
+      "reportUrl" : "../4/index.html#testresult/1a38755c5dd3cd92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643543708120,
+        "stop" : 1643543771235,
+        "duration" : 63115
+      }
+    } ]
+  },
+  "cce0dd19bafc37c802e16762d61cb4ba" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "c32db71987fd0105",
+      "reportUrl" : "../5/index.html#testresult/c32db71987fd0105",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623645.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623645.html",
+      "time" : {
+        "start" : 1643541624792,
+        "stop" : 1643541624792,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e426b5e15ae3ffde",
+      "reportUrl" : "../4/index.html#testresult/e426b5e15ae3ffde",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623645.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623645.html",
+      "time" : {
+        "start" : 1643541624792,
+        "stop" : 1643541624792,
+        "duration" : 0
+      }
+    } ]
+  },
+  "ac2f3f209d0418cbd3e78a56fd2662a4" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "c4567e511f87d167",
+      "reportUrl" : "../5/index.html#testresult/c4567e511f87d167",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', 'h2')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"h2\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623627.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623627.html",
+      "time" : {
+        "start" : 1643538667600,
+        "stop" : 1643538736970,
+        "duration" : 69370
+      }
+    }, {
+      "uid" : "eab0b345a7873416",
+      "reportUrl" : "../4/index.html#testresult/eab0b345a7873416",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', 'h2')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"h2\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623627.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623627.html",
+      "time" : {
+        "start" : 1643538667600,
+        "stop" : 1643538736970,
+        "duration" : 69370
+      }
+    } ]
+  },
+  "6b129949d51fc835f7ea3535909fd09f" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "3ba006397f04096c",
+      "reportUrl" : "../5/index.html#testresult/3ba006397f04096c",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//tr/td/a[contains(text(), 'Договор 19')]\")).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//tr/td/a[contains(text(), 'Договор 19')]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623651.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623651.html",
+      "time" : {
+        "start" : 1643542355909,
+        "stop" : 1643543085335,
+        "duration" : 729426
+      }
+    }, {
+      "uid" : "917283d7be88a900",
+      "reportUrl" : "../4/index.html#testresult/917283d7be88a900",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//tr/td/a[contains(text(), 'Договор 19')]\")).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//tr/td/a[contains(text(), 'Договор 19')]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623651.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623651.html",
+      "time" : {
+        "start" : 1643542355909,
+        "stop" : 1643543085335,
+        "duration" : 729426
+      }
+    } ]
+  },
+  "3715612eb7048921f22de7acb81f1b0e" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "63f2222a42b0a15e",
+      "reportUrl" : "../5/index.html#testresult/63f2222a42b0a15e",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"tab_el_edit_table\"]/div[6]/div/div/select')).element(('xpath', '//*[@id=\"tab_el_edit_table\"]/div[6]/div/div/select/option[3]')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"tab_el_edit_table\"]/div[6]/div/div/select/option[3]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623628.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623628.html",
+      "time" : {
+        "start" : 1643538737318,
+        "stop" : 1643538763492,
+        "duration" : 26174
+      }
+    }, {
+      "uid" : "fa88f9157188bd97",
+      "reportUrl" : "../4/index.html#testresult/fa88f9157188bd97",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"tab_el_edit_table\"]/div[6]/div/div/select')).element(('xpath', '//*[@id=\"tab_el_edit_table\"]/div[6]/div/div/select/option[3]')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"tab_el_edit_table\"]/div[6]/div/div/select/option[3]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623628.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623628.html",
+      "time" : {
+        "start" : 1643538737318,
+        "stop" : 1643538763492,
+        "duration" : 26174
+      }
+    } ]
+  },
+  "6121dc078d5afd054520ff0a09a54390" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "83de60485cfdfde",
+      "reportUrl" : "../5/index.html#testresult/83de60485cfdfde",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', '//a[@title=\\'Согласование договора \"Договор о сотрудничестве тест4\"\\']/../../..//a[contains(.,\\'Согласовать\\')]')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@title='Согласование договора \"Договор о сотрудничестве тест4\"']/../../..//a[contains(.,'Согласовать')]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623632.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623632.html",
+      "time" : {
+        "start" : 1643538940254,
+        "stop" : 1643538966257,
+        "duration" : 26003
+      }
+    }, {
+      "uid" : "6eba44d52c794fbc",
+      "reportUrl" : "../4/index.html#testresult/6eba44d52c794fbc",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', '//a[@title=\\'Согласование договора \"Договор о сотрудничестве тест4\"\\']/../../..//a[contains(.,\\'Согласовать\\')]')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@title='Согласование договора \"Договор о сотрудничестве тест4\"']/../../..//a[contains(.,'Согласовать')]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623632.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623632.html",
+      "time" : {
+        "start" : 1643538940254,
+        "stop" : 1643538966257,
+        "duration" : 26003
+      }
+    } ]
+  },
+  "b1cd480e4b8e23a049ed2d51bb130aab" : {
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "f4f126702e5983d8",
+      "reportUrl" : "../5/index.html#testresult/f4f126702e5983d8",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\")).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643561120009/1643561120010.png\nPageSource: file:///home/seluser/.selene/screenshots/1643561120009/1643561120010.html",
+      "time" : {
+        "start" : 1643561128585,
+        "stop" : 1643561152815,
+        "duration" : 24230
+      }
+    }, {
+      "uid" : "4d9919d1be8e6643",
+      "reportUrl" : "../4/index.html#testresult/4d9919d1be8e6643",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\")).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643534355253/1643534355254.png\nPageSource: file:///home/seluser/.selene/screenshots/1643534355253/1643534355254.html",
+      "time" : {
+        "start" : 1643534364469,
+        "stop" : 1643534386207,
+        "duration" : 21738
+      }
+    }, {
+      "uid" : "3600c821db4bf82b",
+      "reportUrl" : "../3/index.html#testresult/3600c821db4bf82b",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\")).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643534355253/1643534355254.png\nPageSource: file:///home/seluser/.selene/screenshots/1643534355253/1643534355254.html",
+      "time" : {
+        "start" : 1643534364469,
+        "stop" : 1643534386207,
+        "duration" : 21738
+      }
+    }, {
+      "uid" : "c903d4c93140bbf2",
+      "reportUrl" : "../2/index.html#testresult/c903d4c93140bbf2",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\")).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643533693040/1643533693041.png\nPageSource: file:///home/seluser/.selene/screenshots/1643533693040/1643533693041.html",
+      "time" : {
+        "start" : 1643533707665,
+        "stop" : 1643533747223,
+        "duration" : 39558
+      }
+    } ]
+  },
+  "0b35caa9e45f37da662fea43c1fb7be1" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "6f2b6fd0b11df82e",
+      "reportUrl" : "../5/index.html#testresult/6f2b6fd0b11df82e",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623643.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623643.html",
+      "time" : {
+        "start" : 1643541546103,
+        "stop" : 1643541546103,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7c47ddfac6cc7b49",
+      "reportUrl" : "../4/index.html#testresult/7c47ddfac6cc7b49",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623643.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623643.html",
+      "time" : {
+        "start" : 1643541546103,
+        "stop" : 1643541546103,
+        "duration" : 0
+      }
+    } ]
+  },
+  "165baa3f8941e1ab21ea1c076304208c" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "a66aeb7733840804",
+      "reportUrl" : "../5/index.html#testresult/a66aeb7733840804",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', 'h2')).has text Договор ППС тест5\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"h2\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623633.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623633.html",
+      "time" : {
+        "start" : 1643539100201,
+        "stop" : 1643539100201,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1b3533f16984cbac",
+      "reportUrl" : "../4/index.html#testresult/1b3533f16984cbac",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', 'h2')).has text Договор ППС тест5\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"h2\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623633.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623633.html",
+      "time" : {
+        "start" : 1643539100201,
+        "stop" : 1643539100201,
+        "duration" : 0
+      }
+    } ]
+  },
+  "2a0c91a4be29299fbb26fb623dcd94e9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "acf7ffd58a8b54e2",
+      "reportUrl" : "../5/index.html#testresult/acf7ffd58a8b54e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643541225277,
+        "stop" : 1643541252567,
+        "duration" : 27290
+      }
+    }, {
+      "uid" : "ab9c214b241e10e0",
+      "reportUrl" : "../4/index.html#testresult/ab9c214b241e10e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643541225277,
+        "stop" : 1643541252567,
+        "duration" : 27290
+      }
+    } ]
+  },
+  "907ef28b1e311e977ab54d94562c50d5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "fe26633883782133",
+      "reportUrl" : "../5/index.html#testresult/fe26633883782133",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643538630712,
+        "stop" : 1643538667595,
+        "duration" : 36883
+      }
+    }, {
+      "uid" : "d93661b312c724fd",
+      "reportUrl" : "../4/index.html#testresult/d93661b312c724fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643538630712,
+        "stop" : 1643538667595,
+        "duration" : 36883
+      }
+    } ]
+  },
+  "aff5a4944093e3c3d969c5e8fc7ff71e" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "6e88e0d81088f691",
+      "reportUrl" : "../5/index.html#testresult/6e88e0d81088f691",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623647.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623647.html",
+      "time" : {
+        "start" : 1643541706030,
+        "stop" : 1643541706030,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "586b9e391f00dc46",
+      "reportUrl" : "../4/index.html#testresult/586b9e391f00dc46",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623647.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623647.html",
+      "time" : {
+        "start" : 1643541706030,
+        "stop" : 1643541706030,
+        "duration" : 0
+      }
+    } ]
+  },
+  "9a2c3857bcc363204e0dce187864ceee" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "d658aa84b6285383",
+      "reportUrl" : "../5/index.html#testresult/d658aa84b6285383",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.employee-position-input > select:nth-child(1) > option:nth-child(3)')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".employee-position-input > select:nth-child(1) > option:nth-child(3)\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.html",
+      "time" : {
+        "start" : 1643538892736,
+        "stop" : 1643538892736,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9e58860e1397be47",
+      "reportUrl" : "../4/index.html#testresult/9e58860e1397be47",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.employee-position-input > select:nth-child(1) > option:nth-child(3)')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".employee-position-input > select:nth-child(1) > option:nth-child(3)\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.html",
+      "time" : {
+        "start" : 1643538892736,
+        "stop" : 1643538892736,
+        "duration" : 0
+      }
+    } ]
+  },
+  "10e8fa143b8f1cd3e13d14ada0829881" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "bbdcce81a500d799",
+      "reportUrl" : "../5/index.html#testresult/bbdcce81a500d799",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643541933742,
+        "stop" : 1643541976338,
+        "duration" : 42596
+      }
+    }, {
+      "uid" : "882ddeb327f13593",
+      "reportUrl" : "../4/index.html#testresult/882ddeb327f13593",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643541933742,
+        "stop" : 1643541976338,
+        "duration" : 42596
+      }
+    } ]
+  },
+  "cc347fa4fcd1b0a5c766fa66c9aabeeb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "168736c9c598d639",
+      "reportUrl" : "../5/index.html#testresult/168736c9c598d639",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643543261295,
+        "stop" : 1643543368776,
+        "duration" : 107481
+      }
+    }, {
+      "uid" : "6ab2ae86205cd7fe",
+      "reportUrl" : "../4/index.html#testresult/6ab2ae86205cd7fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643543261295,
+        "stop" : 1643543368776,
+        "duration" : 107481
+      }
+    } ]
+  },
+  "9b86f3c15f87dd1034b368e67cefdea3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "37da1d4085938924",
+      "reportUrl" : "../5/index.html#testresult/37da1d4085938924",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'AdminPanel' object has no attribute 'delete_application_for_the_transfer_of_funds'",
+      "time" : {
+        "start" : 1643538763780,
+        "stop" : 1643538824446,
+        "duration" : 60666
+      }
+    }, {
+      "uid" : "36c2469e0dbc45d5",
+      "reportUrl" : "../4/index.html#testresult/36c2469e0dbc45d5",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'AdminPanel' object has no attribute 'delete_application_for_the_transfer_of_funds'",
+      "time" : {
+        "start" : 1643538763780,
+        "stop" : 1643538824446,
+        "duration" : 60666
+      }
+    } ]
+  },
+  "08690a5e48be4d6b17f24d75b436d6a0" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "4e46106bbe54781",
+      "reportUrl" : "../5/index.html#testresult/4e46106bbe54781",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623642.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623642.html",
+      "time" : {
+        "start" : 1643541507838,
+        "stop" : 1643541507838,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "456cc2ac6b2783f1",
+      "reportUrl" : "../4/index.html#testresult/456cc2ac6b2783f1",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623642.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623642.html",
+      "time" : {
+        "start" : 1643541507838,
+        "stop" : 1643541507838,
+        "duration" : 0
+      }
+    } ]
+  },
+  "0266985a0f3a25fd2ada57c189cb6e96" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "8f093ba90ad5c441",
+      "reportUrl" : "../5/index.html#testresult/8f093ba90ad5c441",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643543476804,
+        "stop" : 1643543598169,
+        "duration" : 121365
+      }
+    }, {
+      "uid" : "b804368c262983e3",
+      "reportUrl" : "../4/index.html#testresult/b804368c262983e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643543476804,
+        "stop" : 1643543598169,
+        "duration" : 121365
+      }
+    } ]
+  }
+}

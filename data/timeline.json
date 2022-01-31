@@ -1,0 +1,1278 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "portal-test-qa-7npdq",
+    "children" : [ {
+      "name" : "6-MainThread",
+      "children" : [ {
+        "name" : "test_approving_after_send_rework",
+        "uid" : "6f2b6fd0b11df82e",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643541546103,
+          "stop" : 1643541546103,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_editing_decree_name",
+        "uid" : "a4681193f44244d3",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643541584917,
+          "stop" : 1643541584917,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_creating_an_application_for_spending_budget_funds_WITHOUT_the_transfer_of_funds",
+        "uid" : "c4567e511f87d167",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643538667600,
+          "stop" : 1643538736970,
+          "duration" : 69370
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_three_qualified_signs",
+        "uid" : "11a138b5fb57f74b",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643543368779,
+          "stop" : 1643543476800,
+          "duration" : 108021
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_trip_states[user3-Согласовать-Утверждение директором]",
+        "uid" : "b9393d38b038a627",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643538892435,
+          "stop" : 1643538892435,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'Согласовать'", "'Утверждение директором'", "<common.user.User object at 0x7fed1ab44460>" ]
+      }, {
+        "name" : "test_decree_states",
+        "uid" : "a4f8c59defb0d2af",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643541348599,
+          "stop" : 1643541348599,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_trip_states[user8-Подтвердить сдачу закрывающих документов-Командировка закрыта]",
+        "uid" : "89891c0af118e56d",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643538892805,
+          "stop" : 1643538892805,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'Подтвердить сдачу закрывающих документов'", "'Командировка закрыта'", "<common.user.User object at 0x7fed1aad22b0>" ]
+      }, {
+        "name" : "test_create_decree",
+        "uid" : "7ed03dd6ee603def",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643541299129,
+          "stop" : 1643541348318,
+          "duration" : 49189
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_trip_states[user4-Утвердить-Оформление командировки]",
+        "uid" : "be762554db6c2d2a",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643538892526,
+          "stop" : 1643538892526,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'Утвердить'", "'Оформление командировки'", "<common.user.User object at 0x7fed1ab44b50>" ]
+      }, {
+        "name" : "test_cancel_approving_twice",
+        "uid" : "d19c4819327ee485",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643541784916,
+          "stop" : 1643541784916,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_creating_an_application_for_closing_documents",
+        "uid" : "fe26633883782133",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643538630712,
+          "stop" : 1643538667595,
+          "duration" : 36883
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_add_outbox_letter_main_flow",
+        "uid" : "8ccd002f0576d6fe",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643543771238,
+          "stop" : 1643543847598,
+          "duration" : 76360
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_trip_states[user5-Подтвердить бронирование билетов-Оформление командировки]",
+        "uid" : "a9cca1d78769f879",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643538892596,
+          "stop" : 1643538892596,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'Подтвердить бронирование билетов'", "'Оформление командировки'", "<common.user.User object at 0x7fed1ab44250>" ]
+      }, {
+        "name" : "test_approve_contract_sale_vice_rector_and_analyst",
+        "uid" : "a52ef7ad20c3cc29",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643539126008,
+          "stop" : 1643539126008,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_approve_contract_sale_vice_rector_and_analyst",
+        "uid" : "afc3761983a6b8b9",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643540129092,
+          "stop" : 1643540219455,
+          "duration" : 90363
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_trip_states[user6-Подтвердить оформление документов-Предоставление закрывающих документов]",
+        "uid" : "cab8a7fe85534ea4",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643538892666,
+          "stop" : 1643538892666,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'Подтвердить оформление документов'", "'Предоставление закрывающих документов'", "<common.user.User object at 0x7fed1ab44a30>" ]
+      }, {
+        "name" : "test_three_simple_signs",
+        "uid" : "168736c9c598d639",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643543261295,
+          "stop" : 1643543368776,
+          "duration" : 107481
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_decree_text_after_approving",
+        "uid" : "6c97484a417a044a",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643541465223,
+          "stop" : 1643541465223,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_creating_an_application_for_spending_budget_funds_WITH_the_transfer_of_funds_by_attaching_a_civil_law_contract",
+        "uid" : "37da1d4085938924",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643538763780,
+          "stop" : 1643538824446,
+          "duration" : 60666
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_mass_signing",
+        "uid" : "3ba006397f04096c",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643542355909,
+          "stop" : 1643543085335,
+          "duration" : 729426
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_trip_states[user1-Согласовать-Рассмотрение прямым руководителем]",
+        "uid" : "f3294192a72fef23",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643538892299,
+          "stop" : 1643538892299,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'Согласовать'", "'Рассмотрение прямым руководителем'", "<common.user.User object at 0x7fed1ab440d0>" ]
+      }, {
+        "name" : "test_edit_decree_name_under_approving",
+        "uid" : "c32db71987fd0105",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643541624792,
+          "stop" : 1643541624792,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_creating_an_application_for_spending_budget_funds_WITH_the_transfer_of_funds",
+        "uid" : "63f2222a42b0a15e",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643538737318,
+          "stop" : 1643538763492,
+          "duration" : 26174
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_approve_contract_sale_second_group_approvers",
+        "uid" : "266894fc02920622",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643539419854,
+          "stop" : 1643539552865,
+          "duration" : 133011
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_contract_gph_free_standart",
+        "uid" : "a13379ba8dc90d33",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643541271362,
+          "stop" : 1643541299125,
+          "duration" : 27763
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_cancel_approving",
+        "uid" : "f252c4d99ab7fde4",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643541667155,
+          "stop" : 1643541667155,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_two_qualified_signs",
+        "uid" : "fe4ddd37ede4bc05",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643543103125,
+          "stop" : 1643543182833,
+          "duration" : 79708
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_add_inbox_letter",
+        "uid" : "fde710447c02f3d",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643541822735,
+          "stop" : 1643541933477,
+          "duration" : 110742
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_four_simple_signs",
+        "uid" : "eb03d7fa32483ca2",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643543598173,
+          "stop" : 1643543708116,
+          "duration" : 109943
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_approve_contract_cooperation_first_group_approvers",
+        "uid" : "83de60485cfdfde",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643538940254,
+          "stop" : 1643538966257,
+          "duration" : 26003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_landscape_orientation",
+        "uid" : "c391b8d49f7dc80c",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643541989709,
+          "stop" : 1643542046347,
+          "duration" : 56638
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_contract_gph_standart_1",
+        "uid" : "aa311580f2018a8b",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643541181030,
+          "stop" : 1643541205406,
+          "duration" : 24376
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_create_request_transfer_funds",
+        "uid" : "c129d677356f3fe3",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643543847882,
+          "stop" : 1643543891193,
+          "duration" : 43311
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_trip_states[user2-Согласовать-Рассмотрение проректором управления]",
+        "uid" : "532890ca5b44d4f3",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643538892367,
+          "stop" : 1643538892367,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'Согласовать'", "'Рассмотрение проректором управления'", "<common.user.User object at 0x7fed1ab44d90>" ]
+      }, {
+        "name" : "test_files_wo_labels",
+        "uid" : "fc5f5eb5ee0559b5",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643543708120,
+          "stop" : 1643543771235,
+          "duration" : 63115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_trip_states[user7-Отчитаться по командировке-Проверка закрывающих документов]",
+        "uid" : "d658aa84b6285383",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643538892736,
+          "stop" : 1643538892736,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'Отчитаться по командировке'", "'Проверка закрывающих документов'", "<common.user.User object at 0x7fed1ab44250>" ]
+      }, {
+        "name" : "test_four_qualified_signs",
+        "uid" : "8f093ba90ad5c441",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643543476804,
+          "stop" : 1643543598169,
+          "duration" : 121365
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_approve_contract_self_employed_valiev_approvers",
+        "uid" : "e28cd6fc9cca801b",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643540527403,
+          "stop" : 1643540611631,
+          "duration" : 84228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_one_qualified_sign_zip",
+        "uid" : "8a7b0279c70397b2",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643542164700,
+          "stop" : 1643542225175,
+          "duration" : 60475
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_create_trip",
+        "uid" : "1f4ad23cb2517bd5",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643538828781,
+          "stop" : 1643538852741,
+          "duration" : 23960
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_cancel_by_initiator",
+        "uid" : "bbdcce81a500d799",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643541933742,
+          "stop" : 1643541976338,
+          "duration" : 42596
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_decree_text_before_approving",
+        "uid" : "4e46106bbe54781",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643541507838,
+          "stop" : 1643541507838,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_sign_type_not_selected",
+        "uid" : "89fa5dc48302dbf8",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643541976341,
+          "stop" : 1643541989706,
+          "duration" : 13365
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_trip_states[user0-Направить на рассмотрение-Рассмотрение прямым руководителем]",
+        "uid" : "bfd7737ee46d6ba2",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643538871383,
+          "stop" : 1643538871383,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'Направить на рассмотрение'", "'Рассмотрение прямым руководителем'", "<common.user.User object at 0x7fed1ab44250>" ]
+      }, {
+        "name" : "test_approve_contract_sale_first_group_approvers",
+        "uid" : "c069f8cdce933237",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643539773815,
+          "stop" : 1643539845273,
+          "duration" : 71458
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_approver_wo_qualified_sign",
+        "uid" : "aedc942f10d36667",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643543085624,
+          "stop" : 1643543103122,
+          "duration" : 17498
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_send_rework_4th_approver",
+        "uid" : "847d98dc6985c581",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643542225178,
+          "stop" : 1643542355905,
+          "duration" : 130727
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_approve_contract_license_first_group_approvers",
+        "uid" : "2f12ef85ae5915e0",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643539013816,
+          "stop" : 1643539100198,
+          "duration" : 86382
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_one_sign",
+        "uid" : "d528460897614330",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643542046350,
+          "stop" : 1643542104491,
+          "duration" : 58141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_contract_gph_standart",
+        "uid" : "344bf0d7cdc6765a",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643540892548,
+          "stop" : 1643541159823,
+          "duration" : 267275
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_approve_contract_sale_first_group_approvers",
+        "uid" : "a66aeb7733840804",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643539100201,
+          "stop" : 1643539100201,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_auto_approving",
+        "uid" : "9d55c69f02583d56",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643541745321,
+          "stop" : 1643541745321,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_change_decree_attachments",
+        "uid" : "10af27c014a16171",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643541425469,
+          "stop" : 1643541425469,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_approve_contract_sale_second_group_approvers",
+        "uid" : "66d9332b8cd6496c",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643539930231,
+          "stop" : 1643540038859,
+          "duration" : 108628
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_contract_gph_change_signer_free",
+        "uid" : "7eae43150e81c8f6",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643540638240,
+          "stop" : 1643540872749,
+          "duration" : 234509
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_approve_contract_rent_vice_rector_and_signer",
+        "uid" : "465970113e2eddaf",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643539656029,
+          "stop" : 1643539724318,
+          "duration" : 68289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_two_simple_signs",
+        "uid" : "b8272b4b45a4469c",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643543182836,
+          "stop" : 1643543261283,
+          "duration" : 78447
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_approve_contract_sale_signing",
+        "uid" : "5914ebf455caa42e",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643540346769,
+          "stop" : 1643540463080,
+          "duration" : 116311
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_approve_contract_rent_first_group_approvers",
+        "uid" : "c9096341447ac83e",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643539254316,
+          "stop" : 1643539342994,
+          "duration" : 88678
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_edit_decree_after_send_rework",
+        "uid" : "6e88e0d81088f691",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643541706030,
+          "stop" : 1643541706030,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_one_qualified_sign",
+        "uid" : "7a19778f0b96b9c0",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643542104494,
+          "stop" : 1643542164697,
+          "duration" : 60203
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_approve_contract_self_employed_valiev_approvers_asll",
+        "uid" : "3b9c4f92ed1d6a13",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643540611633,
+          "stop" : 1643540611633,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_contract_gph_standart_free",
+        "uid" : "acf7ffd58a8b54e2",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643541225277,
+          "stop" : 1643541252567,
+          "duration" : 27290
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_cancel_by_initiator",
+        "uid" : "a7824404384b8407",
+        "parentUid" : "b3c2d017dcab796a60fd7091b2f08fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643541386918,
+          "stop" : 1643541386918,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b3c2d017dcab796a60fd7091b2f08fd2"
+    } ],
+    "uid" : "19bfdf11e4e3e1002caba91b910a12f9"
+  }, {
+    "name" : "portal-test-qa-rt6gd",
+    "children" : [ {
+      "name" : "6-MainThread",
+      "children" : [ {
+        "name" : "test_download_document_qualified_sign",
+        "uid" : "9f411fc7cd14671e",
+        "parentUid" : "bc7f9a436e9d56b99b8d1ec1ca45127e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643534405472,
+          "stop" : 1643534427787,
+          "duration" : 22315
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_download_document",
+        "uid" : "efe94650084aeecf",
+        "parentUid" : "bc7f9a436e9d56b99b8d1ec1ca45127e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643534364469,
+          "stop" : 1643534386207,
+          "duration" : 21738
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_download_document_simple_sign",
+        "uid" : "4097e277b39b2451",
+        "parentUid" : "bc7f9a436e9d56b99b8d1ec1ca45127e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643534446053,
+          "stop" : 1643534465968,
+          "duration" : 19915
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bc7f9a436e9d56b99b8d1ec1ca45127e"
+    } ],
+    "uid" : "c90a5cdbac65e1cf6ba39a9f0f97c1fe"
+  }, {
+    "name" : "portal-test-qa-62922",
+    "children" : [ {
+      "name" : "9-MainThread",
+      "children" : [ {
+        "name" : "test_download_document_qualified_sign",
+        "uid" : "4d4cd41ff4dbde32",
+        "parentUid" : "4d5206f42c149bdc77a1f99cf37c769e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643533771452,
+          "stop" : 1643533792540,
+          "duration" : 21088
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_download_document_simple_sign",
+        "uid" : "cf84f5cdde074758",
+        "parentUid" : "4d5206f42c149bdc77a1f99cf37c769e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643533811580,
+          "stop" : 1643533832320,
+          "duration" : 20740
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_download_document",
+        "uid" : "4f40bd0a96bc6e34",
+        "parentUid" : "4d5206f42c149bdc77a1f99cf37c769e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643533707665,
+          "stop" : 1643533747223,
+          "duration" : 39558
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4d5206f42c149bdc77a1f99cf37c769e"
+    } ],
+    "uid" : "088b2f9d896af846719f04252932bfa5"
+  }, {
+    "name" : "portal-test-qa-vtdt9",
+    "children" : [ {
+      "name" : "9-MainThread",
+      "children" : [ {
+        "name" : "test_download_document_qualified_sign",
+        "uid" : "b8531847a9814fc2",
+        "parentUid" : "6121bb02421c2b82b54878451685b75e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643561172925,
+          "stop" : 1643561189799,
+          "duration" : 16874
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : true,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_download_document",
+        "uid" : "f4f126702e5983d8",
+        "parentUid" : "6121bb02421c2b82b54878451685b75e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643561128585,
+          "stop" : 1643561152815,
+          "duration" : 24230
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_download_document_simple_sign",
+        "uid" : "df202522406a5534",
+        "parentUid" : "6121bb02421c2b82b54878451685b75e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643561206305,
+          "stop" : 1643561221836,
+          "duration" : 15531
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : true,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6121bb02421c2b82b54878451685b75e"
+    } ],
+    "uid" : "79596663193c0a928ebe7da2d736a3eb"
+  } ]
+}

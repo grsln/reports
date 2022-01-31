@@ -1,0 +1,7 @@
+2022-01-30 10:38:20 INFO login "Эльмира Ахметгараева".
+2022-01-30 10:38:31 INFO Open contract create page
+2022-01-30 10:38:34 INFO choice "ООО "ТК "Сангрео""
+2022-01-30 10:38:34 INFO write "Договор ППС тест5"
+2022-01-30 10:38:34 INFO choice file
+2022-01-30 10:38:34 INFO write "t1@t1.t1"
+2022-01-30 10:38:35 INFO click send_button

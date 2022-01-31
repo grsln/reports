@@ -1,0 +1,754 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', 'h2')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"h2\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623627.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623627.html",
+      "children" : [ {
+        "name" : "test_creating_an_application_for_spending_budget_funds_WITHOUT_the_transfer_of_funds",
+        "uid" : "c4567e511f87d167",
+        "parentUid" : "0ff8eb4a02c24a6c4f16c5853253251b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643538667600,
+          "stop" : 1643538736970,
+          "duration" : 69370
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0ff8eb4a02c24a6c4f16c5853253251b"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"tab_el_edit_table\"]/div[6]/div/div/select')).element(('xpath', '//*[@id=\"tab_el_edit_table\"]/div[6]/div/div/select/option[3]')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"tab_el_edit_table\"]/div[6]/div/div/select/option[3]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623628.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623628.html",
+      "children" : [ {
+        "name" : "test_creating_an_application_for_spending_budget_funds_WITH_the_transfer_of_funds",
+        "uid" : "63f2222a42b0a15e",
+        "parentUid" : "b73c6af17dee9b9387647b8435d8c5e5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643538737318,
+          "stop" : 1643538763492,
+          "duration" : 26174
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b73c6af17dee9b9387647b8435d8c5e5"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.employee-position-input > select:nth-child(1) > option:nth-child(3)')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".employee-position-input > select:nth-child(1) > option:nth-child(3)\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623629.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623629.html",
+      "children" : [ {
+        "name" : "test_create_trip",
+        "uid" : "1f4ad23cb2517bd5",
+        "parentUid" : "4416d63d254ade18e91af5c10790ae0d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643538828781,
+          "stop" : 1643538852741,
+          "duration" : 23960
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4416d63d254ade18e91af5c10790ae0d"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.employee-position-input > select:nth-child(1) > option:nth-child(3)')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".employee-position-input > select:nth-child(1) > option:nth-child(3)\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623631.html",
+      "children" : [ {
+        "name" : "test_trip_states[user0-Направить на рассмотрение-Рассмотрение прямым руководителем]",
+        "uid" : "bfd7737ee46d6ba2",
+        "parentUid" : "01613dfd3884a72a14661dbebda31992",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643538871383,
+          "stop" : 1643538871383,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'Направить на рассмотрение'", "'Рассмотрение прямым руководителем'", "<common.user.User object at 0x7fed1ab44250>" ]
+      }, {
+        "name" : "test_trip_states[user1-Согласовать-Рассмотрение прямым руководителем]",
+        "uid" : "f3294192a72fef23",
+        "parentUid" : "01613dfd3884a72a14661dbebda31992",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643538892299,
+          "stop" : 1643538892299,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'Согласовать'", "'Рассмотрение прямым руководителем'", "<common.user.User object at 0x7fed1ab440d0>" ]
+      }, {
+        "name" : "test_trip_states[user2-Согласовать-Рассмотрение проректором управления]",
+        "uid" : "532890ca5b44d4f3",
+        "parentUid" : "01613dfd3884a72a14661dbebda31992",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643538892367,
+          "stop" : 1643538892367,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'Согласовать'", "'Рассмотрение проректором управления'", "<common.user.User object at 0x7fed1ab44d90>" ]
+      }, {
+        "name" : "test_trip_states[user3-Согласовать-Утверждение директором]",
+        "uid" : "b9393d38b038a627",
+        "parentUid" : "01613dfd3884a72a14661dbebda31992",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643538892435,
+          "stop" : 1643538892435,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'Согласовать'", "'Утверждение директором'", "<common.user.User object at 0x7fed1ab44460>" ]
+      }, {
+        "name" : "test_trip_states[user4-Утвердить-Оформление командировки]",
+        "uid" : "be762554db6c2d2a",
+        "parentUid" : "01613dfd3884a72a14661dbebda31992",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643538892526,
+          "stop" : 1643538892526,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'Утвердить'", "'Оформление командировки'", "<common.user.User object at 0x7fed1ab44b50>" ]
+      }, {
+        "name" : "test_trip_states[user5-Подтвердить бронирование билетов-Оформление командировки]",
+        "uid" : "a9cca1d78769f879",
+        "parentUid" : "01613dfd3884a72a14661dbebda31992",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643538892596,
+          "stop" : 1643538892596,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'Подтвердить бронирование билетов'", "'Оформление командировки'", "<common.user.User object at 0x7fed1ab44250>" ]
+      }, {
+        "name" : "test_trip_states[user6-Подтвердить оформление документов-Предоставление закрывающих документов]",
+        "uid" : "cab8a7fe85534ea4",
+        "parentUid" : "01613dfd3884a72a14661dbebda31992",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643538892666,
+          "stop" : 1643538892666,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'Подтвердить оформление документов'", "'Предоставление закрывающих документов'", "<common.user.User object at 0x7fed1ab44a30>" ]
+      }, {
+        "name" : "test_trip_states[user7-Отчитаться по командировке-Проверка закрывающих документов]",
+        "uid" : "d658aa84b6285383",
+        "parentUid" : "01613dfd3884a72a14661dbebda31992",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643538892736,
+          "stop" : 1643538892736,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'Отчитаться по командировке'", "'Проверка закрывающих документов'", "<common.user.User object at 0x7fed1ab44250>" ]
+      }, {
+        "name" : "test_trip_states[user8-Подтвердить сдачу закрывающих документов-Командировка закрыта]",
+        "uid" : "89891c0af118e56d",
+        "parentUid" : "01613dfd3884a72a14661dbebda31992",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643538892805,
+          "stop" : 1643538892805,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'Подтвердить сдачу закрывающих документов'", "'Командировка закрыта'", "<common.user.User object at 0x7fed1aad22b0>" ]
+      } ],
+      "uid" : "01613dfd3884a72a14661dbebda31992"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', '//a[@title=\\'Согласование договора \"Договор о сотрудничестве тест4\"\\']/../../..//a[contains(.,\\'Согласовать\\')]')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@title='Согласование договора \"Договор о сотрудничестве тест4\"']/../../..//a[contains(.,'Согласовать')]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623632.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623632.html",
+      "children" : [ {
+        "name" : "test_approve_contract_cooperation_first_group_approvers",
+        "uid" : "83de60485cfdfde",
+        "parentUid" : "897c8f1da3cb16b022875b77abe90393",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643538940254,
+          "stop" : 1643538966257,
+          "duration" : 26003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "897c8f1da3cb16b022875b77abe90393"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', 'h2')).has text Договор ППС тест5\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"h2\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623633.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623633.html",
+      "children" : [ {
+        "name" : "test_approve_contract_sale_first_group_approvers",
+        "uid" : "a66aeb7733840804",
+        "parentUid" : "a2cc1d9cda32e087ab18aa41f9c8a017",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643539100201,
+          "stop" : 1643539100201,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a2cc1d9cda32e087ab18aa41f9c8a017"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', 'h2')).has text Договор ППС тест5\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"h2\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623634.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623634.html",
+      "children" : [ {
+        "name" : "test_approve_contract_sale_vice_rector_and_analyst",
+        "uid" : "a52ef7ad20c3cc29",
+        "parentUid" : "8a7da3ffa96fafa3ec636e997fde4c9f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643539126008,
+          "stop" : 1643539126008,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8a7da3ffa96fafa3ec636e997fde4c9f"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', 'h2')).has text Договор купли продажи с самозанятым тест6\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"h2\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623635.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623635.html",
+      "children" : [ {
+        "name" : "test_approve_contract_self_employed_valiev_approvers_asll",
+        "uid" : "3b9c4f92ed1d6a13",
+        "parentUid" : "e849459c22498899e612748d330417df",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643540611633,
+          "stop" : 1643540611633,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e849459c22498899e612748d330417df"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', 'li#bx_left_menu_bp_tasks_subitem_bizproc_contract_gpd  .menu-item-link-text')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"li#bx_left_menu_bp_tasks_subitem_bizproc_contract_gpd  .menu-item-link-text\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623636.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623636.html",
+      "children" : [ {
+        "name" : "test_contract_gph_standart_1",
+        "uid" : "aa311580f2018a8b",
+        "parentUid" : "5d8020440cbf705b04de63c52e3bd31b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643541181030,
+          "stop" : 1643541205406,
+          "duration" : 24376
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5d8020440cbf705b04de63c52e3bd31b"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623637.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623637.html",
+      "children" : [ {
+        "name" : "test_create_decree",
+        "uid" : "7ed03dd6ee603def",
+        "parentUid" : "a1d37fb938c09d14c76001b1f72f1504",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643541299129,
+          "stop" : 1643541348318,
+          "duration" : 49189
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a1d37fb938c09d14c76001b1f72f1504"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623638.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623638.html",
+      "children" : [ {
+        "name" : "test_decree_states",
+        "uid" : "a4f8c59defb0d2af",
+        "parentUid" : "4d22df49b8b3ccd78d1347742911dc74",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643541348599,
+          "stop" : 1643541348599,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4d22df49b8b3ccd78d1347742911dc74"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623639.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623639.html",
+      "children" : [ {
+        "name" : "test_cancel_by_initiator",
+        "uid" : "a7824404384b8407",
+        "parentUid" : "0ef87942615f817a8f4102a606bb7da3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643541386918,
+          "stop" : 1643541386918,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0ef87942615f817a8f4102a606bb7da3"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623640.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623640.html",
+      "children" : [ {
+        "name" : "test_change_decree_attachments",
+        "uid" : "10af27c014a16171",
+        "parentUid" : "e358edeab4ecaaa03adf31db8ff1da51",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643541425469,
+          "stop" : 1643541425469,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e358edeab4ecaaa03adf31db8ff1da51"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623641.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623641.html",
+      "children" : [ {
+        "name" : "test_delete_decree_text_after_approving",
+        "uid" : "6c97484a417a044a",
+        "parentUid" : "7eda1729d0ea935cdd2c5b0aa6bd746d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643541465223,
+          "stop" : 1643541465223,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7eda1729d0ea935cdd2c5b0aa6bd746d"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623642.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623642.html",
+      "children" : [ {
+        "name" : "test_delete_decree_text_before_approving",
+        "uid" : "4e46106bbe54781",
+        "parentUid" : "a6b9cf41edce6a0687a02e10e3dde304",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643541507838,
+          "stop" : 1643541507838,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a6b9cf41edce6a0687a02e10e3dde304"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623643.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623643.html",
+      "children" : [ {
+        "name" : "test_approving_after_send_rework",
+        "uid" : "6f2b6fd0b11df82e",
+        "parentUid" : "de7ce73e4bf358c07df60d1babf004d5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643541546103,
+          "stop" : 1643541546103,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "de7ce73e4bf358c07df60d1babf004d5"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623644.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623644.html",
+      "children" : [ {
+        "name" : "test_editing_decree_name",
+        "uid" : "a4681193f44244d3",
+        "parentUid" : "b388a02e2220b644757d1854962a3c11",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643541584917,
+          "stop" : 1643541584917,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b388a02e2220b644757d1854962a3c11"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623645.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623645.html",
+      "children" : [ {
+        "name" : "test_edit_decree_name_under_approving",
+        "uid" : "c32db71987fd0105",
+        "parentUid" : "0d74750a15f793b68d4b17dd0805b083",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643541624792,
+          "stop" : 1643541624792,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0d74750a15f793b68d4b17dd0805b083"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623646.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623646.html",
+      "children" : [ {
+        "name" : "test_cancel_approving",
+        "uid" : "f252c4d99ab7fde4",
+        "parentUid" : "77adf05b40964032a59db888eff3ef8c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643541667155,
+          "stop" : 1643541667155,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "77adf05b40964032a59db888eff3ef8c"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623647.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623647.html",
+      "children" : [ {
+        "name" : "test_edit_decree_after_send_rework",
+        "uid" : "6e88e0d81088f691",
+        "parentUid" : "20d95bce2ec74b4e770f9c08b42b485f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643541706030,
+          "stop" : 1643541706030,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "20d95bce2ec74b4e770f9c08b42b485f"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623648.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623648.html",
+      "children" : [ {
+        "name" : "test_auto_approving",
+        "uid" : "9d55c69f02583d56",
+        "parentUid" : "ac898cc305e490f8fb4ce680f8a2f055",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643541745321,
+          "stop" : 1643541745321,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ac898cc305e490f8fb4ce680f8a2f055"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.PROPERTY_ELEMENT_ID.bx-top > div')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".PROPERTY_ELEMENT_ID.bx-top > div\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623649.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623649.html",
+      "children" : [ {
+        "name" : "test_cancel_approving_twice",
+        "uid" : "d19c4819327ee485",
+        "parentUid" : "f53d2792ffb19424c87f4a602cba79f6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643541784916,
+          "stop" : 1643541784916,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f53d2792ffb19424c87f4a602cba79f6"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 95s, while waiting for:\nbrowser.element(('css selector', ' .tt-selectable.tt-suggestion.tt-user')).is present in DOM\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\" .tt-selectable.tt-suggestion.tt-user\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623650.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623650.html",
+      "children" : [ {
+        "name" : "test_add_inbox_letter",
+        "uid" : "fde710447c02f3d",
+        "parentUid" : "a7546bd1cd67e00bbe193909a5474495",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643541822735,
+          "stop" : 1643541933477,
+          "duration" : 110742
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a7546bd1cd67e00bbe193909a5474495"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//tr/td/a[contains(text(), 'Договор 19')]\")).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//tr/td/a[contains(text(), 'Договор 19')]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623651.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623651.html",
+      "children" : [ {
+        "name" : "test_mass_signing",
+        "uid" : "3ba006397f04096c",
+        "parentUid" : "36e8329a19e4560140237bbd4454ef33",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643542355909,
+          "stop" : 1643543085335,
+          "duration" : 729426
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "36e8329a19e4560140237bbd4454ef33"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', 'h2')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"h2\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643538623626/1643538623652.png\nPageSource: file:///home/seluser/.selene/screenshots/1643538623626/1643538623652.html",
+      "children" : [ {
+        "name" : "test_add_outbox_letter_main_flow",
+        "uid" : "8ccd002f0576d6fe",
+        "parentUid" : "4c2e79fb547fe5492a87e8a8093d92ab",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643543771238,
+          "stop" : 1643543847598,
+          "duration" : 76360
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4c2e79fb547fe5492a87e8a8093d92ab"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\")).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='lists_list_elements_100']/tbody/tr/td/a[contains(text(),'Приказ 255 от 30.01.2022')]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1643561120009/1643561120010.png\nPageSource: file:///home/seluser/.selene/screenshots/1643561120009/1643561120010.html",
+      "children" : [ {
+        "name" : "test_download_document",
+        "uid" : "f4f126702e5983d8",
+        "parentUid" : "fb175976192e7525c8bbe30499a1b02f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643561128585,
+          "stop" : 1643561152815,
+          "duration" : 24230
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fb175976192e7525c8bbe30499a1b02f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: 'AdminPanel' object has no attribute 'delete_application_for_the_transfer_of_funds'",
+      "children" : [ {
+        "name" : "test_creating_an_application_for_spending_budget_funds_WITH_the_transfer_of_funds_by_attaching_a_civil_law_contract",
+        "uid" : "37da1d4085938924",
+        "parentUid" : "1e8817e950a63d6c2ce92eeb50d2cdaa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643538763780,
+          "stop" : 1643538824446,
+          "duration" : 60666
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1e8817e950a63d6c2ce92eeb50d2cdaa"
+    }, {
+      "name" : "TypeError: not all arguments converted during string formatting",
+      "children" : [ {
+        "name" : "test_download_document_qualified_sign",
+        "uid" : "b8531847a9814fc2",
+        "parentUid" : "6f17ac034aa64d4177ecaed6289c0744",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643561172925,
+          "stop" : 1643561189799,
+          "duration" : 16874
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : true,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_download_document_simple_sign",
+        "uid" : "df202522406a5534",
+        "parentUid" : "6f17ac034aa64d4177ecaed6289c0744",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643561206305,
+          "stop" : 1643561221836,
+          "duration" : 15531
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : true,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6f17ac034aa64d4177ecaed6289c0744"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

@@ -1,0 +1,10 @@
+2022-01-30 11:14:12 INFO login "Андрейс Блакуновс".
+2022-01-30 11:14:23 INFO Open contract create page
+2022-01-30 11:14:31 INFO title "Договор ГПХ стандартный шаблон тест2 11:14:19.033841", id "439858".
+2022-01-30 11:14:31 INFO Edit contract gph
+2022-01-30 11:14:36 INFO Send for consideration
+2022-01-30 11:14:41 INFO open_contract_admin
+2022-01-30 11:14:50 INFO find_contract Договор ГПХ стандартный шаблон тест2 11:14:19.033841
+2022-01-30 11:14:50 INFO find_contract_gph
+2022-01-30 11:14:53 INFO delete
+2022-01-30 11:14:53 INFO accept alert

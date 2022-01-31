@@ -1,0 +1,45 @@
+2022-01-30 11:03:58 INFO login "Наталия Жандарова".
+2022-01-30 11:04:05 INFO Create contract GPH.
+2022-01-30 11:04:10 INFO Open contract create page
+2022-01-30 11:04:19 INFO title "Договор ГПХ стандартный шаблон тест2 11:04:05.664064", id "439854".
+2022-01-30 11:04:19 INFO Send for consideration
+2022-01-30 11:04:25 INFO open_contract_admin
+2022-01-30 11:04:36 INFO find_contract_gph
+2022-01-30 11:04:39 INFO Admin approve
+2022-01-30 11:04:43 INFO Admin approve
+2022-01-30 11:04:46 INFO Admin approve
+2022-01-30 11:04:50 INFO Admin approve
+2022-01-30 11:04:56 INFO login Радик Валиев
+2022-01-30 11:05:06 INFO open contract page
+2022-01-30 11:05:11 INFO Согласование договора "Договор ГПХ стандартный шаблон тест2 11:04:05.664064"
+2022-01-30 11:05:12 INFO Approve contract modal window
+2022-01-30 11:05:12 INFO open_contract
+2022-01-30 11:05:18 INFO find contract Договор ГПХ стандартный шаблон тест2 11:04:05.664064
+2022-01-30 11:05:18 INFO find_contract_gph
+2022-01-30 11:05:20 INFO login Искандер Бариев
+2022-01-30 11:05:29 INFO open contract page
+2022-01-30 11:05:40 INFO Согласование договора "Договор ГПХ стандартный шаблон тест2 11:04:05.664064"
+2022-01-30 11:05:40 INFO Approve contract modal window
+2022-01-30 11:05:40 INFO open_contract
+2022-01-30 11:05:51 INFO find contract Договор ГПХ стандартный шаблон тест2 11:04:05.664064
+2022-01-30 11:05:51 INFO find_contract_gph
+2022-01-30 11:05:53 INFO login Лейсан Молтабарова.
+2022-01-30 11:06:01 INFO open contract page
+2022-01-30 11:06:16 INFO open_contract
+2022-01-30 11:06:24 INFO find_contract Договор ГПХ стандартный шаблон тест2 11:04:05.664064
+2022-01-30 11:06:24 INFO find_contract_gph
+2022-01-30 11:06:26 INFO login Наталия Жандарова
+2022-01-30 11:06:33 INFO open contract page
+2022-01-30 11:06:37 INFO open_contract
+2022-01-30 11:06:44 INFO find_contract Договор ГПХ стандартный шаблон тест2 11:04:05.664064
+2022-01-30 11:06:44 INFO find_contract_gph
+2022-01-30 11:06:46 INFO login Наталья Румянова
+2022-01-30 11:06:54 INFO open contract page
+2022-01-30 11:07:13 INFO open_contract
+2022-01-30 11:07:30 INFO find_contract Договор ГПХ стандартный шаблон тест2 11:04:05.664064
+2022-01-30 11:07:30 INFO find_contract_gph
+2022-01-30 11:07:32 INFO open_contract_admin
+2022-01-30 11:07:41 INFO find_contract Договор ГПХ стандартный шаблон тест2 11:04:05.664064
+2022-01-30 11:07:41 INFO find_contract_gph
+2022-01-30 11:07:44 INFO delete
+2022-01-30 11:07:44 INFO accept alert

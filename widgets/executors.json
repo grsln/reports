@@ -1,0 +1,9 @@
+[ {
+  "name" : "Automatic Execution",
+  "type" : "another",
+  "buildOrder" : 5,
+  "buildName" : "portal #5",
+  "buildUrl" : "",
+  "reportName" : "portal",
+  "reportUrl" : "../5/index.html"
+} ]

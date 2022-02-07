@@ -1,0 +1,13 @@
+2022-02-06 11:31:30 INFO Создание приказа
+2022-02-06 11:32:04 INFO Отправка приказа на рассмотрение
+2022-02-06 11:32:04 INFO execute button command
+2022-02-06 11:32:10 INFO assert states
+2022-02-06 11:32:10 INFO Проверка удаления текста приказа
+2022-02-06 11:32:31 INFO execute button command
+2022-02-06 11:32:32 INFO assert states
+2022-02-06 11:32:38 INFO Согласование приказа сотрудником
+2022-02-06 11:32:56 INFO execute button command
+2022-02-06 11:32:57 INFO assert states
+2022-02-06 11:33:00 INFO Удаление приказа
+2022-02-06 11:33:13 INFO delete
+2022-02-06 11:33:13 INFO accept alert

@@ -1,0 +1,30 @@
+2022-02-06 14:41:29 INFO Создание приказа
+2022-02-06 14:42:05 INFO Отправка приказа на рассмотрение
+2022-02-06 14:42:05 INFO execute button command
+2022-02-06 14:42:11 INFO assert states
+2022-02-06 14:42:11 INFO Одобрение приказа на стадии проверки корректности
+2022-02-06 14:42:29 INFO execute button command
+2022-02-06 14:42:29 INFO assert states
+2022-02-06 14:42:37 INFO Возврат приказа на доработку
+2022-02-06 14:42:55 INFO execute button command
+2022-02-06 14:42:56 INFO close rework window
+2022-02-06 14:42:56 INFO assert states
+2022-02-06 14:43:01 INFO Отправка приказа на рассмотрение
+2022-02-06 14:43:19 INFO execute button command
+2022-02-06 14:43:25 INFO assert states
+2022-02-06 14:43:25 INFO Одобрение приказа на стадии проверки корректности
+2022-02-06 14:43:43 INFO execute button command
+2022-02-06 14:43:43 INFO assert states
+2022-02-06 14:43:50 INFO Возврат приказа на доработку
+2022-02-06 14:44:09 INFO execute button command
+2022-02-06 14:44:09 INFO close rework window
+2022-02-06 14:44:09 INFO assert states
+2022-02-06 14:44:14 INFO Отправка приказа на рассмотрение
+2022-02-06 14:44:33 INFO execute button command
+2022-02-06 14:44:39 INFO assert states
+2022-02-06 14:44:39 INFO Одобрение приказа на стадии проверки корректности
+2022-02-06 14:44:56 INFO execute button command
+2022-02-06 14:44:56 INFO assert states
+2022-02-06 14:45:04 INFO Удаление приказа
+2022-02-06 14:45:20 INFO delete
+2022-02-06 14:45:20 INFO accept alert

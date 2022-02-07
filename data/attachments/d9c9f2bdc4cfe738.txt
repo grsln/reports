@@ -1,0 +1,10 @@
+2022-02-06 11:20:07 INFO login "Наталия Жандарова".
+2022-02-06 11:20:21 INFO Open contract create page
+2022-02-06 11:20:31 INFO title "Договор ГПХ стандартный шаблон тест2 11:20:15.017135", id "440046".
+2022-02-06 11:20:31 INFO Edit contract gph
+2022-02-06 11:20:40 INFO Send for consideration
+2022-02-06 11:20:46 INFO open_contract_admin
+2022-02-06 11:20:59 INFO find_contract Договор ГПХ стандартный шаблон тест2 11:20:15.017135
+2022-02-06 11:20:59 INFO find_contract_gph
+2022-02-06 11:21:03 INFO delete
+2022-02-06 11:21:03 INFO accept alert

@@ -1,30 +1,16 @@
 [ {
-  "buildOrder" : 5,
-  "reportUrl" : "../5/index.html",
-  "reportName" : "portal",
-  "data" : {
-    "duration" : 22591124
-  }
-}, {
-  "buildOrder" : 4,
-  "reportUrl" : "../4/index.html",
-  "reportName" : "portal",
-  "data" : {
-    "duration" : 9526724
-  }
-}, {
   "buildOrder" : 3,
   "reportUrl" : "../3/index.html",
   "reportName" : "portal",
   "data" : {
-    "duration" : 101499
+    "duration" : 21067146
   }
 }, {
   "buildOrder" : 2,
   "reportUrl" : "../2/index.html",
   "reportName" : "portal",
   "data" : {
-    "duration" : 124655
+    "duration" : 7359291
   }
 }, {
   "buildOrder" : 1,

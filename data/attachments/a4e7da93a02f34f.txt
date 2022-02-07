@@ -1,0 +1,27 @@
+2022-02-06 10:42:02 INFO login "Юлия Горохова".
+2022-02-06 10:42:29 INFO Open contract create page
+2022-02-06 10:42:31 INFO choice "ООО "Техноавиа-Казань""
+2022-02-06 10:42:32 INFO write "Договор аренды тест3"
+2022-02-06 10:42:32 INFO choice file
+2022-02-06 10:42:32 INFO write "t1@t1.t1"
+2022-02-06 10:42:32 INFO click send_button
+2022-02-06 10:43:07 INFO Send for consideration
+2022-02-06 10:43:13 INFO login "Анна Хасанова".
+2022-02-06 10:43:23 INFO open contract page
+2022-02-06 10:43:29 INFO approve_contract_on_page
+2022-02-06 10:43:29 INFO open_contract
+2022-02-06 10:43:37 INFO find_contract Договор аренды тест3
+2022-02-06 10:43:39 INFO login "Эльвира Мингазова".
+2022-02-06 10:43:47 INFO open contract page
+2022-02-06 10:43:52 INFO approve_contract_on_page
+2022-02-06 10:43:52 INFO open_contract
+2022-02-06 10:44:00 INFO find_contract Договор аренды тест3
+2022-02-06 10:44:02 INFO login "Алексей Захаров".
+2022-02-06 10:44:11 INFO open contract page
+2022-02-06 10:44:21 INFO approve_contract_on_page
+2022-02-06 10:44:21 INFO open_contract
+2022-02-06 10:44:32 INFO find_contract Договор аренды тест3
+2022-02-06 10:44:35 INFO open_contract_admin
+2022-02-06 10:44:46 INFO find_contract Договор аренды тест3
+2022-02-06 10:44:49 INFO delete
+2022-02-06 10:44:49 INFO accept alert

@@ -1,0 +1,6 @@
+2022-02-06 14:12:42 INFO login "Андрейс Блакуновс".
+2022-02-06 14:12:57 INFO Open contract create page
+2022-02-06 14:13:08 INFO title "Договор ГПХ стандартный шаблон тест2 14:12:50.570136", id "440113".
+2022-02-06 14:13:08 INFO Send for consideration
+2022-02-06 14:13:14 INFO login Татьяна Камалетдинова
+2022-02-06 14:13:22 INFO open contract page

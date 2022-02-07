@@ -1,50 +1,26 @@
 [ {
-  "buildOrder" : 5,
-  "reportUrl" : "../5/index.html",
-  "reportName" : "portal",
-  "data" : {
-    "failed" : 34,
-    "broken" : 3,
-    "skipped" : 0,
-    "passed" : 30,
-    "unknown" : 0,
-    "total" : 67
-  }
-}, {
-  "buildOrder" : 4,
-  "reportUrl" : "../4/index.html",
-  "reportName" : "portal",
-  "data" : {
-    "failed" : 36,
-    "broken" : 1,
-    "skipped" : 0,
-    "passed" : 30,
-    "unknown" : 0,
-    "total" : 67
-  }
-}, {
   "buildOrder" : 3,
   "reportUrl" : "../3/index.html",
   "reportName" : "portal",
   "data" : {
-    "failed" : 3,
-    "broken" : 0,
+    "failed" : 28,
+    "broken" : 1,
     "skipped" : 0,
-    "passed" : 0,
+    "passed" : 52,
     "unknown" : 0,
-    "total" : 3
+    "total" : 81
   }
 }, {
   "buildOrder" : 2,
   "reportUrl" : "../2/index.html",
   "reportName" : "portal",
   "data" : {
-    "failed" : 3,
-    "broken" : 0,
+    "failed" : 24,
+    "broken" : 1,
     "skipped" : 0,
-    "passed" : 0,
+    "passed" : 39,
     "unknown" : 0,
-    "total" : 3
+    "total" : 64
   }
 }, {
   "buildOrder" : 1,

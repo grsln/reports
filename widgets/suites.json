@@ -1,30 +1,30 @@
 {
-  "total" : 10,
+  "total" : 13,
   "items" : [ {
-    "uid" : "3ef8e34f4357bf053ddad0d414f7cefd",
-    "name" : "tests.test_decrees",
-    "statistic" : {
-      "failed" : 14,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 14
-    }
-  }, {
     "uid" : "c4119966c9aa3e50e1fbf388d1715e61",
     "name" : "tests.test_business_trips",
     "statistic" : {
-      "failed" : 10,
+      "failed" : 11,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     }
   }, {
     "uid" : "a767321e46deaf60e93e838aea5e76d9",
     "name" : "tests.test_contracts",
+    "statistic" : {
+      "failed" : 6,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 13
+    }
+  }, {
+    "uid" : "3ef8e34f4357bf053ddad0d414f7cefd",
+    "name" : "tests.test_decrees",
     "statistic" : {
       "failed" : 4,
       "broken" : 0,
@@ -45,15 +45,15 @@
       "total" : 3
     }
   }, {
-    "uid" : "1124efdfc09cf971db0d46232330b641",
-    "name" : "tests.test_other_documents",
+    "uid" : "461fee459cc956a0795d2d1752182981",
+    "name" : "tests.test_requests_spending_budget_funds",
     "statistic" : {
       "failed" : 1,
-      "broken" : 2,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 18
+      "total" : 13
     }
   }, {
     "uid" : "87649828d4c8f17314dce29694a8a5d7",
@@ -65,6 +65,17 @@
       "passed" : 4,
       "unknown" : 0,
       "total" : 5
+    }
+  }, {
+    "uid" : "9cb0194ba362d0a22553710688da4977",
+    "name" : "tests.test_hiring_employee",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
     }
   }, {
     "uid" : "cbcd27c64e59766246cf4d5241bd852e",
@@ -89,26 +100,15 @@
       "total" : 1
     }
   }, {
-    "uid" : "9267075e6604f5d47e0a0e06b859f6b5",
-    "name" : "tests.test_applications_for_closing_documents",
+    "uid" : "1124efdfc09cf971db0d46232330b641",
+    "name" : "tests.test_other_documents",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "1273c9cf0506af2205a1e443d7be5096",
-    "name" : "tests.test_requests_transfer_funds",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
+      "total" : 16
     }
   } ]
 }

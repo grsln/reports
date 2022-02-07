@@ -1,0 +1,20 @@
+2022-02-06 11:58:17 INFO Создание документа
+2022-02-06 11:58:43 INFO Отправка на согласование
+2022-02-06 11:58:43 INFO execute button command
+2022-02-06 11:58:49 INFO assert states
+2022-02-06 11:58:49 INFO Согласование руководителем
+2022-02-06 11:59:07 INFO execute button command
+2022-02-06 11:59:07 INFO assert states
+2022-02-06 11:59:17 INFO Согласование руководителем
+2022-02-06 11:59:36 INFO execute button command
+2022-02-06 11:59:36 INFO assert states
+2022-02-06 11:59:46 INFO Согласование руководителем
+2022-02-06 12:00:05 INFO execute button command
+2022-02-06 12:00:05 INFO assert states
+2022-02-06 12:00:16 INFO Отправка на доработку
+2022-02-06 12:00:34 INFO execute button command
+2022-02-06 12:00:34 INFO close rework window
+2022-02-06 12:00:43 INFO assert states
+2022-02-06 12:00:43 INFO Удаление документа
+2022-02-06 12:00:58 INFO delete
+2022-02-06 12:00:58 INFO accept alert

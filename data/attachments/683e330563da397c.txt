@@ -1,0 +1,27 @@
+2022-02-06 13:33:15 INFO login "Юлия Горохова".
+2022-02-06 13:33:30 INFO Open contract create page
+2022-02-06 13:33:33 INFO choice "ИП Шафигуллин Айдар Раисович"
+2022-02-06 13:33:33 INFO write "Договор лицензии тест1"
+2022-02-06 13:33:33 INFO choice file
+2022-02-06 13:33:34 INFO write "t1@t1.t1"
+2022-02-06 13:33:34 INFO click send_button
+2022-02-06 13:34:09 INFO Send for consideration
+2022-02-06 13:34:15 INFO login "Анна Хасанова".
+2022-02-06 13:34:25 INFO open contract page
+2022-02-06 13:34:31 INFO approve_contract_on_page
+2022-02-06 13:34:31 INFO open_contract
+2022-02-06 13:34:39 INFO find_contract Договор лицензии тест1
+2022-02-06 13:34:41 INFO login "Эльвира Мингазова".
+2022-02-06 13:34:49 INFO open contract page
+2022-02-06 13:34:55 INFO approve_contract_on_page
+2022-02-06 13:34:55 INFO open_contract
+2022-02-06 13:35:02 INFO find_contract Договор лицензии тест1
+2022-02-06 13:35:05 INFO login "Марина Абдрахманова".
+2022-02-06 13:35:13 INFO open contract page
+2022-02-06 13:35:18 INFO approve_contract_on_page
+2022-02-06 13:35:18 INFO open_contract
+2022-02-06 13:35:29 INFO find_contract Договор лицензии тест1
+2022-02-06 13:35:31 INFO open_contract_admin
+2022-02-06 13:35:42 INFO find_contract Договор лицензии тест1
+2022-02-06 13:35:45 INFO delete
+2022-02-06 13:35:45 INFO accept alert

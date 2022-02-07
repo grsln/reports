@@ -1,0 +1,16 @@
+2022-02-06 11:23:19 INFO Создание приказа
+2022-02-06 11:23:55 INFO Отправка приказа на рассмотрение
+2022-02-06 11:23:55 INFO execute button command
+2022-02-06 11:24:02 INFO assert states
+2022-02-06 11:24:02 INFO Одобрение приказа на стадии проверки корректности
+2022-02-06 11:24:20 INFO execute button command
+2022-02-06 11:24:20 INFO assert states
+2022-02-06 11:24:30 INFO Согласование приказа 1ым согласующим
+2022-02-06 11:24:49 INFO execute button command
+2022-02-06 11:24:49 INFO assert states
+2022-02-06 11:24:55 INFO Согласование приказа 2ым согласующим
+2022-02-06 11:25:15 INFO execute button command
+2022-02-06 11:25:15 INFO assert states
+2022-02-06 11:25:21 INFO Согласование приказа 3им согласующим
+2022-02-06 11:25:38 INFO execute button command
+2022-02-06 11:25:39 INFO assert states

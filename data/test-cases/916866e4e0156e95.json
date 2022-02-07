@@ -1,0 +1,215 @@
+{
+  "uid" : "916866e4e0156e95",
+  "name" : "test_create_request_transfer_funds",
+  "fullName" : "tests.test_requests_transfer_funds.test_requests_transfer_funds.TestTransferFunds#test_create_request_transfer_funds",
+  "historyId" : "fae217360b9e0b02ffc31837252a37ba",
+  "time" : {
+    "start" : 1644164473453,
+    "stop" : 1644164514920,
+    "duration" : 41467
+  },
+  "description" : "\n        Создание Заявки на перечисление денежных средств на основе созданной ранее Заявки на расходование средств\n        бюджета\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/60879\n        ",
+  "descriptionHtml" : "<pre><code>    Создание Заявки на перечисление денежных средств на основе созданной ранее Заявки на расходование средств\n    бюджета\n    https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/60879\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1644154265052,
+      "stop" : 1644154265141,
+      "duration" : 89
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_admin",
+    "time" : {
+      "start" : 1644154265141,
+      "stop" : 1644154269235,
+      "duration" : 4094
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        Создание Заявки на перечисление денежных средств на основе созданной ранее Заявки на расходование средств\n        бюджета\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/60879\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1644164473453,
+        "stop" : 1644164484270,
+        "duration" : 10817
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1644164473453,
+          "stop" : 1644164474159,
+          "duration" : 706
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "<common.user.User object at 0x7f0d33df9670>"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнить обязательные поля",
+      "time" : {
+        "start" : 1644164496693,
+        "stop" : 1644164504105,
+        "duration" : 7412
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Удаление созданной заявки на перечисление денежных средств",
+      "time" : {
+        "start" : 1644164509894,
+        "stop" : 1644164514920,
+        "duration" : 5026
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name_request_transfer_funds",
+        "value" : "'Тест-Кейс на Заявки на перечисление денежных средств на сумму 1,4 13:31:05.046779'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "auth_admin::0",
+    "time" : {
+      "start" : 1644164514922,
+      "stop" : 1644164514953,
+      "duration" : 31
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.test_requests_transfer_funds"
+  }, {
+    "name" : "suite",
+    "value" : "test_requests_transfer_funds"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTransferFunds"
+  }, {
+    "name" : "host",
+    "value" : "portal-test-qa-7zmn4"
+  }, {
+    "name" : "thread",
+    "value" : "9-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_requests_transfer_funds.test_requests_transfer_funds"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8d490f06a6832d2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644150754218,
+        "stop" : 1644150807065,
+        "duration" : 52847
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "d93835c82aa48674",
+        "reportUrl" : "../2/index.html#testresult/d93835c82aa48674",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644150754218,
+          "stop" : 1644150807065,
+          "duration" : 52847
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "916866e4e0156e95.json",
+  "parameterValues" : [ ]
+}

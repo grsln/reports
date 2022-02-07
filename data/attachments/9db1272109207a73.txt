@@ -1,0 +1,27 @@
+2022-02-06 14:49:05 INFO login "Мария Осипова".
+2022-02-06 14:49:19 INFO Open hiring request create page
+2022-02-06 14:49:33 INFO title "Хлебопёк", id "440130".
+2022-02-06 14:49:33 INFO Send for consideration
+2022-02-06 14:49:40 INFO Login Анна Хасанова
+2022-02-06 14:49:50 INFO Open hiring request page
+2022-02-06 14:49:56 INFO For omission of agreement
+2022-02-06 14:50:00 INFO Back to search
+2022-02-06 14:50:09 INFO Open hiring request page
+2022-02-06 14:50:20 INFO Candidate search
+2022-02-06 14:50:21 INFO Login Рамиль Кулеев
+2022-02-06 14:50:32 INFO Open hiring request page
+2022-02-06 14:50:38 INFO Approve modal window
+2022-02-06 14:50:39 INFO Open hiring request
+2022-02-06 14:50:45 INFO Find hiring request Хлебопёк
+2022-02-06 14:50:45 INFO Find hiring request
+2022-02-06 14:50:48 INFO Approve supervisor
+2022-02-06 14:50:48 INFO Login Искандер Бариев
+2022-02-06 14:50:56 INFO Open hiring request page
+2022-02-06 14:51:10 INFO Approve modal window
+2022-02-06 14:51:10 INFO Open hiring request
+2022-02-06 14:51:23 INFO Find hiring request Хлебопёк
+2022-02-06 14:51:23 INFO Find hiring request
+2022-02-06 14:51:27 INFO Approve supervisor
+2022-02-06 14:51:27 INFO Login Кирилл Семенихин
+2022-02-06 14:51:35 INFO Open hiring request page
+2022-02-06 14:51:41 INFO Approve check box

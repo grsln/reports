@@ -1,0 +1,7 @@
+2022-02-06 14:01:25 INFO login "Илья Манаев".
+2022-02-06 14:01:41 INFO Open contract create page
+2022-02-06 14:01:44 INFO choice "Маринина Марина Мариновна"
+2022-02-06 14:01:45 INFO write "Договор купли продажи с самозанятым тест6"
+2022-02-06 14:01:45 INFO choice file
+2022-02-06 14:01:45 INFO write "t1@t1.t1"
+2022-02-06 14:01:45 INFO click send_button

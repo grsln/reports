@@ -1,0 +1,381 @@
+{
+  "uid" : "c22f367b75bc2903",
+  "name" : "test_contract_gph_standart_free",
+  "fullName" : "tests.test_contracts_gph.test_business_process_contract_gph_standart.TestContractGPHChanges#test_contract_gph_standart_free",
+  "historyId" : "2a0c91a4be29299fbb26fb623dcd94e9",
+  "time" : {
+    "start" : 1644509033905,
+    "stop" : 1644509079757,
+    "duration" : 45852
+  },
+  "description" : "\n        Договор ГПХ стандартноая форма перевод в свободную\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/60806\n        Consideration of the first group of approvers (varies for each user)\n        ",
+  "descriptionHtml" : "<pre><code>    Договор ГПХ стандартноая форма перевод в свободную\n    https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/60806\n    Consideration of the first group of approvers (varies for each user)\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#pagetitle')).has text Список\n\nReason: StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1644506296801/1644506296811.png\nPageSource: file:///home/seluser/.selene/screenshots/1644506296801/1644506296811.html",
+  "statusTrace" : "self = <selene.core.wait.Wait object at 0x7f2ec967b760>\nfn = <selene.core.conditions.ElementCondition object at 0x7f2ec967b850>\n\n    def for_(self, fn: Callable[[E], R]) -> R:\n        finish_time = time.time() + self._timeout\n    \n        while True:\n            try:\n>               return fn(self._entity)\n\n/usr/local/lib/python3.8/dist-packages/selene/core/wait.py:102: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selene.core.conditions.ElementCondition object at 0x7f2ec967b850>\nargs = (<selene.core.entity.Element object at 0x7f2ed549aa00>,), kwargs = {}\n\n    def __call__(self, *args, **kwargs):\n>       return self._fn(*args, **kwargs)\n\n/usr/local/lib/python3.8/dist-packages/selene/core/condition.py:136: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nentity = <selene.core.entity.Element object at 0x7f2ed549aa00>\n\n    def fn(entity: E) -> None:\n        query_to_str = str(query)\n        result = (\n            query.__name__\n            if query_to_str.startswith('<function')\n            else query_to_str\n        )\n>       actual = query(entity)\n\n/usr/local/lib/python3.8/dist-packages/selene/core/condition.py:107: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selene.core.wait.Query object at 0x7f2ed56f02b0>\nentity = <selene.core.entity.Element object at 0x7f2ed549aa00>\n\n    def __call__(self, entity: T) -> R:\n>       return self._fn(entity)\n\n/usr/local/lib/python3.8/dist-packages/selene/core/wait.py:56: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nelement = <selene.core.entity.Element object at 0x7f2ed549aa00>\n\n>   text: Query[Element, str] = Query('text', lambda element: element().text)\n\n/usr/local/lib/python3.8/dist-packages/selene/core/query.py:47: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.remote.webelement.WebElement (session=\"ef22365b1f8974361382f87b597fb334\", element=\"68c4590f-1ac1-4dea-8dd5-5577ef309f05\")>\n\n    @property\n    def text(self):\n        \"\"\"The text of the element.\"\"\"\n>       return self._execute(Command.GET_ELEMENT_TEXT)['value']\n\n/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webelement.py:76: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.remote.webelement.WebElement (session=\"ef22365b1f8974361382f87b597fb334\", element=\"68c4590f-1ac1-4dea-8dd5-5577ef309f05\")>\ncommand = 'getElementText'\nparams = {'id': '68c4590f-1ac1-4dea-8dd5-5577ef309f05', 'sessionId': 'ef22365b1f8974361382f87b597fb334'}\n\n    def _execute(self, command, params=None):\n        \"\"\"Executes a command against the underlying HTML element.\n    \n        Args:\n          command: The name of the command to _execute as a string.\n          params: A dictionary of named parameters to send with the command.\n    \n        Returns:\n          The command's JSON response loaded into a dictionary object.\n        \"\"\"\n        if not params:\n            params = {}\n        params['id'] = self._id\n>       return self._parent.execute(command, params)\n\n/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webelement.py:633: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"ef22365b1f8974361382f87b597fb334\")>\ndriver_command = 'getElementText'\nparams = {'id': '68c4590f-1ac1-4dea-8dd5-5577ef309f05'}\n\n    def execute(self, driver_command, params=None):\n        \"\"\"\n        Sends a command to be executed by a command.CommandExecutor.\n    \n        :Args:\n         - driver_command: The name of the command to execute as a string.\n         - params: A dictionary of named parameters to send with the command.\n    \n        :Returns:\n          The command's JSON response loaded into a dictionary object.\n        \"\"\"\n        if self.session_id is not None:\n            if not params:\n                params = {'sessionId': self.session_id}\n            elif 'sessionId' not in params:\n                params['sessionId'] = self.session_id\n    \n        params = self._wrap_value(params)\n        response = self.command_executor.execute(driver_command, params)\n        if response:\n>           self.error_handler.check_response(response)\n\n/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py:321: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x7f2ed54ec9d0>\nresponse = {'status': 404, 'value': '{\"value\":{\"error\":\"stale element reference\",\"message\":\"stale element reference: element is n...\\\\n#19 0x5649dc4c9c68 \\\\u003Cunknown>\\\\n#20 0x5649dc4e4aad \\\\u003Cunknown>\\\\n#21 0x7fa5b3edc609 \\\\u003Cunknown>\\\\n\"}}'}\n\n    def check_response(self, response):\n        \"\"\"\n        Checks that a JSON response from the WebDriver does not have an error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get('status', None)\n        if status is None or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(\"message\", \"\")\n        screen = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get('value', None)\n            if value_json and isinstance(value_json, basestring):\n                import json\n                try:\n                    value = json.loads(value_json)\n                    if len(value.keys()) == 1:\n                        value = value['value']\n                    status = value.get('error', None)\n                    if status is None:\n                        status = value[\"status\"]\n                        message = value[\"value\"]\n                        if not isinstance(message, basestring):\n                            value = message\n                            message = message.get('message')\n                    else:\n                        message = value.get('message', None)\n                except ValueError:\n                    pass\n    \n        exception_class = ErrorInResponseException\n        if status in ErrorCode.NO_SUCH_ELEMENT:\n            exception_class = NoSuchElementException\n        elif status in ErrorCode.NO_SUCH_FRAME:\n            exception_class = NoSuchFrameException\n        elif status in ErrorCode.NO_SUCH_WINDOW:\n            exception_class = NoSuchWindowException\n        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:\n            exception_class = StaleElementReferenceException\n        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:\n            exception_class = ElementNotVisibleException\n        elif status in ErrorCode.INVALID_ELEMENT_STATE:\n            exception_class = InvalidElementStateException\n        elif status in ErrorCode.INVALID_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER:\n            exception_class = InvalidSelectorException\n        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:\n            exception_class = ElementNotSelectableException\n        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:\n            exception_class = ElementNotInteractableException\n        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:\n            exception_class = InvalidCookieDomainException\n        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:\n            exception_class = UnableToSetCookieException\n        elif status in ErrorCode.TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.SCRIPT_TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.UNKNOWN_ERROR:\n            exception_class = WebDriverException\n        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:\n            exception_class = UnexpectedAlertPresentException\n        elif status in ErrorCode.NO_ALERT_OPEN:\n            exception_class = NoAlertPresentException\n        elif status in ErrorCode.IME_NOT_AVAILABLE:\n            exception_class = ImeNotAvailableException\n        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:\n            exception_class = ImeActivationFailedException\n        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:\n            exception_class = MoveTargetOutOfBoundsException\n        elif status in ErrorCode.JAVASCRIPT_ERROR:\n            exception_class = JavascriptException\n        elif status in ErrorCode.SESSION_NOT_CREATED:\n            exception_class = SessionNotCreatedException\n        elif status in ErrorCode.INVALID_ARGUMENT:\n            exception_class = InvalidArgumentException\n        elif status in ErrorCode.NO_SUCH_COOKIE:\n            exception_class = NoSuchCookieException\n        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:\n            exception_class = ScreenshotException\n        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:\n            exception_class = ElementClickInterceptedException\n        elif status in ErrorCode.INSECURE_CERTIFICATE:\n            exception_class = InsecureCertificateException\n        elif status in ErrorCode.INVALID_COORDINATES:\n            exception_class = InvalidCoordinatesException\n        elif status in ErrorCode.INVALID_SESSION_ID:\n            exception_class = InvalidSessionIdException\n        elif status in ErrorCode.UNKNOWN_METHOD:\n            exception_class = UnknownMethodException\n        else:\n            exception_class = WebDriverException\n        if value == '' or value is None:\n            value = response['value']\n        if isinstance(value, basestring):\n            if exception_class == ErrorInResponseException:\n                raise exception_class(response, value)\n            raise exception_class(value)\n        if message == \"\" and 'message' in value:\n            message = value['message']\n    \n        screen = None\n        if 'screen' in value:\n            screen = value['screen']\n    \n        stacktrace = None\n        if 'stackTrace' in value and value['stackTrace']:\n            stacktrace = []\n            try:\n                for frame in value['stackTrace']:\n                    line = self._value_or_default(frame, 'lineNumber', '')\n                    file = self._value_or_default(frame, 'fileName', '<anonymous>')\n                    if line:\n                        file = \"%s:%s\" % (file, line)\n                    meth = self._value_or_default(frame, 'methodName', '<anonymous>')\n                    if 'className' in frame:\n                        meth = \"%s.%s\" % (frame['className'], meth)\n                    msg = \"    at %s (%s)\"\n                    msg = msg % (meth, file)\n                    stacktrace.append(msg)\n            except TypeError:\n                pass\n        if exception_class == ErrorInResponseException:\n            raise exception_class(response, message)\n        elif exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if 'data' in value:\n                alert_text = value['data'].get('text')\n            elif 'alert' in value:\n                alert_text = value['alert'].get('text')\n            raise exception_class(message, screen, stacktrace, alert_text)\n>       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\nE         (Session info: chrome=97.0.4692.99)\n\n/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/errorhandler.py:242: StaleElementReferenceException\n\nDuring handling of the above exception, another exception occurred:\n\nself = <tests.test_contracts_gph.test_business_process_contract_gph_standart.TestContractGPHChanges object at 0x7f2ec95befa0>\nfor_contract_gph_standart = <models.contract_gph_data.ContractGPH object at 0x7f2ec95be100>\n\n    def test_contract_gph_standart_free(self, for_contract_gph_standart):\n        \"\"\"\n        Договор ГПХ стандартноая форма перевод в свободную\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/60806\n        Consideration of the first group of approvers (varies for each user)\n        \"\"\"\n        contract_gph = for_contract_gph_standart\n        contract_gph_edit_page.edit_sontract_gph_to_free()\n        contract_gph_edit_page.assert_change.should_not(be.visible)\n        contract_gph_page.send_consideration()\n        # delete contract\n        contract_gph_process_page.open_contract_admin()\n        logger.info(f\"find_contract {contract_gph.contract_gph_name}\")\n        contract_gph_list_page.find_contract_gph(contract_gph.contract_gph_name)\n>       base_page.delete()\n\ntests/test_contracts_gph/test_business_process_contract_gph_standart.py:263: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/base_page.py:24: in delete\n    self.title.should(have.text(\"Список\"))\n/usr/local/lib/python3.8/dist-packages/selene/core/entity.py:379: in should\n    super().should(condition)\n/usr/local/lib/python3.8/dist-packages/selene/core/entity.py:122: in should\n    self.wait.for_(condition)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selene.core.wait.Wait object at 0x7f2ec967b760>\nfn = <selene.core.conditions.ElementCondition object at 0x7f2ec967b850>\n\n        def for_(self, fn: Callable[[E], R]) -> R:\n            finish_time = time.time() + self._timeout\n    \n            while True:\n                try:\n                    return fn(self._entity)\n                except Exception as reason:\n                    if time.time() > finish_time:\n    \n                        reason_message = str(reason)\n    \n                        reason_string = '{name}: {message}'.format(\n                            name=reason.__class__.__name__, message=reason_message\n                        )\n                        # todo: think on how can we improve logging failures in selene, e.g. reverse msg and stacktrace\n                        # stacktrace = getattr(reason, 'stacktrace', None)\n                        timeout = self._timeout\n                        entity = self._entity\n    \n                        failure = TimeoutException(\n                            f'''\n    \n    Timed out after {timeout}s, while waiting for:\n    {entity}.{fn}\n    \n    Reason: {reason_string}'''\n                        )\n    \n>                       raise self._hook_failure(failure)\nE                       selene.core.exceptions.TimeoutException: Message: \nE                       \nE                       Timed out after 10s, while waiting for:\nE                       browser.element(('css selector', '#pagetitle')).has text Список\nE                       \nE                       Reason: StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\nE                         (Session info: chrome=97.0.4692.99)\nE                       \nE                       Screenshot: file:///home/seluser/.selene/screenshots/1644506296801/1644506296811.png\nE                       PageSource: file:///home/seluser/.selene/screenshots/1644506296801/1644506296811.html\n\n/usr/local/lib/python3.8/dist-packages/selene/core/wait.py:125: TimeoutException",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1644506297641,
+      "stop" : 1644506297732,
+      "duration" : 91
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_admin",
+    "time" : {
+      "start" : 1644506297732,
+      "stop" : 1644506313078,
+      "duration" : 15346
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "for_contract_gph_standart",
+    "time" : {
+      "start" : 1644509002484,
+      "stop" : 1644509033905,
+      "duration" : 31421
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1644509002484,
+        "stop" : 1644509011315,
+        "duration" : 8831
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1644509002484,
+          "stop" : 1644509003146,
+          "duration" : 662
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "<common.user.User object at 0x7f2ed54877f0>"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Open contract create page",
+      "time" : {
+        "start" : 1644509021318,
+        "stop" : 1644509025432,
+        "duration" : 4114
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Заполнить обязательные поля",
+      "time" : {
+        "start" : 1644509025432,
+        "stop" : 1644509027820,
+        "duration" : 2388
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "data",
+        "value" : "<models.contract_gph_data.ContractGPHRandom object at 0x7f2ec95beb50>"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Сохранение договора",
+      "time" : {
+        "start" : 1644509027820,
+        "stop" : 1644509033837,
+        "duration" : 6017
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Получение номера договора",
+      "time" : {
+        "start" : 1644509033837,
+        "stop" : 1644509033864,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Получение номера договора",
+      "time" : {
+        "start" : 1644509033865,
+        "stop" : 1644509033890,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "ASSERT",
+      "time" : {
+        "start" : 1644509033890,
+        "stop" : 1644509033904,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "contract_gph",
+        "value" : "'Договор ГПХ стандартный шаблон тест2 16:03:31.315017'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "\n        Договор ГПХ стандартноая форма перевод в свободную\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/60806\n        Consideration of the first group of approvers (varies for each user)\n        ",
+    "status" : "failed",
+    "statusMessage" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#pagetitle')).has text Список\n\nReason: StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1644506296801/1644506296811.png\nPageSource: file:///home/seluser/.selene/screenshots/1644506296801/1644506296811.html",
+    "statusTrace" : "self = <selene.core.wait.Wait object at 0x7f2ec967b760>\nfn = <selene.core.conditions.ElementCondition object at 0x7f2ec967b850>\n\n    def for_(self, fn: Callable[[E], R]) -> R:\n        finish_time = time.time() + self._timeout\n    \n        while True:\n            try:\n>               return fn(self._entity)\n\n/usr/local/lib/python3.8/dist-packages/selene/core/wait.py:102: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selene.core.conditions.ElementCondition object at 0x7f2ec967b850>\nargs = (<selene.core.entity.Element object at 0x7f2ed549aa00>,), kwargs = {}\n\n    def __call__(self, *args, **kwargs):\n>       return self._fn(*args, **kwargs)\n\n/usr/local/lib/python3.8/dist-packages/selene/core/condition.py:136: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nentity = <selene.core.entity.Element object at 0x7f2ed549aa00>\n\n    def fn(entity: E) -> None:\n        query_to_str = str(query)\n        result = (\n            query.__name__\n            if query_to_str.startswith('<function')\n            else query_to_str\n        )\n>       actual = query(entity)\n\n/usr/local/lib/python3.8/dist-packages/selene/core/condition.py:107: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selene.core.wait.Query object at 0x7f2ed56f02b0>\nentity = <selene.core.entity.Element object at 0x7f2ed549aa00>\n\n    def __call__(self, entity: T) -> R:\n>       return self._fn(entity)\n\n/usr/local/lib/python3.8/dist-packages/selene/core/wait.py:56: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nelement = <selene.core.entity.Element object at 0x7f2ed549aa00>\n\n>   text: Query[Element, str] = Query('text', lambda element: element().text)\n\n/usr/local/lib/python3.8/dist-packages/selene/core/query.py:47: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.remote.webelement.WebElement (session=\"ef22365b1f8974361382f87b597fb334\", element=\"68c4590f-1ac1-4dea-8dd5-5577ef309f05\")>\n\n    @property\n    def text(self):\n        \"\"\"The text of the element.\"\"\"\n>       return self._execute(Command.GET_ELEMENT_TEXT)['value']\n\n/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webelement.py:76: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.remote.webelement.WebElement (session=\"ef22365b1f8974361382f87b597fb334\", element=\"68c4590f-1ac1-4dea-8dd5-5577ef309f05\")>\ncommand = 'getElementText'\nparams = {'id': '68c4590f-1ac1-4dea-8dd5-5577ef309f05', 'sessionId': 'ef22365b1f8974361382f87b597fb334'}\n\n    def _execute(self, command, params=None):\n        \"\"\"Executes a command against the underlying HTML element.\n    \n        Args:\n          command: The name of the command to _execute as a string.\n          params: A dictionary of named parameters to send with the command.\n    \n        Returns:\n          The command's JSON response loaded into a dictionary object.\n        \"\"\"\n        if not params:\n            params = {}\n        params['id'] = self._id\n>       return self._parent.execute(command, params)\n\n/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webelement.py:633: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"ef22365b1f8974361382f87b597fb334\")>\ndriver_command = 'getElementText'\nparams = {'id': '68c4590f-1ac1-4dea-8dd5-5577ef309f05'}\n\n    def execute(self, driver_command, params=None):\n        \"\"\"\n        Sends a command to be executed by a command.CommandExecutor.\n    \n        :Args:\n         - driver_command: The name of the command to execute as a string.\n         - params: A dictionary of named parameters to send with the command.\n    \n        :Returns:\n          The command's JSON response loaded into a dictionary object.\n        \"\"\"\n        if self.session_id is not None:\n            if not params:\n                params = {'sessionId': self.session_id}\n            elif 'sessionId' not in params:\n                params['sessionId'] = self.session_id\n    \n        params = self._wrap_value(params)\n        response = self.command_executor.execute(driver_command, params)\n        if response:\n>           self.error_handler.check_response(response)\n\n/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py:321: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x7f2ed54ec9d0>\nresponse = {'status': 404, 'value': '{\"value\":{\"error\":\"stale element reference\",\"message\":\"stale element reference: element is n...\\\\n#19 0x5649dc4c9c68 \\\\u003Cunknown>\\\\n#20 0x5649dc4e4aad \\\\u003Cunknown>\\\\n#21 0x7fa5b3edc609 \\\\u003Cunknown>\\\\n\"}}'}\n\n    def check_response(self, response):\n        \"\"\"\n        Checks that a JSON response from the WebDriver does not have an error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get('status', None)\n        if status is None or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(\"message\", \"\")\n        screen = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get('value', None)\n            if value_json and isinstance(value_json, basestring):\n                import json\n                try:\n                    value = json.loads(value_json)\n                    if len(value.keys()) == 1:\n                        value = value['value']\n                    status = value.get('error', None)\n                    if status is None:\n                        status = value[\"status\"]\n                        message = value[\"value\"]\n                        if not isinstance(message, basestring):\n                            value = message\n                            message = message.get('message')\n                    else:\n                        message = value.get('message', None)\n                except ValueError:\n                    pass\n    \n        exception_class = ErrorInResponseException\n        if status in ErrorCode.NO_SUCH_ELEMENT:\n            exception_class = NoSuchElementException\n        elif status in ErrorCode.NO_SUCH_FRAME:\n            exception_class = NoSuchFrameException\n        elif status in ErrorCode.NO_SUCH_WINDOW:\n            exception_class = NoSuchWindowException\n        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:\n            exception_class = StaleElementReferenceException\n        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:\n            exception_class = ElementNotVisibleException\n        elif status in ErrorCode.INVALID_ELEMENT_STATE:\n            exception_class = InvalidElementStateException\n        elif status in ErrorCode.INVALID_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER:\n            exception_class = InvalidSelectorException\n        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:\n            exception_class = ElementNotSelectableException\n        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:\n            exception_class = ElementNotInteractableException\n        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:\n            exception_class = InvalidCookieDomainException\n        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:\n            exception_class = UnableToSetCookieException\n        elif status in ErrorCode.TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.SCRIPT_TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.UNKNOWN_ERROR:\n            exception_class = WebDriverException\n        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:\n            exception_class = UnexpectedAlertPresentException\n        elif status in ErrorCode.NO_ALERT_OPEN:\n            exception_class = NoAlertPresentException\n        elif status in ErrorCode.IME_NOT_AVAILABLE:\n            exception_class = ImeNotAvailableException\n        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:\n            exception_class = ImeActivationFailedException\n        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:\n            exception_class = MoveTargetOutOfBoundsException\n        elif status in ErrorCode.JAVASCRIPT_ERROR:\n            exception_class = JavascriptException\n        elif status in ErrorCode.SESSION_NOT_CREATED:\n            exception_class = SessionNotCreatedException\n        elif status in ErrorCode.INVALID_ARGUMENT:\n            exception_class = InvalidArgumentException\n        elif status in ErrorCode.NO_SUCH_COOKIE:\n            exception_class = NoSuchCookieException\n        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:\n            exception_class = ScreenshotException\n        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:\n            exception_class = ElementClickInterceptedException\n        elif status in ErrorCode.INSECURE_CERTIFICATE:\n            exception_class = InsecureCertificateException\n        elif status in ErrorCode.INVALID_COORDINATES:\n            exception_class = InvalidCoordinatesException\n        elif status in ErrorCode.INVALID_SESSION_ID:\n            exception_class = InvalidSessionIdException\n        elif status in ErrorCode.UNKNOWN_METHOD:\n            exception_class = UnknownMethodException\n        else:\n            exception_class = WebDriverException\n        if value == '' or value is None:\n            value = response['value']\n        if isinstance(value, basestring):\n            if exception_class == ErrorInResponseException:\n                raise exception_class(response, value)\n            raise exception_class(value)\n        if message == \"\" and 'message' in value:\n            message = value['message']\n    \n        screen = None\n        if 'screen' in value:\n            screen = value['screen']\n    \n        stacktrace = None\n        if 'stackTrace' in value and value['stackTrace']:\n            stacktrace = []\n            try:\n                for frame in value['stackTrace']:\n                    line = self._value_or_default(frame, 'lineNumber', '')\n                    file = self._value_or_default(frame, 'fileName', '<anonymous>')\n                    if line:\n                        file = \"%s:%s\" % (file, line)\n                    meth = self._value_or_default(frame, 'methodName', '<anonymous>')\n                    if 'className' in frame:\n                        meth = \"%s.%s\" % (frame['className'], meth)\n                    msg = \"    at %s (%s)\"\n                    msg = msg % (meth, file)\n                    stacktrace.append(msg)\n            except TypeError:\n                pass\n        if exception_class == ErrorInResponseException:\n            raise exception_class(response, message)\n        elif exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if 'data' in value:\n                alert_text = value['data'].get('text')\n            elif 'alert' in value:\n                alert_text = value['alert'].get('text')\n            raise exception_class(message, screen, stacktrace, alert_text)\n>       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\nE         (Session info: chrome=97.0.4692.99)\n\n/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/errorhandler.py:242: StaleElementReferenceException\n\nDuring handling of the above exception, another exception occurred:\n\nself = <tests.test_contracts_gph.test_business_process_contract_gph_standart.TestContractGPHChanges object at 0x7f2ec95befa0>\nfor_contract_gph_standart = <models.contract_gph_data.ContractGPH object at 0x7f2ec95be100>\n\n    def test_contract_gph_standart_free(self, for_contract_gph_standart):\n        \"\"\"\n        Договор ГПХ стандартноая форма перевод в свободную\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/60806\n        Consideration of the first group of approvers (varies for each user)\n        \"\"\"\n        contract_gph = for_contract_gph_standart\n        contract_gph_edit_page.edit_sontract_gph_to_free()\n        contract_gph_edit_page.assert_change.should_not(be.visible)\n        contract_gph_page.send_consideration()\n        # delete contract\n        contract_gph_process_page.open_contract_admin()\n        logger.info(f\"find_contract {contract_gph.contract_gph_name}\")\n        contract_gph_list_page.find_contract_gph(contract_gph.contract_gph_name)\n>       base_page.delete()\n\ntests/test_contracts_gph/test_business_process_contract_gph_standart.py:263: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/base_page.py:24: in delete\n    self.title.should(have.text(\"Список\"))\n/usr/local/lib/python3.8/dist-packages/selene/core/entity.py:379: in should\n    super().should(condition)\n/usr/local/lib/python3.8/dist-packages/selene/core/entity.py:122: in should\n    self.wait.for_(condition)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selene.core.wait.Wait object at 0x7f2ec967b760>\nfn = <selene.core.conditions.ElementCondition object at 0x7f2ec967b850>\n\n        def for_(self, fn: Callable[[E], R]) -> R:\n            finish_time = time.time() + self._timeout\n    \n            while True:\n                try:\n                    return fn(self._entity)\n                except Exception as reason:\n                    if time.time() > finish_time:\n    \n                        reason_message = str(reason)\n    \n                        reason_string = '{name}: {message}'.format(\n                            name=reason.__class__.__name__, message=reason_message\n                        )\n                        # todo: think on how can we improve logging failures in selene, e.g. reverse msg and stacktrace\n                        # stacktrace = getattr(reason, 'stacktrace', None)\n                        timeout = self._timeout\n                        entity = self._entity\n    \n                        failure = TimeoutException(\n                            f'''\n    \n    Timed out after {timeout}s, while waiting for:\n    {entity}.{fn}\n    \n    Reason: {reason_string}'''\n                        )\n    \n>                       raise self._hook_failure(failure)\nE                       selene.core.exceptions.TimeoutException: Message: \nE                       \nE                       Timed out after 10s, while waiting for:\nE                       browser.element(('css selector', '#pagetitle')).has text Список\nE                       \nE                       Reason: StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\nE                         (Session info: chrome=97.0.4692.99)\nE                       \nE                       Screenshot: file:///home/seluser/.selene/screenshots/1644506296801/1644506296811.png\nE                       PageSource: file:///home/seluser/.selene/screenshots/1644506296801/1644506296811.html\n\n/usr/local/lib/python3.8/dist-packages/selene/core/wait.py:125: TimeoutException",
+    "steps" : [ {
+      "name" : "Edit contract gph",
+      "time" : {
+        "start" : 1644509033905,
+        "stop" : 1644509039374,
+        "duration" : 5469
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Send for consideration",
+      "time" : {
+        "start" : 1644509039398,
+        "stop" : 1644509047349,
+        "duration" : 7951
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Авторизоваться под администратором портала",
+      "time" : {
+        "start" : 1644509047349,
+        "stop" : 1644509048120,
+        "duration" : 771
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Screen-shot done",
+      "time" : {
+        "start" : 1644509079819,
+        "stop" : 1644509080036,
+        "duration" : 217
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "466f1b6f69d3ca36",
+        "name" : "screenshot",
+        "source" : "466f1b6f69d3ca36.png",
+        "type" : "image/png",
+        "size" : 239356
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "468facaead2310f",
+      "name" : "log",
+      "source" : "468facaead2310f.txt",
+      "type" : "text/plain",
+      "size" : 621
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "for_contract_gph_standart::0",
+    "time" : {
+      "start" : 1644509080037,
+      "stop" : 1644509080037,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_admin::0",
+    "time" : {
+      "start" : 1644517973294,
+      "stop" : 1644517973559,
+      "duration" : 265
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "contract_gph"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.test_contracts_gph"
+  }, {
+    "name" : "suite",
+    "value" : "test_business_process_contract_gph_standart"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestContractGPHChanges"
+  }, {
+    "name" : "host",
+    "value" : "portal-test-qa-hqc9q"
+  }, {
+    "name" : "thread",
+    "value" : "6-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_contracts_gph.test_business_process_contract_gph_standart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a6977008dee725ef",
+        "reportUrl" : "../2/index.html#testresult/a6977008dee725ef",
+        "status" : "failed",
+        "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#pagetitle')).has text Список\n\nReason: StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1644506296801/1644506296811.png\nPageSource: file:///home/seluser/.selene/screenshots/1644506296801/1644506296811.html",
+        "time" : {
+          "start" : 1644509033905,
+          "stop" : 1644509079757,
+          "duration" : 45852
+        }
+      } ]
+    },
+    "tags" : [ "contract_gph" ]
+  },
+  "source" : "c22f367b75bc2903.json",
+  "parameterValues" : [ ]
+}

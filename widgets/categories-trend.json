@@ -3,16 +3,15 @@
   "reportUrl" : "../3/index.html",
   "reportName" : "portal",
   "data" : {
-    "Product defects" : 28,
-    "Test defects" : 1
+    "Product defects" : 22,
+    "Test defects" : 2
   }
 }, {
   "buildOrder" : 2,
   "reportUrl" : "../2/index.html",
   "reportName" : "portal",
   "data" : {
-    "Product defects" : 24,
-    "Test defects" : 1
+    "Product defects" : 21
   }
 }, {
   "buildOrder" : 1,

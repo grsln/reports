@@ -1,0 +1,13 @@
+2022-02-10 17:20:29 INFO Создание документа
+2022-02-10 17:20:58 INFO Отправка на согласование
+2022-02-10 17:20:58 INFO execute button command
+2022-02-10 17:21:05 INFO assert states
+2022-02-10 17:21:05 INFO Согласование руководителем
+2022-02-10 17:21:27 INFO execute button command
+2022-02-10 17:21:27 INFO assert states
+2022-02-10 17:21:36 INFO Согласование руководителем
+2022-02-10 17:21:57 INFO execute button command
+2022-02-10 17:21:57 INFO assert states
+2022-02-10 17:22:09 INFO Удаление документа
+2022-02-10 17:22:28 INFO delete
+2022-02-10 17:22:28 INFO accept alert

@@ -1,30 +1,19 @@
 {
-  "total" : 13,
+  "total" : 11,
   "items" : [ {
-    "uid" : "c4119966c9aa3e50e1fbf388d1715e61",
-    "name" : "tests.test_business_trips",
+    "uid" : "3ef8e34f4357bf053ddad0d414f7cefd",
+    "name" : "tests.test_decrees",
     "statistic" : {
-      "failed" : 11,
+      "failed" : 5,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 11
+      "total" : 14
     }
   }, {
     "uid" : "a767321e46deaf60e93e838aea5e76d9",
     "name" : "tests.test_contracts",
-    "statistic" : {
-      "failed" : 6,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 7,
-      "unknown" : 0,
-      "total" : 13
-    }
-  }, {
-    "uid" : "3ef8e34f4357bf053ddad0d414f7cefd",
-    "name" : "tests.test_decrees",
     "statistic" : {
       "failed" : 4,
       "broken" : 0,
@@ -34,37 +23,48 @@
       "total" : 13
     }
   }, {
-    "uid" : "a1cd174efde82ec8b4f2df4f548ee9b3",
-    "name" : "tests.test_applications_for_spending_budget_funds",
+    "uid" : "87649828d4c8f17314dce29694a8a5d7",
+    "name" : "tests.test_contracts_gph",
     "statistic" : {
-      "failed" : 2,
-      "broken" : 1,
+      "failed" : 4,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 3
+      "total" : 5
     }
   }, {
     "uid" : "461fee459cc956a0795d2d1752182981",
     "name" : "tests.test_requests_spending_budget_funds",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 10,
       "unknown" : 0,
       "total" : 13
     }
   }, {
-    "uid" : "87649828d4c8f17314dce29694a8a5d7",
-    "name" : "tests.test_contracts_gph",
+    "uid" : "c4119966c9aa3e50e1fbf388d1715e61",
+    "name" : "tests.test_business_trips",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 5
+      "total" : 2
+    }
+  }, {
+    "uid" : "1124efdfc09cf971db0d46232330b641",
+    "name" : "tests.test_other_documents",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 18
     }
   }, {
     "uid" : "9cb0194ba362d0a22553710688da4977",
@@ -100,15 +100,15 @@
       "total" : 1
     }
   }, {
-    "uid" : "1124efdfc09cf971db0d46232330b641",
-    "name" : "tests.test_other_documents",
+    "uid" : "7b3130a51c1016f6d4b70bdcf3f0250b",
+    "name" : "tests.test_requests_closing_documents",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 16,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 16
+      "total" : 1
     }
   } ]
 }

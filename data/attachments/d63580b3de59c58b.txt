@@ -1,0 +1,22 @@
+2022-02-10 15:37:20 INFO login "Юлия Горохова".
+2022-02-10 15:37:38 INFO Open contract create page
+2022-02-10 15:37:43 INFO choice "ООО "ТК "Сангрео""
+2022-02-10 15:37:44 INFO write "Договор купли продажи тест2"
+2022-02-10 15:37:44 INFO choice file
+2022-02-10 15:37:44 INFO write "t1@t1.t1"
+2022-02-10 15:37:44 INFO click send_button
+2022-02-10 15:38:18 INFO Send for consideration
+2022-02-10 15:38:26 INFO login "Анна Хасанова".
+2022-02-10 15:38:38 INFO open contract page
+2022-02-10 15:38:46 INFO approve_contract_on_page
+2022-02-10 15:38:46 INFO open_contract
+2022-02-10 15:38:56 INFO find_contract Договор купли продажи тест2
+2022-02-10 15:38:59 INFO login "Анна Хасанова".
+2022-02-10 15:39:08 INFO open contract page
+2022-02-10 15:39:15 INFO approve_contract_on_page
+2022-02-10 15:39:15 INFO open_contract
+2022-02-10 15:39:29 INFO find_contract Договор купли продажи тест2
+2022-02-10 15:39:33 INFO open_contract_admin
+2022-02-10 15:39:46 INFO find_contract Договор купли продажи тест2
+2022-02-10 15:39:51 INFO delete
+2022-02-10 15:39:51 INFO accept alert

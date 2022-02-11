@@ -1,0 +1,45 @@
+2022-02-10 16:41:31 INFO login "Мария Осипова".
+2022-02-10 16:41:50 INFO Open hiring request create page
+2022-02-10 16:42:06 INFO title "Фельдшер", id "440445".
+2022-02-10 16:42:06 INFO Send for consideration
+2022-02-10 16:42:15 INFO Login Рамиль Кулеев
+2022-02-10 16:42:24 INFO Open hiring request page
+2022-02-10 16:42:34 INFO Approve on page
+2022-02-10 16:42:34 INFO Open hiring request
+2022-02-10 16:42:44 INFO Find hiring request Фельдшер
+2022-02-10 16:42:44 INFO Find hiring request
+2022-02-10 16:42:48 INFO Approve supervisor
+2022-02-10 16:42:48 INFO Login Искандер Бариев
+2022-02-10 16:42:58 INFO Open hiring request page
+2022-02-10 16:43:17 INFO Approve on page
+2022-02-10 16:43:17 INFO Open hiring request
+2022-02-10 16:43:27 INFO Find hiring request Фельдшер
+2022-02-10 16:43:27 INFO Find hiring request
+2022-02-10 16:43:33 INFO Approve supervisor
+2022-02-10 16:43:33 INFO Login Анна Хасанова
+2022-02-10 16:43:45 INFO Open hiring request page
+2022-02-10 16:43:54 INFO Approve on page
+2022-02-10 16:43:54 INFO Open hiring request
+2022-02-10 16:44:08 INFO Find hiring request Фельдшер
+2022-02-10 16:44:08 INFO Find hiring request
+2022-02-10 16:44:13 INFO Approve supervisor
+2022-02-10 16:44:13 INFO Login Радик Валиев
+2022-02-10 16:44:25 INFO Open hiring request page
+2022-02-10 16:44:34 INFO Approve check box
+2022-02-10 16:44:42 INFO Open hiring request
+2022-02-10 16:44:52 INFO Find hiring request Фельдшер
+2022-02-10 16:44:52 INFO Find hiring request
+2022-02-10 16:44:57 INFO Approve supervisor
+2022-02-10 16:44:57 INFO Login Кирилл Семенихин
+2022-02-10 16:45:06 INFO Open hiring request page
+2022-02-10 16:45:18 INFO Approve check box
+2022-02-10 16:45:27 INFO Open hiring request
+2022-02-10 16:45:36 INFO Find hiring request Фельдшер
+2022-02-10 16:45:36 INFO Find hiring request
+2022-02-10 16:45:42 INFO Approve supervisor
+2022-02-10 16:45:42 INFO Open admin
+2022-02-10 16:45:48 INFO Open hiring request
+2022-02-10 16:45:56 INFO Find hiring request Фельдшер
+2022-02-10 16:45:56 INFO Find hiring request
+2022-02-10 16:46:01 INFO delete
+2022-02-10 16:46:01 INFO accept alert

@@ -1,0 +1,8 @@
+2022-02-10 16:46:07 INFO login "Мария Осипова".
+2022-02-10 16:46:26 INFO Open hiring request create page
+2022-02-10 16:46:43 INFO title "Секретчик", id "440447".
+2022-02-10 16:46:43 INFO Send for consideration
+2022-02-10 16:46:51 INFO Login Анна Хасанова
+2022-02-10 16:47:02 INFO Open hiring request page
+2022-02-10 16:47:13 INFO For omission of agreement
+2022-02-10 16:47:17 INFO Back to search

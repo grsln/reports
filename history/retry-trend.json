@@ -3,15 +3,15 @@
   "reportUrl" : "../3/index.html",
   "reportName" : "portal",
   "data" : {
-    "run" : 81,
-    "retry" : 51
+    "run" : 71,
+    "retry" : 0
   }
 }, {
   "buildOrder" : 2,
   "reportUrl" : "../2/index.html",
   "reportName" : "portal",
   "data" : {
-    "run" : 64,
+    "run" : 68,
     "retry" : 0
   }
 }, {

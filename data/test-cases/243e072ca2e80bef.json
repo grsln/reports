@@ -1,0 +1,786 @@
+{
+  "uid" : "243e072ca2e80bef",
+  "name" : "test_director_delegate_task",
+  "fullName" : "tests.test_requests_spending_budget_funds.test_requests_spending_budget_funds.TestSpendingBudgetFunds#test_director_delegate_task",
+  "historyId" : "3e54b17d144d9abc7a15a5962cca4596",
+  "time" : {
+    "start" : 1644517668010,
+    "stop" : 1644517871419,
+    "duration" : 203409
+  },
+  "description" : "\n        Заявки на расходование средств бюджета с перечислением денежных средств.\n        Директор делегирует согласование\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61921\n        ",
+  "descriptionHtml" : "<pre><code>    Заявки на расходование средств бюджета с перечислением денежных средств.\n    Директор делегирует согласование\n    https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61921\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАСХОД УТВЕРЖДЕН\n\nReason: AssertionError: actual text: ПОЖАЛУЙСТА, ПОДОЖДИТЕ...\nScreenshot: file:///home/seluser/.selene/screenshots/1644506296801/1644506296822.png\nPageSource: file:///home/seluser/.selene/screenshots/1644506296801/1644506296822.html",
+  "statusTrace" : "self = <selene.core.wait.Wait object at 0x7f2ec95fbaf0>\nfn = <selene.core.conditions.ElementCondition object at 0x7f2ec95fb190>\n\n    def for_(self, fn: Callable[[E], R]) -> R:\n        finish_time = time.time() + self._timeout\n    \n        while True:\n            try:\n>               return fn(self._entity)\n\n/usr/local/lib/python3.8/dist-packages/selene/core/wait.py:102: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selene.core.conditions.ElementCondition object at 0x7f2ec95fb190>\nargs = (<selene.core.entity.Element object at 0x7f2ec948a280>,), kwargs = {}\n\n    def __call__(self, *args, **kwargs):\n>       return self._fn(*args, **kwargs)\n\n/usr/local/lib/python3.8/dist-packages/selene/core/condition.py:136: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nentity = <selene.core.entity.Element object at 0x7f2ec948a280>\n\n    def fn(entity: E) -> None:\n        query_to_str = str(query)\n        result = (\n            query.__name__\n            if query_to_str.startswith('<function')\n            else query_to_str\n        )\n        actual = query(entity)\n        if not predicate(actual):\n>           raise AssertionError(f'actual {result}: {actual}')\nE           AssertionError: actual text: ПОЖАЛУЙСТА, ПОДОЖДИТЕ...\n\n/usr/local/lib/python3.8/dist-packages/selene/core/condition.py:109: AssertionError\n\nDuring handling of the above exception, another exception occurred:\n\nself = <tests.test_requests_spending_budget_funds.test_requests_spending_budget_funds.TestSpendingBudgetFunds object at 0x7f2ec96cf6d0>\nrequest_with_transfer = None\n\n    def test_director_delegate_task(self, request_with_transfer):\n        \"\"\"\n        Заявки на расходование средств бюджета с перечислением денежных средств.\n        Директор делегирует согласование\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61921\n        \"\"\"\n        request_id = request_spending_budget_funds_page.get_request_id()\n    \n        logger.info(\"Отправка на рассмотрение\")\n        request_spending_budget_funds_page.execute(\"Направить на рассмотрение\")\n        request_spending_budget_funds_page.assert_states(\"Рассмотрение распорядителем бюджета\")\n    \n        logger.info(\"Согласование заявки распорядителем бюджета\")\n        admin_panel.auth_as_user(SpendingBudgetFundsConstants.budget_manager)\n        list_requests_spending_budget_funds_page.open_request_by_id(request_id)\n        request_spending_budget_funds_page.execute(\"Согласовать\")\n        request_spending_budget_funds_page.accept_button.click()\n        request_spending_budget_funds_page.assert_states(\"Проверка заявки финансовым аналитиком\", timeout=30)\n    \n        logger.info(\"Проверка заявки финансовым аналитиком\")\n        admin_panel.auth_as_user(SpendingBudgetFundsConstants.financial_analyst_1st)\n        list_requests_spending_budget_funds_page.open_request_by_id(request_id)\n        request_spending_budget_funds_page.execute(\"Одобрить\")\n        request_spending_budget_funds_page.assert_states(\"Проверка заявки финансовым аналитиком: Согласовало 1 из 2\")\n    \n        logger.info(\"Проверка заявки финансовым аналитиком\")\n        admin_panel.auth_as_user(SpendingBudgetFundsConstants.financial_analyst_2nd)\n        list_requests_spending_budget_funds_page.open_request_by_id(request_id)\n        request_spending_budget_funds_page.execute(\"Одобрить\")\n        request_spending_budget_funds_page.assert_states(\"Одобрение расхода директором\")\n    \n        logger.info(\"Делегирование задания директором\")\n        admin_panel.auth_as_user(SpendingBudgetFundsConstants.director)\n        list_requests_spending_budget_funds_page.open_request_by_id(request_id)\n        request_spending_budget_funds_page.execute(\"Делегировать выполнение задания\")\n        request_spending_budget_funds_page.delegate_input.type(UsersConstants.ISKANDER_BARIEV.fullname)\n        request_spending_budget_funds_page.delegate_item.click()\n        request_spending_budget_funds_page.delegate_cause.type(\"Причина\")\n        request_spending_budget_funds_page.delegate_button.click()\n        request_spending_budget_funds_page.assert_delegate_comment_visible()\n    \n        logger.info(\"Согласование делегатом\")\n        admin_panel.auth_as_user(UsersConstants.ISKANDER_BARIEV)\n        list_requests_spending_budget_funds_page.open_request_by_id(request_id)\n        request_spending_budget_funds_page.execute(\"Одобрить\")\n>       request_spending_budget_funds_page.assert_states(\"Расход утвержден\")\n\ntests/test_requests_spending_budget_funds/test_requests_spending_budget_funds.py:546: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/base_page.py:49: in assert_states\n    self.status_button.with_(Config(timeout=timeout)).should(have.text(status_text))\n/usr/local/lib/python3.8/dist-packages/selene/core/entity.py:379: in should\n    super().should(condition)\n/usr/local/lib/python3.8/dist-packages/selene/core/entity.py:122: in should\n    self.wait.for_(condition)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selene.core.wait.Wait object at 0x7f2ec95fbaf0>\nfn = <selene.core.conditions.ElementCondition object at 0x7f2ec95fb190>\n\n        def for_(self, fn: Callable[[E], R]) -> R:\n            finish_time = time.time() + self._timeout\n    \n            while True:\n                try:\n                    return fn(self._entity)\n                except Exception as reason:\n                    if time.time() > finish_time:\n    \n                        reason_message = str(reason)\n    \n                        reason_string = '{name}: {message}'.format(\n                            name=reason.__class__.__name__, message=reason_message\n                        )\n                        # todo: think on how can we improve logging failures in selene, e.g. reverse msg and stacktrace\n                        # stacktrace = getattr(reason, 'stacktrace', None)\n                        timeout = self._timeout\n                        entity = self._entity\n    \n                        failure = TimeoutException(\n                            f'''\n    \n    Timed out after {timeout}s, while waiting for:\n    {entity}.{fn}\n    \n    Reason: {reason_string}'''\n                        )\n    \n>                       raise self._hook_failure(failure)\nE                       selene.core.exceptions.TimeoutException: Message: \nE                       \nE                       Timed out after 20s, while waiting for:\nE                       browser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАСХОД УТВЕРЖДЕН\nE                       \nE                       Reason: AssertionError: actual text: ПОЖАЛУЙСТА, ПОДОЖДИТЕ...\nE                       Screenshot: file:///home/seluser/.selene/screenshots/1644506296801/1644506296822.png\nE                       PageSource: file:///home/seluser/.selene/screenshots/1644506296801/1644506296822.html\n\n/usr/local/lib/python3.8/dist-packages/selene/core/wait.py:125: TimeoutException",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1644506297641,
+      "stop" : 1644506297732,
+      "duration" : 91
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_admin",
+    "time" : {
+      "start" : 1644506297732,
+      "stop" : 1644506313078,
+      "duration" : 15346
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "request_with_transfer",
+    "time" : {
+      "start" : 1644517587500,
+      "stop" : 1644517668009,
+      "duration" : 80509
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизоваться под администратором портала",
+      "time" : {
+        "start" : 1644517587501,
+        "stop" : 1644517588063,
+        "duration" : 562
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1644517604775,
+        "stop" : 1644517613494,
+        "duration" : 8719
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1644517604775,
+          "stop" : 1644517605392,
+          "duration" : 617
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "<common.user.User object at 0x7f2ed5495280>"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открытие страницы создания заявки на расходование средств бюджета",
+      "time" : {
+        "start" : 1644517613494,
+        "stop" : 1644517627805,
+        "duration" : 14311
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Заполнить обязательные поля для автоматического создания заявки на перечисление",
+      "time" : {
+        "start" : 1644517627805,
+        "stop" : 1644517628289,
+        "duration" : 484
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Заполнить обязательные поля",
+      "time" : {
+        "start" : 1644517628289,
+        "stop" : 1644517667953,
+        "duration" : 39664
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Проверка заполнения поля контрагент",
+      "time" : {
+        "start" : 1644517667953,
+        "stop" : 1644517667981,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Получение номера заявки",
+      "time" : {
+        "start" : 1644517667981,
+        "stop" : 1644517668009,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "\n        Заявки на расходование средств бюджета с перечислением денежных средств.\n        Директор делегирует согласование\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61921\n        ",
+    "status" : "failed",
+    "statusMessage" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАСХОД УТВЕРЖДЕН\n\nReason: AssertionError: actual text: ПОЖАЛУЙСТА, ПОДОЖДИТЕ...\nScreenshot: file:///home/seluser/.selene/screenshots/1644506296801/1644506296822.png\nPageSource: file:///home/seluser/.selene/screenshots/1644506296801/1644506296822.html",
+    "statusTrace" : "self = <selene.core.wait.Wait object at 0x7f2ec95fbaf0>\nfn = <selene.core.conditions.ElementCondition object at 0x7f2ec95fb190>\n\n    def for_(self, fn: Callable[[E], R]) -> R:\n        finish_time = time.time() + self._timeout\n    \n        while True:\n            try:\n>               return fn(self._entity)\n\n/usr/local/lib/python3.8/dist-packages/selene/core/wait.py:102: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selene.core.conditions.ElementCondition object at 0x7f2ec95fb190>\nargs = (<selene.core.entity.Element object at 0x7f2ec948a280>,), kwargs = {}\n\n    def __call__(self, *args, **kwargs):\n>       return self._fn(*args, **kwargs)\n\n/usr/local/lib/python3.8/dist-packages/selene/core/condition.py:136: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nentity = <selene.core.entity.Element object at 0x7f2ec948a280>\n\n    def fn(entity: E) -> None:\n        query_to_str = str(query)\n        result = (\n            query.__name__\n            if query_to_str.startswith('<function')\n            else query_to_str\n        )\n        actual = query(entity)\n        if not predicate(actual):\n>           raise AssertionError(f'actual {result}: {actual}')\nE           AssertionError: actual text: ПОЖАЛУЙСТА, ПОДОЖДИТЕ...\n\n/usr/local/lib/python3.8/dist-packages/selene/core/condition.py:109: AssertionError\n\nDuring handling of the above exception, another exception occurred:\n\nself = <tests.test_requests_spending_budget_funds.test_requests_spending_budget_funds.TestSpendingBudgetFunds object at 0x7f2ec96cf6d0>\nrequest_with_transfer = None\n\n    def test_director_delegate_task(self, request_with_transfer):\n        \"\"\"\n        Заявки на расходование средств бюджета с перечислением денежных средств.\n        Директор делегирует согласование\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61921\n        \"\"\"\n        request_id = request_spending_budget_funds_page.get_request_id()\n    \n        logger.info(\"Отправка на рассмотрение\")\n        request_spending_budget_funds_page.execute(\"Направить на рассмотрение\")\n        request_spending_budget_funds_page.assert_states(\"Рассмотрение распорядителем бюджета\")\n    \n        logger.info(\"Согласование заявки распорядителем бюджета\")\n        admin_panel.auth_as_user(SpendingBudgetFundsConstants.budget_manager)\n        list_requests_spending_budget_funds_page.open_request_by_id(request_id)\n        request_spending_budget_funds_page.execute(\"Согласовать\")\n        request_spending_budget_funds_page.accept_button.click()\n        request_spending_budget_funds_page.assert_states(\"Проверка заявки финансовым аналитиком\", timeout=30)\n    \n        logger.info(\"Проверка заявки финансовым аналитиком\")\n        admin_panel.auth_as_user(SpendingBudgetFundsConstants.financial_analyst_1st)\n        list_requests_spending_budget_funds_page.open_request_by_id(request_id)\n        request_spending_budget_funds_page.execute(\"Одобрить\")\n        request_spending_budget_funds_page.assert_states(\"Проверка заявки финансовым аналитиком: Согласовало 1 из 2\")\n    \n        logger.info(\"Проверка заявки финансовым аналитиком\")\n        admin_panel.auth_as_user(SpendingBudgetFundsConstants.financial_analyst_2nd)\n        list_requests_spending_budget_funds_page.open_request_by_id(request_id)\n        request_spending_budget_funds_page.execute(\"Одобрить\")\n        request_spending_budget_funds_page.assert_states(\"Одобрение расхода директором\")\n    \n        logger.info(\"Делегирование задания директором\")\n        admin_panel.auth_as_user(SpendingBudgetFundsConstants.director)\n        list_requests_spending_budget_funds_page.open_request_by_id(request_id)\n        request_spending_budget_funds_page.execute(\"Делегировать выполнение задания\")\n        request_spending_budget_funds_page.delegate_input.type(UsersConstants.ISKANDER_BARIEV.fullname)\n        request_spending_budget_funds_page.delegate_item.click()\n        request_spending_budget_funds_page.delegate_cause.type(\"Причина\")\n        request_spending_budget_funds_page.delegate_button.click()\n        request_spending_budget_funds_page.assert_delegate_comment_visible()\n    \n        logger.info(\"Согласование делегатом\")\n        admin_panel.auth_as_user(UsersConstants.ISKANDER_BARIEV)\n        list_requests_spending_budget_funds_page.open_request_by_id(request_id)\n        request_spending_budget_funds_page.execute(\"Одобрить\")\n>       request_spending_budget_funds_page.assert_states(\"Расход утвержден\")\n\ntests/test_requests_spending_budget_funds/test_requests_spending_budget_funds.py:546: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/base_page.py:49: in assert_states\n    self.status_button.with_(Config(timeout=timeout)).should(have.text(status_text))\n/usr/local/lib/python3.8/dist-packages/selene/core/entity.py:379: in should\n    super().should(condition)\n/usr/local/lib/python3.8/dist-packages/selene/core/entity.py:122: in should\n    self.wait.for_(condition)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selene.core.wait.Wait object at 0x7f2ec95fbaf0>\nfn = <selene.core.conditions.ElementCondition object at 0x7f2ec95fb190>\n\n        def for_(self, fn: Callable[[E], R]) -> R:\n            finish_time = time.time() + self._timeout\n    \n            while True:\n                try:\n                    return fn(self._entity)\n                except Exception as reason:\n                    if time.time() > finish_time:\n    \n                        reason_message = str(reason)\n    \n                        reason_string = '{name}: {message}'.format(\n                            name=reason.__class__.__name__, message=reason_message\n                        )\n                        # todo: think on how can we improve logging failures in selene, e.g. reverse msg and stacktrace\n                        # stacktrace = getattr(reason, 'stacktrace', None)\n                        timeout = self._timeout\n                        entity = self._entity\n    \n                        failure = TimeoutException(\n                            f'''\n    \n    Timed out after {timeout}s, while waiting for:\n    {entity}.{fn}\n    \n    Reason: {reason_string}'''\n                        )\n    \n>                       raise self._hook_failure(failure)\nE                       selene.core.exceptions.TimeoutException: Message: \nE                       \nE                       Timed out after 20s, while waiting for:\nE                       browser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАСХОД УТВЕРЖДЕН\nE                       \nE                       Reason: AssertionError: actual text: ПОЖАЛУЙСТА, ПОДОЖДИТЕ...\nE                       Screenshot: file:///home/seluser/.selene/screenshots/1644506296801/1644506296822.png\nE                       PageSource: file:///home/seluser/.selene/screenshots/1644506296801/1644506296822.html\n\n/usr/local/lib/python3.8/dist-packages/selene/core/wait.py:125: TimeoutException",
+    "steps" : [ {
+      "name" : "Получение номера заявки",
+      "time" : {
+        "start" : 1644517668010,
+        "stop" : 1644517668025,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1644517680567,
+        "stop" : 1644517692261,
+        "duration" : 11694
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1644517680567,
+          "stop" : 1644517681164,
+          "duration" : 597
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "<common.user.User object at 0x7f2ed54875e0>"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открыть заявку по номеру",
+      "time" : {
+        "start" : 1644517692261,
+        "stop" : 1644517706224,
+        "duration" : 13963
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список заявок на расходование средств бюджета",
+        "time" : {
+          "start" : 1644517692261,
+          "stop" : 1644517702285,
+          "duration" : 10024
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "'440522'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1644517725661,
+        "stop" : 1644517734656,
+        "duration" : 8995
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1644517725661,
+          "stop" : 1644517726191,
+          "duration" : 530
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "<common.user.User object at 0x7f2ed5487220>"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открыть заявку по номеру",
+      "time" : {
+        "start" : 1644517734656,
+        "stop" : 1644517749677,
+        "duration" : 15021
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список заявок на расходование средств бюджета",
+        "time" : {
+          "start" : 1644517734657,
+          "stop" : 1644517745190,
+          "duration" : 10533
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "'440522'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1644517754294,
+        "stop" : 1644517763492,
+        "duration" : 9198
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1644517754294,
+          "stop" : 1644517754992,
+          "duration" : 698
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "<common.user.User object at 0x7f2ed5495220>"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открыть заявку по номеру",
+      "time" : {
+        "start" : 1644517763492,
+        "stop" : 1644517779393,
+        "duration" : 15901
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список заявок на расходование средств бюджета",
+        "time" : {
+          "start" : 1644517763492,
+          "stop" : 1644517774331,
+          "duration" : 10839
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "'440522'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1644517790855,
+        "stop" : 1644517799424,
+        "duration" : 8569
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1644517790855,
+          "stop" : 1644517791448,
+          "duration" : 593
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "<common.user.User object at 0x7f2ed5487fa0>"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открыть заявку по номеру",
+      "time" : {
+        "start" : 1644517799424,
+        "stop" : 1644517813824,
+        "duration" : 14400
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список заявок на расходование средств бюджета",
+        "time" : {
+          "start" : 1644517799424,
+          "stop" : 1644517809372,
+          "duration" : 9948
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "'440522'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка вывода комментария о делегировании",
+      "time" : {
+        "start" : 1644517814705,
+        "stop" : 1644517822036,
+        "duration" : 7331
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1644517822036,
+        "stop" : 1644517831005,
+        "duration" : 8969
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1644517822036,
+          "stop" : 1644517822619,
+          "duration" : 583
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "<common.user.User object at 0x7f2ed5487fd0>"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открыть заявку по номеру",
+      "time" : {
+        "start" : 1644517831005,
+        "stop" : 1644517847980,
+        "duration" : 16975
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список заявок на расходование средств бюджета",
+        "time" : {
+          "start" : 1644517831005,
+          "stop" : 1644517843263,
+          "duration" : 12258
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "'440522'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Screen-shot done",
+      "time" : {
+        "start" : 1644517871483,
+        "stop" : 1644517871695,
+        "duration" : 212
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2ac0d1863ac0288f",
+        "name" : "screenshot",
+        "source" : "2ac0d1863ac0288f.png",
+        "type" : "image/png",
+        "size" : 307258
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "b1cb11a97e248be",
+      "name" : "log",
+      "source" : "b1cb11a97e248be.txt",
+      "type" : "text/plain",
+      "size" : 1554
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 23,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "request_with_transfer::0",
+    "time" : {
+      "start" : 1644517871696,
+      "stop" : 1644517927480,
+      "duration" : 55784
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизоваться под администратором портала",
+      "time" : {
+        "start" : 1644517871696,
+        "stop" : 1644517872262,
+        "duration" : 566
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Открыть заявку по номеру",
+      "time" : {
+        "start" : 1644517877193,
+        "stop" : 1644517891845,
+        "duration" : 14652
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список заявок на расходование средств бюджета",
+        "time" : {
+          "start" : 1644517877194,
+          "stop" : 1644517886935,
+          "duration" : 9741
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "'440522'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение номера заявки на перечисление",
+      "time" : {
+        "start" : 1644517891845,
+        "stop" : 1644517891864,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Открыть заявку по номеру",
+      "time" : {
+        "start" : 1644517905876,
+        "stop" : 1644517918947,
+        "duration" : 13071
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список заявок на перечисление средств бюджета",
+        "time" : {
+          "start" : 1644517905876,
+          "stop" : 1644517914152,
+          "duration" : 8276
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "'440523'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "auth_admin::0",
+    "time" : {
+      "start" : 1644517973294,
+      "stop" : 1644517973559,
+      "duration" : 265
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "spending_funds"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.test_requests_spending_budget_funds"
+  }, {
+    "name" : "suite",
+    "value" : "test_requests_spending_budget_funds"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSpendingBudgetFunds"
+  }, {
+    "name" : "host",
+    "value" : "portal-test-qa-hqc9q"
+  }, {
+    "name" : "thread",
+    "value" : "6-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_requests_spending_budget_funds.test_requests_spending_budget_funds"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "ff4d563ab2369022",
+        "reportUrl" : "../2/index.html#testresult/ff4d563ab2369022",
+        "status" : "failed",
+        "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАСХОД УТВЕРЖДЕН\n\nReason: AssertionError: actual text: ПОЖАЛУЙСТА, ПОДОЖДИТЕ...\nScreenshot: file:///home/seluser/.selene/screenshots/1644506296801/1644506296822.png\nPageSource: file:///home/seluser/.selene/screenshots/1644506296801/1644506296822.html",
+        "time" : {
+          "start" : 1644517668010,
+          "stop" : 1644517871419,
+          "duration" : 203409
+        }
+      } ]
+    },
+    "tags" : [ "spending_funds" ]
+  },
+  "source" : "243e072ca2e80bef.json",
+  "parameterValues" : [ ]
+}

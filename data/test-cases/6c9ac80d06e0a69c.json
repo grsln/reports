@@ -1,0 +1,323 @@
+{
+  "uid" : "6c9ac80d06e0a69c",
+  "name" : "test_download_document_simple_sign",
+  "fullName" : "tests.test_other_documents.test_other_docs.TestOtherDocs#test_download_document_simple_sign",
+  "historyId" : "628156753e7c7683c7d122f896378501",
+  "time" : {
+    "start" : 1644519347586,
+    "stop" : 1644519369918,
+    "duration" : 22332
+  },
+  "description" : "\n        Проверка скачивания и подписания документа\n        ",
+  "descriptionHtml" : "<pre><code>    Проверка скачивания и подписания документа\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: not all arguments converted during string formatting",
+  "statusTrace" : "max_time = 600\n\n    @staticmethod\n    def wait_until_download_completed(max_time=600):\n        \"\"\"\n        Функция ожидания загрузки файла, возвращает имя загруженного файла\n        По умолчанию время ожидания загрузки 600 секунд\n        \"\"\"\n        # navigate to chrome downloads\n        browser.open(\"chrome://downloads\")\n        # define the endTime\n        end_time = time() + float(max_time)\n        while True:\n            try:\n>               download_percentage = browser.driver.execute_script(\n                    \"let el = document.querySelector('downloads-manager').shadowRoot\"\n                    \".querySelector('#downloadsList downloads-item').shadowRoot\"\n                    \".querySelector('#progress'); \"\n                    \"if (el!==null) {return el.value} else {return 100}\"\n                )\n\npages/document_management/other_documents/other_docs_utils.py:66: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"9953dd392d63b5f84d5ee8693f7e7e14\")>\nscript = \"let el = document.querySelector('downloads-manager').shadowRoot.querySelector('#downloadsList downloads-item').shadowRoot.querySelector('#progress'); if (el!==null) {return el.value} else {return 100}\"\nargs = (), converted_args = [], command = 'w3cExecuteScript'\n\n    def execute_script(self, script, *args):\n        \"\"\"\n        Synchronously Executes JavaScript in the current window/frame.\n    \n        :Args:\n         - script: The JavaScript to execute.\n         - \\*args: Any applicable arguments for your JavaScript.\n    \n        :Usage:\n            driver.execute_script('return document.title;')\n        \"\"\"\n        converted_args = list(args)\n        command = None\n        if self.w3c:\n            command = Command.W3C_EXECUTE_SCRIPT\n        else:\n            command = Command.EXECUTE_SCRIPT\n    \n>       return self.execute(command, {\n            'script': script,\n            'args': converted_args})['value']\n\n/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py:634: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"9953dd392d63b5f84d5ee8693f7e7e14\")>\ndriver_command = 'w3cExecuteScript'\nparams = {'args': [], 'script': \"let el = document.querySelector('downloads-manager').shadowRoot.querySelector('#downloadsList downloads-item').shadowRoot.querySelector('#progress'); if (el!==null) {return el.value} else {return 100}\"}\n\n    def execute(self, driver_command, params=None):\n        \"\"\"\n        Sends a command to be executed by a command.CommandExecutor.\n    \n        :Args:\n         - driver_command: The name of the command to execute as a string.\n         - params: A dictionary of named parameters to send with the command.\n    \n        :Returns:\n          The command's JSON response loaded into a dictionary object.\n        \"\"\"\n        if self.session_id is not None:\n            if not params:\n                params = {'sessionId': self.session_id}\n            elif 'sessionId' not in params:\n                params['sessionId'] = self.session_id\n    \n        params = self._wrap_value(params)\n        response = self.command_executor.execute(driver_command, params)\n        if response:\n>           self.error_handler.check_response(response)\n\n/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py:321: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x7f1551e04c40>\nresponse = {'status': 500, 'value': '{\"value\":{\"error\":\"javascript error\",\"message\":\"javascript error: Cannot read properties of ...\\\\n#17 0x55cf75e98c68 \\\\u003Cunknown>\\\\n#18 0x55cf75eb3aad \\\\u003Cunknown>\\\\n#19 0x7ff8ca799609 \\\\u003Cunknown>\\\\n\"}}'}\n\n    def check_response(self, response):\n        \"\"\"\n        Checks that a JSON response from the WebDriver does not have an error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get('status', None)\n        if status is None or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(\"message\", \"\")\n        screen = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get('value', None)\n            if value_json and isinstance(value_json, basestring):\n                import json\n                try:\n                    value = json.loads(value_json)\n                    if len(value.keys()) == 1:\n                        value = value['value']\n                    status = value.get('error', None)\n                    if status is None:\n                        status = value[\"status\"]\n                        message = value[\"value\"]\n                        if not isinstance(message, basestring):\n                            value = message\n                            message = message.get('message')\n                    else:\n                        message = value.get('message', None)\n                except ValueError:\n                    pass\n    \n        exception_class = ErrorInResponseException\n        if status in ErrorCode.NO_SUCH_ELEMENT:\n            exception_class = NoSuchElementException\n        elif status in ErrorCode.NO_SUCH_FRAME:\n            exception_class = NoSuchFrameException\n        elif status in ErrorCode.NO_SUCH_WINDOW:\n            exception_class = NoSuchWindowException\n        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:\n            exception_class = StaleElementReferenceException\n        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:\n            exception_class = ElementNotVisibleException\n        elif status in ErrorCode.INVALID_ELEMENT_STATE:\n            exception_class = InvalidElementStateException\n        elif status in ErrorCode.INVALID_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER:\n            exception_class = InvalidSelectorException\n        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:\n            exception_class = ElementNotSelectableException\n        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:\n            exception_class = ElementNotInteractableException\n        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:\n            exception_class = InvalidCookieDomainException\n        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:\n            exception_class = UnableToSetCookieException\n        elif status in ErrorCode.TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.SCRIPT_TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.UNKNOWN_ERROR:\n            exception_class = WebDriverException\n        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:\n            exception_class = UnexpectedAlertPresentException\n        elif status in ErrorCode.NO_ALERT_OPEN:\n            exception_class = NoAlertPresentException\n        elif status in ErrorCode.IME_NOT_AVAILABLE:\n            exception_class = ImeNotAvailableException\n        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:\n            exception_class = ImeActivationFailedException\n        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:\n            exception_class = MoveTargetOutOfBoundsException\n        elif status in ErrorCode.JAVASCRIPT_ERROR:\n            exception_class = JavascriptException\n        elif status in ErrorCode.SESSION_NOT_CREATED:\n            exception_class = SessionNotCreatedException\n        elif status in ErrorCode.INVALID_ARGUMENT:\n            exception_class = InvalidArgumentException\n        elif status in ErrorCode.NO_SUCH_COOKIE:\n            exception_class = NoSuchCookieException\n        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:\n            exception_class = ScreenshotException\n        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:\n            exception_class = ElementClickInterceptedException\n        elif status in ErrorCode.INSECURE_CERTIFICATE:\n            exception_class = InsecureCertificateException\n        elif status in ErrorCode.INVALID_COORDINATES:\n            exception_class = InvalidCoordinatesException\n        elif status in ErrorCode.INVALID_SESSION_ID:\n            exception_class = InvalidSessionIdException\n        elif status in ErrorCode.UNKNOWN_METHOD:\n            exception_class = UnknownMethodException\n        else:\n            exception_class = WebDriverException\n        if value == '' or value is None:\n            value = response['value']\n        if isinstance(value, basestring):\n            if exception_class == ErrorInResponseException:\n                raise exception_class(response, value)\n            raise exception_class(value)\n        if message == \"\" and 'message' in value:\n            message = value['message']\n    \n        screen = None\n        if 'screen' in value:\n            screen = value['screen']\n    \n        stacktrace = None\n        if 'stackTrace' in value and value['stackTrace']:\n            stacktrace = []\n            try:\n                for frame in value['stackTrace']:\n                    line = self._value_or_default(frame, 'lineNumber', '')\n                    file = self._value_or_default(frame, 'fileName', '<anonymous>')\n                    if line:\n                        file = \"%s:%s\" % (file, line)\n                    meth = self._value_or_default(frame, 'methodName', '<anonymous>')\n                    if 'className' in frame:\n                        meth = \"%s.%s\" % (frame['className'], meth)\n                    msg = \"    at %s (%s)\"\n                    msg = msg % (meth, file)\n                    stacktrace.append(msg)\n            except TypeError:\n                pass\n        if exception_class == ErrorInResponseException:\n            raise exception_class(response, message)\n        elif exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if 'data' in value:\n                alert_text = value['data'].get('text')\n            elif 'alert' in value:\n                alert_text = value['alert'].get('text')\n            raise exception_class(message, screen, stacktrace, alert_text)\n>       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.JavascriptException: Message: javascript error: Cannot read properties of null (reading 'shadowRoot')\nE         (Session info: chrome=97.0.4692.99)\n\n/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/errorhandler.py:242: JavascriptException\n\nDuring handling of the above exception, another exception occurred:\n\nself = <tests.test_other_documents.test_other_docs.TestOtherDocs object at 0x7f157b0084f0>\nfor_simple_sign = None\n\n    @pytest.mark.smoke\n    @pytest.mark.seconds\n    def test_download_document_simple_sign(self, for_simple_sign):\n        \"\"\"\n        Проверка скачивания и подписания документа\n        \"\"\"\n        logger.info(\"Открытие ранее созданной служебной записки\")\n        admin_panel.auth_as_user(OtherDocs12thTypeConst.author)\n        other_docs_list_page.open_by_name(OtherDocs12thTypeConst.name)\n        other_docs_page.assert_states(\"Документ согласован\")\n    \n        logger.info(\"Скачивание 7z-архива\")\n>       filename = other_docs_page.download_document()\n\ntests/test_other_documents/test_other_docs.py:631: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/document_management/other_documents/other_docs_page.py:77: in download_document\n    filename = other_docs_utils.wait_until_download_completed()\npages/document_management/other_documents/other_docs_utils.py:81: in wait_until_download_completed\n    logger.info(\"Ошибка скачивания документа:\", err)\n/usr/lib/python3.8/logging/__init__.py:1446: in info\n    self._log(INFO, msg, args, **kwargs)\n/usr/lib/python3.8/logging/__init__.py:1589: in _log\n    self.handle(record)\n/usr/lib/python3.8/logging/__init__.py:1599: in handle\n    self.callHandlers(record)\n/usr/lib/python3.8/logging/__init__.py:1661: in callHandlers\n    hdlr.handle(record)\n/usr/lib/python3.8/logging/__init__.py:954: in handle\n    self.emit(record)\n/usr/local/lib/python3.8/dist-packages/_pytest/logging.py:331: in emit\n    super().emit(record)\n/usr/lib/python3.8/logging/__init__.py:1093: in emit\n    self.handleError(record)\n/usr/lib/python3.8/logging/__init__.py:1085: in emit\n    msg = self.format(record)\n/usr/lib/python3.8/logging/__init__.py:929: in format\n    return fmt.format(record)\n/usr/local/lib/python3.8/dist-packages/_pytest/logging.py:92: in format\n    return super().format(record)\n/usr/lib/python3.8/logging/__init__.py:668: in format\n    record.message = record.getMessage()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <LogRecord: bitrix, 20, /app/pages/document_management/other_documents/other_docs_utils.py, 81, \"Ошибка скачивания документа:\">\n\n    def getMessage(self):\n        \"\"\"\n        Return the message for this LogRecord.\n    \n        Return the message for this LogRecord after merging any user-supplied\n        arguments with the message.\n        \"\"\"\n        msg = str(self.msg)\n        if self.args:\n>           msg = msg % self.args\nE           TypeError: not all arguments converted during string formatting\n\n/usr/lib/python3.8/logging/__init__.py:373: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1644519218663,
+      "stop" : 1644519218776,
+      "duration" : 113
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_admin",
+    "time" : {
+      "start" : 1644519218777,
+      "stop" : 1644519224627,
+      "duration" : 5850
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "for_simple_sign",
+    "time" : {
+      "start" : 1644519347068,
+      "stop" : 1644519347585,
+      "duration" : 517
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        Проверка скачивания и подписания документа\n        ",
+    "status" : "broken",
+    "statusMessage" : "TypeError: not all arguments converted during string formatting",
+    "statusTrace" : "max_time = 600\n\n    @staticmethod\n    def wait_until_download_completed(max_time=600):\n        \"\"\"\n        Функция ожидания загрузки файла, возвращает имя загруженного файла\n        По умолчанию время ожидания загрузки 600 секунд\n        \"\"\"\n        # navigate to chrome downloads\n        browser.open(\"chrome://downloads\")\n        # define the endTime\n        end_time = time() + float(max_time)\n        while True:\n            try:\n>               download_percentage = browser.driver.execute_script(\n                    \"let el = document.querySelector('downloads-manager').shadowRoot\"\n                    \".querySelector('#downloadsList downloads-item').shadowRoot\"\n                    \".querySelector('#progress'); \"\n                    \"if (el!==null) {return el.value} else {return 100}\"\n                )\n\npages/document_management/other_documents/other_docs_utils.py:66: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"9953dd392d63b5f84d5ee8693f7e7e14\")>\nscript = \"let el = document.querySelector('downloads-manager').shadowRoot.querySelector('#downloadsList downloads-item').shadowRoot.querySelector('#progress'); if (el!==null) {return el.value} else {return 100}\"\nargs = (), converted_args = [], command = 'w3cExecuteScript'\n\n    def execute_script(self, script, *args):\n        \"\"\"\n        Synchronously Executes JavaScript in the current window/frame.\n    \n        :Args:\n         - script: The JavaScript to execute.\n         - \\*args: Any applicable arguments for your JavaScript.\n    \n        :Usage:\n            driver.execute_script('return document.title;')\n        \"\"\"\n        converted_args = list(args)\n        command = None\n        if self.w3c:\n            command = Command.W3C_EXECUTE_SCRIPT\n        else:\n            command = Command.EXECUTE_SCRIPT\n    \n>       return self.execute(command, {\n            'script': script,\n            'args': converted_args})['value']\n\n/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py:634: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"9953dd392d63b5f84d5ee8693f7e7e14\")>\ndriver_command = 'w3cExecuteScript'\nparams = {'args': [], 'script': \"let el = document.querySelector('downloads-manager').shadowRoot.querySelector('#downloadsList downloads-item').shadowRoot.querySelector('#progress'); if (el!==null) {return el.value} else {return 100}\"}\n\n    def execute(self, driver_command, params=None):\n        \"\"\"\n        Sends a command to be executed by a command.CommandExecutor.\n    \n        :Args:\n         - driver_command: The name of the command to execute as a string.\n         - params: A dictionary of named parameters to send with the command.\n    \n        :Returns:\n          The command's JSON response loaded into a dictionary object.\n        \"\"\"\n        if self.session_id is not None:\n            if not params:\n                params = {'sessionId': self.session_id}\n            elif 'sessionId' not in params:\n                params['sessionId'] = self.session_id\n    \n        params = self._wrap_value(params)\n        response = self.command_executor.execute(driver_command, params)\n        if response:\n>           self.error_handler.check_response(response)\n\n/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py:321: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x7f1551e04c40>\nresponse = {'status': 500, 'value': '{\"value\":{\"error\":\"javascript error\",\"message\":\"javascript error: Cannot read properties of ...\\\\n#17 0x55cf75e98c68 \\\\u003Cunknown>\\\\n#18 0x55cf75eb3aad \\\\u003Cunknown>\\\\n#19 0x7ff8ca799609 \\\\u003Cunknown>\\\\n\"}}'}\n\n    def check_response(self, response):\n        \"\"\"\n        Checks that a JSON response from the WebDriver does not have an error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get('status', None)\n        if status is None or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(\"message\", \"\")\n        screen = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get('value', None)\n            if value_json and isinstance(value_json, basestring):\n                import json\n                try:\n                    value = json.loads(value_json)\n                    if len(value.keys()) == 1:\n                        value = value['value']\n                    status = value.get('error', None)\n                    if status is None:\n                        status = value[\"status\"]\n                        message = value[\"value\"]\n                        if not isinstance(message, basestring):\n                            value = message\n                            message = message.get('message')\n                    else:\n                        message = value.get('message', None)\n                except ValueError:\n                    pass\n    \n        exception_class = ErrorInResponseException\n        if status in ErrorCode.NO_SUCH_ELEMENT:\n            exception_class = NoSuchElementException\n        elif status in ErrorCode.NO_SUCH_FRAME:\n            exception_class = NoSuchFrameException\n        elif status in ErrorCode.NO_SUCH_WINDOW:\n            exception_class = NoSuchWindowException\n        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:\n            exception_class = StaleElementReferenceException\n        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:\n            exception_class = ElementNotVisibleException\n        elif status in ErrorCode.INVALID_ELEMENT_STATE:\n            exception_class = InvalidElementStateException\n        elif status in ErrorCode.INVALID_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER:\n            exception_class = InvalidSelectorException\n        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:\n            exception_class = ElementNotSelectableException\n        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:\n            exception_class = ElementNotInteractableException\n        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:\n            exception_class = InvalidCookieDomainException\n        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:\n            exception_class = UnableToSetCookieException\n        elif status in ErrorCode.TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.SCRIPT_TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.UNKNOWN_ERROR:\n            exception_class = WebDriverException\n        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:\n            exception_class = UnexpectedAlertPresentException\n        elif status in ErrorCode.NO_ALERT_OPEN:\n            exception_class = NoAlertPresentException\n        elif status in ErrorCode.IME_NOT_AVAILABLE:\n            exception_class = ImeNotAvailableException\n        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:\n            exception_class = ImeActivationFailedException\n        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:\n            exception_class = MoveTargetOutOfBoundsException\n        elif status in ErrorCode.JAVASCRIPT_ERROR:\n            exception_class = JavascriptException\n        elif status in ErrorCode.SESSION_NOT_CREATED:\n            exception_class = SessionNotCreatedException\n        elif status in ErrorCode.INVALID_ARGUMENT:\n            exception_class = InvalidArgumentException\n        elif status in ErrorCode.NO_SUCH_COOKIE:\n            exception_class = NoSuchCookieException\n        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:\n            exception_class = ScreenshotException\n        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:\n            exception_class = ElementClickInterceptedException\n        elif status in ErrorCode.INSECURE_CERTIFICATE:\n            exception_class = InsecureCertificateException\n        elif status in ErrorCode.INVALID_COORDINATES:\n            exception_class = InvalidCoordinatesException\n        elif status in ErrorCode.INVALID_SESSION_ID:\n            exception_class = InvalidSessionIdException\n        elif status in ErrorCode.UNKNOWN_METHOD:\n            exception_class = UnknownMethodException\n        else:\n            exception_class = WebDriverException\n        if value == '' or value is None:\n            value = response['value']\n        if isinstance(value, basestring):\n            if exception_class == ErrorInResponseException:\n                raise exception_class(response, value)\n            raise exception_class(value)\n        if message == \"\" and 'message' in value:\n            message = value['message']\n    \n        screen = None\n        if 'screen' in value:\n            screen = value['screen']\n    \n        stacktrace = None\n        if 'stackTrace' in value and value['stackTrace']:\n            stacktrace = []\n            try:\n                for frame in value['stackTrace']:\n                    line = self._value_or_default(frame, 'lineNumber', '')\n                    file = self._value_or_default(frame, 'fileName', '<anonymous>')\n                    if line:\n                        file = \"%s:%s\" % (file, line)\n                    meth = self._value_or_default(frame, 'methodName', '<anonymous>')\n                    if 'className' in frame:\n                        meth = \"%s.%s\" % (frame['className'], meth)\n                    msg = \"    at %s (%s)\"\n                    msg = msg % (meth, file)\n                    stacktrace.append(msg)\n            except TypeError:\n                pass\n        if exception_class == ErrorInResponseException:\n            raise exception_class(response, message)\n        elif exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if 'data' in value:\n                alert_text = value['data'].get('text')\n            elif 'alert' in value:\n                alert_text = value['alert'].get('text')\n            raise exception_class(message, screen, stacktrace, alert_text)\n>       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.JavascriptException: Message: javascript error: Cannot read properties of null (reading 'shadowRoot')\nE         (Session info: chrome=97.0.4692.99)\n\n/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/errorhandler.py:242: JavascriptException\n\nDuring handling of the above exception, another exception occurred:\n\nself = <tests.test_other_documents.test_other_docs.TestOtherDocs object at 0x7f157b0084f0>\nfor_simple_sign = None\n\n    @pytest.mark.smoke\n    @pytest.mark.seconds\n    def test_download_document_simple_sign(self, for_simple_sign):\n        \"\"\"\n        Проверка скачивания и подписания документа\n        \"\"\"\n        logger.info(\"Открытие ранее созданной служебной записки\")\n        admin_panel.auth_as_user(OtherDocs12thTypeConst.author)\n        other_docs_list_page.open_by_name(OtherDocs12thTypeConst.name)\n        other_docs_page.assert_states(\"Документ согласован\")\n    \n        logger.info(\"Скачивание 7z-архива\")\n>       filename = other_docs_page.download_document()\n\ntests/test_other_documents/test_other_docs.py:631: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/document_management/other_documents/other_docs_page.py:77: in download_document\n    filename = other_docs_utils.wait_until_download_completed()\npages/document_management/other_documents/other_docs_utils.py:81: in wait_until_download_completed\n    logger.info(\"Ошибка скачивания документа:\", err)\n/usr/lib/python3.8/logging/__init__.py:1446: in info\n    self._log(INFO, msg, args, **kwargs)\n/usr/lib/python3.8/logging/__init__.py:1589: in _log\n    self.handle(record)\n/usr/lib/python3.8/logging/__init__.py:1599: in handle\n    self.callHandlers(record)\n/usr/lib/python3.8/logging/__init__.py:1661: in callHandlers\n    hdlr.handle(record)\n/usr/lib/python3.8/logging/__init__.py:954: in handle\n    self.emit(record)\n/usr/local/lib/python3.8/dist-packages/_pytest/logging.py:331: in emit\n    super().emit(record)\n/usr/lib/python3.8/logging/__init__.py:1093: in emit\n    self.handleError(record)\n/usr/lib/python3.8/logging/__init__.py:1085: in emit\n    msg = self.format(record)\n/usr/lib/python3.8/logging/__init__.py:929: in format\n    return fmt.format(record)\n/usr/local/lib/python3.8/dist-packages/_pytest/logging.py:92: in format\n    return super().format(record)\n/usr/lib/python3.8/logging/__init__.py:668: in format\n    record.message = record.getMessage()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <LogRecord: bitrix, 20, /app/pages/document_management/other_documents/other_docs_utils.py, 81, \"Ошибка скачивания документа:\">\n\n    def getMessage(self):\n        \"\"\"\n        Return the message for this LogRecord.\n    \n        Return the message for this LogRecord after merging any user-supplied\n        arguments with the message.\n        \"\"\"\n        msg = str(self.msg)\n        if self.args:\n>           msg = msg % self.args\nE           TypeError: not all arguments converted during string formatting\n\n/usr/lib/python3.8/logging/__init__.py:373: TypeError",
+    "steps" : [ {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1644519347586,
+        "stop" : 1644519354724,
+        "duration" : 7138
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1644519347586,
+          "stop" : 1644519348254,
+          "duration" : 668
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "<common.user.User object at 0x7f15870dc9a0>"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открыть документ по названию",
+      "time" : {
+        "start" : 1644519354724,
+        "stop" : 1644519365682,
+        "duration" : 10958
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список иных документов",
+        "time" : {
+          "start" : 1644519354724,
+          "stop" : 1644519362381,
+          "duration" : 7657
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "'Договор ПЭП четыре подписи'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Скачивание подписанного документа",
+      "time" : {
+        "start" : 1644519365711,
+        "stop" : 1644519369918,
+        "duration" : 4207
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: not all arguments converted during string formatting\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.8/dist-packages/allure_commons/_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"/app/pages/document_management/other_documents/other_docs_page.py\", line 77, in download_document\n    filename = other_docs_utils.wait_until_download_completed()\n  File \"/app/pages/document_management/other_documents/other_docs_utils.py\", line 81, in wait_until_download_completed\n    logger.info(\"Ошибка скачивания документа:\", err)\n  File \"/usr/lib/python3.8/logging/__init__.py\", line 1446, in info\n    self._log(INFO, msg, args, **kwargs)\n  File \"/usr/lib/python3.8/logging/__init__.py\", line 1589, in _log\n    self.handle(record)\n  File \"/usr/lib/python3.8/logging/__init__.py\", line 1599, in handle\n    self.callHandlers(record)\n  File \"/usr/lib/python3.8/logging/__init__.py\", line 1661, in callHandlers\n    hdlr.handle(record)\n  File \"/usr/lib/python3.8/logging/__init__.py\", line 954, in handle\n    self.emit(record)\n  File \"/usr/local/lib/python3.8/dist-packages/_pytest/logging.py\", line 331, in emit\n    super().emit(record)\n  File \"/usr/lib/python3.8/logging/__init__.py\", line 1093, in emit\n    self.handleError(record)\n  File \"/usr/lib/python3.8/logging/__init__.py\", line 1085, in emit\n    msg = self.format(record)\n  File \"/usr/lib/python3.8/logging/__init__.py\", line 929, in format\n    return fmt.format(record)\n  File \"/usr/local/lib/python3.8/dist-packages/_pytest/logging.py\", line 92, in format\n    return super().format(record)\n  File \"/usr/lib/python3.8/logging/__init__.py\", line 668, in format\n    record.message = record.getMessage()\n  File \"/usr/lib/python3.8/logging/__init__.py\", line 373, in getMessage\n    msg = msg % self.args\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Screen-shot done",
+      "time" : {
+        "start" : 1644519370111,
+        "stop" : 1644519370284,
+        "duration" : 173
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c4eb19e641b6b6cd",
+        "name" : "screenshot",
+        "source" : "c4eb19e641b6b6cd.png",
+        "type" : "image/png",
+        "size" : 24388
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "2f1cf9559f894448",
+      "name" : "log",
+      "source" : "2f1cf9559f894448.txt",
+      "type" : "text/plain",
+      "size" : 276
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "for_simple_sign::0",
+    "time" : {
+      "start" : 1644519370285,
+      "stop" : 1644519391768,
+      "duration" : 21483
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизоваться под администратором портала",
+      "time" : {
+        "start" : 1644519370285,
+        "stop" : 1644519370971,
+        "duration" : 686
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Открыть документ по названию",
+      "time" : {
+        "start" : 1644519375929,
+        "stop" : 1644519386802,
+        "duration" : 10873
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список иных документов",
+        "time" : {
+          "start" : 1644519375929,
+          "stop" : 1644519383068,
+          "duration" : 7139
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "'Договор ПЭП четыре подписи'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "auth_admin::0",
+    "time" : {
+      "start" : 1644519391769,
+      "stop" : 1644519391778,
+      "duration" : 9
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "other_docs"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "seconds"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.test_other_documents"
+  }, {
+    "name" : "suite",
+    "value" : "test_other_docs"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOtherDocs"
+  }, {
+    "name" : "host",
+    "value" : "portal-test-qa-nl25r"
+  }, {
+    "name" : "thread",
+    "value" : "6-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_other_documents.test_other_docs"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "seconds", "other_docs", "smoke" ]
+  },
+  "source" : "6c9ac80d06e0a69c.json",
+  "parameterValues" : [ ]
+}

@@ -3,14 +3,14 @@
   "reportUrl" : "../3/index.html",
   "reportName" : "portal",
   "data" : {
-    "duration" : 21067146
+    "duration" : 13056823
   }
 }, {
   "buildOrder" : 2,
   "reportUrl" : "../2/index.html",
   "reportName" : "portal",
   "data" : {
-    "duration" : 7359291
+    "duration" : 11660198
   }
 }, {
   "buildOrder" : 1,

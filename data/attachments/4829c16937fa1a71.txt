@@ -1,0 +1,34 @@
+2022-02-10 15:53:16 INFO login "Юлия Горохова".
+2022-02-10 15:53:25 INFO open contracts page
+2022-02-10 15:53:35 INFO Open contract create page
+2022-02-10 15:53:39 INFO choice "Самозанятый Валиуллина Диана Абузаровна"
+2022-02-10 15:53:40 INFO write "Договор купли продажи с самозанятым тест7"
+2022-02-10 15:53:40 INFO choice file
+2022-02-10 15:53:40 INFO write "t1@t1.t1"
+2022-02-10 15:53:40 INFO click send_button
+2022-02-10 15:54:17 INFO Send for consideration
+2022-02-10 15:54:25 INFO login "Радик Валиев".
+2022-02-10 15:54:37 INFO open contract page
+2022-02-10 15:54:45 INFO approve_contract_on_page
+2022-02-10 15:54:45 INFO open_contract
+2022-02-10 15:54:55 INFO find_contract Договор купли продажи с самозанятым тест7
+2022-02-10 15:54:59 INFO open_contract_admin
+2022-02-10 15:55:14 INFO find_contract Договор купли продажи с самозанятым тест7
+2022-02-10 15:55:18 INFO Admin approve
+2022-02-10 15:55:24 INFO assert approve successfully
+2022-02-10 15:55:24 INFO Admin approve
+2022-02-10 15:55:32 INFO assert approve successfully
+2022-02-10 15:55:32 INFO Admin approve
+2022-02-10 15:55:37 INFO assert approve successfully
+2022-02-10 15:55:37 INFO Admin approve
+2022-02-10 15:55:43 INFO assert approve successfully
+2022-02-10 15:55:43 INFO Admin approve
+2022-02-10 15:55:48 INFO assert approve successfully
+2022-02-10 15:55:48 INFO Admin approve
+2022-02-10 15:56:00 INFO assert approve successfully
+2022-02-10 15:56:00 INFO assert auto approve Валиев successfully
+2022-02-10 15:56:00 INFO open_contract_admin
+2022-02-10 15:56:14 INFO find_contract Договор купли продажи с самозанятым тест7
+2022-02-10 15:56:19 INFO delete
+2022-02-10 15:56:19 INFO accept alert
+2022-02-10 15:56:28 INFO contract successfully deleted

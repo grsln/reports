@@ -1,0 +1,45 @@
+2022-02-13 14:46:12 INFO login "Мария Осипова".
+2022-02-13 14:46:29 INFO Open hiring request create page
+2022-02-13 14:46:45 INFO title "Программист", id "440682".
+2022-02-13 14:46:45 INFO Send for consideration
+2022-02-13 14:46:52 INFO Login Рамиль Кулеев
+2022-02-13 14:47:02 INFO Open hiring request page
+2022-02-13 14:47:11 INFO Approve on page
+2022-02-13 14:47:11 INFO Open hiring request
+2022-02-13 14:47:19 INFO Find hiring request Программист
+2022-02-13 14:47:19 INFO Find hiring request
+2022-02-13 14:47:23 INFO Approve supervisor
+2022-02-13 14:47:23 INFO Login Искандер Бариев
+2022-02-13 14:47:30 INFO Open hiring request page
+2022-02-13 14:47:47 INFO Approve on page
+2022-02-13 14:47:47 INFO Open hiring request
+2022-02-13 14:47:56 INFO Find hiring request Программист
+2022-02-13 14:47:56 INFO Find hiring request
+2022-02-13 14:47:59 INFO Approve supervisor
+2022-02-13 14:47:59 INFO Login Анна Хасанова
+2022-02-13 14:48:11 INFO Open hiring request page
+2022-02-13 14:48:18 INFO Approve on page
+2022-02-13 14:48:18 INFO Open hiring request
+2022-02-13 14:48:30 INFO Find hiring request Программист
+2022-02-13 14:48:30 INFO Find hiring request
+2022-02-13 14:48:33 INFO Approve supervisor
+2022-02-13 14:48:33 INFO Login Радик Валиев
+2022-02-13 14:48:44 INFO Open hiring request page
+2022-02-13 14:48:52 INFO Approve check box
+2022-02-13 14:48:59 INFO Open hiring request
+2022-02-13 14:49:06 INFO Find hiring request Программист
+2022-02-13 14:49:06 INFO Find hiring request
+2022-02-13 14:49:10 INFO Approve supervisor
+2022-02-13 14:49:10 INFO Login Кирилл Семенихин
+2022-02-13 14:49:19 INFO Open hiring request page
+2022-02-13 14:49:27 INFO Approve check box
+2022-02-13 14:49:36 INFO Open hiring request
+2022-02-13 14:49:43 INFO Find hiring request Программист
+2022-02-13 14:49:43 INFO Find hiring request
+2022-02-13 14:49:46 INFO Approve supervisor
+2022-02-13 14:49:46 INFO Open admin
+2022-02-13 14:49:52 INFO Open hiring request
+2022-02-13 14:49:59 INFO Find hiring request Программист
+2022-02-13 14:49:59 INFO Find hiring request
+2022-02-13 14:50:04 INFO delete
+2022-02-13 14:50:04 INFO accept alert

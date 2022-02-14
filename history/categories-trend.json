@@ -3,8 +3,7 @@
   "reportUrl" : "../3/index.html",
   "reportName" : "portal",
   "data" : {
-    "Product defects" : 22,
-    "Test defects" : 2
+    "Product defects" : 24
   }
 }, {
   "buildOrder" : 2,

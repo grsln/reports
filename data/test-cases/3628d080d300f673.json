@@ -1,0 +1,402 @@
+{
+  "uid" : "3628d080d300f673",
+  "name" : "test_approve_contract_rent_first_group_approvers",
+  "fullName" : "tests.test_contracts.test_business_process_contract_rent.TestContractRent#test_approve_contract_rent_first_group_approvers",
+  "historyId" : "666f14fa8d4410175fd86299a8c63248",
+  "time" : {
+    "start" : 1644759484986,
+    "stop" : 1644759598430,
+    "duration" : 113444
+  },
+  "description" : "\n        Создание и согласование договора аренды\n        Consideration of the first group of approvers (varies for each user), exept Алексей Захаров\n        ",
+  "descriptionHtml" : "<pre><code>    Создание и согласование договора аренды\n    Consideration of the first group of approvers (varies for each user), exept Алексей Захаров\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1644759032631,
+      "stop" : 1644759032861,
+      "duration" : 230
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_admin",
+    "time" : {
+      "start" : 1644759032861,
+      "stop" : 1644759046548,
+      "duration" : 13687
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "create_contract_rent",
+    "time" : {
+      "start" : 1644759422021,
+      "stop" : 1644759484985,
+      "duration" : 62964
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1644759422022,
+        "stop" : 1644759444093,
+        "duration" : 22071
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1644759422022,
+          "stop" : 1644759437309,
+          "duration" : 15287
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "<common.user.User object at 0x7f1942442a30>"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Open contract create page",
+      "time" : {
+        "start" : 1644759452013,
+        "stop" : 1644759454615,
+        "duration" : 2602
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Заполнить обязательные поля",
+      "time" : {
+        "start" : 1644759454615,
+        "stop" : 1644759484985,
+        "duration" : 30370
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "\n        Создание и согласование договора аренды\n        Consideration of the first group of approvers (varies for each user), exept Алексей Захаров\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send for consideration",
+      "time" : {
+        "start" : 1644759484986,
+        "stop" : 1644759491221,
+        "duration" : 6235
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1644759491222,
+        "stop" : 1644759501614,
+        "duration" : 10392
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1644759491222,
+          "stop" : 1644759491845,
+          "duration" : 623
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "<common.user.User object at 0x7f19423db070>"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Open contract page",
+      "time" : {
+        "start" : 1644759501614,
+        "stop" : 1644759507562,
+        "duration" : 5948
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1644759518170,
+        "stop" : 1644759526130,
+        "duration" : 7960
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1644759518170,
+          "stop" : 1644759518822,
+          "duration" : 652
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "<common.user.User object at 0x7f19423db490>"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Open contract page",
+      "time" : {
+        "start" : 1644759526130,
+        "stop" : 1644759531454,
+        "duration" : 5324
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1644759542150,
+        "stop" : 1644759551660,
+        "duration" : 9510
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1644759542150,
+          "stop" : 1644759542737,
+          "duration" : 587
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "<common.user.User object at 0x7f19423db460>"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Open contract page",
+      "time" : {
+        "start" : 1644759551660,
+        "stop" : 1644759559683,
+        "duration" : 8023
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Авторизоваться под администратором портала",
+      "time" : {
+        "start" : 1644759574415,
+        "stop" : 1644759575065,
+        "duration" : 650
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "43baef6498cf17a1",
+      "name" : "log",
+      "source" : "43baef6498cf17a1.txt",
+      "type" : "text/plain",
+      "size" : 1440
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "auth_admin::0",
+    "time" : {
+      "start" : 1644769109995,
+      "stop" : 1644769110267,
+      "duration" : 272
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "contract"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.test_contracts"
+  }, {
+    "name" : "suite",
+    "value" : "test_business_process_contract_rent"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestContractRent"
+  }, {
+    "name" : "host",
+    "value" : "portal-test-qa-6hkzj"
+  }, {
+    "name" : "thread",
+    "value" : "7-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_contracts.test_business_process_contract_rent"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "29379c249874ad94",
+        "reportUrl" : "../2/index.html#testresult/29379c249874ad94",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644759484986,
+          "stop" : 1644759598430,
+          "duration" : 113444
+        }
+      } ]
+    },
+    "tags" : [ "contract", "smoke" ]
+  },
+  "source" : "3628d080d300f673.json",
+  "parameterValues" : [ ]
+}

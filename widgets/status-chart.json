@@ -1,711 +1,711 @@
 [ {
-  "uid" : "30b9cf16c89a2a1a",
-  "name" : "test_edit_decree_name_under_approving",
-  "time" : {
-    "start" : 1644510320783,
-    "stop" : 1644510426752,
-    "duration" : 105969
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "1ee1de394ce55e58",
-  "name" : "test_auto_approving",
-  "time" : {
-    "start" : 1644510916505,
-    "stop" : 1644510959737,
-    "duration" : 43232
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "9c76c7e77a4c008c",
-  "name" : "test_author_cancel_approving",
-  "time" : {
-    "start" : 1644516890205,
-    "stop" : 1644516971502,
-    "duration" : 81297
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5605ee7f6e187796",
-  "name" : "test_one_qualified_sign",
-  "time" : {
-    "start" : 1644512070379,
-    "stop" : 1644512177560,
-    "duration" : 107181
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ab40e8c60d2c7ec6",
-  "name" : "test_approve_contract_rent_first_group_approvers",
-  "time" : {
-    "start" : 1644506787529,
-    "stop" : 1644506917851,
-    "duration" : 130322
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "77d5c94de6c0ee29",
-  "name" : "test_three_qualified_signs",
-  "time" : {
-    "start" : 1644514052972,
-    "stop" : 1644514226494,
-    "duration" : 173522
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ff44507eeb1a5904",
-  "name" : "test_add_outbox_letter_main_flow",
-  "time" : {
-    "start" : 1644514684795,
-    "stop" : 1644514758592,
-    "duration" : 73797
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "62045e9fbcb32280",
-  "name" : "test_change_decree_attachments",
-  "time" : {
-    "start" : 1644509604078,
-    "stop" : 1644509683909,
-    "duration" : 79831
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c22d6e9c83ab56b6",
-  "name" : "test_create_request_spending_budget_funds_contract_gph",
-  "time" : {
-    "start" : 1644515070873,
-    "stop" : 1644515198868,
-    "duration" : 127995
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cc4cdd795710e1d8",
-  "name" : "test_contract_gph_free_standart",
-  "time" : {
-    "start" : 1644509108588,
-    "stop" : 1644509151211,
-    "duration" : 42623
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dff25db4b0d533d1",
-  "name" : "test_landscape_orientation",
-  "time" : {
-    "start" : 1644511871629,
-    "stop" : 1644511971489,
-    "duration" : 99860
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f1a3a0347e22751e",
-  "name" : "test_approve_contract_sale_second_group_approvers",
-  "time" : {
-    "start" : 1644507014837,
-    "stop" : 1644507214798,
-    "duration" : 199961
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e24d1cb46696c877",
-  "name" : "test_edit_decree_after_send_rework",
-  "time" : {
-    "start" : 1644510655906,
-    "stop" : 1644510749746,
-    "duration" : 93840
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6c9ac80d06e0a69c",
-  "name" : "test_download_document_simple_sign",
-  "time" : {
-    "start" : 1644519347586,
-    "stop" : 1644519369918,
-    "duration" : 22332
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "41e5098058a78888",
-  "name" : "test_financial_analyst_send_rework",
-  "time" : {
-    "start" : 1644516406438,
-    "stop" : 1644516555976,
-    "duration" : 149538
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "44b701f8cab7bc89",
-  "name" : "test_add_inbox_letter",
-  "time" : {
-    "start" : 1644511652994,
-    "stop" : 1644511772722,
-    "duration" : 119728
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "aa5ec8a53d060013",
-  "name" : "test_four_qualified_signs",
-  "time" : {
-    "start" : 1644514226499,
-    "stop" : 1644514411750,
-    "duration" : 185251
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ba8ad3bb5ee5530e",
-  "name" : "test_delete_decree_text_before_approving",
-  "time" : {
-    "start" : 1644509900913,
-    "stop" : 1644509973870,
-    "duration" : 72957
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2da10512f3e4d595",
-  "name" : "test_send_rework_4th_approver",
-  "time" : {
-    "start" : 1644512280548,
-    "stop" : 1644512498993,
-    "duration" : 218445
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "707e4cb7e1079385",
-  "name" : "test_two_simple_signs",
-  "time" : {
-    "start" : 1644513753868,
-    "stop" : 1644513887692,
-    "duration" : 133824
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "add4a3ea5e749d0b",
-  "name" : "test_cancel_by_initiator",
-  "time" : {
-    "start" : 1644511773034,
-    "stop" : 1644511848152,
-    "duration" : 75118
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "837401a27b322231",
-  "name" : "test_files_wo_labels",
-  "time" : {
-    "start" : 1644514587034,
-    "stop" : 1644514684790,
-    "duration" : 97756
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2631667778271d00",
+  "uid" : "3559ac4a83c27ec7",
   "name" : "test_approve_contract_self_employed_valiev_approvers",
   "time" : {
-    "start" : 1644508457629,
-    "stop" : 1644508588318,
-    "duration" : 130689
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "373b767254f22eeb",
-  "name" : "test_approving_after_send_rework",
-  "time" : {
-    "start" : 1644510044056,
-    "stop" : 1644510158811,
-    "duration" : 114755
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "25f7fb1028500de3",
-  "name" : "test_offer_agreement",
-  "time" : {
-    "start" : 1644511603029,
-    "stop" : 1644511652677,
-    "duration" : 49648
+    "start" : 1644760939931,
+    "stop" : 1644761033178,
+    "duration" : 93247
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "e7169ef1e1d36975",
-  "name" : "test_create_request_spending_budget_funds_with_transfer_funds",
-  "time" : {
-    "start" : 1644514906019,
-    "stop" : 1644515070869,
-    "duration" : 164850
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b808e26b49e01bf5",
-  "name" : "test_approve_contract_self_employed_valiev_approvers_asll",
-  "time" : {
-    "start" : 1644508588320,
-    "stop" : 1644508588320,
-    "duration" : 0
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "96e017f4d46c9d35",
+  "uid" : "9c17430b393c6cfe",
   "name" : "test_download_document_qualified_sign",
   "time" : {
-    "start" : 1644519297076,
-    "stop" : 1644519323793,
-    "duration" : 26717
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "f564589df20a95ee",
-  "name" : "test_request_without_transfer",
-  "time" : {
-    "start" : 1644515283800,
-    "stop" : 1644515478305,
-    "duration" : 194505
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "885a87a5208b2590",
-  "name" : "test_creating_an_application_for_closing_documents",
-  "time" : {
-    "start" : 1644514758864,
-    "stop" : 1644514822380,
-    "duration" : 63516
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c22f367b75bc2903",
-  "name" : "test_contract_gph_standart_free",
-  "time" : {
-    "start" : 1644509033905,
-    "stop" : 1644509079757,
-    "duration" : 45852
+    "start" : 1644770796201,
+    "stop" : 1644770827517,
+    "duration" : 31316
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "439f28174dfa49d6",
-  "name" : "test_request_with_transfer",
+  "uid" : "7b27adf5f7865c9a",
+  "name" : "test_download_document_simple_sign",
   "time" : {
-    "start" : 1644515595942,
-    "stop" : 1644515771831,
-    "duration" : 175889
+    "start" : 1644770846629,
+    "stop" : 1644770865486,
+    "duration" : 18857
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "e31cc35935b9a32a",
-  "name" : "test_approve_contract_sale_signing",
-  "time" : {
-    "start" : 1644508252419,
-    "stop" : 1644508396910,
-    "duration" : 144491
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "74d00edd95b854c0",
-  "name" : "test_request_contract_gph_with_transfer",
-  "time" : {
-    "start" : 1644515888206,
-    "stop" : 1644516108789,
-    "duration" : 220583
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6dc004b72ed90bef",
-  "name" : "test_one_sign",
-  "time" : {
-    "start" : 1644511971492,
-    "stop" : 1644512070375,
-    "duration" : 98883
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f8a80d72e6ea3085",
-  "name" : "test_approve_contract_sale_vice_rector_and_analyst",
-  "time" : {
-    "start" : 1644507982354,
-    "stop" : 1644508106831,
-    "duration" : 124477
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2a9e9648f3bd924b",
-  "name" : "test_four_simple_signs",
-  "time" : {
-    "start" : 1644514411754,
-    "stop" : 1644514587030,
-    "duration" : 175276
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a0c1f86d6ec5d39d",
-  "name" : "test_budget_manager_delegate_task",
-  "time" : {
-    "start" : 1644517100748,
-    "stop" : 1644517220496,
-    "duration" : 119748
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "83d1d8df07cd5475",
-  "name" : "test_approve_contract_sale_first_group_approvers",
-  "time" : {
-    "start" : 1644507498896,
-    "stop" : 1644507599674,
-    "duration" : 100778
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "901da60ec52c2d68",
-  "name" : "test_create_request_spending_budget_funds_without_transfer_funds",
-  "time" : {
-    "start" : 1644514822430,
-    "stop" : 1644514905409,
-    "duration" : 82979
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "7652edcdd8bc7a89",
-  "name" : "test_approve_contract_sale_second_group_approvers",
-  "time" : {
-    "start" : 1644507697640,
-    "stop" : 1644507860647,
-    "duration" : 163007
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fb7e47c96bc65bae",
-  "name" : "test_create_decree",
-  "time" : {
-    "start" : 1644509151215,
-    "stop" : 1644509240471,
-    "duration" : 89256
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "741ba81eb280cf5e",
-  "name" : "test_cancel_approving",
-  "time" : {
-    "start" : 1644510495188,
-    "stop" : 1644510583441,
-    "duration" : 88253
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "10a0b0c8f86fd11a",
+  "uid" : "585f9c832fbefb63",
   "name" : "test_contract_gph_standart_1",
   "time" : {
-    "start" : 1644508970734,
-    "stop" : 1644509002214,
-    "duration" : 31480
+    "start" : 1644761492431,
+    "stop" : 1644761520672,
+    "duration" : 28241
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "468c38e6b52f85c2",
-  "name" : "test_budget_manager_send_rework",
+  "uid" : "a940fe23d5748591",
+  "name" : "test_approve_contract_sale_second_group_approvers",
   "time" : {
-    "start" : 1644516682057,
-    "stop" : 1644516763605,
-    "duration" : 81548
+    "start" : 1644760275859,
+    "stop" : 1644760414017,
+    "duration" : 138158
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c778ae10e7b59653",
-  "name" : "test_approve_contract_license_first_group_approvers",
+  "uid" : "ef600ad436629193",
+  "name" : "test_four_qualified_signs",
   "time" : {
-    "start" : 1644506518225,
-    "stop" : 1644506647422,
-    "duration" : 129197
+    "start" : 1644766121879,
+    "stop" : 1644766278322,
+    "duration" : 156443
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6ee297387354b570",
-  "name" : "test_director_send_rework",
+  "uid" : "63536d0634d02d47",
+  "name" : "test_files_wo_labels",
   "time" : {
-    "start" : 1644517345326,
-    "stop" : 1644517533782,
-    "duration" : 188456
+    "start" : 1644766423038,
+    "stop" : 1644766505327,
+    "duration" : 82289
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b672cef331440242",
-  "name" : "test_decree_states",
+  "uid" : "20d935dd8e2e6a0a",
+  "name" : "test_request_with_transfer",
   "time" : {
-    "start" : 1644509282108,
-    "stop" : 1644509430342,
-    "duration" : 148234
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "f1c655d921060a1",
-  "name" : "test_approve_contract_rent_vice_rector_and_signer",
-  "time" : {
-    "start" : 1644507337713,
-    "stop" : 1644507440569,
-    "duration" : 102856
+    "start" : 1644767316762,
+    "stop" : 1644767502838,
+    "duration" : 186076
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "811ff07d9d80c9df",
-  "name" : "test_cancel_approving_twice",
+  "uid" : "6db6d891b082e4d7",
+  "name" : "test_create_request_spending_budget_funds_without_transfer_funds",
   "time" : {
-    "start" : 1644511030087,
-    "stop" : 1644511264802,
-    "duration" : 234715
+    "start" : 1644766643947,
+    "stop" : 1644766771363,
+    "duration" : 127416
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5a1f53b47803e27a",
-  "name" : "test_contract_gph_change_signer_free",
-  "time" : {
-    "start" : 1644508624445,
-    "stop" : 1644508658504,
-    "duration" : 34059
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "1b1915e62c444787",
-  "name" : "test_create_request_transfer_funds",
-  "time" : {
-    "start" : 1644517927484,
-    "stop" : 1644517973293,
-    "duration" : 45809
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d65155097dddf569",
-  "name" : "test_sign_type_not_selected",
-  "time" : {
-    "start" : 1644511848155,
-    "stop" : 1644511871617,
-    "duration" : 23462
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9aa992b1b78c9060",
-  "name" : "test_two_qualified_signs",
-  "time" : {
-    "start" : 1644513629402,
-    "stop" : 1644513753864,
-    "duration" : 124462
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "780be69daf5c5404",
+  "uid" : "1a5ebd762c6183d3",
   "name" : "test_mass_signing",
   "time" : {
-    "start" : 1644512498998,
-    "stop" : 1644513585389,
-    "duration" : 1086391
+    "start" : 1644764623334,
+    "stop" : 1644765595391,
+    "duration" : 972057
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d4bf6d177e53f3e6",
-  "name" : "test_editing_decree_name",
-  "time" : {
-    "start" : 1644510223711,
-    "stop" : 1644510253589,
-    "duration" : 29878
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "15704af20ad40657",
-  "name" : "test_author_send_rework",
-  "time" : {
-    "start" : 1644516245894,
-    "stop" : 1644516290949,
-    "duration" : 45055
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "811e6f8bd5c92722",
-  "name" : "test_approve_contract_sale_vice_rector_and_analyst",
-  "time" : {
-    "start" : 1644506682380,
-    "stop" : 1644506682380,
-    "duration" : 0
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "33320dbb0217ae96",
-  "name" : "test_cancel_by_initiator",
-  "time" : {
-    "start" : 1644509471764,
-    "stop" : 1644509538924,
-    "duration" : 67160
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "243e072ca2e80bef",
-  "name" : "test_director_delegate_task",
-  "time" : {
-    "start" : 1644517668010,
-    "stop" : 1644517871419,
-    "duration" : 203409
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "3dc8984e7c6f33bb",
-  "name" : "test_trip_states",
-  "time" : {
-    "start" : 1644506346588,
-    "stop" : 1644506346588,
-    "duration" : 0
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "ba6731ea787f289b",
-  "name" : "test_three_simple_signs",
-  "time" : {
-    "start" : 1644513887696,
-    "stop" : 1644514052968,
-    "duration" : 165272
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "683e78b3ed2f3235",
-  "name" : "test_download_document",
-  "time" : {
-    "start" : 1644519226010,
-    "stop" : 1644519268006,
-    "duration" : 41996
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "c3e9e2e2a92aeda9",
-  "name" : "test_approver_wo_qualified_sign",
-  "time" : {
-    "start" : 1644513585394,
-    "stop" : 1644513629130,
-    "duration" : 43736
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "4359a4bffe23ea36",
-  "name" : "test_approve_contract_sale_first_group_approvers",
-  "time" : {
-    "start" : 1644506647424,
-    "stop" : 1644506647424,
-    "duration" : 0
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "671d52ffc7e3e8f6",
-  "name" : "test_create_trip",
-  "time" : {
-    "start" : 1644506313095,
-    "stop" : 1644506346230,
-    "duration" : 33135
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "b6a81b97a511405f",
-  "name" : "test_contract_gph_standart",
-  "time" : {
-    "start" : 1644508686658,
-    "stop" : 1644508938974,
-    "duration" : 252316
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "89ddadc31ab6eebf",
-  "name" : "test_approve_contract_cooperation_first_group_approvers",
-  "time" : {
-    "start" : 1644506431865,
-    "stop" : 1644506464834,
-    "duration" : 32969
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "8ff04657d2f0ef84",
-  "name" : "test_delete_decree_text_after_approving",
-  "time" : {
-    "start" : 1644509710850,
-    "stop" : 1644509710850,
-    "duration" : 0
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "f949e21ece415b13",
-  "name" : "test_hiring_agreement",
-  "time" : {
-    "start" : 1644511326762,
-    "stop" : 1644511567133,
-    "duration" : 240371
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fee3e75f4dee43ec",
+  "uid" : "57a04f0437a43b54",
   "name" : "test_one_qualified_sign_zip",
   "time" : {
-    "start" : 1644512177563,
-    "stop" : 1644512280545,
-    "duration" : 102982
+    "start" : 1644764345707,
+    "stop" : 1644764438059,
+    "duration" : 92352
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8aebc37886065462",
+  "name" : "test_approve_contract_self_employed_valiev_approvers_asll",
+  "time" : {
+    "start" : 1644761033540,
+    "stop" : 1644761033540,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d316ba7238a0e69",
+  "name" : "test_author_cancel_approving",
+  "time" : {
+    "start" : 1644768466847,
+    "stop" : 1644768545785,
+    "duration" : 78938
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f475c094bc42878",
+  "name" : "test_add_outbox_letter_main_flow",
+  "time" : {
+    "start" : 1644766505331,
+    "stop" : 1644766587298,
+    "duration" : 81967
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3628d080d300f673",
+  "name" : "test_approve_contract_rent_first_group_approvers",
+  "time" : {
+    "start" : 1644759484986,
+    "stop" : 1644759598430,
+    "duration" : 113444
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d491d30c9c646637",
+  "name" : "test_decree_states",
+  "time" : {
+    "start" : 1644761769886,
+    "stop" : 1644761896856,
+    "duration" : 126970
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6925ca15ad683835",
+  "name" : "test_request_without_transfer",
+  "time" : {
+    "start" : 1644767047326,
+    "stop" : 1644767221083,
+    "duration" : 173757
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17fdaf6d1244140b",
+  "name" : "test_approve_contract_sale_vice_rector_and_analyst",
+  "time" : {
+    "start" : 1644759377365,
+    "stop" : 1644759377365,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a33035fc3f4658eb",
+  "name" : "test_cancel_by_initiator",
+  "time" : {
+    "start" : 1644764003187,
+    "stop" : 1644764068902,
+    "duration" : 65715
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "91161b377f7b6076",
+  "name" : "test_one_qualified_sign",
+  "time" : {
+    "start" : 1644764257766,
+    "stop" : 1644764345703,
+    "duration" : 87937
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40bd76e9d4ed4897",
+  "name" : "test_contract_gph_change_signer_free",
+  "time" : {
+    "start" : 1644761065236,
+    "stop" : 1644761094757,
+    "duration" : 29521
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5fab5e003262acfb",
+  "name" : "test_contract_gph_standart",
+  "time" : {
+    "start" : 1644761118623,
+    "stop" : 1644761466780,
+    "duration" : 348157
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4b1b9c25e67864e",
+  "name" : "test_create_decree",
+  "time" : {
+    "start" : 1644761647763,
+    "stop" : 1644761735163,
+    "duration" : 87400
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9fbda54940a44d70",
+  "name" : "test_auto_approving",
+  "time" : {
+    "start" : 1644763242651,
+    "stop" : 1644763282909,
+    "duration" : 40258
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbf5af564db6b0da",
+  "name" : "test_send_rework_4th_approver",
+  "time" : {
+    "start" : 1644764438062,
+    "stop" : 1644764623329,
+    "duration" : 185267
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56d48e1681a2d674",
+  "name" : "test_three_simple_signs",
+  "time" : {
+    "start" : 1644765841229,
+    "stop" : 1644765979025,
+    "duration" : 137796
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23afdccc58830bd1",
+  "name" : "test_cancel_approving",
+  "time" : {
+    "start" : 1644762838811,
+    "stop" : 1644762920589,
+    "duration" : 81778
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9983ce6677bf51d8",
+  "name" : "test_cancel_approving_twice",
+  "time" : {
+    "start" : 1644763344072,
+    "stop" : 1644763548259,
+    "duration" : 204187
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a5ff66d88b96472",
+  "name" : "test_one_sign",
+  "time" : {
+    "start" : 1644764173061,
+    "stop" : 1644764257763,
+    "duration" : 84702
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a751718f5745fec",
+  "name" : "test_download_document",
+  "time" : {
+    "start" : 1644770733881,
+    "stop" : 1644770772826,
+    "duration" : 38945
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2ecf5a8c6b60096",
+  "name" : "test_approve_contract_sale_first_group_approvers",
+  "time" : {
+    "start" : 1644760106367,
+    "stop" : 1644760191539,
+    "duration" : 85172
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a76823ed626b56e",
+  "name" : "test_approve_contract_cooperation_first_group_approvers",
+  "time" : {
+    "start" : 1644759154492,
+    "stop" : 1644759183919,
+    "duration" : 29427
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "37492887c2662246",
+  "name" : "test_three_qualified_signs",
+  "time" : {
+    "start" : 1644765979029,
+    "stop" : 1644766121875,
+    "duration" : 142846
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a547f9c5b22613e5",
+  "name" : "test_four_simple_signs",
+  "time" : {
+    "start" : 1644766278326,
+    "stop" : 1644766423034,
+    "duration" : 144708
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cce7a4b1953e2402",
+  "name" : "test_director_send_rework",
+  "time" : {
+    "start" : 1644768787901,
+    "stop" : 1644768963596,
+    "duration" : 175695
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a51bee8cc74f6b6",
+  "name" : "test_approving_after_send_rework",
+  "time" : {
+    "start" : 1644762433631,
+    "stop" : 1644762535674,
+    "duration" : 102043
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53ac36a7b25c163f",
+  "name" : "test_approve_contract_sale_vice_rector_and_analyst",
+  "time" : {
+    "start" : 1644760523815,
+    "stop" : 1644760632373,
+    "duration" : 108558
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "812af6e38b8fae41",
+  "name" : "test_sign_type_not_selected",
+  "time" : {
+    "start" : 1644764068905,
+    "stop" : 1644764088972,
+    "duration" : 20067
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d382fcf7168fb6f",
+  "name" : "test_approve_contract_sale_second_group_approvers",
+  "time" : {
+    "start" : 1644759684835,
+    "stop" : 1644759853896,
+    "duration" : 169061
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8fbfcbdecee6f251",
+  "name" : "test_approve_contract_sale_signing",
+  "time" : {
+    "start" : 1644760764489,
+    "stop" : 1644760889201,
+    "duration" : 124712
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b21306de58a84472",
+  "name" : "test_create_request_transfer_funds",
+  "time" : {
+    "start" : 1644769071226,
+    "stop" : 1644769109995,
+    "duration" : 38769
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f1ece07a3085542",
+  "name" : "test_approve_contract_rent_vice_rector_and_signer",
+  "time" : {
+    "start" : 1644759974795,
+    "stop" : 1644760057514,
+    "duration" : 82719
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6ee3ba858cd6d68",
+  "name" : "test_cancel_by_initiator",
+  "time" : {
+    "start" : 1644761933146,
+    "stop" : 1644761991916,
+    "duration" : 58770
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97a52964df71cf02",
+  "name" : "test_editing_decree_name",
+  "time" : {
+    "start" : 1644762596710,
+    "stop" : 1644762624015,
+    "duration" : 27305
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa4e21a7a61db267",
+  "name" : "test_change_decree_attachments",
+  "time" : {
+    "start" : 1644762051492,
+    "stop" : 1644762118919,
+    "duration" : 67427
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3cb7c915fef",
+  "name" : "test_financial_analyst_send_rework",
+  "time" : {
+    "start" : 1644767979430,
+    "stop" : 1644768133922,
+    "duration" : 154492
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1b57eb1aabfdb4e",
+  "name" : "test_hiring_agreement",
+  "time" : {
+    "start" : 1644763605341,
+    "stop" : 1644763809117,
+    "duration" : 203776
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31e63e302c2982ed",
+  "name" : "test_create_request_spending_budget_funds_contract_gph",
+  "time" : {
+    "start" : 1644766841867,
+    "stop" : 1644766977570,
+    "duration" : 135703
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2afa35f7e340de80",
+  "name" : "test_two_simple_signs",
+  "time" : {
+    "start" : 1644765736563,
+    "stop" : 1644765841226,
+    "duration" : 104663
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1f1c2283a0e6bf5",
+  "name" : "test_offer_agreement",
+  "time" : {
+    "start" : 1644763839433,
+    "stop" : 1644763884607,
+    "duration" : 45174
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a14ed9d6900a1380",
+  "name" : "test_author_send_rework",
+  "time" : {
+    "start" : 1644767840796,
+    "stop" : 1644767880439,
+    "duration" : 39643
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c6f91b2aa2a160f",
+  "name" : "test_approve_contract_sale_first_group_approvers",
+  "time" : {
+    "start" : 1644759345328,
+    "stop" : 1644759345328,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6511b0919db53ace",
+  "name" : "test_approve_contract_license_first_group_approvers",
+  "time" : {
+    "start" : 1644759234024,
+    "stop" : 1644759345325,
+    "duration" : 111301
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bdfdf4a51449a6e6",
+  "name" : "test_request_contract_gph_with_transfer",
+  "time" : {
+    "start" : 1644767598099,
+    "stop" : 1644767721842,
+    "duration" : 123743
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "81a041ddcbbe432f",
+  "name" : "test_contract_gph_free_standart",
+  "time" : {
+    "start" : 1644761611605,
+    "stop" : 1644761647759,
+    "duration" : 36154
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "710bf7c4c189c794",
+  "name" : "test_create_request_spending_budget_funds_with_transfer_funds",
+  "time" : {
+    "start" : 1644766771367,
+    "stop" : 1644766841291,
+    "duration" : 69924
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "15dcf491de292f6c",
+  "name" : "test_contract_gph_standart_free",
+  "time" : {
+    "start" : 1644761547200,
+    "stop" : 1644761587089,
+    "duration" : 39889
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fac8a2af4b1fb0fa",
+  "name" : "test_creating_an_application_for_closing_documents",
+  "time" : {
+    "start" : 1644766587586,
+    "stop" : 1644766643943,
+    "duration" : 56357
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a947087e554d8b46",
+  "name" : "test_delete_decree_text_before_approving",
+  "time" : {
+    "start" : 1644762310679,
+    "stop" : 1644762373384,
+    "duration" : 62705
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ccf4fb1ddee3fe2",
+  "name" : "test_director_delegate_task",
+  "time" : {
+    "start" : 1644769006915,
+    "stop" : 1644769006915,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "520cbaf9a93801c0",
+  "name" : "test_two_qualified_signs",
+  "time" : {
+    "start" : 1644765632539,
+    "stop" : 1644765736559,
+    "duration" : 104020
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e5285f22232c8a5",
+  "name" : "test_delete_decree_text_after_approving",
+  "time" : {
+    "start" : 1644762141169,
+    "stop" : 1644762141169,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b456ecaa111252b",
+  "name" : "test_budget_manager_delegate_task",
+  "time" : {
+    "start" : 1644768597083,
+    "stop" : 1644768597083,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cbe6e49c70d9ba4b",
+  "name" : "test_budget_manager_send_rework",
+  "time" : {
+    "start" : 1644768261692,
+    "stop" : 1644768341611,
+    "duration" : 79919
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b51358b57842d39",
+  "name" : "test_trip_states",
+  "time" : {
+    "start" : 1644759076995,
+    "stop" : 1644759076995,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "52de7bc69e803af6",
+  "name" : "test_edit_decree_after_send_rework",
+  "time" : {
+    "start" : 1644762999575,
+    "stop" : 1644763088826,
+    "duration" : 89251
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f722e42ce6db704c",
+  "name" : "test_create_trip",
+  "time" : {
+    "start" : 1644759046551,
+    "stop" : 1644759076563,
+    "duration" : 30012
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b24ed6acab738fe",
+  "name" : "test_edit_decree_name_under_approving",
+  "time" : {
+    "start" : 1644762684234,
+    "stop" : 1644762777411,
+    "duration" : 93177
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b83a9ae951d2b",
+  "name" : "test_add_inbox_letter",
+  "time" : {
+    "start" : 1644763884924,
+    "stop" : 1644764002803,
+    "duration" : 117879
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d70fa15d48bf8d3",
+  "name" : "test_landscape_orientation",
+  "time" : {
+    "start" : 1644764088977,
+    "stop" : 1644764173058,
+    "duration" : 84081
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fc53e95bd19cd68",
+  "name" : "test_approver_wo_qualified_sign",
+  "time" : {
+    "start" : 1644765595397,
+    "stop" : 1644765632238,
+    "duration" : 36841
+  },
+  "status" : "failed",
   "severity" : "normal"
 } ]

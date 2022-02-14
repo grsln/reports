@@ -1,0 +1,72 @@
+2022-02-13 14:04:55 INFO login "Наталия Жандарова".
+2022-02-13 14:05:08 INFO Open contract create page
+2022-02-13 14:05:18 INFO title "Договор ГПХ стандартный шаблон тест2 14:05:01.917998", id "440665".
+2022-02-13 14:05:18 INFO Send for consideration
+2022-02-13 14:05:25 INFO login Елена Рыбакова
+2022-02-13 14:05:33 INFO open contract page
+2022-02-13 14:05:41 INFO Согласование договора "Договор ГПХ стандартный шаблон тест2 14:05:01.917998"
+2022-02-13 14:05:41 INFO Approve contract modal window
+2022-02-13 14:05:41 INFO open_contract
+2022-02-13 14:05:49 INFO find contract Договор ГПХ стандартный шаблон тест2 14:05:01.917998
+2022-02-13 14:05:49 INFO find_contract_gph
+2022-02-13 14:05:52 INFO login Лилия Симонова
+2022-02-13 14:06:01 INFO open contract page
+2022-02-13 14:06:10 INFO Согласование договора "Договор ГПХ стандартный шаблон тест2 14:05:01.917998"
+2022-02-13 14:06:10 INFO Approve contract modal window
+2022-02-13 14:06:10 INFO open_contract
+2022-02-13 14:06:18 INFO find contract Договор ГПХ стандартный шаблон тест2 14:05:01.917998
+2022-02-13 14:06:18 INFO find_contract_gph
+2022-02-13 14:06:21 INFO login Дмитрий Сарайкин
+2022-02-13 14:06:29 INFO open contract page
+2022-02-13 14:06:36 INFO Согласование договора "Договор ГПХ стандартный шаблон тест2 14:05:01.917998"
+2022-02-13 14:06:36 INFO Approve contract modal window
+2022-02-13 14:06:36 INFO open_contract
+2022-02-13 14:06:44 INFO find contract Договор ГПХ стандартный шаблон тест2 14:05:01.917998
+2022-02-13 14:06:44 INFO find_contract_gph
+2022-02-13 14:06:47 INFO login Павел Зотов
+2022-02-13 14:06:54 INFO open contract page
+2022-02-13 14:07:03 INFO Согласование договора "Договор ГПХ стандартный шаблон тест2 14:05:01.917998"
+2022-02-13 14:07:03 INFO Approve contract modal window
+2022-02-13 14:07:04 INFO open_contract
+2022-02-13 14:07:13 INFO find contract Договор ГПХ стандартный шаблон тест2 14:05:01.917998
+2022-02-13 14:07:13 INFO find_contract_gph
+2022-02-13 14:07:17 INFO login Радик Валиев
+2022-02-13 14:07:28 INFO open contract page
+2022-02-13 14:07:36 INFO Согласование договора "Договор ГПХ стандартный шаблон тест2 14:05:01.917998"
+2022-02-13 14:07:36 INFO Approve contract modal window
+2022-02-13 14:07:36 INFO open_contract
+2022-02-13 14:07:45 INFO find contract Договор ГПХ стандартный шаблон тест2 14:05:01.917998
+2022-02-13 14:07:45 INFO find_contract_gph
+2022-02-13 14:07:48 INFO login Искандер Бариев
+2022-02-13 14:07:57 INFO open contract page
+2022-02-13 14:08:08 INFO Согласование договора "Договор ГПХ стандартный шаблон тест2 14:05:01.917998"
+2022-02-13 14:08:09 INFO Approve contract modal window
+2022-02-13 14:08:09 INFO open_contract
+2022-02-13 14:08:20 INFO find contract Договор ГПХ стандартный шаблон тест2 14:05:01.917998
+2022-02-13 14:08:20 INFO find_contract_gph
+2022-02-13 14:08:23 INFO login "Кирилл Семенихин".
+2022-02-13 14:08:31 INFO open contract page
+2022-02-13 14:08:38 INFO Approve contract check box
+2022-02-13 14:08:45 INFO open_contract
+2022-02-13 14:08:52 INFO find_contract Договор ГПХ стандартный шаблон тест2 14:05:01.917998
+2022-02-13 14:08:52 INFO find_contract_gph
+2022-02-13 14:08:55 INFO login Юлия Казаева
+2022-02-13 14:09:04 INFO open contract page
+2022-02-13 14:09:16 INFO open_contract
+2022-02-13 14:09:26 INFO find_contract Договор ГПХ стандартный шаблон тест2 14:05:01.917998
+2022-02-13 14:09:26 INFO find_contract_gph
+2022-02-13 14:09:29 INFO login Наталия Жандарова
+2022-02-13 14:09:38 INFO open contract page
+2022-02-13 14:09:44 INFO open_contract
+2022-02-13 14:09:54 INFO find_contract Договор ГПХ стандартный шаблон тест2 14:05:01.917998
+2022-02-13 14:09:54 INFO find_contract_gph
+2022-02-13 14:09:57 INFO login Наталья Румянова
+2022-02-13 14:10:06 INFO open contract page
+2022-02-13 14:10:21 INFO open_contract
+2022-02-13 14:10:38 INFO find_contract Договор ГПХ стандартный шаблон тест2 14:05:01.917998
+2022-02-13 14:10:38 INFO find_contract_gph
+2022-02-13 14:10:41 INFO open_contract_admin
+2022-02-13 14:10:54 INFO find_contract Договор ГПХ стандартный шаблон тест2 14:05:01.917998
+2022-02-13 14:10:54 INFO find_contract_gph
+2022-02-13 14:10:59 INFO delete
+2022-02-13 14:10:59 INFO accept alert

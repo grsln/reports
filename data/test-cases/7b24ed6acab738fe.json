@@ -1,0 +1,596 @@
+{
+  "uid" : "7b24ed6acab738fe",
+  "name" : "test_edit_decree_name_under_approving",
+  "fullName" : "tests.test_decrees.test_decrees.TestDecrees#test_edit_decree_name_under_approving",
+  "historyId" : "cce0dd19bafc37c802e16762d61cb4ba",
+  "time" : {
+    "start" : 1644762684234,
+    "stop" : 1644762777411,
+    "duration" : 93177
+  },
+  "description" : "\n        Проверка редактирования названия приказа при согласовании\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/59784\n        ",
+  "descriptionHtml" : "<pre><code>    Проверка редактирования названия приказа при согласовании\n    https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/59784\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text ОДОБРЕНИЕ ПРИКАЗА ПОДПИСАНТОМ\n\nReason: AssertionError: actual text: РАССМОТРЕНИЕ ПЕРВОЙ ГРУППОЙ СОГЛАСУЮЩИХ\nScreenshot: file:///home/seluser/.selene/screenshots/1644759029291/1644759029303.png\nPageSource: file:///home/seluser/.selene/screenshots/1644759029291/1644759029303.html",
+  "statusTrace" : "self = <selene.core.wait.Wait object at 0x7f19364ddb80>\nfn = <selene.core.conditions.ElementCondition object at 0x7f19364dd310>\n\n    def for_(self, fn: Callable[[E], R]) -> R:\n        finish_time = time.time() + self._timeout\n    \n        while True:\n            try:\n>               return fn(self._entity)\n\n/usr/local/lib/python3.8/dist-packages/selene/core/wait.py:102: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selene.core.conditions.ElementCondition object at 0x7f19364dd310>\nargs = (<selene.core.entity.Element object at 0x7f19364dd6d0>,), kwargs = {}\n\n    def __call__(self, *args, **kwargs):\n>       return self._fn(*args, **kwargs)\n\n/usr/local/lib/python3.8/dist-packages/selene/core/condition.py:136: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nentity = <selene.core.entity.Element object at 0x7f19364dd6d0>\n\n    def fn(entity: E) -> None:\n        query_to_str = str(query)\n        result = (\n            query.__name__\n            if query_to_str.startswith('<function')\n            else query_to_str\n        )\n        actual = query(entity)\n        if not predicate(actual):\n>           raise AssertionError(f'actual {result}: {actual}')\nE           AssertionError: actual text: РАССМОТРЕНИЕ ПЕРВОЙ ГРУППОЙ СОГЛАСУЮЩИХ\n\n/usr/local/lib/python3.8/dist-packages/selene/core/condition.py:109: AssertionError\n\nDuring handling of the above exception, another exception occurred:\n\nself = <tests.test_decrees.test_decrees.TestDecrees object at 0x7f1936597ac0>\ndecree_3rd_type = <models.decree_data.Decree object at 0x7f1936690e80>\n\n    def test_edit_decree_name_under_approving(self, decree_3rd_type):\n        \"\"\"\n        Проверка редактирования названия приказа при согласовании\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/59784\n        \"\"\"\n        logger.info(\"Проверка на стадии Подготовки документа\")\n        admin_panel.auth_as_user(decree_3rd_type.author)\n        decrees_list_page.open_decree_by_number(decree_3rd_type.decree_id)\n        decree_page.decree_name.clear().type(\"тест\")\n        decree_page.decree_name.should(have.value(\"тест\"))\n        decree_page.send_consideration()\n    \n        logger.info(\"Проверка на стадии Проверки корректности документа\")\n        admin_panel.auth_as_user(decree_3rd_type.corrector)\n        decrees_list_page.open_decree_by_number(decree_3rd_type.decree_id)\n        decree_page.decree_name.clear().type(\"test\")\n        decree_page.decree_name.should(have.value(\"test\"))\n        decree_page.accept_corrector()\n    \n        logger.info(\"Проверка на стадии Согласование первой группой согласующих\")\n        admin_panel.auth_as_user(decree_3rd_type.supervisors_1st_group[0])\n        decrees_list_page.open_decree_by_number(decree_3rd_type.decree_id)\n        decree_page.decree_name_inputs.should(be.empty)\n>       decree_page.approve_last_supervisor()\n\ntests/test_decrees/test_decrees.py:236: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/document_management/decrees/decree_page.py:100: in approve_last_supervisor\n    self.assert_states(\"Одобрение приказа подписантом\")\npages/base_page.py:49: in assert_states\n    self.status_button.with_(Config(timeout=timeout)).should(have.text(status_text))\n/usr/local/lib/python3.8/dist-packages/selene/core/entity.py:379: in should\n    super().should(condition)\n/usr/local/lib/python3.8/dist-packages/selene/core/entity.py:122: in should\n    self.wait.for_(condition)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selene.core.wait.Wait object at 0x7f19364ddb80>\nfn = <selene.core.conditions.ElementCondition object at 0x7f19364dd310>\n\n        def for_(self, fn: Callable[[E], R]) -> R:\n            finish_time = time.time() + self._timeout\n    \n            while True:\n                try:\n                    return fn(self._entity)\n                except Exception as reason:\n                    if time.time() > finish_time:\n    \n                        reason_message = str(reason)\n    \n                        reason_string = '{name}: {message}'.format(\n                            name=reason.__class__.__name__, message=reason_message\n                        )\n                        # todo: think on how can we improve logging failures in selene, e.g. reverse msg and stacktrace\n                        # stacktrace = getattr(reason, 'stacktrace', None)\n                        timeout = self._timeout\n                        entity = self._entity\n    \n                        failure = TimeoutException(\n                            f'''\n    \n    Timed out after {timeout}s, while waiting for:\n    {entity}.{fn}\n    \n    Reason: {reason_string}'''\n                        )\n    \n>                       raise self._hook_failure(failure)\nE                       selene.core.exceptions.TimeoutException: Message: \nE                       \nE                       Timed out after 20s, while waiting for:\nE                       browser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text ОДОБРЕНИЕ ПРИКАЗА ПОДПИСАНТОМ\nE                       \nE                       Reason: AssertionError: actual text: РАССМОТРЕНИЕ ПЕРВОЙ ГРУППОЙ СОГЛАСУЮЩИХ\nE                       Screenshot: file:///home/seluser/.selene/screenshots/1644759029291/1644759029303.png\nE                       PageSource: file:///home/seluser/.selene/screenshots/1644759029291/1644759029303.html\n\n/usr/local/lib/python3.8/dist-packages/selene/core/wait.py:125: TimeoutException",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1644759032631,
+      "stop" : 1644759032861,
+      "duration" : 230
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_admin",
+    "time" : {
+      "start" : 1644759032861,
+      "stop" : 1644759046548,
+      "duration" : 13687
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "decree_3rd_type",
+    "time" : {
+      "start" : 1644762646157,
+      "stop" : 1644762684233,
+      "duration" : 38076
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1644762646157,
+        "stop" : 1644762654714,
+        "duration" : 8557
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1644762646157,
+          "stop" : 1644762646786,
+          "duration" : 629
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "<common.user.User object at 0x7f19423db7c0>"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открытие страницы создания приказа",
+      "time" : {
+        "start" : 1644762654714,
+        "stop" : 1644762665857,
+        "duration" : 11143
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список приказов",
+        "time" : {
+          "start" : 1644762654714,
+          "stop" : 1644762662561,
+          "duration" : 7847
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение обязательных полей и создание приказа",
+      "time" : {
+        "start" : 1644762665857,
+        "stop" : 1644762684206,
+        "duration" : 18349
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "decree_data",
+        "value" : "<models.decree_data.Decree object at 0x7f1936690e80>"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение номера приказа",
+      "time" : {
+        "start" : 1644762684206,
+        "stop" : 1644762684233,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "\n        Проверка редактирования названия приказа при согласовании\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/59784\n        ",
+    "status" : "failed",
+    "statusMessage" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text ОДОБРЕНИЕ ПРИКАЗА ПОДПИСАНТОМ\n\nReason: AssertionError: actual text: РАССМОТРЕНИЕ ПЕРВОЙ ГРУППОЙ СОГЛАСУЮЩИХ\nScreenshot: file:///home/seluser/.selene/screenshots/1644759029291/1644759029303.png\nPageSource: file:///home/seluser/.selene/screenshots/1644759029291/1644759029303.html",
+    "statusTrace" : "self = <selene.core.wait.Wait object at 0x7f19364ddb80>\nfn = <selene.core.conditions.ElementCondition object at 0x7f19364dd310>\n\n    def for_(self, fn: Callable[[E], R]) -> R:\n        finish_time = time.time() + self._timeout\n    \n        while True:\n            try:\n>               return fn(self._entity)\n\n/usr/local/lib/python3.8/dist-packages/selene/core/wait.py:102: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selene.core.conditions.ElementCondition object at 0x7f19364dd310>\nargs = (<selene.core.entity.Element object at 0x7f19364dd6d0>,), kwargs = {}\n\n    def __call__(self, *args, **kwargs):\n>       return self._fn(*args, **kwargs)\n\n/usr/local/lib/python3.8/dist-packages/selene/core/condition.py:136: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nentity = <selene.core.entity.Element object at 0x7f19364dd6d0>\n\n    def fn(entity: E) -> None:\n        query_to_str = str(query)\n        result = (\n            query.__name__\n            if query_to_str.startswith('<function')\n            else query_to_str\n        )\n        actual = query(entity)\n        if not predicate(actual):\n>           raise AssertionError(f'actual {result}: {actual}')\nE           AssertionError: actual text: РАССМОТРЕНИЕ ПЕРВОЙ ГРУППОЙ СОГЛАСУЮЩИХ\n\n/usr/local/lib/python3.8/dist-packages/selene/core/condition.py:109: AssertionError\n\nDuring handling of the above exception, another exception occurred:\n\nself = <tests.test_decrees.test_decrees.TestDecrees object at 0x7f1936597ac0>\ndecree_3rd_type = <models.decree_data.Decree object at 0x7f1936690e80>\n\n    def test_edit_decree_name_under_approving(self, decree_3rd_type):\n        \"\"\"\n        Проверка редактирования названия приказа при согласовании\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/59784\n        \"\"\"\n        logger.info(\"Проверка на стадии Подготовки документа\")\n        admin_panel.auth_as_user(decree_3rd_type.author)\n        decrees_list_page.open_decree_by_number(decree_3rd_type.decree_id)\n        decree_page.decree_name.clear().type(\"тест\")\n        decree_page.decree_name.should(have.value(\"тест\"))\n        decree_page.send_consideration()\n    \n        logger.info(\"Проверка на стадии Проверки корректности документа\")\n        admin_panel.auth_as_user(decree_3rd_type.corrector)\n        decrees_list_page.open_decree_by_number(decree_3rd_type.decree_id)\n        decree_page.decree_name.clear().type(\"test\")\n        decree_page.decree_name.should(have.value(\"test\"))\n        decree_page.accept_corrector()\n    \n        logger.info(\"Проверка на стадии Согласование первой группой согласующих\")\n        admin_panel.auth_as_user(decree_3rd_type.supervisors_1st_group[0])\n        decrees_list_page.open_decree_by_number(decree_3rd_type.decree_id)\n        decree_page.decree_name_inputs.should(be.empty)\n>       decree_page.approve_last_supervisor()\n\ntests/test_decrees/test_decrees.py:236: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/document_management/decrees/decree_page.py:100: in approve_last_supervisor\n    self.assert_states(\"Одобрение приказа подписантом\")\npages/base_page.py:49: in assert_states\n    self.status_button.with_(Config(timeout=timeout)).should(have.text(status_text))\n/usr/local/lib/python3.8/dist-packages/selene/core/entity.py:379: in should\n    super().should(condition)\n/usr/local/lib/python3.8/dist-packages/selene/core/entity.py:122: in should\n    self.wait.for_(condition)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selene.core.wait.Wait object at 0x7f19364ddb80>\nfn = <selene.core.conditions.ElementCondition object at 0x7f19364dd310>\n\n        def for_(self, fn: Callable[[E], R]) -> R:\n            finish_time = time.time() + self._timeout\n    \n            while True:\n                try:\n                    return fn(self._entity)\n                except Exception as reason:\n                    if time.time() > finish_time:\n    \n                        reason_message = str(reason)\n    \n                        reason_string = '{name}: {message}'.format(\n                            name=reason.__class__.__name__, message=reason_message\n                        )\n                        # todo: think on how can we improve logging failures in selene, e.g. reverse msg and stacktrace\n                        # stacktrace = getattr(reason, 'stacktrace', None)\n                        timeout = self._timeout\n                        entity = self._entity\n    \n                        failure = TimeoutException(\n                            f'''\n    \n    Timed out after {timeout}s, while waiting for:\n    {entity}.{fn}\n    \n    Reason: {reason_string}'''\n                        )\n    \n>                       raise self._hook_failure(failure)\nE                       selene.core.exceptions.TimeoutException: Message: \nE                       \nE                       Timed out after 20s, while waiting for:\nE                       browser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text ОДОБРЕНИЕ ПРИКАЗА ПОДПИСАНТОМ\nE                       \nE                       Reason: AssertionError: actual text: РАССМОТРЕНИЕ ПЕРВОЙ ГРУППОЙ СОГЛАСУЮЩИХ\nE                       Screenshot: file:///home/seluser/.selene/screenshots/1644759029291/1644759029303.png\nE                       PageSource: file:///home/seluser/.selene/screenshots/1644759029291/1644759029303.html\n\n/usr/local/lib/python3.8/dist-packages/selene/core/wait.py:125: TimeoutException",
+    "steps" : [ {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1644762684235,
+        "stop" : 1644762691448,
+        "duration" : 7213
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1644762684235,
+          "stop" : 1644762684805,
+          "duration" : 570
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "<common.user.User object at 0x7f19423db7c0>"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открыть приказ по номеру",
+      "time" : {
+        "start" : 1644762691448,
+        "stop" : 1644762703331,
+        "duration" : 11883
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список приказов",
+        "time" : {
+          "start" : 1644762691448,
+          "stop" : 1644762699663,
+          "duration" : 8215
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "'440677'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Отправка приказа на рассмотрение",
+      "time" : {
+        "start" : 1644762703490,
+        "stop" : 1644762710081,
+        "duration" : 6591
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1644762710081,
+        "stop" : 1644762719139,
+        "duration" : 9058
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1644762710081,
+          "stop" : 1644762710662,
+          "duration" : 581
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "<common.user.User object at 0x7f19423db9d0>"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открыть приказ по номеру",
+      "time" : {
+        "start" : 1644762719139,
+        "stop" : 1644762729885,
+        "duration" : 10746
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список приказов",
+        "time" : {
+          "start" : 1644762719139,
+          "stop" : 1644762726196,
+          "duration" : 7057
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "'440677'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Одобрение на стадии проверки корректности приказа",
+      "time" : {
+        "start" : 1644762730025,
+        "stop" : 1644762737818,
+        "duration" : 7793
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1644762737819,
+        "stop" : 1644762745787,
+        "duration" : 7968
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1644762737819,
+          "stop" : 1644762738429,
+          "duration" : 610
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "<common.user.User object at 0x7f19424425e0>"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открыть приказ по номеру",
+      "time" : {
+        "start" : 1644762745787,
+        "stop" : 1644762756864,
+        "duration" : 11077
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список приказов",
+        "time" : {
+          "start" : 1644762745787,
+          "stop" : 1644762753575,
+          "duration" : 7788
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "'440677'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Согласование последним из группы согласующих сотрудником",
+      "time" : {
+        "start" : 1644762756878,
+        "stop" : 1644762777410,
+        "duration" : 20532
+      },
+      "status" : "failed",
+      "statusMessage" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text ОДОБРЕНИЕ ПРИКАЗА ПОДПИСАНТОМ\n\nReason: AssertionError: actual text: РАССМОТРЕНИЕ ПЕРВОЙ ГРУППОЙ СОГЛАСУЮЩИХ\nScreenshot: file:///home/seluser/.selene/screenshots/1644759029291/1644759029303.png\nPageSource: file:///home/seluser/.selene/screenshots/1644759029291/1644759029303.html\n\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.8/dist-packages/allure_commons/_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"/app/pages/document_management/decrees/decree_page.py\", line 100, in approve_last_supervisor\n    self.assert_states(\"Одобрение приказа подписантом\")\n  File \"/app/pages/base_page.py\", line 49, in assert_states\n    self.status_button.with_(Config(timeout=timeout)).should(have.text(status_text))\n  File \"/usr/local/lib/python3.8/dist-packages/selene/core/entity.py\", line 379, in should\n    super().should(condition)\n  File \"/usr/local/lib/python3.8/dist-packages/selene/core/entity.py\", line 122, in should\n    self.wait.for_(condition)\n  File \"/usr/local/lib/python3.8/dist-packages/selene/core/wait.py\", line 125, in for_\n    raise self._hook_failure(failure)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Screen-shot done",
+      "time" : {
+        "start" : 1644762777467,
+        "stop" : 1644762777667,
+        "duration" : 200
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7b04203621d35bf4",
+        "name" : "screenshot",
+        "source" : "7b04203621d35bf4.png",
+        "type" : "image/png",
+        "size" : 284639
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "da31648ddd6ea888",
+      "name" : "log",
+      "source" : "da31648ddd6ea888.txt",
+      "type" : "text/plain",
+      "size" : 801
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 16,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "decree_3rd_type::0",
+    "time" : {
+      "start" : 1644762777668,
+      "stop" : 1644762801034,
+      "duration" : 23366
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизоваться под администратором портала",
+      "time" : {
+        "start" : 1644762777669,
+        "stop" : 1644762778413,
+        "duration" : 744
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Открыть приказ по номеру",
+      "time" : {
+        "start" : 1644762782901,
+        "stop" : 1644762794730,
+        "duration" : 11829
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список приказов",
+        "time" : {
+          "start" : 1644762782901,
+          "stop" : 1644762790432,
+          "duration" : 7531
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "'440677'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "auth_admin::0",
+    "time" : {
+      "start" : 1644769109995,
+      "stop" : 1644769110267,
+      "duration" : 272
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "decrees"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.test_decrees"
+  }, {
+    "name" : "suite",
+    "value" : "test_decrees"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDecrees"
+  }, {
+    "name" : "host",
+    "value" : "portal-test-qa-6hkzj"
+  }, {
+    "name" : "thread",
+    "value" : "7-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_decrees.test_decrees"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "2e3c019bf4fd15b2",
+        "reportUrl" : "../2/index.html#testresult/2e3c019bf4fd15b2",
+        "status" : "failed",
+        "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text ОДОБРЕНИЕ ПРИКАЗА ПОДПИСАНТОМ\n\nReason: AssertionError: actual text: РАССМОТРЕНИЕ ПЕРВОЙ ГРУППОЙ СОГЛАСУЮЩИХ\nScreenshot: file:///home/seluser/.selene/screenshots/1644759029291/1644759029303.png\nPageSource: file:///home/seluser/.selene/screenshots/1644759029291/1644759029303.html",
+        "time" : {
+          "start" : 1644762684234,
+          "stop" : 1644762777411,
+          "duration" : 93177
+        }
+      } ]
+    },
+    "tags" : [ "decrees" ]
+  },
+  "source" : "7b24ed6acab738fe.json",
+  "parameterValues" : [ ]
+}

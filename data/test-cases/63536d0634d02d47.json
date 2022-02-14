@@ -1,0 +1,423 @@
+{
+  "uid" : "63536d0634d02d47",
+  "name" : "test_files_wo_labels",
+  "fullName" : "tests.test_other_documents.test_other_docs.TestOtherDocs#test_files_wo_labels",
+  "historyId" : "7aa5446a19cb24d159c2756b5fb8a947",
+  "time" : {
+    "start" : 1644766423038,
+    "stop" : 1644766505327,
+    "duration" : 82289
+  },
+  "description" : "\n        Подписание Иных документов с инициацией на портале. ПЭП. Файлы без меток\n\n        ",
+  "descriptionHtml" : "<pre><code>    Подписание Иных документов с инициацией на портале. ПЭП. Файлы без меток\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1644759032631,
+      "stop" : 1644759032861,
+      "duration" : 230
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_admin",
+    "time" : {
+      "start" : 1644759032861,
+      "stop" : 1644759046548,
+      "duration" : 13687
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        Подписание Иных документов с инициацией на портале. ПЭП. Файлы без меток\n\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1644766423038,
+        "stop" : 1644766432016,
+        "duration" : 8978
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1644766423038,
+          "stop" : 1644766423635,
+          "duration" : 597
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "<common.user.User object at 0x7f19423db7c0>"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открытие страницы создания документа",
+      "time" : {
+        "start" : 1644766432016,
+        "stop" : 1644766442248,
+        "duration" : 10232
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список иных документов",
+        "time" : {
+          "start" : 1644766432016,
+          "stop" : 1644766439092,
+          "duration" : 7076
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение обязательных полей и создание документа",
+      "time" : {
+        "start" : 1644766442248,
+        "stop" : 1644766449020,
+        "duration" : 6772
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "document_data",
+        "value" : "<class 'common.constants.OtherDocs1stTypeConst'>"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка сохранения документа",
+      "time" : {
+        "start" : 1644766449020,
+        "stop" : 1644766449072,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Получение номера документа",
+      "time" : {
+        "start" : 1644766449072,
+        "stop" : 1644766449096,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1644766455147,
+        "stop" : 1644766463408,
+        "duration" : 8261
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1644766455147,
+          "stop" : 1644766455745,
+          "duration" : 598
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "<common.user.User object at 0x7f19423db670>"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открыть документ по номеру",
+      "time" : {
+        "start" : 1644766463408,
+        "stop" : 1644766473672,
+        "duration" : 10264
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список иных документов",
+        "time" : {
+          "start" : 1644766463408,
+          "stop" : 1644766470477,
+          "duration" : 7069
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "'440717'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка наличия отметки о согласовании",
+      "time" : {
+        "start" : 1644766481346,
+        "stop" : 1644766484503,
+        "duration" : 3157
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открытие листа согласования",
+        "time" : {
+          "start" : 1644766481389,
+          "stop" : 1644766484487,
+          "duration" : 3098
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Поиск даты согласования",
+        "time" : {
+          "start" : 1644766484488,
+          "stop" : 1644766484488,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "username",
+          "value" : "'Евгений Бобров'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "<common.user.User object at 0x7f19423db670>"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизоваться под администратором портала",
+      "time" : {
+        "start" : 1644766484503,
+        "stop" : 1644766485186,
+        "duration" : 683
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Открыть документ по номеру",
+      "time" : {
+        "start" : 1644766489439,
+        "stop" : 1644766500387,
+        "duration" : 10948
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список иных документов",
+        "time" : {
+          "start" : 1644766489440,
+          "stop" : 1644766496603,
+          "duration" : 7163
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "'440717'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "9d41b2536c86d239",
+      "name" : "log",
+      "source" : "9d41b2536c86d239.txt",
+      "type" : "text/plain",
+      "size" : 437
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 17,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "auth_admin::0",
+    "time" : {
+      "start" : 1644769109995,
+      "stop" : 1644769110267,
+      "duration" : 272
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "other_docs"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.test_other_documents"
+  }, {
+    "name" : "suite",
+    "value" : "test_other_docs"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOtherDocs"
+  }, {
+    "name" : "host",
+    "value" : "portal-test-qa-6hkzj"
+  }, {
+    "name" : "thread",
+    "value" : "7-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_other_documents.test_other_docs"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "f1df0f4d79f42816",
+        "reportUrl" : "../2/index.html#testresult/f1df0f4d79f42816",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644766423038,
+          "stop" : 1644766505327,
+          "duration" : 82289
+        }
+      } ]
+    },
+    "tags" : [ "other_docs" ]
+  },
+  "source" : "63536d0634d02d47.json",
+  "parameterValues" : [ ]
+}

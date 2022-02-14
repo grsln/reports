@@ -3,8 +3,8 @@
   "reportUrl" : "../3/index.html",
   "reportName" : "portal",
   "data" : {
-    "failed" : 22,
-    "broken" : 2,
+    "failed" : 24,
+    "broken" : 0,
     "skipped" : 0,
     "passed" : 47,
     "unknown" : 0,

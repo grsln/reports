@@ -1,0 +1,8 @@
+2022-02-13 14:50:09 INFO login "Мария Осипова".
+2022-02-13 14:50:24 INFO Open hiring request create page
+2022-02-13 14:50:39 INFO title "Наводчик орудия", id "440683".
+2022-02-13 14:50:39 INFO Send for consideration
+2022-02-13 14:50:46 INFO Login Анна Хасанова
+2022-02-13 14:50:57 INFO Open hiring request page
+2022-02-13 14:51:04 INFO For omission of agreement
+2022-02-13 14:51:09 INFO Back to search

@@ -1,0 +1,84 @@
+2022-02-13 15:03:43 INFO Создание документов
+2022-02-13 15:04:16 INFO execute button command
+2022-02-13 15:04:22 INFO assert states
+2022-02-13 15:04:46 INFO execute button command
+2022-02-13 15:04:52 INFO assert states
+2022-02-13 15:05:17 INFO execute button command
+2022-02-13 15:05:23 INFO assert states
+2022-02-13 15:05:47 INFO execute button command
+2022-02-13 15:05:54 INFO assert states
+2022-02-13 15:06:17 INFO execute button command
+2022-02-13 15:06:24 INFO assert states
+2022-02-13 15:06:47 INFO execute button command
+2022-02-13 15:06:53 INFO assert states
+2022-02-13 15:07:17 INFO execute button command
+2022-02-13 15:07:23 INFO assert states
+2022-02-13 15:07:48 INFO execute button command
+2022-02-13 15:07:54 INFO assert states
+2022-02-13 15:08:18 INFO execute button command
+2022-02-13 15:08:25 INFO assert states
+2022-02-13 15:08:48 INFO execute button command
+2022-02-13 15:08:54 INFO assert states
+2022-02-13 15:09:18 INFO execute button command
+2022-02-13 15:09:24 INFO assert states
+2022-02-13 15:09:48 INFO execute button command
+2022-02-13 15:09:54 INFO assert states
+2022-02-13 15:10:18 INFO execute button command
+2022-02-13 15:10:24 INFO assert states
+2022-02-13 15:10:49 INFO execute button command
+2022-02-13 15:10:55 INFO assert states
+2022-02-13 15:11:19 INFO execute button command
+2022-02-13 15:11:25 INFO assert states
+2022-02-13 15:11:49 INFO execute button command
+2022-02-13 15:11:55 INFO assert states
+2022-02-13 15:12:18 INFO execute button command
+2022-02-13 15:12:25 INFO assert states
+2022-02-13 15:12:50 INFO execute button command
+2022-02-13 15:12:56 INFO assert states
+2022-02-13 15:13:20 INFO execute button command
+2022-02-13 15:13:27 INFO assert states
+2022-02-13 15:13:50 INFO execute button command
+2022-02-13 15:13:57 INFO assert states
+2022-02-13 15:14:06 INFO Согласование документов
+2022-02-13 15:14:17 INFO Проверка согласования документов
+2022-02-13 15:14:59 INFO Удаление документов
+2022-02-13 15:15:22 INFO delete
+2022-02-13 15:15:22 INFO accept alert
+2022-02-13 15:15:36 INFO delete
+2022-02-13 15:15:36 INFO accept alert
+2022-02-13 15:15:50 INFO delete
+2022-02-13 15:15:50 INFO accept alert
+2022-02-13 15:16:04 INFO delete
+2022-02-13 15:16:04 INFO accept alert
+2022-02-13 15:16:17 INFO delete
+2022-02-13 15:16:18 INFO accept alert
+2022-02-13 15:16:31 INFO delete
+2022-02-13 15:16:31 INFO accept alert
+2022-02-13 15:16:45 INFO delete
+2022-02-13 15:16:45 INFO accept alert
+2022-02-13 15:16:59 INFO delete
+2022-02-13 15:16:59 INFO accept alert
+2022-02-13 15:17:13 INFO delete
+2022-02-13 15:17:13 INFO accept alert
+2022-02-13 15:17:27 INFO delete
+2022-02-13 15:17:27 INFO accept alert
+2022-02-13 15:17:41 INFO delete
+2022-02-13 15:17:42 INFO accept alert
+2022-02-13 15:17:56 INFO delete
+2022-02-13 15:17:56 INFO accept alert
+2022-02-13 15:18:10 INFO delete
+2022-02-13 15:18:10 INFO accept alert
+2022-02-13 15:18:24 INFO delete
+2022-02-13 15:18:24 INFO accept alert
+2022-02-13 15:18:39 INFO delete
+2022-02-13 15:18:39 INFO accept alert
+2022-02-13 15:18:53 INFO delete
+2022-02-13 15:18:53 INFO accept alert
+2022-02-13 15:19:07 INFO delete
+2022-02-13 15:19:07 INFO accept alert
+2022-02-13 15:19:22 INFO delete
+2022-02-13 15:19:22 INFO accept alert
+2022-02-13 15:19:36 INFO delete
+2022-02-13 15:19:36 INFO accept alert
+2022-02-13 15:19:50 INFO delete
+2022-02-13 15:19:50 INFO accept alert

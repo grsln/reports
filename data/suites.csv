@@ -1,308 +1,446 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Sun Feb 13 14:02:19 UTC 2022","Sun Feb 13 14:03:53 UTC 2022","93247","tests.test_contracts","test_business_process_contract_self_employed","TestContractSelfEmployed","","","test_approve_contract_self_employed_valiev_approvers","
-        Создание и согласование договора купли продажи с контрагентом самозанятым
-        Consideration of the first group of approvers (varies for each user)
+"broken","Sun Feb 20 13:00:36 UTC 2022","Sun Feb 20 13:01:08 UTC 2022","31966","tests.test_decrees","test_decrees","TestDecrees","","","test_download_document","
+        Проверка скачивания подписанного приказа
         "
-"failed","Sun Feb 13 16:46:36 UTC 2022","Sun Feb 13 16:47:07 UTC 2022","31316","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_download_document_qualified_sign","
-        Проверка скачивания и подписания документа
-        "
-"failed","Sun Feb 13 16:47:26 UTC 2022","Sun Feb 13 16:47:45 UTC 2022","18857","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_download_document_simple_sign","
-        Проверка скачивания и подписания документа
-        "
-"failed","Sun Feb 13 14:11:32 UTC 2022","Sun Feb 13 14:12:00 UTC 2022","28241","tests.test_contracts_gph","test_business_process_contract_gph_standart","TestContractGPH","","","test_contract_gph_standart_1","
-         Договор ГПХ руководитель НЕ проректор - стандартное простое прохождение
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/60769
-        Consideration of the first group of approvers (varies for each user)
-        "
-"passed","Sun Feb 13 13:51:15 UTC 2022","Sun Feb 13 13:53:34 UTC 2022","138158","tests.test_contracts","test_business_process_contract_sale","TestContractSale","","","test_approve_contract_sale_second_group_approvers","
-        Создание и согласование договора купли продажи
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/57039
-        Consideration by the second group of approvers (varies for the type of contract)
-        "
-"passed","Sun Feb 13 15:28:41 UTC 2022","Sun Feb 13 15:31:18 UTC 2022","156443","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_four_qualified_signs","
-        Подписание Иных документов с инициацией на портале. УКЭП. Четыре подписи. doc, docx и pdf х2
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55945
-        "
-"passed","Sun Feb 13 15:33:43 UTC 2022","Sun Feb 13 15:35:05 UTC 2022","82289","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_files_wo_labels","
-        Подписание Иных документов с инициацией на портале. ПЭП. Файлы без меток
-
-        "
-"passed","Sun Feb 13 15:48:36 UTC 2022","Sun Feb 13 15:51:42 UTC 2022","186076","tests.test_requests_spending_budget_funds","test_requests_spending_budget_funds","TestSpendingBudgetFunds","","","test_request_with_transfer","
-        Заявки на расходование средств бюджета с перечислением денежных средств. Проход по стадиям
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61422
-        "
-"passed","Sun Feb 13 15:37:23 UTC 2022","Sun Feb 13 15:39:31 UTC 2022","127416","tests.test_requests_spending_budget_funds","test_requests_spending_budget_funds","TestSpendingBudgetFunds","","","test_create_request_spending_budget_funds_without_transfer_funds","
-        Создание Заявки на расходование средств бюджета без перечисления денежных средств
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/59061
-        "
-"passed","Sun Feb 13 15:03:43 UTC 2022","Sun Feb 13 15:19:55 UTC 2022","972057","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_mass_signing","
-        Подписание Иных документов с инициацией на портале. УКЭП. Массовое подписание пользователем Семенихин
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55964
-        "
-"passed","Sun Feb 13 14:59:05 UTC 2022","Sun Feb 13 15:00:38 UTC 2022","92352","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_one_qualified_sign_zip","
-        Подписание Иных документов с инициацией на портале. УКЭП. Одна подпись. pdf в архиве
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55942
-        "
-"failed","Sun Feb 13 14:03:53 UTC 2022","Sun Feb 13 14:03:53 UTC 2022","0","tests.test_contracts","test_business_process_contract_self_employed","TestContractSelfEmployed","","","test_approve_contract_self_employed_valiev_approvers_asll","
-        Создание и согласование договора купли продажи с контрагентом юридическое лицо, начинающееся на ""самозанят*""
-        Consideration by the second group of approvers (varies for the type of contract)
-        "
-"passed","Sun Feb 13 16:07:46 UTC 2022","Sun Feb 13 16:09:05 UTC 2022","78938","tests.test_requests_spending_budget_funds","test_requests_spending_budget_funds","TestSpendingBudgetFunds","","","test_author_cancel_approving","
-        Заявки на расходование средств бюджета с перечислением ДС.
-        Заявка снята с рассмотрения автором на этапе согласования распорядителем бюджета
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61463
-        "
-"failed","Sun Feb 13 15:35:05 UTC 2022","Sun Feb 13 15:36:27 UTC 2022","81967","tests.test_outbox_letters","test_add_outbox_letter_main_flow","TestOutboxLetters","","","test_add_outbox_letter_main_flow","
-        Подготовка заявки для согласования нового исходящего письма
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55188
-        "
-"passed","Sun Feb 13 13:38:04 UTC 2022","Sun Feb 13 13:39:58 UTC 2022","113444","tests.test_contracts","test_business_process_contract_rent","TestContractRent","","","test_approve_contract_rent_first_group_approvers","
-        Создание и согласование договора аренды
-        Consideration of the first group of approvers (varies for each user), exept Алексей Захаров
-        "
-"failed","Sun Feb 13 14:16:09 UTC 2022","Sun Feb 13 14:18:16 UTC 2022","126970","tests.test_decrees","test_decrees","TestDecrees","","","test_decree_states","
-        Подписание приказов, приложений ПЭП (без выписок)
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55798
-        "
-"passed","Sun Feb 13 15:44:07 UTC 2022","Sun Feb 13 15:47:01 UTC 2022","173757","tests.test_requests_spending_budget_funds","test_requests_spending_budget_funds","TestSpendingBudgetFunds","","","test_request_without_transfer","
-        Заявки на расходование средств бюджета. Проход по стадиям
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61420
-        "
-"failed","Sun Feb 13 13:36:17 UTC 2022","Sun Feb 13 13:36:17 UTC 2022","0","tests.test_contracts","test_business_process_contract_pps","TestContractPPS","","","test_approve_contract_sale_vice_rector_and_analyst","
-        Создание и согласование договора купли продажи
-        Consideration by the second group of approvers (varies for the type of contract)
-        "
-"passed","Sun Feb 13 14:53:23 UTC 2022","Sun Feb 13 14:54:28 UTC 2022","65715","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_cancel_by_initiator","
-        Подписание Иных документов с инициацией на портале. Снять с рассмотрения
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55950
-        "
-"passed","Sun Feb 13 14:57:37 UTC 2022","Sun Feb 13 14:59:05 UTC 2022","87937","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_one_qualified_sign","
-        Подписание Иных документов с инициацией на портале. УКЭП. Одна подпись. pdf
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55929
-        "
-"failed","Sun Feb 13 14:04:25 UTC 2022","Sun Feb 13 14:04:54 UTC 2022","29521","tests.test_contracts_gph","test_business_process_contract_gph_change_signer","TestContractGPHChangeSigner","","","test_contract_gph_change_signer_free","
-        Договор ГПХ руководитель проректор - стандартное простое прохождение
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61242
-        Consideration of the first group of approvers (varies for each user)
-        "
-"passed","Sun Feb 13 14:05:18 UTC 2022","Sun Feb 13 14:11:06 UTC 2022","348157","tests.test_contracts_gph","test_business_process_contract_gph_standart","TestContractGPH","","","test_contract_gph_standart","
-        Договор ГПХ руководитель проректор - стандартное простое прохождение
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/60454
-        Consideration of the first group of approvers (varies for each user)
-        "
-"passed","Sun Feb 13 14:14:07 UTC 2022","Sun Feb 13 14:15:35 UTC 2022","87400","tests.test_decrees","test_decrees","TestDecrees","","","test_create_decree","
-        Проверка создания приказа
-        "
-"failed","Sun Feb 13 14:40:42 UTC 2022","Sun Feb 13 14:41:22 UTC 2022","40258","tests.test_decrees","test_decrees","TestDecrees","","","test_auto_approving","
-        Подписание приказов, приложений ПЭП (без выписок). Автоматическое согласование проректором
-        Баг:при автоматическом согласовании 2ой группой не переходит в статус Одобрение приказа подписантом
-        "
-"passed","Sun Feb 13 15:00:38 UTC 2022","Sun Feb 13 15:03:43 UTC 2022","185267","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_send_rework_4th_approver","
-        Подписание Иных документов с инициацией на портале. Отправка на доработку четвертым согласующим
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55952
-        "
-"passed","Sun Feb 13 15:24:01 UTC 2022","Sun Feb 13 15:26:19 UTC 2022","137796","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_three_simple_signs","
-        Подписание Иных документов с инициацией на портале. ПЭП. Три подписи. doc, docx и pdf
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55940
-        "
-"passed","Sun Feb 13 14:33:58 UTC 2022","Sun Feb 13 14:35:20 UTC 2022","81778","tests.test_decrees","test_decrees","TestDecrees","","","test_cancel_approving","
-        Подписание приказов, приложений ПЭП (без выписок). Возвращение на рассмотрение
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55803
-        "
-"passed","Sun Feb 13 14:42:24 UTC 2022","Sun Feb 13 14:45:48 UTC 2022","204187","tests.test_decrees","test_decrees","TestDecrees","","","test_cancel_approving_twice","
-        Подписание приказов, приложений ПЭП (без выписок). Возвращение на рассмотрение 2 раза
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55871
-        "
-"passed","Sun Feb 13 14:56:13 UTC 2022","Sun Feb 13 14:57:37 UTC 2022","84702","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_one_sign","
+"broken","Sun Feb 20 08:21:16 UTC 2022","Sun Feb 20 08:22:26 UTC 2022","69749","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_one_sign","
         Подписание Иных документов с инициацией на портале. ПЭП. Одна подпись. doc
         https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55920
         "
-"failed","Sun Feb 13 16:45:33 UTC 2022","Sun Feb 13 16:46:12 UTC 2022","38945","tests.test_decrees","test_decrees","TestDecrees","","","test_download_document","
-        Проверка скачивания подписанного приказа
+"passed","Sun Feb 20 09:26:53 UTC 2022","Sun Feb 20 09:29:02 UTC 2022","129050","tests.test_outbox_letters","test_add_outbox_letter_main_flow","TestOutboxLetters","","","test_add_outbox_letter_main_flow_admin[user10]","
+        Подготовка заявки для согласования нового исходящего письма
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55188
         "
-"passed","Sun Feb 13 13:48:26 UTC 2022","Sun Feb 13 13:49:51 UTC 2022","85172","tests.test_contracts","test_business_process_contract_sale","TestContractSale","","","test_approve_contract_sale_first_group_approvers","
-        Создание и согласование договора купли продажи
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/57039
-        Consideration of the first group of approvers (varies for each user)
+"passed","Sun Feb 20 08:14:00 UTC 2022","Sun Feb 20 08:14:46 UTC 2022","46907","tests.test_main_page","test_main_page","TestMainPage","","","test_open_elements[main_page_user2]","
+        Проверка открытия основных элементов главной страницы портала
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/62190
         "
-"failed","Sun Feb 13 13:32:34 UTC 2022","Sun Feb 13 13:33:03 UTC 2022","29427","tests.test_contracts","test_business_process_contract_cooperation","TestContractCooperation","","","test_approve_contract_cooperation_first_group_approvers","
-        Создание и согласование меморандума о сотрудничестве
-        Consideration of the first group of approvers (varies for each user)
+"passed","Sun Feb 20 10:13:35 UTC 2022","Sun Feb 20 10:14:15 UTC 2022","40368","tests.test_requests_spending_budget_funds","test_requests_spending_budget_funds","TestSpendingBudgetFunds","","","test_author_send_rework","
+        Заявки на расходование средств бюджета. Возврат автором на доработку
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61460
         "
-"passed","Sun Feb 13 15:26:19 UTC 2022","Sun Feb 13 15:28:41 UTC 2022","142846","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_three_qualified_signs","
-        Подписание Иных документов с инициацией на портале. УКЭП. Три подписи. doc, docx и pdf
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55944
+"passed","Sun Feb 20 08:18:40 UTC 2022","Sun Feb 20 08:19:46 UTC 2022","66492","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_cancel_by_initiator","
+        Подписание Иных документов с инициацией на портале. Снять с рассмотрения
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55950
         "
-"passed","Sun Feb 13 15:31:18 UTC 2022","Sun Feb 13 15:33:43 UTC 2022","144708","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_four_simple_signs","
-        Подписание Иных документов с инициацией на портале. ПЭП. Четыре подписи. doc, docx x2 и pdf
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55941
+"passed","Sun Feb 20 07:46:05 UTC 2022","Sun Feb 20 07:47:41 UTC 2022","96912","tests.test_decrees","test_decrees","TestDecrees","","","test_cancel_approving","
+        Подписание приказов, приложений ПЭП (без выписок). Возвращение на рассмотрение
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55803
         "
-"passed","Sun Feb 13 16:13:07 UTC 2022","Sun Feb 13 16:16:03 UTC 2022","175695","tests.test_requests_spending_budget_funds","test_requests_spending_budget_funds","TestSpendingBudgetFunds","","","test_director_send_rework","
-        Заявки на расходование средств бюджета с перечислением ДС. Возврат директором на доработку.
-        Проверка редактирования после возврата на доработку
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61910
+"passed","Sun Feb 20 09:19:31 UTC 2022","Sun Feb 20 09:21:46 UTC 2022","135268","tests.test_outbox_letters","test_add_outbox_letter_main_flow","TestOutboxLetters","","","test_add_outbox_letter_main_flow_admin[user7]","
+        Подготовка заявки для согласования нового исходящего письма
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55188
         "
-"passed","Sun Feb 13 14:27:13 UTC 2022","Sun Feb 13 14:28:55 UTC 2022","102043","tests.test_decrees","test_decrees","TestDecrees","","","test_approving_after_send_rework","
-        Подписание приказов, приложений ПЭП (без выписок).
-        Проверка отсутствия возможности согласования после отправки на доработку
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/60437
+"failed","Sun Feb 20 09:42:51 UTC 2022","Sun Feb 20 09:43:15 UTC 2022","24704","tests.test_outbox_letters","test_add_outbox_letter_main_flow","TestOutboxLetters","","","test_add_outbox_letter_main_flow_admin[user17]","
+        Подготовка заявки для согласования нового исходящего письма
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55188
         "
-"passed","Sun Feb 13 13:55:23 UTC 2022","Sun Feb 13 13:57:12 UTC 2022","108558","tests.test_contracts","test_business_process_contract_sale","TestContractSale","","","test_approve_contract_sale_vice_rector_and_analyst","
-        Создание и согласование договора купли продажи
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/57039
-        Consideration by the second group of approvers (varies for the type of contract)
+"passed","Sun Feb 20 07:55:43 UTC 2022","Sun Feb 20 07:59:46 UTC 2022","243039","tests.test_decrees","test_decrees","TestDecrees","","","test_cancel_approving_twice","
+        Подписание приказов, приложений ПЭП (без выписок). Возвращение на рассмотрение 2 раза
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55871
         "
-"passed","Sun Feb 13 14:54:28 UTC 2022","Sun Feb 13 14:54:48 UTC 2022","20067","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_sign_type_not_selected","
-        Подписание Иных документов с инициацией на портале. Тип подписи не выбран
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55922
+"passed","Sun Feb 20 08:16:12 UTC 2022","Sun Feb 20 08:16:26 UTC 2022","13881","tests.test_main_page","test_main_page","TestMainPage","","","test_comment_news","
+        Проверка комментирования новости
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/62195
         "
-"passed","Sun Feb 13 13:41:24 UTC 2022","Sun Feb 13 13:44:13 UTC 2022","169061","tests.test_contracts","test_business_process_contract_rent","TestContractRent","","","test_approve_contract_sale_second_group_approvers","
+"passed","Sun Feb 20 10:08:29 UTC 2022","Sun Feb 20 10:11:36 UTC 2022","186987","tests.test_requests_spending_budget_funds","test_requests_spending_budget_funds","TestSpendingBudgetFunds","","","test_request_contract_gph_with_transfer","
+        Заявки на расходование средств бюджета с перечислением денежных средств. Проход по стадиям
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61422
+        "
+"passed","Sun Feb 20 09:21:46 UTC 2022","Sun Feb 20 09:24:34 UTC 2022","167973","tests.test_outbox_letters","test_add_outbox_letter_main_flow","TestOutboxLetters","","","test_add_outbox_letter_main_flow_admin[user8]","
+        Подготовка заявки для согласования нового исходящего письма
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55188
+        "
+"failed","Sun Feb 20 07:09:12 UTC 2022","Sun Feb 20 07:09:12 UTC 2022","0","tests.test_contracts","test_business_process_contract_rent","TestContractRent","","","test_approve_contract_rent_first_group_approvers","
         Создание и согласование договора аренды
-        Consideration by the second group of approvers (varies for the type of contract)
+        Consideration of the first group of approvers (varies for each user), exept Алексей Захаров
         "
-"passed","Sun Feb 13 13:59:24 UTC 2022","Sun Feb 13 14:01:29 UTC 2022","124712","tests.test_contracts","test_business_process_contract_sale","TestContractSale","","","test_approve_contract_sale_signing","
-        Создание и согласование договора купли продажи
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/57039
-        Consideration by the second group of approvers (varies for the type of contract)
+"passed","Sun Feb 20 09:01:04 UTC 2022","Sun Feb 20 09:05:06 UTC 2022","241543","tests.test_outbox_letters","test_add_outbox_letter_main_flow","TestOutboxLetters","","","test_add_outbox_letter_main_flow[user1]","
+        Подготовка заявки для согласования нового исходящего письма
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55188
         "
-"passed","Sun Feb 13 16:17:51 UTC 2022","Sun Feb 13 16:18:29 UTC 2022","38769","tests.test_requests_transfer_funds","test_requests_transfer_funds","TestTransferFunds","","","test_create_request_transfer_funds","
+"passed","Sun Feb 20 07:41:44 UTC 2022","Sun Feb 20 07:44:54 UTC 2022","189900","tests.test_decrees","test_decrees","TestDecrees","","","test_edit_decree_name_under_approving","
+        Проверка редактирования названия приказа при согласовании
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/59784
+        "
+"broken","Sun Feb 20 07:21:11 UTC 2022","Sun Feb 20 07:22:30 UTC 2022","78617","tests.test_decrees","test_decrees","TestDecrees","","","test_create_decree","
+        Проверка создания приказа
+        "
+"passed","Sun Feb 20 08:56:00 UTC 2022","Sun Feb 20 09:01:04 UTC 2022","304012","tests.test_outbox_letters","test_add_outbox_letter_main_flow","TestOutboxLetters","","","test_add_outbox_letter_main_flow[user0]","
+        Подготовка заявки для согласования нового исходящего письма
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55188
+        "
+"broken","Sun Feb 20 08:22:26 UTC 2022","Sun Feb 20 08:23:39 UTC 2022","73015","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_one_qualified_sign","
+        Подписание Иных документов с инициацией на портале. УКЭП. Одна подпись. pdf
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55929
+        "
+"broken","Sun Feb 20 08:51:49 UTC 2022","Sun Feb 20 08:53:18 UTC 2022","88422","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_four_qualified_signs","
+        Подписание Иных документов с инициацией на портале. УКЭП. Четыре подписи. doc, docx и pdf х2
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55945
+        "
+"broken","Sun Feb 20 10:43:02 UTC 2022","Sun Feb 20 10:43:49 UTC 2022","47318","tests.test_requests_transfer_funds","test_requests_transfer_funds","TestTransferFunds","","","test_create_request_transfer_funds","
         Создание Заявки на перечисление денежных средств на основе созданной ранее Заявки на расходование средств
         бюджета
         https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/60879
         "
-"passed","Sun Feb 13 13:46:14 UTC 2022","Sun Feb 13 13:47:37 UTC 2022","82719","tests.test_contracts","test_business_process_contract_rent","TestContractRent","","","test_approve_contract_rent_vice_rector_and_signer","
+"failed","Sun Feb 20 08:12:00 UTC 2022","Sun Feb 20 08:12:54 UTC 2022","54796","tests.test_main_page","test_main_page","TestMainPage","","","test_open_elements[main_page_user0]","
+        Проверка открытия основных элементов главной страницы портала
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/62190
+        "
+"broken","Sun Feb 20 08:53:18 UTC 2022","Sun Feb 20 08:54:45 UTC 2022","87121","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_four_simple_signs","
+        Подписание Иных документов с инициацией на портале. ПЭП. Четыре подписи. doc, docx x2 и pdf
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55941
+        "
+"passed","Sun Feb 20 07:36:56 UTC 2022","Sun Feb 20 07:38:49 UTC 2022","112918","tests.test_decrees","test_decrees","TestDecrees","","","test_approving_after_send_rework","
+        Подписание приказов, приложений ПЭП (без выписок).
+        Проверка отсутствия возможности согласования после отправки на доработку
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/60437
+        "
+"failed","Sun Feb 20 07:12:36 UTC 2022","Sun Feb 20 07:12:36 UTC 2022","0","tests.test_contracts","test_business_process_contract_self_employed","TestContractSelfEmployed","","","test_approve_contract_self_employed_valiev_approvers","
+        Создание и согласование договора купли продажи с контрагентом самозанятым
+        Consideration of the first group of approvers (varies for each user)
+        "
+"passed","Sun Feb 20 07:34:38 UTC 2022","Sun Feb 20 07:35:49 UTC 2022","70927","tests.test_decrees","test_decrees","TestDecrees","","","test_delete_decree_text_before_approving","
+        Подписание приказов, приложений ПЭП (без выписок). Удаление на стадии рассмотрения
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55882
+        "
+"failed","Sun Feb 20 07:10:10 UTC 2022","Sun Feb 20 07:10:10 UTC 2022","0","tests.test_contracts","test_business_process_contract_rent","TestContractRent","","","test_approve_contract_rent_vice_rector_and_signer","
         Создание и согласование договора купли продажи
         Consideration by the second group of approvers (varies for the type of contract)
         "
-"passed","Sun Feb 13 14:18:53 UTC 2022","Sun Feb 13 14:19:51 UTC 2022","58770","tests.test_decrees","test_decrees","TestDecrees","","","test_cancel_by_initiator","
-        Подписание приказов, приложений ПЭП (без выписок). Проект приказа снят с рассмотрения инициатором
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55870
+"broken","Sun Feb 20 13:02:24 UTC 2022","Sun Feb 20 13:02:46 UTC 2022","21988","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_download_document_simple_sign","
+        Проверка скачивания и подписания документа
         "
-"passed","Sun Feb 13 14:29:56 UTC 2022","Sun Feb 13 14:30:24 UTC 2022","27305","tests.test_decrees","test_decrees","TestDecrees","","","test_editing_decree_name","
+"passed","Sun Feb 20 08:16:26 UTC 2022","Sun Feb 20 08:16:38 UTC 2022","12515","tests.test_main_page","test_main_page","TestMainPage","","","test_open_sidebar_elements","
+        Проверка открытия элементов правого сайдбара
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/62196
+        "
+"passed","Sun Feb 20 09:38:53 UTC 2022","Sun Feb 20 09:41:48 UTC 2022","174940","tests.test_outbox_letters","test_add_outbox_letter_main_flow","TestOutboxLetters","","","test_add_outbox_letter_main_flow_admin[user14]","
+        Подготовка заявки для согласования нового исходящего письма
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55188
+        "
+"failed","Sun Feb 20 07:12:07 UTC 2022","Sun Feb 20 07:12:07 UTC 2022","0","tests.test_contracts","test_business_process_contract_sale","TestContractSale","","","test_approve_contract_sale_signing","
+        Создание и согласование договора купли продажи
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/57039
+        Consideration by the second group of approvers (varies for the type of contract)
+        "
+"passed","Sun Feb 20 09:13:16 UTC 2022","Sun Feb 20 09:15:26 UTC 2022","129517","tests.test_outbox_letters","test_add_outbox_letter_main_flow","TestOutboxLetters","","","test_add_outbox_letter_main_flow_admin[user4]","
+        Подготовка заявки для согласования нового исходящего письма
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55188
+        "
+"passed","Sun Feb 20 08:15:32 UTC 2022","Sun Feb 20 08:15:44 UTC 2022","11700","tests.test_main_page","test_main_page","TestMainPage","","","test_find_employee","
+        Проверка поиска сотрудника
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/62192
+        "
+"passed","Sun Feb 20 09:15:26 UTC 2022","Sun Feb 20 09:17:30 UTC 2022","124247","tests.test_outbox_letters","test_add_outbox_letter_main_flow","TestOutboxLetters","","","test_add_outbox_letter_main_flow_admin[user5]","
+        Подготовка заявки для согласования нового исходящего письма
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55188
+        "
+"broken","Sun Feb 20 08:23:40 UTC 2022","Sun Feb 20 08:24:50 UTC 2022","70610","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_one_qualified_sign_zip","
+        Подписание Иных документов с инициацией на портале. УКЭП. Одна подпись. pdf в архиве
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55942
+        "
+"passed","Sun Feb 20 08:15:19 UTC 2022","Sun Feb 20 08:15:32 UTC 2022","13343","tests.test_main_page","test_main_page","TestMainPage","","","test_find_document","
+        Проверка поиска документа
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/62191
+        "
+"passed","Sun Feb 20 09:05:06 UTC 2022","Sun Feb 20 09:07:01 UTC 2022","114709","tests.test_outbox_letters","test_add_outbox_letter_main_flow","TestOutboxLetters","","","test_add_outbox_letter_main_flow_admin[user0]","
+        Подготовка заявки для согласования нового исходящего письма
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55188
+        "
+"passed","Sun Feb 20 09:11:12 UTC 2022","Sun Feb 20 09:13:16 UTC 2022","124687","tests.test_outbox_letters","test_add_outbox_letter_main_flow","TestOutboxLetters","","","test_add_outbox_letter_main_flow_admin[user3]","
+        Подготовка заявки для согласования нового исходящего письма
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55188
+        "
+"broken","Sun Feb 20 08:49:13 UTC 2022","Sun Feb 20 08:50:29 UTC 2022","76235","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_three_simple_signs","
+        Подписание Иных документов с инициацией на портале. ПЭП. Три подписи. doc, docx и pdf
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55940
+        "
+"passed","Sun Feb 20 09:08:57 UTC 2022","Sun Feb 20 09:11:12 UTC 2022","134526","tests.test_outbox_letters","test_add_outbox_letter_main_flow","TestOutboxLetters","","","test_add_outbox_letter_main_flow_admin[user2]","
+        Подготовка заявки для согласования нового исходящего письма
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55188
+        "
+"passed","Sun Feb 20 09:48:48 UTC 2022","Sun Feb 20 09:51:20 UTC 2022","152284","tests.test_requests_spending_budget_funds","test_requests_spending_budget_funds","TestSpendingBudgetFunds","","","test_create_request_spending_budget_funds_without_transfer_funds","
+        Создание Заявки на расходование средств бюджета без перечисления денежных средств
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/59061
+        "
+"failed","Sun Feb 20 07:53:30 UTC 2022","Sun Feb 20 07:54:19 UTC 2022","48910","tests.test_decrees","test_decrees","TestDecrees","","","test_auto_approving","
+        Подписание приказов, приложений ПЭП (без выписок). Автоматическое согласование проректором
+        Баг:при автоматическом согласовании 2ой группой не переходит в статус Одобрение приказа подписантом
+        "
+"failed","Sun Feb 20 08:15:44 UTC 2022","Sun Feb 20 08:16:11 UTC 2022","27730","tests.test_main_page","test_main_page","TestMainPage","","","test_topmenu_links","
+        Проверка открытия страниц через главное меню
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/62193
+        "
+"passed","Sun Feb 20 09:51:20 UTC 2022","Sun Feb 20 09:54:21 UTC 2022","180266","tests.test_requests_spending_budget_funds","test_requests_spending_budget_funds","TestSpendingBudgetFunds","","","test_create_request_spending_budget_funds_with_transfer_funds","
+        Создание Заявки на расходование средств бюджета с перечислением денежных средств
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/60863
+        "
+"passed","Sun Feb 20 10:03:37 UTC 2022","Sun Feb 20 10:06:50 UTC 2022","193372","tests.test_requests_spending_budget_funds","test_requests_spending_budget_funds","TestSpendingBudgetFunds","","","test_request_with_transfer","
+        Заявки на расходование средств бюджета с перечислением денежных средств. Проход по стадиям
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61422
+        "
+"broken","Sun Feb 20 08:20:09 UTC 2022","Sun Feb 20 08:21:16 UTC 2022","66646","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_landscape_orientation","
+        Подписание Иных документов с инициацией на портале. ПЭП. Горизонтальный документ
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55946
+        "
+"passed","Sun Feb 20 09:07:01 UTC 2022","Sun Feb 20 09:08:57 UTC 2022","116378","tests.test_outbox_letters","test_add_outbox_letter_main_flow","TestOutboxLetters","","","test_add_outbox_letter_main_flow_admin[user1]","
+        Подготовка заявки для согласования нового исходящего письма
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55188
+        "
+"passed","Sun Feb 20 09:43:16 UTC 2022","Sun Feb 20 09:45:42 UTC 2022","145896","tests.test_outbox_letters","test_add_outbox_letter_main_flow","TestOutboxLetters","","","test_add_outbox_letter_main_flow_admin[user18]","
+        Подготовка заявки для согласования нового исходящего письма
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55188
+        "
+"failed","Sun Feb 20 07:10:39 UTC 2022","Sun Feb 20 07:10:39 UTC 2022","0","tests.test_contracts","test_business_process_contract_sale","TestContractSale","","","test_approve_contract_sale_first_group_approvers","
+        Создание и согласование договора купли продажи
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/57039
+        Consideration of the first group of approvers (varies for each user)
+        "
+"passed","Sun Feb 20 07:00:56 UTC 2022","Sun Feb 20 07:02:29 UTC 2022","92632","tests.test_business_trips","test_business_trips","TestBusinessTrips","","","test_create_trip","
+        Проверка создания заявки на командировку
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/56068
+        "
+"passed","Sun Feb 20 07:39:56 UTC 2022","Sun Feb 20 07:40:27 UTC 2022","30917","tests.test_decrees","test_decrees","TestDecrees","","","test_editing_decree_name","
         Проверка редактирования названия приказа сотрудником ОДП
         https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/59783
         "
-"passed","Sun Feb 13 14:20:51 UTC 2022","Sun Feb 13 14:21:58 UTC 2022","67427","tests.test_decrees","test_decrees","TestDecrees","","","test_change_decree_attachments","
-        Подписание приказов, приложений ПЭП (без выписок). Перезалив документов перед рассмотрением
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55804
+"passed","Sun Feb 20 09:31:12 UTC 2022","Sun Feb 20 09:33:27 UTC 2022","135509","tests.test_outbox_letters","test_add_outbox_letter_main_flow","TestOutboxLetters","","","test_add_outbox_letter_main_flow_admin[user12]","
+        Подготовка заявки для согласования нового исходящего письма
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55188
         "
-"passed","Sun Feb 13 15:59:39 UTC 2022","Sun Feb 13 16:02:13 UTC 2022","154492","tests.test_requests_spending_budget_funds","test_requests_spending_budget_funds","TestSpendingBudgetFunds","","","test_financial_analyst_send_rework","
+"failed","Sun Feb 20 07:11:08 UTC 2022","Sun Feb 20 07:11:08 UTC 2022","0","tests.test_contracts","test_business_process_contract_sale","TestContractSale","","","test_approve_contract_sale_second_group_approvers","
+        Создание и согласование договора купли продажи
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/57039
+        Consideration by the second group of approvers (varies for the type of contract)
+        "
+"passed","Sun Feb 20 09:54:21 UTC 2022","Sun Feb 20 09:56:36 UTC 2022","135796","tests.test_requests_spending_budget_funds","test_requests_spending_budget_funds","TestSpendingBudgetFunds","","","test_create_request_spending_budget_funds_contract_gph","
+        Создание Заявки на расходование средств бюджета с перечислением денежных средств прикрепляя договор ГПХ
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/60878
+        "
+"passed","Sun Feb 20 10:24:11 UTC 2022","Sun Feb 20 10:25:31 UTC 2022","80290","tests.test_requests_spending_budget_funds","test_requests_spending_budget_funds","TestSpendingBudgetFunds","","","test_author_cancel_approving","
+        Заявки на расходование средств бюджета с перечислением ДС.
+        Заявка снята с рассмотрения автором на этапе согласования распорядителем бюджета
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61463
+        "
+"failed","Sun Feb 20 07:17:56 UTC 2022","Sun Feb 20 07:18:25 UTC 2022","29213","tests.test_contracts_gph","test_business_process_contract_gph_standart","TestContractGPH","","","test_contract_gph_standart_1","
+         Договор ГПХ руководитель НЕ проректор - стандартное простое прохождение
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/60769
+        Consideration of the first group of approvers (varies for each user)
+        "
+"failed","Sun Feb 20 09:33:27 UTC 2022","Sun Feb 20 09:38:52 UTC 2022","325243","tests.test_outbox_letters","test_add_outbox_letter_main_flow","TestOutboxLetters","","","test_add_outbox_letter_main_flow_admin[user13]","
+        Подготовка заявки для согласования нового исходящего письма
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55188
+        "
+"failed","Sun Feb 20 07:08:11 UTC 2022","Sun Feb 20 07:08:11 UTC 2022","0","tests.test_contracts","test_business_process_contract_pps","TestContractPPS","","","test_approve_contract_sale_first_group_approvers","
+        Создание и согласование договора купли продажи
+        Consideration of the first group of approvers (varies for each user)
+        "
+"failed","Sun Feb 20 08:09:20 UTC 2022","Sun Feb 20 08:11:21 UTC 2022","121532","tests.test_inbox_letters","test_add_inbox_letter","TestInboxLetters","","","test_add_inbox_letter","
+        Подготовка заявки для согласования нового входящего письма
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55194
+        "
+"passed","Sun Feb 20 10:15:58 UTC 2022","Sun Feb 20 10:18:33 UTC 2022","155627","tests.test_requests_spending_budget_funds","test_requests_spending_budget_funds","TestSpendingBudgetFunds","","","test_financial_analyst_send_rework","
         Заявки на расходование средств бюджета с перечислением ДС. Возврат финансовым аналитиком на доработку.
         Проверка редактирования после возврата на доработку
         https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61464
         "
-"passed","Sun Feb 13 14:46:45 UTC 2022","Sun Feb 13 14:50:09 UTC 2022","203776","tests.test_hiring_employee","test_business_process_hiring","TestHiring","","","test_hiring_agreement","
-        Подбор и прием нового сотрудника. Поиск кандидата
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61403
+"passed","Sun Feb 20 09:29:02 UTC 2022","Sun Feb 20 09:31:12 UTC 2022","129718","tests.test_outbox_letters","test_add_outbox_letter_main_flow","TestOutboxLetters","","","test_add_outbox_letter_main_flow_admin[user11]","
+        Подготовка заявки для согласования нового исходящего письма
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55188
         "
-"passed","Sun Feb 13 15:40:41 UTC 2022","Sun Feb 13 15:42:57 UTC 2022","135703","tests.test_requests_spending_budget_funds","test_requests_spending_budget_funds","TestSpendingBudgetFunds","","","test_create_request_spending_budget_funds_contract_gph","
-        Создание Заявки на расходование средств бюджета с перечислением денежных средств прикрепляя договор ГПХ
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/60878
-        "
-"passed","Sun Feb 13 15:22:16 UTC 2022","Sun Feb 13 15:24:01 UTC 2022","104663","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_two_simple_signs","
-        Подписание Иных документов с инициацией на портале. ПЭП. Две подписи. docx и pdf
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55939
-        "
-"failed","Sun Feb 13 14:50:39 UTC 2022","Sun Feb 13 14:51:24 UTC 2022","45174","tests.test_hiring_employee","test_business_process_hiring","TestHiring","","","test_offer_agreement","
-        Подбор и прием нового сотрудника. согласование заявки на прием сотрудника
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61298
-        "
-"passed","Sun Feb 13 15:57:20 UTC 2022","Sun Feb 13 15:58:00 UTC 2022","39643","tests.test_requests_spending_budget_funds","test_requests_spending_budget_funds","TestSpendingBudgetFunds","","","test_author_send_rework","
-        Заявки на расходование средств бюджета. Возврат автором на доработку
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61460
-        "
-"failed","Sun Feb 13 13:35:45 UTC 2022","Sun Feb 13 13:35:45 UTC 2022","0","tests.test_contracts","test_business_process_contract_pps","TestContractPPS","","","test_approve_contract_sale_first_group_approvers","
-        Создание и согласование договора купли продажи
-        Consideration of the first group of approvers (varies for each user)
-        "
-"passed","Sun Feb 13 13:33:54 UTC 2022","Sun Feb 13 13:35:45 UTC 2022","111301","tests.test_contracts","test_business_process_contract_license","TestContractLicense","","","test_approve_contract_license_first_group_approvers","
-        Создание и согласование договора аренды
-        Consideration of the first group of approvers (varies for each user), exept Марина Абдрахманова
-        "
-"failed","Sun Feb 13 15:53:18 UTC 2022","Sun Feb 13 15:55:21 UTC 2022","123743","tests.test_requests_spending_budget_funds","test_requests_spending_budget_funds","TestSpendingBudgetFunds","","","test_request_contract_gph_with_transfer","
-        Заявки на расходование средств бюджета с перечислением денежных средств. Проход по стадиям
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61422
-        "
-"passed","Sun Feb 13 14:13:31 UTC 2022","Sun Feb 13 14:14:07 UTC 2022","36154","tests.test_contracts_gph","test_business_process_contract_gph_standart","TestContractGPHChanges","","","test_contract_gph_free_standart","
-        Договор ГПХ стандартноая форма перевод в свободную
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/60806
-        Consideration of the first group of approvers (varies for each user)
-        "
-"failed","Sun Feb 13 15:39:31 UTC 2022","Sun Feb 13 15:40:41 UTC 2022","69924","tests.test_requests_spending_budget_funds","test_requests_spending_budget_funds","TestSpendingBudgetFunds","","","test_create_request_spending_budget_funds_with_transfer_funds","
-        Создание Заявки на расходование средств бюджета с перечислением денежных средств
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/60863
-        "
-"passed","Sun Feb 13 14:12:27 UTC 2022","Sun Feb 13 14:13:07 UTC 2022","39889","tests.test_contracts_gph","test_business_process_contract_gph_standart","TestContractGPHChanges","","","test_contract_gph_standart_free","
-        Договор ГПХ стандартноая форма перевод в свободную
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/60806
-        Consideration of the first group of approvers (varies for each user)
-        "
-"passed","Sun Feb 13 15:36:27 UTC 2022","Sun Feb 13 15:37:23 UTC 2022","56357","tests.test_requests_closing_documents","test_creating_an_application_for_closing_documents","TestCreatingAnApplicationForClosingDocuments","","","test_creating_an_application_for_closing_documents","
+"failed","Sun Feb 20 09:48:04 UTC 2022","Sun Feb 20 09:48:48 UTC 2022","43796","tests.test_requests_closing_documents","test_creating_an_application_for_closing_documents","TestCreatingAnApplicationForClosingDocuments","","","test_creating_an_application_for_closing_documents","
         Создание заявки на проведение закрывающих документов
         https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/59194
         "
-"passed","Sun Feb 13 14:25:10 UTC 2022","Sun Feb 13 14:26:13 UTC 2022","62705","tests.test_decrees","test_decrees","TestDecrees","","","test_delete_decree_text_before_approving","
-        Подписание приказов, приложений ПЭП (без выписок). Удаление на стадии рассмотрения
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55882
+"passed","Sun Feb 20 08:11:51 UTC 2022","Sun Feb 20 08:11:52 UTC 2022","469","tests.test_main_page","test_main_page","TestMainPage","","","test_elements_present[main_page_user2]","
+        Проверка отображения основных элементов главной страницы портала
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/62188
         "
-"failed","Sun Feb 13 16:16:46 UTC 2022","Sun Feb 13 16:16:46 UTC 2022","0","tests.test_requests_spending_budget_funds","test_requests_spending_budget_funds","TestSpendingBudgetFunds","","","test_director_delegate_task","
+"failed","Sun Feb 20 07:09:41 UTC 2022","Sun Feb 20 07:09:41 UTC 2022","0","tests.test_contracts","test_business_process_contract_rent","TestContractRent","","","test_approve_contract_sale_second_group_approvers","
+        Создание и согласование договора аренды
+        Consideration by the second group of approvers (varies for the type of contract)
+        "
+"broken","Sun Feb 20 08:54:45 UTC 2022","Sun Feb 20 08:56:00 UTC 2022","74856","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_files_wo_labels","
+        Подписание Иных документов с инициацией на портале. ПЭП. Файлы без меток
+
+        "
+"passed","Sun Feb 20 07:29:36 UTC 2022","Sun Feb 20 07:30:52 UTC 2022","75153","tests.test_decrees","test_decrees","TestDecrees","","","test_change_decree_attachments","
+        Подписание приказов, приложений ПЭП (без выписок). Перезалив документов перед рассмотрением
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55804
+        "
+"passed","Sun Feb 20 07:27:25 UTC 2022","Sun Feb 20 07:28:30 UTC 2022","65267","tests.test_decrees","test_decrees","TestDecrees","","","test_cancel_by_initiator","
+        Подписание приказов, приложений ПЭП (без выписок). Проект приказа снят с рассмотрения инициатором
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55870
+        "
+"passed","Sun Feb 20 10:37:53 UTC 2022","Sun Feb 20 10:42:02 UTC 2022","249324","tests.test_requests_spending_budget_funds","test_requests_spending_budget_funds","TestSpendingBudgetFunds","","","test_director_delegate_task","
         Заявки на расходование средств бюджета с перечислением денежных средств.
         Директор делегирует согласование
         https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61921
         "
-"passed","Sun Feb 13 15:20:32 UTC 2022","Sun Feb 13 15:22:16 UTC 2022","104020","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_two_qualified_signs","
+"failed","Sun Feb 20 07:13:05 UTC 2022","Sun Feb 20 07:13:05 UTC 2022","0","tests.test_contracts","test_business_process_contract_self_employed","TestContractSelfEmployed","","","test_approve_contract_self_employed_valiev_approvers_asll","
+        Создание и согласование договора купли продажи с контрагентом юридическое лицо, начинающееся на ""самозанят*""
+        Consideration by the second group of approvers (varies for the type of contract)
+        "
+"passed","Sun Feb 20 08:19:46 UTC 2022","Sun Feb 20 08:20:09 UTC 2022","23128","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_sign_type_not_selected","
+        Подписание Иных документов с инициацией на портале. Тип подписи не выбран
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55922
+        "
+"passed","Sun Feb 20 08:14:46 UTC 2022","Sun Feb 20 08:15:19 UTC 2022","32284","tests.test_main_page","test_main_page","TestMainPage","","","test_open_crm","
+        Проверка открытия основных элементов главной страницы портала
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/62190
+        "
+"broken","Sun Feb 20 08:47:59 UTC 2022","Sun Feb 20 08:49:13 UTC 2022","73495","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_two_simple_signs","
+        Подписание Иных документов с инициацией на портале. ПЭП. Две подписи. docx и pdf
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55939
+        "
+"passed","Sun Feb 20 09:17:30 UTC 2022","Sun Feb 20 09:19:31 UTC 2022","121066","tests.test_outbox_letters","test_add_outbox_letter_main_flow","TestOutboxLetters","","","test_add_outbox_letter_main_flow_admin[user6]","
+        Подготовка заявки для согласования нового исходящего письма
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55188
+        "
+"broken","Sun Feb 20 08:24:50 UTC 2022","Sun Feb 20 08:26:01 UTC 2022","70911","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_send_rework_4th_approver","
+        Подписание Иных документов с инициацией на портале. Отправка на доработку четвертым согласующим
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55952
+        "
+"broken","Sun Feb 20 08:46:45 UTC 2022","Sun Feb 20 08:47:59 UTC 2022","73544","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_two_qualified_signs","
         Подписание Иных документов с инициацией на портале. УКЭП. Две подписи. doc, docx
         https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55943
         "
-"failed","Sun Feb 13 14:22:21 UTC 2022","Sun Feb 13 14:22:21 UTC 2022","0","tests.test_decrees","test_decrees","TestDecrees","","","test_delete_decree_text_after_approving","
-        Подписание приказов, приложений ПЭП (без выписок). Удаление документов после подписания, но перед регистрацией
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55805
+"passed","Sun Feb 20 07:48:56 UTC 2022","Sun Feb 20 07:50:34 UTC 2022","97840","tests.test_decrees","test_decrees","TestDecrees","","","test_edit_decree_after_send_rework","
+        Проверка возможности редактирования приказа автором, после возврата на доработку
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/60432
         "
-"failed","Sun Feb 13 16:09:57 UTC 2022","Sun Feb 13 16:09:57 UTC 2022","0","tests.test_requests_spending_budget_funds","test_requests_spending_budget_funds","TestSpendingBudgetFunds","","","test_budget_manager_delegate_task","
+"passed","Sun Feb 20 07:23:20 UTC 2022","Sun Feb 20 07:26:40 UTC 2022","199672","tests.test_decrees","test_decrees","TestDecrees","","","test_decree_states","
+        Подписание приказов, приложений ПЭП (без выписок)
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55798
+        "
+"broken","Sun Feb 20 08:50:29 UTC 2022","Sun Feb 20 08:51:49 UTC 2022","79625","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_three_qualified_signs","
+        Подписание Иных документов с инициацией на портале. УКЭП. Три подписи. doc, docx и pdf
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55944
+        "
+"passed","Sun Feb 20 10:27:40 UTC 2022","Sun Feb 20 10:29:47 UTC 2022","127044","tests.test_requests_spending_budget_funds","test_requests_spending_budget_funds","TestSpendingBudgetFunds","","","test_budget_manager_delegate_task","
         Заявки на расходование средств бюджета с перечислением денежных средств.
         Распорядитель бюджета делегирует согласование
         https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61462
         "
-"passed","Sun Feb 13 16:04:21 UTC 2022","Sun Feb 13 16:05:41 UTC 2022","79919","tests.test_requests_spending_budget_funds","test_requests_spending_budget_funds","TestSpendingBudgetFunds","","","test_budget_manager_send_rework","
+"passed","Sun Feb 20 07:19:18 UTC 2022","Sun Feb 20 07:20:04 UTC 2022","46426","tests.test_contracts_gph","test_business_process_contract_gph_standart","TestContractGPHChanges","","","test_contract_gph_standart_free","
+        Договор ГПХ стандартноая форма перевод в свободную
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/60806
+        Consideration of the first group of approvers (varies for each user)
+        "
+"passed","Sun Feb 20 07:02:57 UTC 2022","Sun Feb 20 07:06:43 UTC 2022","225798","tests.test_business_trips","test_business_trips","TestBusinessTrips","","","test_trip_states","
+        Проход заявки на командировку по стадиям
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/56068
+        "
+"passed","Sun Feb 20 10:20:43 UTC 2022","Sun Feb 20 10:22:09 UTC 2022","86310","tests.test_requests_spending_budget_funds","test_requests_spending_budget_funds","TestSpendingBudgetFunds","","","test_budget_manager_send_rework","
         Заявки на расходование средств бюджета с перечислением денежных средств.
         Возврат распорядителем бюджета на доработку
         https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61461
         "
-"failed","Sun Feb 13 13:31:16 UTC 2022","Sun Feb 13 13:31:16 UTC 2022","0","tests.test_business_trips","test_trip_states","TestTripStates","","","test_trip_states","
-        Проход заявки на командировку по стадиям
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/56068
-        Steps
-        1. Auth user
-        2. Open trip edit page
-        3. Change the status of a business trip
-        4. Check result
+"failed","Sun Feb 20 07:14:41 UTC 2022","Sun Feb 20 07:17:27 UTC 2022","166245","tests.test_contracts_gph","test_business_process_contract_gph_standart","TestContractGPH","","","test_contract_gph_standart","
+        Договор ГПХ руководитель проректор - стандартное простое прохождение
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/60454
+        Consideration of the first group of approvers (varies for each user)
         "
-"passed","Sun Feb 13 14:36:39 UTC 2022","Sun Feb 13 14:38:08 UTC 2022","89251","tests.test_decrees","test_decrees","TestDecrees","","","test_edit_decree_after_send_rework","
-        Проверка возможности редактирования приказа автором, после возврата на доработку
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/60432
+"failed","Sun Feb 20 07:07:39 UTC 2022","Sun Feb 20 07:07:39 UTC 2022","0","tests.test_contracts","test_business_process_contract_license","TestContractLicense","","","test_approve_contract_license_first_group_approvers","
+        Создание и согласование договора аренды
+        Consideration of the first group of approvers (varies for each user), exept Марина Абдрахманова
         "
-"failed","Sun Feb 13 13:30:46 UTC 2022","Sun Feb 13 13:31:16 UTC 2022","30012","tests.test_business_trips","test_business_trips","TestBusinessTrips","","","test_create_trip","
-        Проверка создания заявки на командировку
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/56068
-        Steps
-        1. Auth user
-        2. Open trip create page
-        3. Create business trip
-        4. Check creating result
+"passed","Sun Feb 20 08:17:38 UTC 2022","Sun Feb 20 08:18:40 UTC 2022","62244","tests.test_main_page","test_main_page","TestMainPage","","","test_users_access","
+        Проверка недоступности страниц для пользователя с отсутствующими правами
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/62226
         "
-"failed","Sun Feb 13 14:31:24 UTC 2022","Sun Feb 13 14:32:57 UTC 2022","93177","tests.test_decrees","test_decrees","TestDecrees","","","test_edit_decree_name_under_approving","
-        Проверка редактирования названия приказа при согласовании
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/59784
+"broken","Sun Feb 20 13:01:39 UTC 2022","Sun Feb 20 13:02:03 UTC 2022","23242","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_download_document_qualified_sign","
+        Проверка скачивания и подписания документа
         "
-"failed","Sun Feb 13 14:51:24 UTC 2022","Sun Feb 13 14:53:22 UTC 2022","117879","tests.test_inbox_letters","test_add_inbox_letter","TestInboxLetters","","","test_add_inbox_letter","
-        Подготовка заявки для согласования нового входящего письма
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55194
+"failed","Sun Feb 20 09:42:20 UTC 2022","Sun Feb 20 09:42:50 UTC 2022","30390","tests.test_outbox_letters","test_add_outbox_letter_main_flow","TestOutboxLetters","","","test_add_outbox_letter_main_flow_admin[user16]","
+        Подготовка заявки для согласования нового исходящего письма
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55188
         "
-"passed","Sun Feb 13 14:54:48 UTC 2022","Sun Feb 13 14:56:13 UTC 2022","84081","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_landscape_orientation","
-        Подписание Иных документов с инициацией на портале. ПЭП. Горизонтальный документ
-        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55946
+"failed","Sun Feb 20 07:07:05 UTC 2022","Sun Feb 20 07:07:05 UTC 2022","0","tests.test_contracts","test_business_process_contract_cooperation","TestContractCooperation","","","test_approve_contract_cooperation_first_group_approvers","
+        Создание и согласование меморандума о сотрудничестве
+        Consideration of the first group of approvers (varies for each user)
         "
-"failed","Sun Feb 13 15:19:55 UTC 2022","Sun Feb 13 15:20:32 UTC 2022","36841","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_approver_wo_qualified_sign","
+"passed","Sun Feb 20 08:00:55 UTC 2022","Sun Feb 20 08:04:37 UTC 2022","222119","tests.test_hiring_employee","test_business_process_hiring","TestHiring","","","test_hiring_agreement","
+        Подбор и прием нового сотрудника. Поиск кандидата
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61403
+        "
+"passed","Sun Feb 20 08:26:02 UTC 2022","Sun Feb 20 08:46:13 UTC 2022","1211724","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_mass_signing","
+        Подписание Иных документов с инициацией на портале. УКЭП. Массовое подписание пользователем Семенихин
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55964
+        "
+"failed","Sun Feb 20 07:11:38 UTC 2022","Sun Feb 20 07:11:38 UTC 2022","0","tests.test_contracts","test_business_process_contract_sale","TestContractSale","","","test_approve_contract_sale_vice_rector_and_analyst","
+        Создание и согласование договора купли продажи
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/57039
+        Consideration by the second group of approvers (varies for the type of contract)
+        "
+"failed","Sun Feb 20 08:16:38 UTC 2022","Sun Feb 20 08:16:57 UTC 2022","18793","tests.test_main_page","test_main_page","TestMainPage","","","test_change_language","
+        Проверка переключения языка сайта
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/62194
+        "
+"passed","Sun Feb 20 09:57:54 UTC 2022","Sun Feb 20 10:01:36 UTC 2022","221551","tests.test_requests_spending_budget_funds","test_requests_spending_budget_funds","TestSpendingBudgetFunds","","","test_request_without_transfer","
+        Заявки на расходование средств бюджета. Проход по стадиям
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61420
+        "
+"failed","Sun Feb 20 07:31:17 UTC 2022","Sun Feb 20 07:31:17 UTC 2022","0","tests.test_decrees","test_decrees","TestDecrees","","","test_delete_decree_text_after_approving","
+        Подписание приказов, приложений ПЭП (без выписок). Удаление документов после подписания, но перед регистрацией
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55805
+        "
+"failed","Sun Feb 20 07:08:43 UTC 2022","Sun Feb 20 07:08:43 UTC 2022","0","tests.test_contracts","test_business_process_contract_pps","TestContractPPS","","","test_approve_contract_sale_vice_rector_and_analyst","
+        Создание и согласование договора купли продажи
+        Consideration by the second group of approvers (varies for the type of contract)
+        "
+"failed","Sun Feb 20 07:13:37 UTC 2022","Sun Feb 20 07:14:10 UTC 2022","33013","tests.test_contracts_gph","test_business_process_contract_gph_change_signer","TestContractGPHChangeSigner","","","test_contract_gph_change_signer_free","
+        Договор ГПХ руководитель проректор - стандартное простое прохождение
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61242
+        Consideration of the first group of approvers (varies for each user)
+        "
+"failed","Sun Feb 20 09:41:48 UTC 2022","Sun Feb 20 09:42:19 UTC 2022","31027","tests.test_outbox_letters","test_add_outbox_letter_main_flow","TestOutboxLetters","","","test_add_outbox_letter_main_flow_admin[user15]","
+        Подготовка заявки для согласования нового исходящего письма
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55188
+        "
+"failed","Sun Feb 20 08:17:02 UTC 2022","Sun Feb 20 08:17:15 UTC 2022","12590","tests.test_main_page","test_main_page","TestMainPage","","","test_auth_with_invalid_password","
+        Проверка авторизации пользователя c невалидным паролем
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/62187
+        "
+"passed","Sun Feb 20 09:24:34 UTC 2022","Sun Feb 20 09:26:53 UTC 2022","138417","tests.test_outbox_letters","test_add_outbox_letter_main_flow","TestOutboxLetters","","","test_add_outbox_letter_main_flow_admin[user9]","
+        Подготовка заявки для согласования нового исходящего письма
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55188
+        "
+"passed","Sun Feb 20 08:13:02 UTC 2022","Sun Feb 20 08:13:52 UTC 2022","49571","tests.test_main_page","test_main_page","TestMainPage","","","test_open_elements[main_page_user1]","
+        Проверка открытия основных элементов главной страницы портала
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/62190
+        "
+"passed","Sun Feb 20 09:45:42 UTC 2022","Sun Feb 20 09:48:04 UTC 2022","142543","tests.test_outbox_letters","test_add_outbox_letter_main_flow","TestOutboxLetters","","","test_add_outbox_letter_main_flow_admin[user19]","
+        Подготовка заявки для согласования нового исходящего письма
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55188
+        "
+"passed","Sun Feb 20 07:20:31 UTC 2022","Sun Feb 20 07:21:11 UTC 2022","39961","tests.test_contracts_gph","test_business_process_contract_gph_standart","TestContractGPHChanges","","","test_contract_gph_free_standart","
+        Договор ГПХ стандартноая форма перевод в свободную
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/60806
+        Consideration of the first group of approvers (varies for each user)
+        "
+"passed","Sun Feb 20 08:46:13 UTC 2022","Sun Feb 20 08:46:45 UTC 2022","31920","tests.test_other_documents","test_other_docs","TestOtherDocs","","","test_approver_wo_qualified_sign","
         Подписание Иных документов с инициацией на портале. Тип подписи УКЭП человека, у которого нет УКЭП
         https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55963
+        "
+"passed","Sun Feb 20 08:17:16 UTC 2022","Sun Feb 20 08:17:38 UTC 2022","21699","tests.test_main_page","test_main_page","TestMainPage","","","test_delete_menu_item","
+        Проверка отсутствия возможности удаления пункта меню
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/62225
+        "
+"passed","Sun Feb 20 08:05:09 UTC 2022","Sun Feb 20 08:09:20 UTC 2022","250693","tests.test_hiring_employee","test_business_process_hiring","TestHiring","","","test_offer_agreement","
+        Подбор и прием нового сотрудника. согласование заявки на прием сотрудника
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61298
+        "
+"passed","Sun Feb 20 08:11:42 UTC 2022","Sun Feb 20 08:11:42 UTC 2022","431","tests.test_main_page","test_main_page","TestMainPage","","","test_elements_present[main_page_user1]","
+        Проверка отображения основных элементов главной страницы портала
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/62188
+        "
+"passed","Sun Feb 20 10:32:03 UTC 2022","Sun Feb 20 10:35:27 UTC 2022","204006","tests.test_requests_spending_budget_funds","test_requests_spending_budget_funds","TestSpendingBudgetFunds","","","test_director_send_rework","
+        Заявки на расходование средств бюджета с перечислением ДС. Возврат директором на доработку.
+        Проверка редактирования после возврата на доработку
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61910
+        "
+"passed","Sun Feb 20 08:11:32 UTC 2022","Sun Feb 20 08:11:33 UTC 2022","509","tests.test_main_page","test_main_page","TestMainPage","","","test_elements_present[main_page_user0]","
+        Проверка отображения основных элементов главной страницы портала
+        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/62188
         "

@@ -1,0 +1,213 @@
+{
+  "uid" : "25e451c3788dd0e7",
+  "name" : "test_elements_present[main_page_user0]",
+  "fullName" : "tests.test_main_page.test_main_page.TestMainPage#test_elements_present",
+  "historyId" : "dc92bb3d84027eaeb77631a3dea2b784",
+  "time" : {
+    "start" : 1645344692710,
+    "stop" : 1645344693219,
+    "duration" : 509
+  },
+  "description" : "\n        Проверка отображения основных элементов главной страницы портала\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/62188\n        ",
+  "descriptionHtml" : "<pre><code>    Проверка отображения основных элементов главной страницы портала\n    https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/62188\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1645340439269,
+      "stop" : 1645340439615,
+      "duration" : 346
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_admin",
+    "time" : {
+      "start" : 1645340439615,
+      "stop" : 1645340456841,
+      "duration" : 17226
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "main_page_user",
+    "time" : {
+      "start" : 1645344682055,
+      "stop" : 1645344692709,
+      "duration" : 10654
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1645344682055,
+        "stop" : 1645344692709,
+        "duration" : 10654
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1645344682055,
+          "stop" : 1645344682690,
+          "duration" : 635
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "Радик Валиев"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "\n        Проверка отображения основных элементов главной страницы портала\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/62188\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2d4f94fe054b558e",
+      "name" : "log",
+      "source" : "2d4f94fe054b558e.txt",
+      "type" : "text/plain",
+      "size" : 147
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "main_page_user::0",
+    "time" : {
+      "start" : 1645344693220,
+      "stop" : 1645344693220,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_admin::0",
+    "time" : {
+      "start" : 1645353830250,
+      "stop" : 1645353830463,
+      "duration" : 213
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "main_page"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.test_main_page"
+  }, {
+    "name" : "suite",
+    "value" : "test_main_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMainPage"
+  }, {
+    "name" : "host",
+    "value" : "portal-test-qa-22n86"
+  }, {
+    "name" : "thread",
+    "value" : "7-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_main_page.test_main_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "main_page_user",
+    "value" : "Радик Валиев"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "4d1dc6645872c485",
+        "reportUrl" : "../2/index.html#testresult/4d1dc6645872c485",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645344692710,
+          "stop" : 1645344693219,
+          "duration" : 509
+        }
+      } ]
+    },
+    "tags" : [ "main_page" ]
+  },
+  "source" : "25e451c3788dd0e7.json",
+  "parameterValues" : [ "Радик Валиев" ]
+}

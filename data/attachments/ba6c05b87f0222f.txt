@@ -1,0 +1,34 @@
+2022-02-20 07:14:10 INFO login "Наталия Жандарова".
+2022-02-20 07:14:26 INFO Open contract create page
+2022-02-20 07:14:41 INFO title "Договор ГПХ стандартный шаблон тест2 07:14:19.164695", id "440992".
+2022-02-20 07:14:41 INFO Send for consideration
+2022-02-20 07:14:48 INFO login Елена Рыбакова
+2022-02-20 07:14:57 INFO open contract page
+2022-02-20 07:15:07 INFO Согласование договора "Договор ГПХ стандартный шаблон тест2 07:14:19.164695"
+2022-02-20 07:15:07 INFO Approve contract modal window
+2022-02-20 07:15:10 INFO open_contract
+2022-02-20 07:15:18 INFO find contract Договор ГПХ стандартный шаблон тест2 07:14:19.164695
+2022-02-20 07:15:18 INFO find_contract_gph
+2022-02-20 07:15:22 INFO login Лилия Симонова
+2022-02-20 07:15:31 INFO open contract page
+2022-02-20 07:15:42 INFO Согласование договора "Договор ГПХ стандартный шаблон тест2 07:14:19.164695"
+2022-02-20 07:15:42 INFO Approve contract modal window
+2022-02-20 07:15:43 INFO open_contract
+2022-02-20 07:15:51 INFO find contract Договор ГПХ стандартный шаблон тест2 07:14:19.164695
+2022-02-20 07:15:51 INFO find_contract_gph
+2022-02-20 07:15:55 INFO login Дмитрий Сарайкин
+2022-02-20 07:16:04 INFO open contract page
+2022-02-20 07:16:12 INFO Согласование договора "Договор ГПХ стандартный шаблон тест2 07:14:19.164695"
+2022-02-20 07:16:12 INFO Approve contract modal window
+2022-02-20 07:16:12 INFO open_contract
+2022-02-20 07:16:20 INFO find contract Договор ГПХ стандартный шаблон тест2 07:14:19.164695
+2022-02-20 07:16:20 INFO find_contract_gph
+2022-02-20 07:16:24 INFO login Павел Зотов
+2022-02-20 07:16:32 INFO open contract page
+2022-02-20 07:16:44 INFO Согласование договора "Договор ГПХ стандартный шаблон тест2 07:14:19.164695"
+2022-02-20 07:16:44 INFO Approve contract modal window
+2022-02-20 07:16:45 INFO open_contract
+2022-02-20 07:16:55 INFO find contract Договор ГПХ стандартный шаблон тест2 07:14:19.164695
+2022-02-20 07:16:55 INFO find_contract_gph
+2022-02-20 07:17:00 INFO login Радик Валиев
+2022-02-20 07:17:17 INFO open contract page

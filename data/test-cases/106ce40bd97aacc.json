@@ -1,0 +1,498 @@
+{
+  "uid" : "106ce40bd97aacc",
+  "name" : "test_cancel_by_initiator",
+  "fullName" : "tests.test_decrees.test_decrees.TestDecrees#test_cancel_by_initiator",
+  "historyId" : "79cdff9cb0c8034c37f8e985c2c8ac24",
+  "time" : {
+    "start" : 1645342045076,
+    "stop" : 1645342110343,
+    "duration" : 65267
+  },
+  "description" : "\n        Подписание приказов, приложений ПЭП (без выписок). Проект приказа снят с рассмотрения инициатором\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55870\n        ",
+  "descriptionHtml" : "<pre><code>    Подписание приказов, приложений ПЭП (без выписок). Проект приказа снят с рассмотрения инициатором\n    https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55870\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1645340439269,
+      "stop" : 1645340439615,
+      "duration" : 346
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_admin",
+    "time" : {
+      "start" : 1645340439615,
+      "stop" : 1645340456841,
+      "duration" : 17226
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "decree",
+    "time" : {
+      "start" : 1645342000336,
+      "stop" : 1645342045075,
+      "duration" : 44739
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1645342000337,
+        "stop" : 1645342010532,
+        "duration" : 10195
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1645342000337,
+          "stop" : 1645342001023,
+          "duration" : 686
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "Лейсан Мухаметзянова"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открытие страницы создания приказа",
+      "time" : {
+        "start" : 1645342010533,
+        "stop" : 1645342024177,
+        "duration" : 13644
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список приказов",
+        "time" : {
+          "start" : 1645342010533,
+          "stop" : 1645342020141,
+          "duration" : 9608
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение обязательных полей и создание приказа",
+      "time" : {
+        "start" : 1645342024178,
+        "stop" : 1645342045048,
+        "duration" : 20870
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "decree_data",
+        "value" : "<models.decree_data.Decree object at 0x7f813bccb0a0>"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение номера приказа",
+      "time" : {
+        "start" : 1645342045049,
+        "stop" : 1645342045075,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "\n        Подписание приказов, приложений ПЭП (без выписок). Проект приказа снят с рассмотрения инициатором\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55870\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1645342045076,
+        "stop" : 1645342052907,
+        "duration" : 7831
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1645342045076,
+          "stop" : 1645342045654,
+          "duration" : 578
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "Лейсан Мухаметзянова"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открыть приказ по номеру",
+      "time" : {
+        "start" : 1645342052907,
+        "stop" : 1645342065261,
+        "duration" : 12354
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список приказов",
+        "time" : {
+          "start" : 1645342052907,
+          "stop" : 1645342061319,
+          "duration" : 8412
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "'440998'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Отправка приказа на рассмотрение",
+      "time" : {
+        "start" : 1645342065261,
+        "stop" : 1645342072214,
+        "duration" : 6953
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Снятие приказа с рассмотрения",
+      "time" : {
+        "start" : 1645342072215,
+        "stop" : 1645342078113,
+        "duration" : 5898
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1645342083134,
+        "stop" : 1645342090909,
+        "duration" : 7775
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1645342083134,
+          "stop" : 1645342083792,
+          "duration" : 658
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "Лейсан Мухаметзянова"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открыть приказ по номеру",
+      "time" : {
+        "start" : 1645342090910,
+        "stop" : 1645342103209,
+        "duration" : 12299
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список приказов",
+        "time" : {
+          "start" : 1645342090910,
+          "stop" : 1645342099398,
+          "duration" : 8488
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "'440998'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Отправка приказа на рассмотрение",
+      "time" : {
+        "start" : 1645342103209,
+        "stop" : 1645342110343,
+        "duration" : 7134
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "61fc4db6d02a2aec",
+      "name" : "log",
+      "source" : "61fc4db6d02a2aec.txt",
+      "type" : "text/plain",
+      "size" : 839
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "decree::0",
+    "time" : {
+      "start" : 1645342110344,
+      "stop" : 1645342136496,
+      "duration" : 26152
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизоваться под администратором портала",
+      "time" : {
+        "start" : 1645342110344,
+        "stop" : 1645342110888,
+        "duration" : 544
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Открыть приказ по номеру",
+      "time" : {
+        "start" : 1645342116076,
+        "stop" : 1645342129960,
+        "duration" : 13884
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список приказов",
+        "time" : {
+          "start" : 1645342116076,
+          "stop" : 1645342125384,
+          "duration" : 9308
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "'440998'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "auth_admin::0",
+    "time" : {
+      "start" : 1645353830250,
+      "stop" : 1645353830463,
+      "duration" : 213
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "decrees"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.test_decrees"
+  }, {
+    "name" : "suite",
+    "value" : "test_decrees"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDecrees"
+  }, {
+    "name" : "host",
+    "value" : "portal-test-qa-22n86"
+  }, {
+    "name" : "thread",
+    "value" : "7-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_decrees.test_decrees"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "5fe7e4d4b890609b",
+        "reportUrl" : "../2/index.html#testresult/5fe7e4d4b890609b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645342045076,
+          "stop" : 1645342110343,
+          "duration" : 65267
+        }
+      } ]
+    },
+    "tags" : [ "decrees" ]
+  },
+  "source" : "106ce40bd97aacc.json",
+  "parameterValues" : [ ]
+}

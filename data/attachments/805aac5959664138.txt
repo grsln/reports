@@ -1,0 +1,18 @@
+2022-02-20 07:02:57 INFO execute button command
+2022-02-20 07:03:04 INFO assert states
+2022-02-20 07:03:26 INFO execute button command
+2022-02-20 07:03:26 INFO assert states
+2022-02-20 07:03:55 INFO execute button command
+2022-02-20 07:03:55 INFO assert states
+2022-02-20 07:04:26 INFO execute button command
+2022-02-20 07:04:26 INFO assert states
+2022-02-20 07:04:54 INFO execute button command
+2022-02-20 07:04:54 INFO assert states
+2022-02-20 07:05:18 INFO execute button command
+2022-02-20 07:05:18 INFO assert states
+2022-02-20 07:05:46 INFO execute button command
+2022-02-20 07:05:47 INFO assert states
+2022-02-20 07:06:15 INFO execute button command
+2022-02-20 07:06:15 INFO assert states
+2022-02-20 07:06:59 INFO delete
+2022-02-20 07:06:59 INFO accept alert

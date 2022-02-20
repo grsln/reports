@@ -1,0 +1,252 @@
+{
+  "uid" : "16aa2770cb7851a6",
+  "name" : "test_create_trip",
+  "fullName" : "tests.test_business_trips.test_business_trips.TestBusinessTrips#test_create_trip",
+  "historyId" : "e8c5cfcda623a930edf04f65a04b17af",
+  "time" : {
+    "start" : 1645340456855,
+    "stop" : 1645340549487,
+    "duration" : 92632
+  },
+  "description" : "\n        Проверка создания заявки на командировку\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/56068\n        ",
+  "descriptionHtml" : "<pre><code>    Проверка создания заявки на командировку\n    https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/56068\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1645340439269,
+      "stop" : 1645340439615,
+      "duration" : 346
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_admin",
+    "time" : {
+      "start" : 1645340439615,
+      "stop" : 1645340456841,
+      "duration" : 17226
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        Проверка создания заявки на командировку\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/56068\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1645340456857,
+        "stop" : 1645340488738,
+        "duration" : 31881
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1645340456857,
+          "stop" : 1645340467732,
+          "duration" : 10875
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "Лейсан Мухаметзянова"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Open trip create page",
+      "time" : {
+        "start" : 1645340488743,
+        "stop" : 1645340502807,
+        "duration" : 14064
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Create business trip",
+      "time" : {
+        "start" : 1645340502807,
+        "stop" : 1645340515002,
+        "duration" : 12195
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "data",
+        "value" : "<models.trip_data.TripData object at 0x7f8147ac0700>"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Check creating result",
+      "time" : {
+        "start" : 1645340515002,
+        "stop" : 1645340515106,
+        "duration" : 104
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "data",
+        "value" : "<models.trip_data.TripData object at 0x7f8112949fa0>"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизоваться под администратором портала",
+      "time" : {
+        "start" : 1645340515138,
+        "stop" : 1645340515805,
+        "duration" : 667
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "e13241eef127d0a6",
+      "name" : "log",
+      "source" : "e13241eef127d0a6.txt",
+      "type" : "text/plain",
+      "size" : 705
+    }, {
+      "uid" : "531581a35f695196",
+      "name" : "stderr",
+      "source" : "531581a35f695196.txt",
+      "type" : "text/plain",
+      "size" : 436
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "auth_admin::0",
+    "time" : {
+      "start" : 1645353830250,
+      "stop" : 1645353830463,
+      "duration" : 213
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "trips"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.test_business_trips"
+  }, {
+    "name" : "suite",
+    "value" : "test_business_trips"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBusinessTrips"
+  }, {
+    "name" : "host",
+    "value" : "portal-test-qa-22n86"
+  }, {
+    "name" : "thread",
+    "value" : "7-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_business_trips.test_business_trips"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "115899d1092be8df",
+        "reportUrl" : "../2/index.html#testresult/115899d1092be8df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645340456855,
+          "stop" : 1645340549487,
+          "duration" : 92632
+        }
+      } ]
+    },
+    "tags" : [ "trips" ]
+  },
+  "source" : "16aa2770cb7851a6.json",
+  "parameterValues" : [ ]
+}

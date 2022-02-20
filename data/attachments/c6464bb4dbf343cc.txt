@@ -1,0 +1,15 @@
+2022-02-20 09:29:12 INFO Авторизация Гульназ Тимуршина
+2022-02-20 09:29:58 INFO тестовое исходящее письмо 07:00:39.140874, 441058
+2022-02-20 09:30:06 INFO Login admin.
+2022-02-20 09:30:06 INFO Open admin
+2022-02-20 09:30:21 INFO Find document
+2022-02-20 09:30:25 INFO Approve admin Оксана Ульянова.
+2022-02-20 09:30:25 INFO Admin approve
+2022-02-20 09:30:26 INFO Approve admin Светлана Соколова
+2022-02-20 09:30:26 INFO Admin approve
+2022-02-20 09:30:33 INFO Approve admin Искандер Бариев
+2022-02-20 09:30:33 INFO Admin approve
+2022-02-20 09:30:41 INFO Open admin
+2022-02-20 09:31:01 INFO find letter
+2022-02-20 09:31:06 INFO delete
+2022-02-20 09:31:06 INFO accept alert

@@ -1,0 +1,15 @@
+2022-02-20 09:07:10 INFO Авторизация Анна Малышева
+2022-02-20 09:07:50 INFO тестовое исходящее письмо 07:00:39.140874, 441048
+2022-02-20 09:07:56 INFO Login admin.
+2022-02-20 09:07:56 INFO Open admin
+2022-02-20 09:08:09 INFO Find document
+2022-02-20 09:08:14 INFO Approve admin Оксана Ульянова.
+2022-02-20 09:08:14 INFO Admin approve
+2022-02-20 09:08:14 INFO Approve admin Ильдар Давлетбаев
+2022-02-20 09:08:14 INFO Admin approve
+2022-02-20 09:08:21 INFO Approve admin Искандер Бариев
+2022-02-20 09:08:21 INFO Admin approve
+2022-02-20 09:08:28 INFO Open admin
+2022-02-20 09:08:47 INFO find letter
+2022-02-20 09:08:52 INFO delete
+2022-02-20 09:08:52 INFO accept alert

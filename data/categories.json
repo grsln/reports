@@ -4,58 +4,16 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.employee-position-input > select:nth-child(1) > option:nth-child(3)')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".employee-position-input > select:nth-child(1) > option:nth-child(3)\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1644759029291/1644759029292.png\nPageSource: file:///home/seluser/.selene/screenshots/1644759029291/1644759029292.html",
-      "children" : [ {
-        "name" : "test_create_trip",
-        "uid" : "f722e42ce6db704c",
-        "parentUid" : "79eb6c56fb0051fa6586b8e3b8989883",
-        "status" : "failed",
-        "time" : {
-          "start" : 1644759046551,
-          "stop" : 1644759076563,
-          "duration" : 30012
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "79eb6c56fb0051fa6586b8e3b8989883"
-    }, {
-      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.employee-position-input > select:nth-child(1) > option:nth-child(3)')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".employee-position-input > select:nth-child(1) > option:nth-child(3)\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1644759029291/1644759029293.png\nPageSource: file:///home/seluser/.selene/screenshots/1644759029291/1644759029293.html",
-      "children" : [ {
-        "name" : "test_trip_states",
-        "uid" : "6b51358b57842d39",
-        "parentUid" : "ae70729b4fb38245a550a5a1f7a57c48",
-        "status" : "failed",
-        "time" : {
-          "start" : 1644759076995,
-          "stop" : 1644759076995,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "ae70729b4fb38245a550a5a1f7a57c48"
-    }, {
-      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', '//a[@title=\\'Согласование договора \"Договор о сотрудничестве тест4\"\\']/../../..//a[contains(.,\\'Согласовать\\')]')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@title='Согласование договора \"Договор о сотрудничестве тест4\"']/../../..//a[contains(.,'Согласовать')]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1644759029291/1644759029294.png\nPageSource: file:///home/seluser/.selene/screenshots/1644759029291/1644759029294.html",
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"ТК \"Сангрео\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1645340434800/1645340434801.png\nPageSource: file:///home/seluser/.selene/screenshots/1645340434800/1645340434801.html",
       "children" : [ {
         "name" : "test_approve_contract_cooperation_first_group_approvers",
-        "uid" : "8a76823ed626b56e",
-        "parentUid" : "f72be2d931f4198b175916515f9e6517",
+        "uid" : "f9f99bbc58a68349",
+        "parentUid" : "e446b58f566dbb451c9ac670a6579ce9",
         "status" : "failed",
         "time" : {
-          "start" : 1644759154492,
-          "stop" : 1644759183919,
-          "duration" : 29427
+          "start" : 1645340825832,
+          "stop" : 1645340825832,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
@@ -65,17 +23,38 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "f72be2d931f4198b175916515f9e6517"
+      "uid" : "e446b58f566dbb451c9ac670a6579ce9"
     }, {
-      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', 'h2')).has text Договор ППС тест5\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"h2\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1644759029291/1644759029295.png\nPageSource: file:///home/seluser/.selene/screenshots/1644759029291/1644759029295.html",
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ИП Шафигуллин Айдар Раисович\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1645340434800/1645340434802.png\nPageSource: file:///home/seluser/.selene/screenshots/1645340434800/1645340434802.html",
+      "children" : [ {
+        "name" : "test_approve_contract_license_first_group_approvers",
+        "uid" : "3a7b8776174e122d",
+        "parentUid" : "e43f8c54673d841d4ca9b68a6954602a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645340859558,
+          "stop" : 1645340859558,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e43f8c54673d841d4ca9b68a6954602a"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"ТК \"Сангрео\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1645340434800/1645340434803.png\nPageSource: file:///home/seluser/.selene/screenshots/1645340434800/1645340434803.html",
       "children" : [ {
         "name" : "test_approve_contract_sale_first_group_approvers",
-        "uid" : "8c6f91b2aa2a160f",
-        "parentUid" : "c3d80e5a81266edacc9ec0aa3529ee4e",
+        "uid" : "5f6f6e0b95c90b50",
+        "parentUid" : "8481601c6ed1575bef7699c7b92fb3bf",
         "status" : "failed",
         "time" : {
-          "start" : 1644759345328,
-          "stop" : 1644759345328,
+          "start" : 1645340891592,
+          "stop" : 1645340891592,
           "duration" : 0
         },
         "flaky" : false,
@@ -86,17 +65,17 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "c3d80e5a81266edacc9ec0aa3529ee4e"
+      "uid" : "8481601c6ed1575bef7699c7b92fb3bf"
     }, {
-      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', 'h2')).has text Договор ППС тест5\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"h2\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1644759029291/1644759029296.png\nPageSource: file:///home/seluser/.selene/screenshots/1644759029291/1644759029296.html",
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"ТК \"Сангрео\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1645340434800/1645340434804.png\nPageSource: file:///home/seluser/.selene/screenshots/1645340434800/1645340434804.html",
       "children" : [ {
         "name" : "test_approve_contract_sale_vice_rector_and_analyst",
-        "uid" : "17fdaf6d1244140b",
-        "parentUid" : "736ec33b8e4c4564bd4e94618a1e5d1e",
+        "uid" : "32a214c6d755b323",
+        "parentUid" : "bcd0170f76320f5d8b43e34caded0fbc",
         "status" : "failed",
         "time" : {
-          "start" : 1644759377365,
-          "stop" : 1644759377365,
+          "start" : 1645340923566,
+          "stop" : 1645340923566,
           "duration" : 0
         },
         "flaky" : false,
@@ -107,18 +86,165 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "736ec33b8e4c4564bd4e94618a1e5d1e"
+      "uid" : "bcd0170f76320f5d8b43e34caded0fbc"
     }, {
-      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//text()[contains(.,'Документ согласован')]/../../../../../..//a[contains(.,'Павел Зотов')]\")).is visible\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//text()[contains(.,'Документ согласован')]/../../../../../..//a[contains(.,'Павел Зотов')]\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1644759029291/1644759029297.png\nPageSource: file:///home/seluser/.selene/screenshots/1644759029291/1644759029297.html",
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"Техноавиа-Казань\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1645340434800/1645340434805.png\nPageSource: file:///home/seluser/.selene/screenshots/1645340434800/1645340434805.html",
+      "children" : [ {
+        "name" : "test_approve_contract_rent_first_group_approvers",
+        "uid" : "553dbb2d4ff03f1f",
+        "parentUid" : "66395a08124d163d5f84394397c44485",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645340952134,
+          "stop" : 1645340952134,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "66395a08124d163d5f84394397c44485"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"Техноавиа-Казань\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1645340434800/1645340434806.png\nPageSource: file:///home/seluser/.selene/screenshots/1645340434800/1645340434806.html",
+      "children" : [ {
+        "name" : "test_approve_contract_sale_second_group_approvers",
+        "uid" : "80e96b8d046fe186",
+        "parentUid" : "5baefbd60ec527779058aee7ffb44246",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645340981666,
+          "stop" : 1645340981666,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5baefbd60ec527779058aee7ffb44246"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"Техноавиа-Казань\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1645340434800/1645340434807.png\nPageSource: file:///home/seluser/.selene/screenshots/1645340434800/1645340434807.html",
+      "children" : [ {
+        "name" : "test_approve_contract_rent_vice_rector_and_signer",
+        "uid" : "19438359e20b4629",
+        "parentUid" : "e0c4eb8e1653de39b82b0423fc3ec855",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645341010312,
+          "stop" : 1645341010312,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e0c4eb8e1653de39b82b0423fc3ec855"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"ТК \"Сангрео\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1645340434800/1645340434808.png\nPageSource: file:///home/seluser/.selene/screenshots/1645340434800/1645340434808.html",
+      "children" : [ {
+        "name" : "test_approve_contract_sale_first_group_approvers",
+        "uid" : "c88fbb479613de82",
+        "parentUid" : "fa26d284ebc52cbfaf4288a9dac1e3b4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645341039551,
+          "stop" : 1645341039551,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fa26d284ebc52cbfaf4288a9dac1e3b4"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"ТК \"Сангрео\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1645340434800/1645340434809.png\nPageSource: file:///home/seluser/.selene/screenshots/1645340434800/1645340434809.html",
+      "children" : [ {
+        "name" : "test_approve_contract_sale_second_group_approvers",
+        "uid" : "2bc18e409cdf66a",
+        "parentUid" : "78d055939bc9753d1f8ecb62e8e48957",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645341068737,
+          "stop" : 1645341068737,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "78d055939bc9753d1f8ecb62e8e48957"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"ТК \"Сангрео\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1645340434800/1645340434810.png\nPageSource: file:///home/seluser/.selene/screenshots/1645340434800/1645340434810.html",
+      "children" : [ {
+        "name" : "test_approve_contract_sale_vice_rector_and_analyst",
+        "uid" : "dcbe2b3482707482",
+        "parentUid" : "eeb7089d95d8bbe817b1965de5a44789",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645341098163,
+          "stop" : 1645341098163,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eeb7089d95d8bbe817b1965de5a44789"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"ТК \"Сангрео\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1645340434800/1645340434811.png\nPageSource: file:///home/seluser/.selene/screenshots/1645340434800/1645340434811.html",
+      "children" : [ {
+        "name" : "test_approve_contract_sale_signing",
+        "uid" : "171fcb70d824d4b1",
+        "parentUid" : "d1e95ad23dbfe90c7b54eb7763c12b7e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645341127229,
+          "stop" : 1645341127229,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d1e95ad23dbfe90c7b54eb7763c12b7e"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: Самозанятый Валиуллина Диана Абузаровна\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1645340434800/1645340434812.png\nPageSource: file:///home/seluser/.selene/screenshots/1645340434800/1645340434812.html",
       "children" : [ {
         "name" : "test_approve_contract_self_employed_valiev_approvers",
-        "uid" : "3559ac4a83c27ec7",
-        "parentUid" : "9c746a1eafbdbbbda838b2fc8fec14a2",
+        "uid" : "5a40ce97de819d56",
+        "parentUid" : "83361836d14e76129990311630d114a4",
         "status" : "failed",
         "time" : {
-          "start" : 1644760939931,
-          "stop" : 1644761033178,
-          "duration" : 93247
+          "start" : 1645341156349,
+          "stop" : 1645341156349,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
@@ -128,17 +254,17 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "9c746a1eafbdbbbda838b2fc8fec14a2"
+      "uid" : "83361836d14e76129990311630d114a4"
     }, {
-      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', 'h2')).has text Договор купли продажи с самозанятым тест6\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"h2\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1644759029291/1644759029298.png\nPageSource: file:///home/seluser/.selene/screenshots/1644759029291/1644759029298.html",
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: Маринина Марина Мариновна\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1645340434800/1645340434813.png\nPageSource: file:///home/seluser/.selene/screenshots/1645340434800/1645340434813.html",
       "children" : [ {
         "name" : "test_approve_contract_self_employed_valiev_approvers_asll",
-        "uid" : "8aebc37886065462",
-        "parentUid" : "21b2a8a2bd3038d50e7685c014b9c4ca",
+        "uid" : "6614d4f3d0adf723",
+        "parentUid" : "277ddcc59d92343441641b8ba23e3b01",
         "status" : "failed",
         "time" : {
-          "start" : 1644761033540,
-          "stop" : 1644761033540,
+          "start" : 1645341185709,
+          "stop" : 1645341185709,
           "duration" : 0
         },
         "flaky" : false,
@@ -149,18 +275,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "21b2a8a2bd3038d50e7685c014b9c4ca"
+      "uid" : "277ddcc59d92343441641b8ba23e3b01"
     }, {
-      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//text()[contains(.,'Подписывающее лицо')]/../..//div/div/div/div/span/span\")).click\n\nReason: ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1644759029291/1644759029299.png\nPageSource: file:///home/seluser/.selene/screenshots/1644759029291/1644759029299.html",
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//text()[contains(.,'Подписывающее лицо')]/../..//div/div/div/div/span/span\")).click\n\nReason: ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1645340434800/1645340434814.png\nPageSource: file:///home/seluser/.selene/screenshots/1645340434800/1645340434814.html",
       "children" : [ {
         "name" : "test_contract_gph_change_signer_free",
-        "uid" : "40bd76e9d4ed4897",
-        "parentUid" : "339ad44f4234877843ee073fc6dee319",
+        "uid" : "300033dc8fd09b5e",
+        "parentUid" : "55ddc8276ab618aaa03145d9cb1ee49b",
         "status" : "failed",
         "time" : {
-          "start" : 1644761065236,
-          "stop" : 1644761094757,
-          "duration" : 29521
+          "start" : 1645341217064,
+          "stop" : 1645341250077,
+          "duration" : 33013
         },
         "flaky" : false,
         "newFailed" : false,
@@ -170,18 +296,39 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "339ad44f4234877843ee073fc6dee319"
+      "uid" : "55ddc8276ab618aaa03145d9cb1ee49b"
     }, {
-      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', 'li#bx_left_menu_bp_tasks_subitem_bizproc_contract_gpd  .menu-item-link-text')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"li#bx_left_menu_bp_tasks_subitem_bizproc_contract_gpd  .menu-item-link-text\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1644759029291/1644759029300.png\nPageSource: file:///home/seluser/.selene/screenshots/1644759029291/1644759029300.html",
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//li[@id='bx_left_menu_bizproc_user_tasks']/a/span[@class='menu-item-link-text']\")).click\n\nReason: ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1645340434800/1645340434815.png\nPageSource: file:///home/seluser/.selene/screenshots/1645340434800/1645340434815.html",
+      "children" : [ {
+        "name" : "test_contract_gph_standart",
+        "uid" : "1d0cfd66be8d67e9",
+        "parentUid" : "94c3bab93269508a73ecaf2713812219",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645341281364,
+          "stop" : 1645341447609,
+          "duration" : 166245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "94c3bab93269508a73ecaf2713812219"
+    }, {
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', 'li#bx_left_menu_bp_tasks_subitem_bizproc_contract_gpd  .menu-item-link-text')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"li#bx_left_menu_bp_tasks_subitem_bizproc_contract_gpd  .menu-item-link-text\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1645340434800/1645340434816.png\nPageSource: file:///home/seluser/.selene/screenshots/1645340434800/1645340434816.html",
       "children" : [ {
         "name" : "test_contract_gph_standart_1",
-        "uid" : "585f9c832fbefb63",
-        "parentUid" : "9fe129e9e1ebe200c7d4504b2fcbcb8b",
+        "uid" : "d566e826f076a559",
+        "parentUid" : "624ef55720aa7506e18e98c08a5ff5f4",
         "status" : "failed",
         "time" : {
-          "start" : 1644761492431,
-          "stop" : 1644761520672,
-          "duration" : 28241
+          "start" : 1645341476631,
+          "stop" : 1645341505844,
+          "duration" : 29213
         },
         "flaky" : false,
         "newFailed" : false,
@@ -191,38 +338,17 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "9fe129e9e1ebe200c7d4504b2fcbcb8b"
+      "uid" : "624ef55720aa7506e18e98c08a5ff5f4"
     }, {
-      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text ОДОБРЕНИЕ ПРИКАЗА ПОДПИСАНТОМ\n\nReason: AssertionError: actual text: РАССМОТРЕНИЕ ПЕРВОЙ ГРУППОЙ СОГЛАСУЮЩИХ\nScreenshot: file:///home/seluser/.selene/screenshots/1644759029291/1644759029301.png\nPageSource: file:///home/seluser/.selene/screenshots/1644759029291/1644759029301.html",
-      "children" : [ {
-        "name" : "test_decree_states",
-        "uid" : "d491d30c9c646637",
-        "parentUid" : "a601eb43f91786403278aa5cc526b77a",
-        "status" : "failed",
-        "time" : {
-          "start" : 1644761769886,
-          "stop" : 1644761896856,
-          "duration" : 126970
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a601eb43f91786403278aa5cc526b77a"
-    }, {
-      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text ОДОБРЕНИЕ ПРИКАЗА ПОДПИСАНТОМ\n\nReason: AssertionError: actual text: РАССМОТРЕНИЕ ПЕРВОЙ ГРУППОЙ СОГЛАСУЮЩИХ\nScreenshot: file:///home/seluser/.selene/screenshots/1644759029291/1644759029302.png\nPageSource: file:///home/seluser/.selene/screenshots/1644759029291/1644759029302.html",
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text ОДОБРЕНИЕ ПРИКАЗА ПОДПИСАНТОМ\n\nReason: AssertionError: actual text: РАССМОТРЕНИЕ ПЕРВОЙ ГРУППОЙ СОГЛАСУЮЩИХ\nScreenshot: file:///home/seluser/.selene/screenshots/1645340434800/1645340434817.png\nPageSource: file:///home/seluser/.selene/screenshots/1645340434800/1645340434817.html",
       "children" : [ {
         "name" : "test_delete_decree_text_after_approving",
-        "uid" : "7e5285f22232c8a5",
-        "parentUid" : "e826a0d52ee6cc212c04a4c369b613b3",
+        "uid" : "dc32435f86665a4d",
+        "parentUid" : "d1039f6fefe860c3011c3f0aa96139f0",
         "status" : "failed",
         "time" : {
-          "start" : 1644762141169,
-          "stop" : 1644762141169,
+          "start" : 1645342277255,
+          "stop" : 1645342277255,
           "duration" : 0
         },
         "flaky" : false,
@@ -233,39 +359,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "e826a0d52ee6cc212c04a4c369b613b3"
+      "uid" : "d1039f6fefe860c3011c3f0aa96139f0"
     }, {
-      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text ОДОБРЕНИЕ ПРИКАЗА ПОДПИСАНТОМ\n\nReason: AssertionError: actual text: РАССМОТРЕНИЕ ПЕРВОЙ ГРУППОЙ СОГЛАСУЮЩИХ\nScreenshot: file:///home/seluser/.selene/screenshots/1644759029291/1644759029303.png\nPageSource: file:///home/seluser/.selene/screenshots/1644759029291/1644759029303.html",
-      "children" : [ {
-        "name" : "test_edit_decree_name_under_approving",
-        "uid" : "7b24ed6acab738fe",
-        "parentUid" : "a37fb0142debb6e9b9f3eed5978e5b75",
-        "status" : "failed",
-        "time" : {
-          "start" : 1644762684234,
-          "stop" : 1644762777411,
-          "duration" : 93177
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a37fb0142debb6e9b9f3eed5978e5b75"
-    }, {
-      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text ОДОБРЕНИЕ ПРИКАЗА ПОДПИСАНТОМ\n\nReason: AssertionError: actual text: РАССМОТРЕНИЕ ПЕРВОЙ ГРУППОЙ СОГЛАСУЮЩИХ\nScreenshot: file:///home/seluser/.selene/screenshots/1644759029291/1644759029304.png\nPageSource: file:///home/seluser/.selene/screenshots/1644759029291/1644759029304.html",
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text ОДОБРЕНИЕ ПРИКАЗА ПОДПИСАНТОМ\n\nReason: AssertionError: actual text: РАССМОТРЕНИЕ ВТОРОЙ ГРУППОЙ СОГЛАСУЮЩИХ\nScreenshot: file:///home/seluser/.selene/screenshots/1645340434800/1645340434818.png\nPageSource: file:///home/seluser/.selene/screenshots/1645340434800/1645340434818.html",
       "children" : [ {
         "name" : "test_auto_approving",
-        "uid" : "9fbda54940a44d70",
-        "parentUid" : "28ad62c1f1144824a123e5806b54da88",
+        "uid" : "10d1f490bc5ae3d8",
+        "parentUid" : "5bed3e0375cf97659ac3eb84d7dd19b9",
         "status" : "failed",
         "time" : {
-          "start" : 1644763242651,
-          "stop" : 1644763282909,
-          "duration" : 40258
+          "start" : 1645343610712,
+          "stop" : 1645343659622,
+          "duration" : 48910
         },
         "flaky" : false,
         "newFailed" : false,
@@ -275,39 +380,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "28ad62c1f1144824a123e5806b54da88"
+      "uid" : "5bed3e0375cf97659ac3eb84d7dd19b9"
     }, {
-      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.webform-small-button-right-part')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".webform-small-button-right-part\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1644759029291/1644759029305.png\nPageSource: file:///home/seluser/.selene/screenshots/1644759029291/1644759029305.html",
-      "children" : [ {
-        "name" : "test_offer_agreement",
-        "uid" : "a1f1c2283a0e6bf5",
-        "parentUid" : "cda42a9454d91bc7787edff1bf9df969",
-        "status" : "failed",
-        "time" : {
-          "start" : 1644763839433,
-          "stop" : 1644763884607,
-          "duration" : 45174
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "cda42a9454d91bc7787edff1bf9df969"
-    }, {
-      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 95s, while waiting for:\nbrowser.element(('css selector', ' .tt-selectable.tt-suggestion.tt-user')).is present in DOM\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\" .tt-selectable.tt-suggestion.tt-user\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1644759029291/1644759029306.png\nPageSource: file:///home/seluser/.selene/screenshots/1644759029291/1644759029306.html",
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 95s, while waiting for:\nbrowser.element(('css selector', ' .tt-selectable.tt-suggestion.tt-user')).is present in DOM\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\" .tt-selectable.tt-suggestion.tt-user\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1645340434800/1645340434819.png\nPageSource: file:///home/seluser/.selene/screenshots/1645340434800/1645340434819.html",
       "children" : [ {
         "name" : "test_add_inbox_letter",
-        "uid" : "3b83a9ae951d2b",
-        "parentUid" : "a21f1c189f1bb32c8e04d9d75cf6e402",
+        "uid" : "57fad0b8c35456a5",
+        "parentUid" : "e7fffea34d969a8172e0c2667b351c67",
         "status" : "failed",
         "time" : {
-          "start" : 1644763884924,
-          "stop" : 1644764002803,
-          "duration" : 117879
+          "start" : 1645344560262,
+          "stop" : 1645344681794,
+          "duration" : 121532
         },
         "flaky" : false,
         "newFailed" : false,
@@ -317,18 +401,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "a21f1c189f1bb32c8e04d9d75cf6e402"
+      "uid" : "e7fffea34d969a8172e0c2667b351c67"
     }, {
-      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#popup-window-content-MessageWindow > div > div > div.styled-info-message')).has text У пользователей не имеется УКЭП\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#popup-window-content-MessageWindow > div > div > div.styled-info-message\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1644759029291/1644759029307.png\nPageSource: file:///home/seluser/.selene/screenshots/1644759029291/1644759029307.html",
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#pagetitle')).has text Новости\n\nReason: AssertionError: actual text: Лента новостей\nScreenshot: file:///home/seluser/.selene/screenshots/1645340434800/1645340434820.png\nPageSource: file:///home/seluser/.selene/screenshots/1645340434800/1645340434820.html",
       "children" : [ {
-        "name" : "test_approver_wo_qualified_sign",
-        "uid" : "2fc53e95bd19cd68",
-        "parentUid" : "74d4ba9c46f38c7fe79923a59d0dfe99",
+        "name" : "test_open_elements[main_page_user0]",
+        "uid" : "d440fd6818d83ef4",
+        "parentUid" : "d2fff7e4b83c8785fb46b6af2e11146a",
         "status" : "failed",
         "time" : {
-          "start" : 1644765595397,
-          "stop" : 1644765632238,
-          "duration" : 36841
+          "start" : 1645344720169,
+          "stop" : 1645344774965,
+          "duration" : 54796
         },
         "flaky" : false,
         "newFailed" : false,
@@ -336,20 +420,20 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ ]
+        "parameters" : [ "Радик Валиев" ]
       } ],
-      "uid" : "74d4ba9c46f38c7fe79923a59d0dfe99"
+      "uid" : "d2fff7e4b83c8785fb46b6af2e11146a"
     }, {
-      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', 'h2')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"h2\"}\n  (Session info: chrome=97.0.4692.99)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1644759029291/1644759029308.png\nPageSource: file:///home/seluser/.selene/screenshots/1644759029291/1644759029308.html",
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#pagetitle')).has text ДМС\n\nReason: AssertionError: actual text: Абонемент в спорткомплекс «Иннополис»\nScreenshot: file:///home/seluser/.selene/screenshots/1645340434800/1645340434821.png\nPageSource: file:///home/seluser/.selene/screenshots/1645340434800/1645340434821.html",
       "children" : [ {
-        "name" : "test_add_outbox_letter_main_flow",
-        "uid" : "9f475c094bc42878",
-        "parentUid" : "6cab9f852cb33f0493213544ecf1ffde",
+        "name" : "test_topmenu_links",
+        "uid" : "3d9f60835710d0b7",
+        "parentUid" : "d2b3d8d05355d385602409880f0b2a05",
         "status" : "failed",
         "time" : {
-          "start" : 1644766505331,
-          "stop" : 1644766587298,
-          "duration" : 81967
+          "start" : 1645344944250,
+          "stop" : 1645344971980,
+          "duration" : 27730
         },
         "flaky" : false,
         "newFailed" : false,
@@ -359,18 +443,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "6cab9f852cb33f0493213544ecf1ffde"
+      "uid" : "d2b3d8d05355d385602409880f0b2a05"
     }, {
-      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 30s, while waiting for:\nbrowser.element(('name', 'PROPERTY_743[n0][VALUE]')).is not not enabled\n\nReason: ConditionNotMatchedError: condition not matched\nScreenshot: file:///home/seluser/.selene/screenshots/1644759029291/1644759029309.png\nPageSource: file:///home/seluser/.selene/screenshots/1644759029291/1644759029309.html",
+      "name" : "AssertionError: Пункт левого меню <Документооборот> не переведен на английский язык",
       "children" : [ {
-        "name" : "test_create_request_spending_budget_funds_with_transfer_funds",
-        "uid" : "710bf7c4c189c794",
-        "parentUid" : "2b335164358f043c82e6b7d1f6606740",
+        "name" : "test_change_language",
+        "uid" : "fc4d99369135f713",
+        "parentUid" : "66e487b51d2e9ec46bba62d0b69276a7",
         "status" : "failed",
         "time" : {
-          "start" : 1644766771367,
-          "stop" : 1644766841291,
-          "duration" : 69924
+          "start" : 1645344998933,
+          "stop" : 1645345017726,
+          "duration" : 18793
         },
         "flaky" : false,
         "newFailed" : false,
@@ -380,18 +464,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "2b335164358f043c82e6b7d1f6606740"
+      "uid" : "66e487b51d2e9ec46bba62d0b69276a7"
     }, {
-      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text ОДОБРЕНИЕ РАСХОДА ДИРЕКТОРОМ\n\nReason: AssertionError: actual text: ПОЖАЛУЙСТА, ПОДОЖДИТЕ...\nScreenshot: file:///home/seluser/.selene/screenshots/1644759029291/1644759029310.png\nPageSource: file:///home/seluser/.selene/screenshots/1644759029291/1644759029310.html",
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#errorText')).has text Неверный идентификатор пользователя или пароль. Введите верный идентификатор пользователя и пароль и повторите попытку.\n\nReason: AssertionError: actual text: Incorrect user ID or password. Type the correct user ID and password, and try again.\nScreenshot: file:///home/seluser/.selene/screenshots/1645340434800/1645340434822.png\nPageSource: file:///home/seluser/.selene/screenshots/1645340434800/1645340434822.html",
       "children" : [ {
-        "name" : "test_request_contract_gph_with_transfer",
-        "uid" : "bdfdf4a51449a6e6",
-        "parentUid" : "2615116b6535e7fca80fb3325fd6fc66",
+        "name" : "test_auth_with_invalid_password",
+        "uid" : "2f3550c638d6d50e",
+        "parentUid" : "5bc846a4cfb5924a6ef056967b8fe958",
         "status" : "failed",
         "time" : {
-          "start" : 1644767598099,
-          "stop" : 1644767721842,
-          "duration" : 123743
+          "start" : 1645345022894,
+          "stop" : 1645345035484,
+          "duration" : 12590
         },
         "flaky" : false,
         "newFailed" : false,
@@ -401,18 +485,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "2615116b6535e7fca80fb3325fd6fc66"
+      "uid" : "5bc846a4cfb5924a6ef056967b8fe958"
     }, {
-      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 30s, while waiting for:\nbrowser.element(('name', 'PROPERTY_743[n0][VALUE]')).is not not enabled\n\nReason: ConditionNotMatchedError: condition not matched\nScreenshot: file:///home/seluser/.selene/screenshots/1644759029291/1644759029312.png\nPageSource: file:///home/seluser/.selene/screenshots/1644759029291/1644759029312.html",
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"/html//div[@id='workarea-content']/div[@class='workarea-content-paddings']//form[@name='form_lists_element_add_167']//button[@name='apply']/span[@class='webform-small-button-text']\")).click\n\nReason: TimeoutException: Message: timeout: Timed out receiving message from renderer: 300.000\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1645340434800/1645340434823.png\nPageSource: file:///home/seluser/.selene/screenshots/1645340434800/1645340434823.html",
       "children" : [ {
-        "name" : "test_budget_manager_delegate_task",
-        "uid" : "2b456ecaa111252b",
-        "parentUid" : "6be635ea0d0b018f78f3accc6d378022",
+        "name" : "test_add_outbox_letter_main_flow_admin[user13]",
+        "uid" : "63e2e46b469e5445",
+        "parentUid" : "ddf7ec4ce5ccb716c8d3ab8e2f16d204",
         "status" : "failed",
         "time" : {
-          "start" : 1644768597083,
-          "stop" : 1644768597083,
-          "duration" : 0
+          "start" : 1645349607598,
+          "stop" : 1645349932841,
+          "duration" : 325243
         },
         "flaky" : false,
         "newFailed" : false,
@@ -420,20 +504,20 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ ]
+        "parameters" : [ "<models.outbox_letter_data.OutboxLetterPerson object at 0x7f811295d3d0>" ]
       } ],
-      "uid" : "6be635ea0d0b018f78f3accc6d378022"
+      "uid" : "ddf7ec4ce5ccb716c8d3ab8e2f16d204"
     }, {
-      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 30s, while waiting for:\nbrowser.element(('name', 'PROPERTY_743[n0][VALUE]')).is not not enabled\n\nReason: ConditionNotMatchedError: condition not matched\nScreenshot: file:///home/seluser/.selene/screenshots/1644759029291/1644759029313.png\nPageSource: file:///home/seluser/.selene/screenshots/1644759029291/1644759029313.html",
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', './/*[text()[normalize-space(.) = concat(\"\", \"Добавить исходящее письмо\")]]')).has text ДОБАВИТЬ ИСХОДЯЩЕЕ ПИСЬМО\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*[text()[normalize-space(.) = concat(\"\", \"Добавить исходящее письмо\")]]\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1645340434800/1645340434824.png\nPageSource: file:///home/seluser/.selene/screenshots/1645340434800/1645340434824.html",
       "children" : [ {
-        "name" : "test_director_delegate_task",
-        "uid" : "8ccf4fb1ddee3fe2",
-        "parentUid" : "69833dd1d57b48ad568d9d7ed8a9c350",
+        "name" : "test_add_outbox_letter_main_flow_admin[user15]",
+        "uid" : "12b4ae9560b6cc9f",
+        "parentUid" : "d0e8d5386d6c55fc61b4b43bbd43fa05",
         "status" : "failed",
         "time" : {
-          "start" : 1644769006915,
-          "stop" : 1644769006915,
-          "duration" : 0
+          "start" : 1645350108507,
+          "stop" : 1645350139534,
+          "duration" : 31027
         },
         "flaky" : false,
         "newFailed" : false,
@@ -441,20 +525,20 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ ]
+        "parameters" : [ "<models.outbox_letter_data.OutboxLetterPerson object at 0x7f81128ee190>" ]
       } ],
-      "uid" : "69833dd1d57b48ad568d9d7ed8a9c350"
+      "uid" : "d0e8d5386d6c55fc61b4b43bbd43fa05"
     }, {
-      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text ПРИКАЗ ПОСТУПИЛ В РАБОТУ\n\nReason: AssertionError: actual text: РАССМОТРЕНИЕ ПЕРВОЙ ГРУППОЙ СОГЛАСУЮЩИХ\nScreenshot: file:///home/seluser/.selene/screenshots/1644770725119/1644770725120.png\nPageSource: file:///home/seluser/.selene/screenshots/1644770725119/1644770725120.html",
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', './/*[text()[normalize-space(.) = concat(\"\", \"Добавить исходящее письмо\")]]')).has text ДОБАВИТЬ ИСХОДЯЩЕЕ ПИСЬМО\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*[text()[normalize-space(.) = concat(\"\", \"Добавить исходящее письмо\")]]\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1645340434800/1645340434825.png\nPageSource: file:///home/seluser/.selene/screenshots/1645340434800/1645340434825.html",
       "children" : [ {
-        "name" : "test_download_document",
-        "uid" : "8a751718f5745fec",
-        "parentUid" : "36cc7b42ce1faef2165bb3b87e2037b4",
+        "name" : "test_add_outbox_letter_main_flow_admin[user16]",
+        "uid" : "97ac4e9447414b3",
+        "parentUid" : "90ecb6ee2266e39436ed048614804de0",
         "status" : "failed",
         "time" : {
-          "start" : 1644770733881,
-          "stop" : 1644770772826,
-          "duration" : 38945
+          "start" : 1645350140026,
+          "stop" : 1645350170416,
+          "duration" : 30390
         },
         "flaky" : false,
         "newFailed" : false,
@@ -462,20 +546,20 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ ]
+        "parameters" : [ "<models.outbox_letter_data.OutboxLetterPerson object at 0x7f81128ee640>" ]
       } ],
-      "uid" : "36cc7b42ce1faef2165bb3b87e2037b4"
+      "uid" : "90ecb6ee2266e39436ed048614804de0"
     }, {
-      "name" : "AssertionError: assert False\n +  where False = <bound method OtherDocsUtils.check_template_coordinates of <pages.document_management.other_documents.other_docs_utils.OtherDocsUtils object at 0x7f3d04c7f040>>(filename='УКЭП Бобров.jpg', coordinates=(225, 655))\n +    where <bound method OtherDocsUtils.check_template_coordinates of <pages.document_management.other_documents.other_docs_utils.OtherDocsUtils object at 0x7f3d04c7f040>> = <pages.document_management.other_documents.other_docs_utils.OtherDocsUtils object at 0x7f3d04c7f040>.check_template_coordinates",
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', './/*[text()[normalize-space(.) = concat(\"\", \"Документооборот\")]]')).click\n\nReason: ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"menu-item-link-text\" data-role=\"item-text\">...</span> is not clickable at point (99, 334). Other element would receive the click: <div class=\"side-panel side-panel-overlay side-panel-overlay-open\" style=\"z-index: 1250 !important; left: 0px; top: 0px; right: 81px; height: 961px; background-color: rgba(0, 0, 0, 0.4);\">...</div>\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1645340434800/1645340434826.png\nPageSource: file:///home/seluser/.selene/screenshots/1645340434800/1645340434826.html",
       "children" : [ {
-        "name" : "test_download_document_qualified_sign",
-        "uid" : "9c17430b393c6cfe",
-        "parentUid" : "bcd1e791cca86bfa9868de5d4d2b36f5",
+        "name" : "test_add_outbox_letter_main_flow_admin[user17]",
+        "uid" : "2d8650c16e44daed",
+        "parentUid" : "915d52807a07e012311c164c5d3ae458",
         "status" : "failed",
         "time" : {
-          "start" : 1644770796201,
-          "stop" : 1644770827517,
-          "duration" : 31316
+          "start" : 1645350171032,
+          "stop" : 1645350195736,
+          "duration" : 24704
         },
         "flaky" : false,
         "newFailed" : false,
@@ -483,20 +567,20 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ ]
+        "parameters" : [ "<models.outbox_letter_data.OutboxLetterPerson object at 0x7f81128ee670>" ]
       } ],
-      "uid" : "bcd1e791cca86bfa9868de5d4d2b36f5"
+      "uid" : "915d52807a07e012311c164c5d3ae458"
     }, {
-      "name" : "AssertionError: assert False\n +  where False = <bound method OtherDocsUtils.check_template_coordinates of <pages.document_management.other_documents.other_docs_utils.OtherDocsUtils object at 0x7f3d04c7f040>>(filename='ПЭП Бобров.jpg', coordinates=(217, 656))\n +    where <bound method OtherDocsUtils.check_template_coordinates of <pages.document_management.other_documents.other_docs_utils.OtherDocsUtils object at 0x7f3d04c7f040>> = <pages.document_management.other_documents.other_docs_utils.OtherDocsUtils object at 0x7f3d04c7f040>.check_template_coordinates",
+      "name" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', 'h2')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"h2\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1645340434800/1645340434827.png\nPageSource: file:///home/seluser/.selene/screenshots/1645340434800/1645340434827.html",
       "children" : [ {
-        "name" : "test_download_document_simple_sign",
-        "uid" : "7b27adf5f7865c9a",
-        "parentUid" : "e01861a084215890683c91bd9adf12c5",
+        "name" : "test_creating_an_application_for_closing_documents",
+        "uid" : "619bc18ff2e088a4",
+        "parentUid" : "caa04db337efcc0ef7169ea61057dd1c",
         "status" : "failed",
         "time" : {
-          "start" : 1644770846629,
-          "stop" : 1644770865486,
-          "duration" : 18857
+          "start" : 1645350484553,
+          "stop" : 1645350528349,
+          "duration" : 43796
         },
         "flaky" : false,
         "newFailed" : false,
@@ -506,8 +590,317 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "e01861a084215890683c91bd9adf12c5"
+      "uid" : "caa04db337efcc0ef7169ea61057dd1c"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: 'Element' object has no attribute 'have_text'",
+      "children" : [ {
+        "name" : "test_create_decree",
+        "uid" : "e7883f0dcc02b845",
+        "parentUid" : "4a20b2cd662937a43807785098098a42",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645341671719,
+          "stop" : 1645341750336,
+          "duration" : 78617
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4a20b2cd662937a43807785098098a42"
+    }, {
+      "name" : "AttributeError: 'BaseElement' object has no attribute 'get'",
+      "children" : [ {
+        "name" : "test_landscape_orientation",
+        "uid" : "12501b0443a1a03a",
+        "parentUid" : "87d378e02d3d7b38803e994a2bbb3668",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645345209899,
+          "stop" : 1645345276545,
+          "duration" : 66646
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_one_sign",
+        "uid" : "8fde14589331e8e2",
+        "parentUid" : "87d378e02d3d7b38803e994a2bbb3668",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645345276800,
+          "stop" : 1645345346549,
+          "duration" : 69749
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_one_qualified_sign",
+        "uid" : "d9283089e876a069",
+        "parentUid" : "87d378e02d3d7b38803e994a2bbb3668",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645345346812,
+          "stop" : 1645345419827,
+          "duration" : 73015
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_one_qualified_sign_zip",
+        "uid" : "ae041b76c7e3c60e",
+        "parentUid" : "87d378e02d3d7b38803e994a2bbb3668",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645345420061,
+          "stop" : 1645345490671,
+          "duration" : 70610
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_send_rework_4th_approver",
+        "uid" : "a9207cd2bf794a7",
+        "parentUid" : "87d378e02d3d7b38803e994a2bbb3668",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645345490915,
+          "stop" : 1645345561826,
+          "duration" : 70911
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_two_qualified_signs",
+        "uid" : "fbebfca9542a4ea1",
+        "parentUid" : "87d378e02d3d7b38803e994a2bbb3668",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645346805717,
+          "stop" : 1645346879261,
+          "duration" : 73544
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_two_simple_signs",
+        "uid" : "e32a5f8c757cca03",
+        "parentUid" : "87d378e02d3d7b38803e994a2bbb3668",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645346879508,
+          "stop" : 1645346953003,
+          "duration" : 73495
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_three_simple_signs",
+        "uid" : "caf5753a5106c190",
+        "parentUid" : "87d378e02d3d7b38803e994a2bbb3668",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645346953260,
+          "stop" : 1645347029495,
+          "duration" : 76235
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_three_qualified_signs",
+        "uid" : "bca0068e74e5a628",
+        "parentUid" : "87d378e02d3d7b38803e994a2bbb3668",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645347029752,
+          "stop" : 1645347109377,
+          "duration" : 79625
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_four_qualified_signs",
+        "uid" : "bee6e3c0fd565827",
+        "parentUid" : "87d378e02d3d7b38803e994a2bbb3668",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645347109626,
+          "stop" : 1645347198048,
+          "duration" : 88422
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_four_simple_signs",
+        "uid" : "42cc3589ec489bc4",
+        "parentUid" : "87d378e02d3d7b38803e994a2bbb3668",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645347198457,
+          "stop" : 1645347285578,
+          "duration" : 87121
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_files_wo_labels",
+        "uid" : "3d11b611c4cfb1ce",
+        "parentUid" : "87d378e02d3d7b38803e994a2bbb3668",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645347285832,
+          "stop" : 1645347360688,
+          "duration" : 74856
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "87d378e02d3d7b38803e994a2bbb3668"
+    }, {
+      "name" : "AttributeError: 'BaseElement' object has no attribute 'press_enter'",
+      "children" : [ {
+        "name" : "test_create_request_transfer_funds",
+        "uid" : "1505bfb383e72b90",
+        "parentUid" : "266bbcb6e77ba652ac9c6a1c2a094d80",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645353782588,
+          "stop" : 1645353829906,
+          "duration" : 47318
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "266bbcb6e77ba652ac9c6a1c2a094d80"
+    }, {
+      "name" : "TypeError: not all arguments converted during string formatting",
+      "children" : [ {
+        "name" : "test_download_document",
+        "uid" : "2b157264932da34a",
+        "parentUid" : "6f17ac034aa64d4177ecaed6289c0744",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645362036418,
+          "stop" : 1645362068384,
+          "duration" : 31966
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_download_document_qualified_sign",
+        "uid" : "de2dc233d17167c1",
+        "parentUid" : "6f17ac034aa64d4177ecaed6289c0744",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645362099758,
+          "stop" : 1645362123000,
+          "duration" : 23242
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_download_document_simple_sign",
+        "uid" : "8eda676c8d512312",
+        "parentUid" : "6f17ac034aa64d4177ecaed6289c0744",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645362144989,
+          "stop" : 1645362166977,
+          "duration" : 21988
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6f17ac034aa64d4177ecaed6289c0744"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }

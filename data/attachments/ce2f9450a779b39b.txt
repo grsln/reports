@@ -1,0 +1,15 @@
+2022-02-20 09:21:58 INFO Авторизация Гермине Аветисян
+2022-02-20 09:23:22 INFO тестовое исходящее письмо 07:00:39.140874, 441055
+2022-02-20 09:23:29 INFO Login admin.
+2022-02-20 09:23:29 INFO Open admin
+2022-02-20 09:23:43 INFO Find document
+2022-02-20 09:23:48 INFO Approve admin Оксана Ульянова.
+2022-02-20 09:23:48 INFO Admin approve
+2022-02-20 09:23:48 INFO Approve admin Евгений Серочудинов
+2022-02-20 09:23:48 INFO Admin approve
+2022-02-20 09:23:55 INFO Approve admin Евгений Бобров
+2022-02-20 09:23:55 INFO Admin approve
+2022-02-20 09:24:03 INFO Open admin
+2022-02-20 09:24:24 INFO find letter
+2022-02-20 09:24:28 INFO delete
+2022-02-20 09:24:28 INFO accept alert

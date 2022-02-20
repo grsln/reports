@@ -1,0 +1,15 @@
+2022-02-20 09:19:44 INFO Авторизация Фанис Саттаров
+2022-02-20 09:20:31 INFO тестовое исходящее письмо 07:00:39.140874, 441054
+2022-02-20 09:20:38 INFO Login admin.
+2022-02-20 09:20:38 INFO Open admin
+2022-02-20 09:20:53 INFO Find document
+2022-02-20 09:20:58 INFO Approve admin Оксана Ульянова.
+2022-02-20 09:20:58 INFO Admin approve
+2022-02-20 09:20:58 INFO Approve admin Фарид Гайнуллин
+2022-02-20 09:20:58 INFO Admin approve
+2022-02-20 09:21:06 INFO Approve admin Максим Ивашкевич
+2022-02-20 09:21:06 INFO Admin approve
+2022-02-20 09:21:13 INFO Open admin
+2022-02-20 09:21:35 INFO find letter
+2022-02-20 09:21:41 INFO delete
+2022-02-20 09:21:41 INFO accept alert

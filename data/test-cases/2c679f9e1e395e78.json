@@ -1,0 +1,705 @@
+{
+  "uid" : "2c679f9e1e395e78",
+  "name" : "test_financial_analyst_send_rework",
+  "fullName" : "tests.test_requests_spending_budget_funds.test_requests_spending_budget_funds.TestSpendingBudgetFunds#test_financial_analyst_send_rework",
+  "historyId" : "6d45411ebf3111771bb9c20544901309",
+  "time" : {
+    "start" : 1645352158249,
+    "stop" : 1645352313876,
+    "duration" : 155627
+  },
+  "description" : "\n        Заявки на расходование средств бюджета с перечислением ДС. Возврат финансовым аналитиком на доработку.\n        Проверка редактирования после возврата на доработку\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61464\n        ",
+  "descriptionHtml" : "<pre><code>    Заявки на расходование средств бюджета с перечислением ДС. Возврат финансовым аналитиком на доработку.\n    Проверка редактирования после возврата на доработку\n    https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61464\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1645340439269,
+      "stop" : 1645340439615,
+      "duration" : 346
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_admin",
+    "time" : {
+      "start" : 1645340439615,
+      "stop" : 1645340456841,
+      "duration" : 17226
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "request_with_transfer",
+    "time" : {
+      "start" : 1645352085316,
+      "stop" : 1645352158248,
+      "duration" : 72932
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизоваться под администратором портала",
+      "time" : {
+        "start" : 1645352085317,
+        "stop" : 1645352085962,
+        "duration" : 645
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1645352102503,
+        "stop" : 1645352111234,
+        "duration" : 8731
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1645352102503,
+          "stop" : 1645352103158,
+          "duration" : 655
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "Фарид Гайнуллин"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открытие страницы создания заявки на расходование средств бюджета",
+      "time" : {
+        "start" : 1645352111235,
+        "stop" : 1645352125906,
+        "duration" : 14671
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Заполнить обязательные поля для автоматического создания заявки на перечисление",
+      "time" : {
+        "start" : 1645352125906,
+        "stop" : 1645352127323,
+        "duration" : 1417
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Заполнить обязательные поля",
+      "time" : {
+        "start" : 1645352127323,
+        "stop" : 1645352158094,
+        "duration" : 30771
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Проверка заполнения поля контрагент",
+      "time" : {
+        "start" : 1645352158094,
+        "stop" : 1645352158208,
+        "duration" : 114
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Получение номера заявки",
+      "time" : {
+        "start" : 1645352158208,
+        "stop" : 1645352158248,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "\n        Заявки на расходование средств бюджета с перечислением ДС. Возврат финансовым аналитиком на доработку.\n        Проверка редактирования после возврата на доработку\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61464\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Получение номера заявки",
+      "time" : {
+        "start" : 1645352158249,
+        "stop" : 1645352158370,
+        "duration" : 121
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1645352171469,
+        "stop" : 1645352183690,
+        "duration" : 12221
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1645352171469,
+          "stop" : 1645352172426,
+          "duration" : 957
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "Радик Валиев"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открыть заявку по номеру",
+      "time" : {
+        "start" : 1645352183690,
+        "stop" : 1645352197220,
+        "duration" : 13530
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список заявок на расходование средств бюджета",
+        "time" : {
+          "start" : 1645352183690,
+          "stop" : 1645352193384,
+          "duration" : 9694
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "'441075'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1645352216429,
+        "stop" : 1645352226181,
+        "duration" : 9752
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1645352216429,
+          "stop" : 1645352217117,
+          "duration" : 688
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "Дмитрий Сарайкин"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открыть заявку по номеру",
+      "time" : {
+        "start" : 1645352226181,
+        "stop" : 1645352240438,
+        "duration" : 14257
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список заявок на расходование средств бюджета",
+        "time" : {
+          "start" : 1645352226181,
+          "stop" : 1645352236221,
+          "duration" : 10040
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "'441075'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1645352253086,
+        "stop" : 1645352263309,
+        "duration" : 10223
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1645352253086,
+          "stop" : 1645352253753,
+          "duration" : 667
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "Фарид Гайнуллин"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открыть заявку по номеру",
+      "time" : {
+        "start" : 1645352263309,
+        "stop" : 1645352277560,
+        "duration" : 14251
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список заявок на расходование средств бюджета",
+        "time" : {
+          "start" : 1645352263309,
+          "stop" : 1645352273290,
+          "duration" : 9981
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "'441075'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка редактирования поля",
+      "time" : {
+        "start" : 1645352277560,
+        "stop" : 1645352277781,
+        "duration" : 221
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Проверка статуса заявки на перечисление",
+      "time" : {
+        "start" : 1645352281413,
+        "stop" : 1645352281441,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "state",
+        "value" : "'Подготовка заявки к рассмотрению'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизоваться под администратором портала",
+      "time" : {
+        "start" : 1645352281442,
+        "stop" : 1645352282070,
+        "duration" : 628
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Открыть заявку по номеру",
+      "time" : {
+        "start" : 1645352286958,
+        "stop" : 1645352301914,
+        "duration" : 14956
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список заявок на расходование средств бюджета",
+        "time" : {
+          "start" : 1645352286959,
+          "stop" : 1645352296814,
+          "duration" : 9855
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "'441075'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка соответствия сведений по заявке на портале и 1с",
+      "time" : {
+        "start" : 1645352312642,
+        "stop" : 1645352313876,
+        "duration" : 1234
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a740f082dee15ded",
+      "name" : "log",
+      "source" : "a740f082dee15ded.txt",
+      "type" : "text/plain",
+      "size" : 1450
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 19,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "request_with_transfer::0",
+    "time" : {
+      "start" : 1645352313879,
+      "stop" : 1645352367830,
+      "duration" : 53951
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизоваться под администратором портала",
+      "time" : {
+        "start" : 1645352313880,
+        "stop" : 1645352314557,
+        "duration" : 677
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Открыть заявку по номеру",
+      "time" : {
+        "start" : 1645352319018,
+        "stop" : 1645352333055,
+        "duration" : 14037
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список заявок на расходование средств бюджета",
+        "time" : {
+          "start" : 1645352319018,
+          "stop" : 1645352328471,
+          "duration" : 9453
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "'441075'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение номера заявки на перечисление",
+      "time" : {
+        "start" : 1645352333055,
+        "stop" : 1645352333097,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Открыть заявку по номеру",
+      "time" : {
+        "start" : 1645352347715,
+        "stop" : 1645352359760,
+        "duration" : 12045
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список заявок на перечисление средств бюджета",
+        "time" : {
+          "start" : 1645352347715,
+          "stop" : 1645352355379,
+          "duration" : 7664
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "'441076'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "auth_admin::0",
+    "time" : {
+      "start" : 1645353830250,
+      "stop" : 1645353830463,
+      "duration" : 213
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "spending_funds"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.test_requests_spending_budget_funds"
+  }, {
+    "name" : "suite",
+    "value" : "test_requests_spending_budget_funds"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSpendingBudgetFunds"
+  }, {
+    "name" : "host",
+    "value" : "portal-test-qa-22n86"
+  }, {
+    "name" : "thread",
+    "value" : "7-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_requests_spending_budget_funds.test_requests_spending_budget_funds"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "d6cb48eea3da6e9e",
+        "reportUrl" : "../2/index.html#testresult/d6cb48eea3da6e9e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645352158249,
+          "stop" : 1645352313876,
+          "duration" : 155627
+        }
+      } ]
+    },
+    "tags" : [ "spending_funds" ]
+  },
+  "source" : "2c679f9e1e395e78.json",
+  "parameterValues" : [ ]
+}

@@ -3,24 +3,24 @@
   "reportUrl" : "../3/index.html",
   "reportName" : "portal",
   "data" : {
-    "failed" : 24,
-    "broken" : 0,
+    "failed" : 28,
+    "broken" : 17,
     "skipped" : 0,
-    "passed" : 47,
+    "passed" : 63,
     "unknown" : 0,
-    "total" : 71
+    "total" : 108
   }
 }, {
   "buildOrder" : 2,
   "reportUrl" : "../2/index.html",
   "reportName" : "portal",
   "data" : {
-    "failed" : 21,
-    "broken" : 0,
+    "failed" : 28,
+    "broken" : 14,
     "skipped" : 0,
-    "passed" : 47,
+    "passed" : 63,
     "unknown" : 0,
-    "total" : 68
+    "total" : 105
   }
 }, {
   "buildOrder" : 1,

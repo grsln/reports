@@ -1,0 +1,15 @@
+2022-02-20 09:27:04 INFO Авторизация Гульнара Тахтаганова
+2022-02-20 09:27:48 INFO тестовое исходящее письмо 07:00:39.140874, 441057
+2022-02-20 09:27:55 INFO Login admin.
+2022-02-20 09:27:55 INFO Open admin
+2022-02-20 09:28:10 INFO Find document
+2022-02-20 09:28:15 INFO Approve admin Оксана Ульянова.
+2022-02-20 09:28:15 INFO Admin approve
+2022-02-20 09:28:16 INFO Approve admin Диана Низамова
+2022-02-20 09:28:16 INFO Admin approve
+2022-02-20 09:28:23 INFO Approve admin Искандер Бариев
+2022-02-20 09:28:23 INFO Admin approve
+2022-02-20 09:28:30 INFO Open admin
+2022-02-20 09:28:51 INFO find letter
+2022-02-20 09:28:56 INFO delete
+2022-02-20 09:28:57 INFO accept alert

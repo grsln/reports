@@ -1,0 +1,15 @@
+2022-02-28 18:46:20 INFO Авторизация Ксения Останина
+2022-02-28 18:47:07 INFO тестовое исходящее письмо 15:07:42.960896, 441680
+2022-02-28 18:47:15 INFO Login admin.
+2022-02-28 18:47:15 INFO Open admin
+2022-02-28 18:47:21 INFO Find document
+2022-02-28 18:47:21 INFO Approve admin Оксана Ульянова.
+2022-02-28 18:47:21 INFO Admin approve
+2022-02-28 18:47:21 INFO Approve admin Юлия Казаева
+2022-02-28 18:47:21 INFO Admin approve
+2022-02-28 18:47:28 INFO Approve admin Евгений Бобров
+2022-02-28 18:47:28 INFO Admin approve
+2022-02-28 18:47:36 INFO Open admin
+2022-02-28 18:47:49 INFO find letter
+2022-02-28 18:47:49 INFO delete
+2022-02-28 18:47:49 INFO accept alert

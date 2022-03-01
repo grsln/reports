@@ -1,0 +1,15 @@
+2022-02-28 18:56:53 INFO Авторизация Венера Варламова
+2022-02-28 18:57:39 INFO тестовое исходящее письмо 15:07:42.960896, 441686
+2022-02-28 18:57:47 INFO Login admin.
+2022-02-28 18:57:47 INFO Open admin
+2022-02-28 18:57:53 INFO Find document
+2022-02-28 18:57:53 INFO Approve admin Оксана Ульянова.
+2022-02-28 18:57:53 INFO Admin approve
+2022-02-28 18:57:53 INFO Approve admin Лилия Симонова
+2022-02-28 18:57:53 INFO Admin approve
+2022-02-28 18:58:01 INFO Approve admin Максим Ивашкевич
+2022-02-28 18:58:01 INFO Admin approve
+2022-02-28 18:58:09 INFO Open admin
+2022-02-28 18:58:22 INFO find letter
+2022-02-28 18:58:23 INFO delete
+2022-02-28 18:58:23 INFO accept alert

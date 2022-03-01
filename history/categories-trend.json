@@ -1,17 +1,9 @@
 [ {
-  "buildOrder" : 3,
-  "reportUrl" : "../3/index.html",
-  "reportName" : "portal",
-  "data" : {
-    "Product defects" : 28,
-    "Test defects" : 17
-  }
-}, {
   "buildOrder" : 2,
   "reportUrl" : "../2/index.html",
   "reportName" : "portal",
   "data" : {
-    "Product defects" : 28,
+    "Product defects" : 36,
     "Test defects" : 14
   }
 }, {

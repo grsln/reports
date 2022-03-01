@@ -1,0 +1,17 @@
+2022-02-28 18:32:36 INFO Авторизация Елена Михель
+2022-02-28 18:33:25 INFO тестовое исходящее письмо 15:07:42.960896, 441673
+2022-02-28 18:33:34 INFO Login admin.
+2022-02-28 18:33:34 INFO Open admin
+2022-02-28 18:33:42 INFO Find document
+2022-02-28 18:33:42 INFO Approve admin Оксана Ульянова.
+2022-02-28 18:33:42 INFO Admin approve
+2022-02-28 18:33:42 INFO Approve admin Ольга Камалова
+2022-02-28 18:33:42 INFO Admin approve
+2022-02-28 18:33:51 INFO login Лейсан Молтабарова
+2022-02-28 18:33:51 INFO Admin approve
+2022-02-28 18:34:01 INFO Approve admin Искандер Бариев
+2022-02-28 18:34:01 INFO Admin approve
+2022-02-28 18:34:10 INFO Open admin
+2022-02-28 18:34:26 INFO find letter
+2022-02-28 18:34:26 INFO delete
+2022-02-28 18:34:26 INFO accept alert

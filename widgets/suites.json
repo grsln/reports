@@ -12,15 +12,15 @@
       "total" : 13
     }
   }, {
-    "uid" : "79487bd24d7fc107026233a2d3ef4296",
-    "name" : "tests.test_outbox_letters",
+    "uid" : "461fee459cc956a0795d2d1752182981",
+    "name" : "tests.test_requests_spending_budget_funds",
     "statistic" : {
-      "failed" : 4,
+      "failed" : 13,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 22
+      "total" : 13
     }
   }, {
     "uid" : "39daa75167dfa93525e1f35f857766c8",
@@ -34,26 +34,26 @@
       "total" : 16
     }
   }, {
-    "uid" : "87649828d4c8f17314dce29694a8a5d7",
-    "name" : "tests.test_contracts_gph",
-    "statistic" : {
-      "failed" : 3,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 5
-    }
-  }, {
     "uid" : "3ef8e34f4357bf053ddad0d414f7cefd",
     "name" : "tests.test_decrees",
     "statistic" : {
       "failed" : 2,
-      "broken" : 2,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 10,
       "unknown" : 0,
-      "total" : 14
+      "total" : 13
+    }
+  }, {
+    "uid" : "87649828d4c8f17314dce29694a8a5d7",
+    "name" : "tests.test_contracts_gph",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 20,
+      "unknown" : 0,
+      "total" : 22
     }
   }, {
     "uid" : "cbcd27c64e59766246cf4d5241bd852e",
@@ -82,11 +82,11 @@
     "name" : "tests.test_other_documents",
     "statistic" : {
       "failed" : 0,
-      "broken" : 14,
+      "broken" : 12,
       "skipped" : 0,
       "passed" : 4,
       "unknown" : 0,
-      "total" : 18
+      "total" : 16
     }
   }, {
     "uid" : "1273c9cf0506af2205a1e443d7be5096",
@@ -100,15 +100,15 @@
       "total" : 1
     }
   }, {
-    "uid" : "461fee459cc956a0795d2d1752182981",
-    "name" : "tests.test_requests_spending_budget_funds",
+    "uid" : "79487bd24d7fc107026233a2d3ef4296",
+    "name" : "tests.test_outbox_letters",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 13,
+      "passed" : 22,
       "unknown" : 0,
-      "total" : 13
+      "total" : 22
     }
   } ]
 }

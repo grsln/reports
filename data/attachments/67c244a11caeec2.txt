@@ -1,0 +1,17 @@
+2022-02-28 18:28:03 INFO Авторизация Дмитрий Холопов
+2022-02-28 18:28:54 INFO тестовое исходящее письмо 15:07:42.960896, 441671
+2022-02-28 18:29:03 INFO Login admin.
+2022-02-28 18:29:03 INFO Open admin
+2022-02-28 18:29:11 INFO Find document
+2022-02-28 18:29:12 INFO Approve admin Оксана Ульянова.
+2022-02-28 18:29:12 INFO Admin approve
+2022-02-28 18:29:12 INFO Approve admin Диана Низамова
+2022-02-28 18:29:12 INFO Admin approve
+2022-02-28 18:29:22 INFO login Лейсан Молтабарова
+2022-02-28 18:29:22 INFO Admin approve
+2022-02-28 18:29:31 INFO Approve admin Искандер Бариев
+2022-02-28 18:29:31 INFO Admin approve
+2022-02-28 18:29:41 INFO Open admin
+2022-02-28 18:29:56 INFO find letter
+2022-02-28 18:29:56 INFO delete
+2022-02-28 18:29:56 INFO accept alert

@@ -1,0 +1,17 @@
+2022-02-28 18:13:17 INFO Авторизация Юлия Валеева
+2022-02-28 18:14:13 INFO тестовое исходящее письмо 15:07:42.960896, 441665
+2022-02-28 18:14:21 INFO login Оксана Ульянова
+2022-02-28 18:14:33 INFO open letter page
+2022-02-28 18:14:44 INFO Approve on page
+2022-02-28 18:14:45 INFO login Евгений Серочудинов
+2022-02-28 18:14:59 INFO open letter page
+2022-02-28 18:15:10 INFO Approve on page
+2022-02-28 18:15:11 INFO login Евгений Бобров
+2022-02-28 18:15:24 INFO open letter page
+2022-02-28 18:15:40 INFO Approve on page
+2022-02-28 18:15:40 INFO Open
+2022-02-28 18:15:49 INFO Approve
+2022-02-28 18:15:49 INFO Open admin
+2022-02-28 18:15:56 INFO find letter
+2022-02-28 18:15:57 INFO delete
+2022-02-28 18:15:57 INFO accept alert

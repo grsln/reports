@@ -1,16 +1,9 @@
 [ {
-  "buildOrder" : 3,
-  "reportUrl" : "../3/index.html",
-  "reportName" : "portal",
-  "data" : {
-    "duration" : 21710122
-  }
-}, {
   "buildOrder" : 2,
   "reportUrl" : "../2/index.html",
   "reportName" : "portal",
   "data" : {
-    "duration" : 13373051
+    "duration" : 15962751
   }
 }, {
   "buildOrder" : 1,

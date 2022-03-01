@@ -1,0 +1,15 @@
+2022-02-28 18:51:32 INFO Авторизация Мария Сибгатулина
+2022-02-28 18:52:18 INFO тестовое исходящее письмо 15:07:42.960896, 441683
+2022-02-28 18:52:25 INFO Login admin.
+2022-02-28 18:52:25 INFO Open admin
+2022-02-28 18:52:31 INFO Find document
+2022-02-28 18:52:31 INFO Approve admin Оксана Ульянова.
+2022-02-28 18:52:31 INFO Admin approve
+2022-02-28 18:52:31 INFO Approve admin Юлия Казаева
+2022-02-28 18:52:31 INFO Admin approve
+2022-02-28 18:52:39 INFO Approve admin Радик Валиев
+2022-02-28 18:52:39 INFO Admin approve
+2022-02-28 18:52:46 INFO Open admin
+2022-02-28 18:52:59 INFO find letter
+2022-02-28 18:52:59 INFO delete
+2022-02-28 18:52:59 INFO accept alert

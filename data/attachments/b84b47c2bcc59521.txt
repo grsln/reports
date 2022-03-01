@@ -1,0 +1,20 @@
+2022-02-28 18:16:15 INFO Авторизация Мария Осипова
+2022-02-28 18:17:04 INFO тестовое исходящее письмо 15:07:42.960896, 441666
+2022-02-28 18:17:13 INFO login Оксана Ульянова
+2022-02-28 18:17:23 INFO open letter page
+2022-02-28 18:17:34 INFO Approve on page
+2022-02-28 18:17:34 INFO login Рамиль Кулеев
+2022-02-28 18:17:48 INFO open letter page
+2022-02-28 18:17:59 INFO Approve on page
+2022-02-28 18:17:59 INFO login Лейсан Молтабарова
+2022-02-28 18:18:13 INFO open letter page
+2022-02-28 18:18:37 INFO Approve on page
+2022-02-28 18:18:37 INFO login Искандер Бариев
+2022-02-28 18:18:50 INFO open letter page
+2022-02-28 18:19:06 INFO Approve on page
+2022-02-28 18:19:06 INFO Open
+2022-02-28 18:19:15 INFO Approve
+2022-02-28 18:19:15 INFO Open admin
+2022-02-28 18:19:22 INFO find letter
+2022-02-28 18:19:22 INFO delete
+2022-02-28 18:19:22 INFO accept alert

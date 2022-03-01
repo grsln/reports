@@ -1,0 +1,17 @@
+2022-02-28 18:19:41 INFO Авторизация Александр Хасанов
+2022-02-28 18:20:30 INFO тестовое исходящее письмо 15:07:42.960896, 441667
+2022-02-28 18:20:39 INFO Login admin.
+2022-02-28 18:20:39 INFO Open admin
+2022-02-28 18:20:45 INFO Find document
+2022-02-28 18:20:45 INFO Approve admin Оксана Ульянова.
+2022-02-28 18:20:45 INFO Admin approve
+2022-02-28 18:20:46 INFO Approve admin Рамиль Кулеев
+2022-02-28 18:20:46 INFO Admin approve
+2022-02-28 18:20:54 INFO login Лейсан Молтабарова
+2022-02-28 18:20:54 INFO Admin approve
+2022-02-28 18:21:03 INFO Approve admin Искандер Бариев
+2022-02-28 18:21:03 INFO Admin approve
+2022-02-28 18:21:12 INFO Open admin
+2022-02-28 18:21:26 INFO find letter
+2022-02-28 18:21:26 INFO delete
+2022-02-28 18:21:26 INFO accept alert

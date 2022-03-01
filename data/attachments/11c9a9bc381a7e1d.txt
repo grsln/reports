@@ -1,0 +1,15 @@
+2022-03-01 07:00:41 INFO Авторизация Разиля Залялова
+2022-03-01 07:01:27 INFO тестовое исходящее письмо 03:30:37.549143, 441804
+2022-03-01 07:01:34 INFO Login admin.
+2022-03-01 07:01:34 INFO Open admin
+2022-03-01 07:01:41 INFO Find document
+2022-03-01 07:01:41 INFO Approve admin Оксана Ульянова.
+2022-03-01 07:01:41 INFO Admin approve
+2022-03-01 07:01:41 INFO Approve admin Анна Хасанова
+2022-03-01 07:01:41 INFO Admin approve
+2022-03-01 07:01:50 INFO Approve admin Радик Валиев
+2022-03-01 07:01:50 INFO Admin approve
+2022-03-01 07:01:58 INFO Open admin
+2022-03-01 07:02:11 INFO find letter
+2022-03-01 07:02:11 INFO delete
+2022-03-01 07:02:11 INFO accept alert

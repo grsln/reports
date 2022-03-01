@@ -1,0 +1,20 @@
+2022-03-01 06:23:22 INFO Авторизация Мария Осипова
+2022-03-01 06:24:12 INFO тестовое исходящее письмо 03:30:37.549143, 441784
+2022-03-01 06:24:20 INFO login Оксана Ульянова
+2022-03-01 06:24:31 INFO open letter page
+2022-03-01 06:24:42 INFO Approve on page
+2022-03-01 06:24:42 INFO login Рамиль Кулеев
+2022-03-01 06:24:55 INFO open letter page
+2022-03-01 06:25:07 INFO Approve on page
+2022-03-01 06:25:07 INFO login Лейсан Молтабарова
+2022-03-01 06:25:22 INFO open letter page
+2022-03-01 06:25:47 INFO Approve on page
+2022-03-01 06:25:47 INFO login Искандер Бариев
+2022-03-01 06:26:02 INFO open letter page
+2022-03-01 06:26:19 INFO Approve on page
+2022-03-01 06:26:19 INFO Open
+2022-03-01 06:26:29 INFO Approve
+2022-03-01 06:26:29 INFO Open admin
+2022-03-01 06:26:35 INFO find letter
+2022-03-01 06:26:35 INFO delete
+2022-03-01 06:26:36 INFO accept alert

@@ -1,0 +1,1904 @@
+{
+  "uid" : "123f0060a0662533",
+  "name" : "test_mass_signing",
+  "fullName" : "tests.test_other_documents.test_other_docs.TestOtherDocs#test_mass_signing",
+  "historyId" : "6b129949d51fc835f7ea3535909fd09f",
+  "time" : {
+    "start" : 1646113808546,
+    "stop" : 1646114990044,
+    "duration" : 1181498
+  },
+  "description" : "\n        Подписание Иных документов с инициацией на портале. УКЭП. Массовое подписание пользователем Семенихин\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55964\n        ",
+  "descriptionHtml" : "<pre><code>    Подписание Иных документов с инициацией на портале. УКЭП. Массовое подписание пользователем Семенихин\n    https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55964\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1646105437591,
+      "stop" : 1646105437735,
+      "duration" : 144
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_admin",
+    "time" : {
+      "start" : 1646105437735,
+      "stop" : 1646105452312,
+      "duration" : 14577
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        Подписание Иных документов с инициацией на портале. УКЭП. Массовое подписание пользователем Семенихин\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55964\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1646113808547,
+        "stop" : 1646113818037,
+        "duration" : 9490
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1646113808547,
+          "stop" : 1646113809183,
+          "duration" : 636
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "Лейсан Мухаметзянова"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Создание 20 документов",
+      "time" : {
+        "start" : 1646113818038,
+        "stop" : 1646114475278,
+        "duration" : 657240
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открытие страницы создания документа",
+        "time" : {
+          "start" : 1646113818038,
+          "stop" : 1646113829845,
+          "duration" : 11807
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646113818038,
+            "stop" : 1646113826230,
+            "duration" : 8192
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнение обязательных полей и создание документа",
+        "time" : {
+          "start" : 1646113829845,
+          "stop" : 1646113843533,
+          "duration" : 13688
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "document_data",
+          "value" : "<class 'common.constants.OtherDocs5thTypeConst'>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открытие страницы создания документа",
+        "time" : {
+          "start" : 1646113850242,
+          "stop" : 1646113862661,
+          "duration" : 12419
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646113850242,
+            "stop" : 1646113858196,
+            "duration" : 7954
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнение обязательных полей и создание документа",
+        "time" : {
+          "start" : 1646113862662,
+          "stop" : 1646113875322,
+          "duration" : 12660
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "document_data",
+          "value" : "<class 'common.constants.OtherDocs5thTypeConst'>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открытие страницы создания документа",
+        "time" : {
+          "start" : 1646113881888,
+          "stop" : 1646113893764,
+          "duration" : 11876
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646113881888,
+            "stop" : 1646113890059,
+            "duration" : 8171
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнение обязательных полей и создание документа",
+        "time" : {
+          "start" : 1646113893765,
+          "stop" : 1646113906968,
+          "duration" : 13203
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "document_data",
+          "value" : "<class 'common.constants.OtherDocs5thTypeConst'>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открытие страницы создания документа",
+        "time" : {
+          "start" : 1646113913780,
+          "stop" : 1646113925588,
+          "duration" : 11808
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646113913780,
+            "stop" : 1646113921873,
+            "duration" : 8093
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнение обязательных полей и создание документа",
+        "time" : {
+          "start" : 1646113925588,
+          "stop" : 1646113938647,
+          "duration" : 13059
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "document_data",
+          "value" : "<class 'common.constants.OtherDocs5thTypeConst'>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открытие страницы создания документа",
+        "time" : {
+          "start" : 1646113945542,
+          "stop" : 1646113957636,
+          "duration" : 12094
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646113945542,
+            "stop" : 1646113953992,
+            "duration" : 8450
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнение обязательных полей и создание документа",
+        "time" : {
+          "start" : 1646113957636,
+          "stop" : 1646113970603,
+          "duration" : 12967
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "document_data",
+          "value" : "<class 'common.constants.OtherDocs5thTypeConst'>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открытие страницы создания документа",
+        "time" : {
+          "start" : 1646113977300,
+          "stop" : 1646113989166,
+          "duration" : 11866
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646113977300,
+            "stop" : 1646113985532,
+            "duration" : 8232
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнение обязательных полей и создание документа",
+        "time" : {
+          "start" : 1646113989167,
+          "stop" : 1646114001377,
+          "duration" : 12210
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "document_data",
+          "value" : "<class 'common.constants.OtherDocs5thTypeConst'>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открытие страницы создания документа",
+        "time" : {
+          "start" : 1646114008115,
+          "stop" : 1646114020222,
+          "duration" : 12107
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114008115,
+            "stop" : 1646114016477,
+            "duration" : 8362
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнение обязательных полей и создание документа",
+        "time" : {
+          "start" : 1646114020223,
+          "stop" : 1646114032658,
+          "duration" : 12435
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "document_data",
+          "value" : "<class 'common.constants.OtherDocs5thTypeConst'>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открытие страницы создания документа",
+        "time" : {
+          "start" : 1646114039518,
+          "stop" : 1646114051669,
+          "duration" : 12151
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114039518,
+            "stop" : 1646114047868,
+            "duration" : 8350
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнение обязательных полей и создание документа",
+        "time" : {
+          "start" : 1646114051669,
+          "stop" : 1646114064984,
+          "duration" : 13315
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "document_data",
+          "value" : "<class 'common.constants.OtherDocs5thTypeConst'>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открытие страницы создания документа",
+        "time" : {
+          "start" : 1646114071930,
+          "stop" : 1646114084138,
+          "duration" : 12208
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114071930,
+            "stop" : 1646114080378,
+            "duration" : 8448
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнение обязательных полей и создание документа",
+        "time" : {
+          "start" : 1646114084138,
+          "stop" : 1646114096573,
+          "duration" : 12435
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "document_data",
+          "value" : "<class 'common.constants.OtherDocs5thTypeConst'>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открытие страницы создания документа",
+        "time" : {
+          "start" : 1646114104396,
+          "stop" : 1646114116663,
+          "duration" : 12267
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114104396,
+            "stop" : 1646114112827,
+            "duration" : 8431
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнение обязательных полей и создание документа",
+        "time" : {
+          "start" : 1646114116663,
+          "stop" : 1646114129063,
+          "duration" : 12400
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "document_data",
+          "value" : "<class 'common.constants.OtherDocs5thTypeConst'>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открытие страницы создания документа",
+        "time" : {
+          "start" : 1646114136146,
+          "stop" : 1646114148143,
+          "duration" : 11997
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114136146,
+            "stop" : 1646114144466,
+            "duration" : 8320
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнение обязательных полей и создание документа",
+        "time" : {
+          "start" : 1646114148144,
+          "stop" : 1646114162122,
+          "duration" : 13978
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "document_data",
+          "value" : "<class 'common.constants.OtherDocs5thTypeConst'>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открытие страницы создания документа",
+        "time" : {
+          "start" : 1646114169019,
+          "stop" : 1646114181044,
+          "duration" : 12025
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114169019,
+            "stop" : 1646114177380,
+            "duration" : 8361
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнение обязательных полей и создание документа",
+        "time" : {
+          "start" : 1646114181044,
+          "stop" : 1646114193951,
+          "duration" : 12907
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "document_data",
+          "value" : "<class 'common.constants.OtherDocs5thTypeConst'>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открытие страницы создания документа",
+        "time" : {
+          "start" : 1646114201000,
+          "stop" : 1646114213034,
+          "duration" : 12034
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114201000,
+            "stop" : 1646114209256,
+            "duration" : 8256
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнение обязательных полей и создание документа",
+        "time" : {
+          "start" : 1646114213034,
+          "stop" : 1646114225568,
+          "duration" : 12534
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "document_data",
+          "value" : "<class 'common.constants.OtherDocs5thTypeConst'>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открытие страницы создания документа",
+        "time" : {
+          "start" : 1646114232864,
+          "stop" : 1646114246033,
+          "duration" : 13169
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114232864,
+            "stop" : 1646114241832,
+            "duration" : 8968
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнение обязательных полей и создание документа",
+        "time" : {
+          "start" : 1646114246033,
+          "stop" : 1646114259602,
+          "duration" : 13569
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "document_data",
+          "value" : "<class 'common.constants.OtherDocs5thTypeConst'>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открытие страницы создания документа",
+        "time" : {
+          "start" : 1646114266973,
+          "stop" : 1646114280330,
+          "duration" : 13357
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114266973,
+            "stop" : 1646114276159,
+            "duration" : 9186
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнение обязательных полей и создание документа",
+        "time" : {
+          "start" : 1646114280330,
+          "stop" : 1646114293074,
+          "duration" : 12744
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "document_data",
+          "value" : "<class 'common.constants.OtherDocs5thTypeConst'>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открытие страницы создания документа",
+        "time" : {
+          "start" : 1646114300659,
+          "stop" : 1646114313908,
+          "duration" : 13249
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114300659,
+            "stop" : 1646114309716,
+            "duration" : 9057
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнение обязательных полей и создание документа",
+        "time" : {
+          "start" : 1646114313909,
+          "stop" : 1646114328214,
+          "duration" : 14305
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "document_data",
+          "value" : "<class 'common.constants.OtherDocs5thTypeConst'>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открытие страницы создания документа",
+        "time" : {
+          "start" : 1646114335664,
+          "stop" : 1646114349245,
+          "duration" : 13581
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114335664,
+            "stop" : 1646114344967,
+            "duration" : 9303
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнение обязательных полей и создание документа",
+        "time" : {
+          "start" : 1646114349246,
+          "stop" : 1646114362686,
+          "duration" : 13440
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "document_data",
+          "value" : "<class 'common.constants.OtherDocs5thTypeConst'>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открытие страницы создания документа",
+        "time" : {
+          "start" : 1646114370011,
+          "stop" : 1646114383364,
+          "duration" : 13353
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114370011,
+            "stop" : 1646114379144,
+            "duration" : 9133
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнение обязательных полей и создание документа",
+        "time" : {
+          "start" : 1646114383364,
+          "stop" : 1646114396382,
+          "duration" : 13018
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "document_data",
+          "value" : "<class 'common.constants.OtherDocs5thTypeConst'>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открытие страницы создания документа",
+        "time" : {
+          "start" : 1646114404948,
+          "stop" : 1646114420744,
+          "duration" : 15796
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114404949,
+            "stop" : 1646114416205,
+            "duration" : 11256
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнение обязательных полей и создание документа",
+        "time" : {
+          "start" : 1646114420744,
+          "stop" : 1646114434408,
+          "duration" : 13664
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "document_data",
+          "value" : "<class 'common.constants.OtherDocs5thTypeConst'>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открытие страницы создания документа",
+        "time" : {
+          "start" : 1646114441620,
+          "stop" : 1646114454963,
+          "duration" : 13343
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114441620,
+            "stop" : 1646114450707,
+            "duration" : 9087
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Заполнение обязательных полей и создание документа",
+        "time" : {
+          "start" : 1646114454963,
+          "stop" : 1646114468049,
+          "duration" : 13086
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "document_data",
+          "value" : "<class 'common.constants.OtherDocs5thTypeConst'>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "document_data",
+        "value" : "<class 'common.constants.OtherDocs5thTypeConst'>"
+      } ],
+      "stepsCount" : 60,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1646114475279,
+        "stop" : 1646114485690,
+        "duration" : 10411
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1646114475279,
+          "stop" : 1646114475939,
+          "duration" : 660
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "Кирилл Семенихин"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизоваться под администратором портала",
+      "time" : {
+        "start" : 1646114548079,
+        "stop" : 1646114548675,
+        "duration" : 596
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Удаление 20 документов",
+      "time" : {
+        "start" : 1646114554702,
+        "stop" : 1646114990044,
+        "duration" : 435342
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список иных документов",
+        "time" : {
+          "start" : 1646114554702,
+          "stop" : 1646114564370,
+          "duration" : 9668
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Открыть документ по названию",
+        "time" : {
+          "start" : 1646114564370,
+          "stop" : 1646114578954,
+          "duration" : 14584
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114564370,
+            "stop" : 1646114573706,
+            "duration" : 9336
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Договор 0 от 01.03.2022'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открыть документ по названию",
+        "time" : {
+          "start" : 1646114585243,
+          "stop" : 1646114599353,
+          "duration" : 14110
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114585243,
+            "stop" : 1646114594415,
+            "duration" : 9172
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Договор 1 от 01.03.2022'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открыть документ по названию",
+        "time" : {
+          "start" : 1646114605650,
+          "stop" : 1646114619988,
+          "duration" : 14338
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114605650,
+            "stop" : 1646114614969,
+            "duration" : 9319
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Договор 2 от 01.03.2022'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открыть документ по названию",
+        "time" : {
+          "start" : 1646114626436,
+          "stop" : 1646114640651,
+          "duration" : 14215
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114626436,
+            "stop" : 1646114635586,
+            "duration" : 9150
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Договор 3 от 01.03.2022'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открыть документ по названию",
+        "time" : {
+          "start" : 1646114646975,
+          "stop" : 1646114661368,
+          "duration" : 14393
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114646975,
+            "stop" : 1646114656207,
+            "duration" : 9232
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Договор 4 от 01.03.2022'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открыть документ по названию",
+        "time" : {
+          "start" : 1646114667513,
+          "stop" : 1646114681883,
+          "duration" : 14370
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114667513,
+            "stop" : 1646114676820,
+            "duration" : 9307
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Договор 5 от 01.03.2022'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открыть документ по названию",
+        "time" : {
+          "start" : 1646114688211,
+          "stop" : 1646114703218,
+          "duration" : 15007
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114688211,
+            "stop" : 1646114697848,
+            "duration" : 9637
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Договор 6 от 01.03.2022'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открыть документ по названию",
+        "time" : {
+          "start" : 1646114709777,
+          "stop" : 1646114724287,
+          "duration" : 14510
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114709778,
+            "stop" : 1646114719086,
+            "duration" : 9308
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Договор 7 от 01.03.2022'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открыть документ по названию",
+        "time" : {
+          "start" : 1646114730532,
+          "stop" : 1646114745275,
+          "duration" : 14743
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114730533,
+            "stop" : 1646114740046,
+            "duration" : 9513
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Договор 8 от 01.03.2022'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открыть документ по названию",
+        "time" : {
+          "start" : 1646114751482,
+          "stop" : 1646114766286,
+          "duration" : 14804
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114751482,
+            "stop" : 1646114760968,
+            "duration" : 9486
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Договор 9 от 01.03.2022'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открыть документ по названию",
+        "time" : {
+          "start" : 1646114772880,
+          "stop" : 1646114787453,
+          "duration" : 14573
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114772880,
+            "stop" : 1646114782277,
+            "duration" : 9397
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Договор 10 от 01.03.2022'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открыть документ по названию",
+        "time" : {
+          "start" : 1646114793898,
+          "stop" : 1646114808521,
+          "duration" : 14623
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114793898,
+            "stop" : 1646114803226,
+            "duration" : 9328
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Договор 11 от 01.03.2022'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открыть документ по названию",
+        "time" : {
+          "start" : 1646114814778,
+          "stop" : 1646114829777,
+          "duration" : 14999
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114814778,
+            "stop" : 1646114824427,
+            "duration" : 9649
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Договор 12 от 01.03.2022'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открыть документ по названию",
+        "time" : {
+          "start" : 1646114836086,
+          "stop" : 1646114850940,
+          "duration" : 14854
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114836086,
+            "stop" : 1646114845722,
+            "duration" : 9636
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Договор 13 от 01.03.2022'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открыть документ по названию",
+        "time" : {
+          "start" : 1646114857343,
+          "stop" : 1646114872615,
+          "duration" : 15272
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114857343,
+            "stop" : 1646114867257,
+            "duration" : 9914
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Договор 14 от 01.03.2022'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открыть документ по названию",
+        "time" : {
+          "start" : 1646114879044,
+          "stop" : 1646114894370,
+          "duration" : 15326
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114879044,
+            "stop" : 1646114889121,
+            "duration" : 10077
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Договор 15 от 01.03.2022'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открыть документ по названию",
+        "time" : {
+          "start" : 1646114900952,
+          "stop" : 1646114915672,
+          "duration" : 14720
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114900952,
+            "stop" : 1646114910471,
+            "duration" : 9519
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Договор 16 от 01.03.2022'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открыть документ по названию",
+        "time" : {
+          "start" : 1646114922158,
+          "stop" : 1646114939772,
+          "duration" : 17614
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114922159,
+            "stop" : 1646114934499,
+            "duration" : 12340
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Договор 17 от 01.03.2022'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открыть документ по названию",
+        "time" : {
+          "start" : 1646114946359,
+          "stop" : 1646114961356,
+          "duration" : 14997
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114946359,
+            "stop" : 1646114956105,
+            "duration" : 9746
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Договор 18 от 01.03.2022'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Открыть документ по названию",
+        "time" : {
+          "start" : 1646114967974,
+          "stop" : 1646114983379,
+          "duration" : 15405
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть список иных документов",
+          "time" : {
+            "start" : 1646114967974,
+            "stop" : 1646114977851,
+            "duration" : 9877
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "'Договор 19 от 01.03.2022'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 41,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "a0c0a4bdd7e4e9c4",
+      "name" : "log",
+      "source" : "a0c0a4bdd7e4e9c4.txt",
+      "type" : "text/plain",
+      "size" : 3424
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 108,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "auth_admin::0",
+    "time" : {
+      "start" : 1646120368874,
+      "stop" : 1646120369069,
+      "duration" : 195
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "other_docs"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.test_other_documents"
+  }, {
+    "name" : "suite",
+    "value" : "test_other_docs"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOtherDocs"
+  }, {
+    "name" : "host",
+    "value" : "portal-test-qa-6pqtk"
+  }, {
+    "name" : "thread",
+    "value" : "6-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_other_documents.test_other_docs"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "432896730d18a0cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646070144432,
+        "stop" : 1646071388357,
+        "duration" : 1243925
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "3c5d1417dacf5869",
+        "reportUrl" : "../2/index.html#testresult/3c5d1417dacf5869",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646070144432,
+          "stop" : 1646071388357,
+          "duration" : 1243925
+        }
+      } ]
+    },
+    "tags" : [ "other_docs" ]
+  },
+  "source" : "123f0060a0662533.json",
+  "parameterValues" : [ ]
+}

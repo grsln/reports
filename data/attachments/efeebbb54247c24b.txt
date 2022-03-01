@@ -1,0 +1,16 @@
+2022-03-01 04:45:26 INFO Создание приказа
+2022-03-01 04:46:08 INFO Отправка приказа на рассмотрение
+2022-03-01 04:46:30 INFO execute button command
+2022-03-01 04:46:38 INFO assert states
+2022-03-01 04:46:38 INFO Возврат приказа на доработку
+2022-03-01 04:46:38 INFO execute button command
+2022-03-01 04:46:38 INFO close cancel approving window
+2022-03-01 04:46:38 INFO assert states
+2022-03-01 04:46:44 INFO execute button command
+2022-03-01 04:46:44 INFO assert states
+2022-03-01 04:46:49 INFO Отправка приказа на рассмотрение
+2022-03-01 04:47:11 INFO execute button command
+2022-03-01 04:47:19 INFO assert states
+2022-03-01 04:47:19 INFO Удаление приказа
+2022-03-01 04:47:38 INFO delete
+2022-03-01 04:47:38 INFO accept alert

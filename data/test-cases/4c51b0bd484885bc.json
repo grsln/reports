@@ -1,0 +1,345 @@
+{
+  "uid" : "4c51b0bd484885bc",
+  "name" : "test_create_decree",
+  "fullName" : "tests.test_decrees.test_decrees.TestDecrees#test_create_decree",
+  "historyId" : "d10e3270ec7a198065704aa4826188c9",
+  "time" : {
+    "start" : 1646109581384,
+    "stop" : 1646109664777,
+    "duration" : 83393
+  },
+  "description" : "\n        Проверка создания приказа\n        ",
+  "descriptionHtml" : "<pre><code>    Проверка создания приказа\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'Element' object has no attribute 'have_text'",
+  "statusTrace" : "self = <tests.test_decrees.test_decrees.TestDecrees object at 0x7f6494baf190>\n\n    def test_create_decree(self):\n        \"\"\"\n        Проверка создания приказа\n        \"\"\"\n        logger.info(\"Создание приказа\")\n        admin_panel.auth_as_user(Decree1stTypeConstants.author)\n        create_decree_page.open()\n        create_decree_page.create_decree(Decree1stTypeConstants)\n        decree_id = decree_page.get_decree_id()\n        create_decree_page.assert_decree_is_created()\n    \n        logger.info(\"Удаление созданного приказа\")\n        admin_panel.auth_as_admin()\n        main_page.open()\n        decrees_list_page.open_decree_by_number(decree_id)\n>       decree_page.delete()\n\ntests/test_decrees/test_decrees.py:35: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <pages.document_management.decrees.decree_page.DecreePage object at 0x7f646bf78040>\n\n    def delete(self):\n        logger.info(\"delete\")\n        self.delete_button.click()\n        self.accept_alert()\n>       self.title.have_text(\"Список\")\nE       AttributeError: 'Element' object has no attribute 'have_text'\n\npages/base_page.py:25: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1646105437591,
+      "stop" : 1646105437735,
+      "duration" : 144
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_admin",
+    "time" : {
+      "start" : 1646105437735,
+      "stop" : 1646105452312,
+      "duration" : 14577
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        Проверка создания приказа\n        ",
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'Element' object has no attribute 'have_text'",
+    "statusTrace" : "self = <tests.test_decrees.test_decrees.TestDecrees object at 0x7f6494baf190>\n\n    def test_create_decree(self):\n        \"\"\"\n        Проверка создания приказа\n        \"\"\"\n        logger.info(\"Создание приказа\")\n        admin_panel.auth_as_user(Decree1stTypeConstants.author)\n        create_decree_page.open()\n        create_decree_page.create_decree(Decree1stTypeConstants)\n        decree_id = decree_page.get_decree_id()\n        create_decree_page.assert_decree_is_created()\n    \n        logger.info(\"Удаление созданного приказа\")\n        admin_panel.auth_as_admin()\n        main_page.open()\n        decrees_list_page.open_decree_by_number(decree_id)\n>       decree_page.delete()\n\ntests/test_decrees/test_decrees.py:35: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <pages.document_management.decrees.decree_page.DecreePage object at 0x7f646bf78040>\n\n    def delete(self):\n        logger.info(\"delete\")\n        self.delete_button.click()\n        self.accept_alert()\n>       self.title.have_text(\"Список\")\nE       AttributeError: 'Element' object has no attribute 'have_text'\n\npages/base_page.py:25: AttributeError",
+    "steps" : [ {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1646109581384,
+        "stop" : 1646109592095,
+        "duration" : 10711
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1646109581384,
+          "stop" : 1646109582010,
+          "duration" : 626
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "Лейсан Мухаметзянова"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открытие страницы создания приказа",
+      "time" : {
+        "start" : 1646109592095,
+        "stop" : 1646109610337,
+        "duration" : 18242
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список приказов",
+        "time" : {
+          "start" : 1646109592095,
+          "stop" : 1646109604004,
+          "duration" : 11909
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение обязательных полей и создание приказа",
+      "time" : {
+        "start" : 1646109610337,
+        "stop" : 1646109645287,
+        "duration" : 34950
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "decree_data",
+        "value" : "<class 'common.constants_document.constants_decrees.Decree1stTypeConstants'>"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение номера приказа",
+      "time" : {
+        "start" : 1646109645287,
+        "stop" : 1646109645320,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Проверка сохранения приказа",
+      "time" : {
+        "start" : 1646109645320,
+        "stop" : 1646109645379,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Авторизоваться под администратором портала",
+      "time" : {
+        "start" : 1646109645380,
+        "stop" : 1646109646027,
+        "duration" : 647
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Открыть приказ по номеру",
+      "time" : {
+        "start" : 1646109651156,
+        "stop" : 1646109664630,
+        "duration" : 13474
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список приказов",
+        "time" : {
+          "start" : 1646109651156,
+          "stop" : 1646109659813,
+          "duration" : 8657
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "'441732'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Screen-shot done",
+      "time" : {
+        "start" : 1646109664787,
+        "stop" : 1646109675549,
+        "duration" : 10762
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5ad82bf3123bfb97",
+        "name" : "screenshot",
+        "source" : "5ad82bf3123bfb97.png",
+        "type" : "image/png",
+        "size" : 236378
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "44315290106a2404",
+      "name" : "log",
+      "source" : "44315290106a2404.txt",
+      "type" : "text/plain",
+      "size" : 204
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "auth_admin::0",
+    "time" : {
+      "start" : 1646120368874,
+      "stop" : 1646120369069,
+      "duration" : 195
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "decrees"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.test_decrees"
+  }, {
+    "name" : "suite",
+    "value" : "test_decrees"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDecrees"
+  }, {
+    "name" : "host",
+    "value" : "portal-test-qa-6pqtk"
+  }, {
+    "name" : "thread",
+    "value" : "6-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_decrees.test_decrees"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "627bb74c1bce25a6",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Element' object has no attribute 'have_text'",
+      "time" : {
+        "start" : 1646065548971,
+        "stop" : 1646065632354,
+        "duration" : 83383
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "58a716a360c2c94c",
+        "reportUrl" : "../2/index.html#testresult/58a716a360c2c94c",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: 'Element' object has no attribute 'have_text'",
+        "time" : {
+          "start" : 1646065548971,
+          "stop" : 1646065632354,
+          "duration" : 83383
+        }
+      } ]
+    },
+    "tags" : [ "decrees" ]
+  },
+  "source" : "4c51b0bd484885bc.json",
+  "parameterValues" : [ ]
+}

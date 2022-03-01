@@ -1,0 +1,45 @@
+2022-03-01 05:20:54 INFO login "Мария Осипова".
+2022-03-01 05:21:16 INFO Open hiring request create page
+2022-03-01 05:21:34 INFO title "Ихтиолог", id "441747".
+2022-03-01 05:21:34 INFO Send for consideration
+2022-03-01 05:21:44 INFO Login Рамиль Кулеев
+2022-03-01 05:21:54 INFO Open hiring request page
+2022-03-01 05:22:08 INFO Approve on page
+2022-03-01 05:22:08 INFO Open hiring request
+2022-03-01 05:22:18 INFO Find hiring request Ихтиолог
+2022-03-01 05:22:18 INFO Find hiring request
+2022-03-01 05:22:24 INFO Approve supervisor
+2022-03-01 05:22:24 INFO Login Искандер Бариев
+2022-03-01 05:22:34 INFO Open hiring request page
+2022-03-01 05:22:57 INFO Approve on page
+2022-03-01 05:22:57 INFO Open hiring request
+2022-03-01 05:23:09 INFO Find hiring request Ихтиолог
+2022-03-01 05:23:09 INFO Find hiring request
+2022-03-01 05:23:14 INFO Approve supervisor
+2022-03-01 05:23:14 INFO Login Анна Хасанова
+2022-03-01 05:23:28 INFO Open hiring request page
+2022-03-01 05:23:39 INFO Approve on page
+2022-03-01 05:23:39 INFO Open hiring request
+2022-03-01 05:23:53 INFO Find hiring request Ихтиолог
+2022-03-01 05:23:53 INFO Find hiring request
+2022-03-01 05:23:59 INFO Approve supervisor
+2022-03-01 05:23:59 INFO Login Радик Валиев
+2022-03-01 05:24:13 INFO Open hiring request page
+2022-03-01 05:24:24 INFO Approve check box
+2022-03-01 05:24:33 INFO Open hiring request
+2022-03-01 05:24:43 INFO Find hiring request Ихтиолог
+2022-03-01 05:24:43 INFO Find hiring request
+2022-03-01 05:24:48 INFO Approve supervisor
+2022-03-01 05:24:48 INFO Login Кирилл Семенихин
+2022-03-01 05:24:59 INFO Open hiring request page
+2022-03-01 05:25:11 INFO Approve check box
+2022-03-01 05:25:21 INFO Open hiring request
+2022-03-01 05:25:31 INFO Find hiring request Ихтиолог
+2022-03-01 05:25:31 INFO Find hiring request
+2022-03-01 05:25:36 INFO Approve supervisor
+2022-03-01 05:25:36 INFO Open admin
+2022-03-01 05:25:43 INFO Open hiring request
+2022-03-01 05:25:54 INFO Find hiring request Ихтиолог
+2022-03-01 05:25:54 INFO Find hiring request
+2022-03-01 05:26:00 INFO delete
+2022-03-01 05:26:00 INFO accept alert

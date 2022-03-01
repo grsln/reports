@@ -1,0 +1,32 @@
+2022-03-01 04:34:15 INFO login "Евгения Магдалинова".
+2022-03-01 04:34:37 INFO Open contract create page
+2022-03-01 04:34:52 INFO title "Договор ГПХ 04:34:26.746660", id "441729".
+2022-03-01 04:34:52 INFO Send for consideration
+2022-03-01 04:35:00 INFO open_contract_admin
+2022-03-01 04:35:06 INFO Approve Мария Образцова
+2022-03-01 04:35:06 INFO Admin approve
+2022-03-01 04:35:13 INFO Approve Диана Якушкина
+2022-03-01 04:35:13 INFO Admin approve
+2022-03-01 04:35:22 INFO Approve Елена Рыбакова
+2022-03-01 04:35:22 INFO Admin approve
+2022-03-01 04:35:29 INFO Approve Лилия Симонова
+2022-03-01 04:35:29 INFO Admin approve
+2022-03-01 04:35:36 INFO Approve Дмитрий Сарайкин
+2022-03-01 04:35:36 INFO Admin approve
+2022-03-01 04:35:44 INFO Approve Павел Зотов
+2022-03-01 04:35:44 INFO Admin approve
+2022-03-01 04:35:52 INFO login Радик Валиев
+2022-03-01 04:35:52 INFO Admin approve
+2022-03-01 04:35:59 INFO login Искандер Бариев
+2022-03-01 04:35:59 INFO Admin approve
+2022-03-01 04:36:09 INFO login "Кирилл Семенихин".
+2022-03-01 04:36:09 INFO Admin approve
+2022-03-01 04:36:17 INFO login Юлия Казаева
+2022-03-01 04:36:17 INFO Admin approve
+2022-03-01 04:36:26 INFO login Евгения Магдалинова
+2022-03-01 04:36:26 INFO Admin approve
+2022-03-01 04:36:34 INFO login Наталья Румянова
+2022-03-01 04:36:44 INFO open contract page
+2022-03-01 04:37:14 INFO open_contract_admin
+2022-03-01 04:37:21 INFO delete
+2022-03-01 04:37:21 INFO accept alert

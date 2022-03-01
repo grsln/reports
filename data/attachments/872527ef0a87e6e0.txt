@@ -1,0 +1,15 @@
+2022-03-01 06:56:41 INFO Авторизация Лариса Онищенко
+2022-03-01 06:57:26 INFO тестовое исходящее письмо 03:30:37.549143, 441802
+2022-03-01 06:57:34 INFO Login admin.
+2022-03-01 06:57:34 INFO Open admin
+2022-03-01 06:57:41 INFO Find document
+2022-03-01 06:57:41 INFO Approve admin Оксана Ульянова.
+2022-03-01 06:57:41 INFO Admin approve
+2022-03-01 06:57:41 INFO Approve admin Юлия Казаева
+2022-03-01 06:57:41 INFO Admin approve
+2022-03-01 06:57:49 INFO Approve admin Радик Валиев
+2022-03-01 06:57:49 INFO Admin approve
+2022-03-01 06:57:57 INFO Open admin
+2022-03-01 06:58:10 INFO find letter
+2022-03-01 06:58:10 INFO delete
+2022-03-01 06:58:10 INFO accept alert

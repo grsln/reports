@@ -1,0 +1,17 @@
+2022-03-01 06:20:10 INFO Авторизация Юлия Валеева
+2022-03-01 06:21:18 INFO тестовое исходящее письмо 03:30:37.549143, 441783
+2022-03-01 06:21:26 INFO login Оксана Ульянова
+2022-03-01 06:21:38 INFO open letter page
+2022-03-01 06:21:49 INFO Approve on page
+2022-03-01 06:21:49 INFO login Евгений Серочудинов
+2022-03-01 06:22:05 INFO open letter page
+2022-03-01 06:22:17 INFO Approve on page
+2022-03-01 06:22:17 INFO login Евгений Бобров
+2022-03-01 06:22:30 INFO open letter page
+2022-03-01 06:22:47 INFO Approve on page
+2022-03-01 06:22:47 INFO Open
+2022-03-01 06:22:56 INFO Approve
+2022-03-01 06:22:56 INFO Open admin
+2022-03-01 06:23:03 INFO find letter
+2022-03-01 06:23:03 INFO delete
+2022-03-01 06:23:03 INFO accept alert

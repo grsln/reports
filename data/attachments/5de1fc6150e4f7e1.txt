@@ -1,0 +1,45 @@
+2022-02-28 17:09:59 INFO login "Мария Осипова".
+2022-02-28 17:10:22 INFO Open hiring request create page
+2022-02-28 17:10:42 INFO title "Кровельщик", id "441629".
+2022-02-28 17:10:42 INFO Send for consideration
+2022-02-28 17:10:51 INFO Login Рамиль Кулеев
+2022-02-28 17:11:03 INFO Open hiring request page
+2022-02-28 17:11:16 INFO Approve on page
+2022-02-28 17:11:16 INFO Open hiring request
+2022-02-28 17:11:27 INFO Find hiring request Кровельщик
+2022-02-28 17:11:27 INFO Find hiring request
+2022-02-28 17:11:32 INFO Approve supervisor
+2022-02-28 17:11:32 INFO Login Искандер Бариев
+2022-02-28 17:11:43 INFO Open hiring request page
+2022-02-28 17:12:05 INFO Approve on page
+2022-02-28 17:12:05 INFO Open hiring request
+2022-02-28 17:12:17 INFO Find hiring request Кровельщик
+2022-02-28 17:12:17 INFO Find hiring request
+2022-02-28 17:12:23 INFO Approve supervisor
+2022-02-28 17:12:23 INFO Login Анна Хасанова
+2022-02-28 17:12:37 INFO Open hiring request page
+2022-02-28 17:12:49 INFO Approve on page
+2022-02-28 17:12:49 INFO Open hiring request
+2022-02-28 17:13:04 INFO Find hiring request Кровельщик
+2022-02-28 17:13:04 INFO Find hiring request
+2022-02-28 17:13:10 INFO Approve supervisor
+2022-02-28 17:13:10 INFO Login Радик Валиев
+2022-02-28 17:13:24 INFO Open hiring request page
+2022-02-28 17:13:36 INFO Approve check box
+2022-02-28 17:13:45 INFO Open hiring request
+2022-02-28 17:13:56 INFO Find hiring request Кровельщик
+2022-02-28 17:13:56 INFO Find hiring request
+2022-02-28 17:14:02 INFO Approve supervisor
+2022-02-28 17:14:02 INFO Login Кирилл Семенихин
+2022-02-28 17:14:14 INFO Open hiring request page
+2022-02-28 17:14:27 INFO Approve check box
+2022-02-28 17:14:36 INFO Open hiring request
+2022-02-28 17:14:48 INFO Find hiring request Кровельщик
+2022-02-28 17:14:48 INFO Find hiring request
+2022-02-28 17:14:54 INFO Approve supervisor
+2022-02-28 17:14:54 INFO Open admin
+2022-02-28 17:15:01 INFO Open hiring request
+2022-02-28 17:15:12 INFO Find hiring request Кровельщик
+2022-02-28 17:15:12 INFO Find hiring request
+2022-02-28 17:15:19 INFO delete
+2022-02-28 17:15:20 INFO accept alert

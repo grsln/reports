@@ -1,0 +1,27 @@
+2022-02-28 15:21:43 INFO login "Наталия Жандарова".
+2022-02-28 15:21:53 INFO Create contract GPH.
+2022-02-28 15:22:02 INFO Open contract create page
+2022-02-28 15:22:26 INFO title "Договор ГПХ 15:21:43.067231", id "441596".
+2022-02-28 15:22:26 INFO Send for consideration
+2022-02-28 15:22:34 INFO open_contract_admin
+2022-02-28 15:22:40 INFO Admin approve
+2022-02-28 15:22:46 INFO Admin approve
+2022-02-28 15:22:52 INFO Admin approve
+2022-02-28 15:22:59 INFO Admin approve
+2022-02-28 15:23:07 INFO login Радик Валиев
+2022-02-28 15:23:20 INFO open contract page
+2022-02-28 15:23:33 INFO Согласование договора "Договор ГПХ 15:21:43.067231"
+2022-02-28 15:23:33 INFO Approve contract modal window
+2022-02-28 15:23:34 INFO login Искандер Бариев
+2022-02-28 15:23:45 INFO open contract page
+2022-02-28 15:24:03 INFO Согласование договора "Договор ГПХ 15:21:43.067231"
+2022-02-28 15:24:04 INFO Approve contract modal window
+2022-02-28 15:24:05 INFO login Юлия Казаева
+2022-02-28 15:24:23 INFO open contract page
+2022-02-28 15:24:45 INFO login Наталия Жандарова
+2022-02-28 15:24:58 INFO open contract page
+2022-02-28 15:25:06 INFO login Наталья Румянова
+2022-02-28 15:25:20 INFO open contract page
+2022-02-28 15:26:05 INFO open_contract_admin
+2022-02-28 15:26:12 INFO delete
+2022-02-28 15:26:12 INFO accept alert

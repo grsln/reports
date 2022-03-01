@@ -1,0 +1,44 @@
+2022-03-01 05:26:06 INFO login "Мария Осипова".
+2022-03-01 05:26:27 INFO Open hiring request create page
+2022-03-01 05:26:46 INFO title "Предприниматель", id "441748".
+2022-03-01 05:26:46 INFO Send for consideration
+2022-03-01 05:26:55 INFO Login Анна Хасанова
+2022-03-01 05:27:07 INFO Open hiring request page
+2022-03-01 05:27:18 INFO For omission of agreement
+2022-03-01 05:27:23 INFO Back to search
+2022-03-01 05:27:35 INFO Open hiring request page
+2022-03-01 05:27:49 INFO Candidate search
+2022-03-01 05:27:50 INFO Login Рамиль Кулеев
+2022-03-01 05:28:04 INFO Open hiring request page
+2022-03-01 05:28:15 INFO Approve modal window
+2022-03-01 05:28:16 INFO Open hiring request
+2022-03-01 05:28:27 INFO Find hiring request Предприниматель
+2022-03-01 05:28:27 INFO Find hiring request
+2022-03-01 05:28:32 INFO Approve supervisor
+2022-03-01 05:28:32 INFO Login Искандер Бариев
+2022-03-01 05:28:43 INFO Open hiring request page
+2022-03-01 05:29:01 INFO Approve modal window
+2022-03-01 05:29:02 INFO Open hiring request
+2022-03-01 05:29:20 INFO Find hiring request Предприниматель
+2022-03-01 05:29:20 INFO Find hiring request
+2022-03-01 05:29:25 INFO Approve supervisor
+2022-03-01 05:29:25 INFO Login Кирилл Семенихин
+2022-03-01 05:29:36 INFO Open hiring request page
+2022-03-01 05:29:48 INFO Approve check box
+2022-03-01 05:29:58 INFO Open hiring request
+2022-03-01 05:30:09 INFO Find hiring request Предприниматель
+2022-03-01 05:30:09 INFO Find hiring request
+2022-03-01 05:30:15 INFO Approve supervisor
+2022-03-01 05:30:15 INFO Login Анна Хасанова
+2022-03-01 05:30:28 INFO Open hiring request page
+2022-03-01 05:30:39 INFO For recruitment
+2022-03-01 05:30:40 INFO Login Эльвира Ахунова
+2022-03-01 05:31:06 INFO Open hiring request
+2022-03-01 05:31:26 INFO Find hiring request Предприниматель
+2022-03-01 05:31:26 INFO Find hiring request
+2022-03-01 05:31:31 INFO Open admin
+2022-03-01 05:31:38 INFO Open hiring request
+2022-03-01 05:31:49 INFO Find hiring request Предприниматель
+2022-03-01 05:31:49 INFO Find hiring request
+2022-03-01 05:31:55 INFO delete
+2022-03-01 05:31:55 INFO accept alert

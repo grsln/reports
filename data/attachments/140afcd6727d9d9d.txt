@@ -1,0 +1,17 @@
+2022-03-01 06:51:18 INFO Авторизация Игорь Мошкин
+2022-03-01 06:52:03 INFO тестовое исходящее письмо 03:30:37.549143, 441799
+2022-03-01 06:52:10 INFO Login admin.
+2022-03-01 06:52:10 INFO Open admin
+2022-03-01 06:52:16 INFO Find document
+2022-03-01 06:52:16 INFO Approve admin Оксана Ульянова.
+2022-03-01 06:52:16 INFO Admin approve
+2022-03-01 06:52:16 INFO Approve admin Евгения Кузьмина
+2022-03-01 06:52:16 INFO Admin approve
+2022-03-01 06:52:24 INFO login Лейсан Молтабарова
+2022-03-01 06:52:24 INFO Admin approve
+2022-03-01 06:52:32 INFO Approve admin Искандер Бариев
+2022-03-01 06:52:32 INFO Admin approve
+2022-03-01 06:52:40 INFO Open admin
+2022-03-01 06:52:53 INFO find letter
+2022-03-01 06:52:53 INFO delete
+2022-03-01 06:52:53 INFO accept alert

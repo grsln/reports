@@ -1,0 +1,213 @@
+{
+  "uid" : "b0db75066eb6f738",
+  "name" : "test_change_language",
+  "fullName" : "tests.test_main_page.test_main_page.TestMainPage#test_change_language",
+  "historyId" : "68497733a1ebd0c73593b7a5ec6203e1",
+  "time" : {
+    "start" : 1646069487305,
+    "stop" : 1646069510433,
+    "duration" : 23128
+  },
+  "description" : "\n        Проверка переключения языка сайта\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/62194\n        ",
+  "descriptionHtml" : "<pre><code>    Проверка переключения языка сайта\n    https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/62194\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Пункт левого меню <Документооборот> не переведен на английский язык",
+  "statusTrace" : "self = <tests.test_main_page.test_main_page.TestMainPage object at 0x7f43e9654f10>\nset_ru_lang = None\n\n    def test_change_language(self, set_ru_lang):\n        \"\"\"\n        Проверка переключения языка сайта\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/62194\n        \"\"\"\n        logger.info(\"Проверка открытия элементов правого сайдбара\")\n        admin_panel.auth_as_user(UsersConstants.EVGENIYA_SHILINA)\n    \n        main_page.lang_select.click()\n        main_page.en_lang_select_item.click()\n>       main_page.assert_left_menu_items_translated()\n\ntests/test_main_page/test_main_page.py:250: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <pages.main_page.MainPage object at 0x7f43f5574970>\n\n    def assert_left_menu_items_translated(self):\n        for item in self.left_menu_items:\n>           assert not bool(re.search(\"[а-яА-Я]\", item.get_text())) and bool(\n                len(item.get_text())\n            ), f\"Пункт левого меню <{item.get_text()}> не переведен на английский язык\"\nE           AssertionError: Пункт левого меню <Документооборот> не переведен на английский язык\n\npages/main_page.py:146: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1646060863008,
+      "stop" : 1646060863189,
+      "duration" : 181
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_admin",
+    "time" : {
+      "start" : 1646060863189,
+      "stop" : 1646060869695,
+      "duration" : 6506
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "set_ru_lang",
+    "time" : {
+      "start" : 1646069487305,
+      "stop" : 1646069487305,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        Проверка переключения языка сайта\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/62194\n        ",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Пункт левого меню <Документооборот> не переведен на английский язык",
+    "statusTrace" : "self = <tests.test_main_page.test_main_page.TestMainPage object at 0x7f43e9654f10>\nset_ru_lang = None\n\n    def test_change_language(self, set_ru_lang):\n        \"\"\"\n        Проверка переключения языка сайта\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/62194\n        \"\"\"\n        logger.info(\"Проверка открытия элементов правого сайдбара\")\n        admin_panel.auth_as_user(UsersConstants.EVGENIYA_SHILINA)\n    \n        main_page.lang_select.click()\n        main_page.en_lang_select_item.click()\n>       main_page.assert_left_menu_items_translated()\n\ntests/test_main_page/test_main_page.py:250: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <pages.main_page.MainPage object at 0x7f43f5574970>\n\n    def assert_left_menu_items_translated(self):\n        for item in self.left_menu_items:\n>           assert not bool(re.search(\"[а-яА-Я]\", item.get_text())) and bool(\n                len(item.get_text())\n            ), f\"Пункт левого меню <{item.get_text()}> не переведен на английский язык\"\nE           AssertionError: Пункт левого меню <Документооборот> не переведен на английский язык\n\npages/main_page.py:146: AssertionError",
+    "steps" : [ {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1646069487306,
+        "stop" : 1646069498590,
+        "duration" : 11284
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1646069487306,
+          "stop" : 1646069487978,
+          "duration" : 672
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "Евгения Шилина"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Screen-shot done",
+      "time" : {
+        "start" : 1646069510444,
+        "stop" : 1646069510682,
+        "duration" : 238
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7e860bd993c614aa",
+        "name" : "screenshot",
+        "source" : "7e860bd993c614aa.png",
+        "type" : "image/png",
+        "size" : 248671
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "78bcbbd122763716",
+      "name" : "log",
+      "source" : "78bcbbd122763716.txt",
+      "type" : "text/plain",
+      "size" : 109
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "set_ru_lang::0",
+    "time" : {
+      "start" : 1646069510683,
+      "stop" : 1646069517065,
+      "duration" : 6382
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_admin::0",
+    "time" : {
+      "start" : 1646076832803,
+      "stop" : 1646076832831,
+      "duration" : 28
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "main_page"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.test_main_page"
+  }, {
+    "name" : "suite",
+    "value" : "test_main_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMainPage"
+  }, {
+    "name" : "host",
+    "value" : "portal-test-qa-gxmtf"
+  }, {
+    "name" : "thread",
+    "value" : "7-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_main_page.test_main_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "main_page" ]
+  },
+  "source" : "b0db75066eb6f738.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,17 @@
+2022-02-28 18:23:50 INFO Авторизация Александр Сбитнев
+2022-02-28 18:24:38 INFO тестовое исходящее письмо 15:07:42.960896, 441669
+2022-02-28 18:24:47 INFO Login admin.
+2022-02-28 18:24:47 INFO Open admin
+2022-02-28 18:24:53 INFO Find document
+2022-02-28 18:24:53 INFO Approve admin Оксана Ульянова.
+2022-02-28 18:24:53 INFO Admin approve
+2022-02-28 18:24:54 INFO Approve admin Раис Абдразаков
+2022-02-28 18:24:54 INFO Admin approve
+2022-02-28 18:25:02 INFO login Лейсан Молтабарова
+2022-02-28 18:25:02 INFO Admin approve
+2022-02-28 18:25:11 INFO Approve admin Искандер Бариев
+2022-02-28 18:25:11 INFO Admin approve
+2022-02-28 18:25:20 INFO Open admin
+2022-02-28 18:25:34 INFO find letter
+2022-02-28 18:25:34 INFO delete
+2022-02-28 18:25:34 INFO accept alert

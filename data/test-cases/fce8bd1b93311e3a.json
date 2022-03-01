@@ -1,0 +1,529 @@
+{
+  "uid" : "fce8bd1b93311e3a",
+  "name" : "test_trip_states",
+  "fullName" : "tests.test_business_trips.test_business_trips.TestBusinessTrips#test_trip_states",
+  "historyId" : "13c1bb7aa8a599a1297b5237a5a4fb52",
+  "time" : {
+    "start" : 1646105539426,
+    "stop" : 1646105776170,
+    "duration" : 236744
+  },
+  "description" : "\n        Проход заявки на командировку по стадиям\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/56068\n        ",
+  "descriptionHtml" : "<pre><code>    Проход заявки на командировку по стадиям\n    https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/56068\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 30s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text КОМАНДИРОВКА ЗАКРЫТА\n\nReason: AssertionError: actual text: ПОЖАЛУЙСТА, ПОДОЖДИТЕ...\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436443.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436443.html",
+  "statusTrace" : "self = <selene.core.wait.Wait object at 0x7f646b6f90d0>\nfn = <selene.core.conditions.ElementCondition object at 0x7f646b6f9250>\n\n    def for_(self, fn: Callable[[E], R]) -> R:\n        finish_time = time.time() + self._timeout\n    \n        while True:\n            try:\n>               return fn(self._entity)\n\n/usr/local/lib/python3.8/dist-packages/selene/core/wait.py:102: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selene.core.conditions.ElementCondition object at 0x7f646b6f9250>\nargs = (<selene.core.entity.Element object at 0x7f646b922ee0>,), kwargs = {}\n\n    def __call__(self, *args, **kwargs):\n>       return self._fn(*args, **kwargs)\n\n/usr/local/lib/python3.8/dist-packages/selene/core/condition.py:136: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nentity = <selene.core.entity.Element object at 0x7f646b922ee0>\n\n    def fn(entity: E) -> None:\n        query_to_str = str(query)\n        result = (\n            query.__name__\n            if query_to_str.startswith('<function')\n            else query_to_str\n        )\n        actual = query(entity)\n        if not predicate(actual):\n>           raise AssertionError(f'actual {result}: {actual}')\nE           AssertionError: actual text: ПОЖАЛУЙСТА, ПОДОЖДИТЕ...\n\n/usr/local/lib/python3.8/dist-packages/selene/core/condition.py:109: AssertionError\n\nDuring handling of the above exception, another exception occurred:\n\nself = <tests.test_business_trips.test_business_trips.TestBusinessTrips object at 0x7f646b91d2e0>\ntrip = None\n\n    @pytest.mark.smoke\n    def test_trip_states(self, trip):\n        \"\"\"\n        Проход заявки на командировку по стадиям\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/56068\n        \"\"\"\n        trip_id = trip_page.get_trip_id()\n    \n        trip_page.execute(\"Направить на рассмотрение\")\n        trip_page.assert_states(\"Рассмотрение прямым руководителем\")\n    \n        admin_panel.auth_as_user(TripConstants.supervisor)\n        trips_list_page.open_trip_by_number(trip_id)\n        trip_page.execute(\"Согласовать\")\n        trip_page.assert_states(\"Рассмотрение проректором управления\")\n    \n        admin_panel.auth_as_user(TripConstants.vice_rector)\n        trips_list_page.open_trip_by_number(trip_id)\n        trip_page.execute(\"Согласовать\")\n        trip_page.assert_states(\"Утверждение директором\")\n    \n        admin_panel.auth_as_user(TripConstants.director)\n        trips_list_page.open_trip_by_number(trip_id)\n        trip_page.execute(\"Утвердить\")\n        trip_page.assert_states(\"Оформление командировки\")\n    \n        admin_panel.auth_as_user(TripConstants.logistic_user)\n        trips_list_page.open_trip_by_number(trip_id)\n        trip_page.execute(\"Подтвердить бронирование билетов\")\n        trip_page.assert_states(\"Оформление командировки\")\n    \n        admin_panel.auth_as_user(TripConstants.hr_manager)\n        trips_list_page.open_trip_by_number(trip_id)\n        trip_page.execute(\"Подтвердить оформление документов\")\n        trip_page.confirm_review_button.click()\n        trip_page.assert_states(\"Предоставление закрывающих документов\")\n    \n        admin_panel.auth_as_user(TripConstants.logistic_user)\n        trips_list_page.open_trip_by_number(trip_id)\n        trip_page.execute(\"Отчитаться по командировке\")\n        trip_page.report_text_are.fill_field(\"Задание выполнено\")\n        trip_page.report_button.click()\n        trip_page.assert_states(\"Проверка закрывающих документов\")\n    \n        admin_panel.auth_as_user(TripConstants.economist)\n        trips_list_page.open_trip_by_number(trip_id)\n        trip_page.execute(\"Подтвердить сдачу закрывающих документов\")\n>       trip_page.assert_states(\"Командировка закрыта\", timeout=30)\n\ntests/test_business_trips/test_business_trips.py:78: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/base_page.py:50: in assert_states\n    self.status_button.have_text(status_text, timeout=timeout)\npages/base_element.py:21: in have_text\n    self.locator.with_(Config(timeout=timeout)).should(have.text(text))\n/usr/local/lib/python3.8/dist-packages/selene/core/entity.py:379: in should\n    super().should(condition)\n/usr/local/lib/python3.8/dist-packages/selene/core/entity.py:122: in should\n    self.wait.for_(condition)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selene.core.wait.Wait object at 0x7f646b6f90d0>\nfn = <selene.core.conditions.ElementCondition object at 0x7f646b6f9250>\n\n        def for_(self, fn: Callable[[E], R]) -> R:\n            finish_time = time.time() + self._timeout\n    \n            while True:\n                try:\n                    return fn(self._entity)\n                except Exception as reason:\n                    if time.time() > finish_time:\n    \n                        reason_message = str(reason)\n    \n                        reason_string = '{name}: {message}'.format(\n                            name=reason.__class__.__name__, message=reason_message\n                        )\n                        # todo: think on how can we improve logging failures in selene, e.g. reverse msg and stacktrace\n                        # stacktrace = getattr(reason, 'stacktrace', None)\n                        timeout = self._timeout\n                        entity = self._entity\n    \n                        failure = TimeoutException(\n                            f'''\n    \n    Timed out after {timeout}s, while waiting for:\n    {entity}.{fn}\n    \n    Reason: {reason_string}'''\n                        )\n    \n>                       raise self._hook_failure(failure)\nE                       selene.core.exceptions.TimeoutException: Message: \nE                       \nE                       Timed out after 30s, while waiting for:\nE                       browser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text КОМАНДИРОВКА ЗАКРЫТА\nE                       \nE                       Reason: AssertionError: actual text: ПОЖАЛУЙСТА, ПОДОЖДИТЕ...\nE                       Screenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436443.png\nE                       PageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436443.html\n\n/usr/local/lib/python3.8/dist-packages/selene/core/wait.py:125: TimeoutException",
+  "flaky" : false,
+  "newFailed" : true,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1646105437591,
+      "stop" : 1646105437735,
+      "duration" : 144
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_admin",
+    "time" : {
+      "start" : 1646105437735,
+      "stop" : 1646105452312,
+      "duration" : 14577
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "trip",
+    "time" : {
+      "start" : 1646105513116,
+      "stop" : 1646105539425,
+      "duration" : 26309
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1646105513116,
+        "stop" : 1646105520342,
+        "duration" : 7226
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1646105513116,
+          "stop" : 1646105513865,
+          "duration" : 749
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "Лейсан Мухаметзянова"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Open trip create page",
+      "time" : {
+        "start" : 1646105520342,
+        "stop" : 1646105531576,
+        "duration" : 11234
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Create business trip",
+      "time" : {
+        "start" : 1646105531577,
+        "stop" : 1646105539390,
+        "duration" : 7813
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "data",
+        "value" : "<models.trip_data.TripData object at 0x7f646b91d6d0>"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "\n        Проход заявки на командировку по стадиям\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/56068\n        ",
+    "status" : "failed",
+    "statusMessage" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 30s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text КОМАНДИРОВКА ЗАКРЫТА\n\nReason: AssertionError: actual text: ПОЖАЛУЙСТА, ПОДОЖДИТЕ...\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436443.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436443.html",
+    "statusTrace" : "self = <selene.core.wait.Wait object at 0x7f646b6f90d0>\nfn = <selene.core.conditions.ElementCondition object at 0x7f646b6f9250>\n\n    def for_(self, fn: Callable[[E], R]) -> R:\n        finish_time = time.time() + self._timeout\n    \n        while True:\n            try:\n>               return fn(self._entity)\n\n/usr/local/lib/python3.8/dist-packages/selene/core/wait.py:102: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selene.core.conditions.ElementCondition object at 0x7f646b6f9250>\nargs = (<selene.core.entity.Element object at 0x7f646b922ee0>,), kwargs = {}\n\n    def __call__(self, *args, **kwargs):\n>       return self._fn(*args, **kwargs)\n\n/usr/local/lib/python3.8/dist-packages/selene/core/condition.py:136: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nentity = <selene.core.entity.Element object at 0x7f646b922ee0>\n\n    def fn(entity: E) -> None:\n        query_to_str = str(query)\n        result = (\n            query.__name__\n            if query_to_str.startswith('<function')\n            else query_to_str\n        )\n        actual = query(entity)\n        if not predicate(actual):\n>           raise AssertionError(f'actual {result}: {actual}')\nE           AssertionError: actual text: ПОЖАЛУЙСТА, ПОДОЖДИТЕ...\n\n/usr/local/lib/python3.8/dist-packages/selene/core/condition.py:109: AssertionError\n\nDuring handling of the above exception, another exception occurred:\n\nself = <tests.test_business_trips.test_business_trips.TestBusinessTrips object at 0x7f646b91d2e0>\ntrip = None\n\n    @pytest.mark.smoke\n    def test_trip_states(self, trip):\n        \"\"\"\n        Проход заявки на командировку по стадиям\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/56068\n        \"\"\"\n        trip_id = trip_page.get_trip_id()\n    \n        trip_page.execute(\"Направить на рассмотрение\")\n        trip_page.assert_states(\"Рассмотрение прямым руководителем\")\n    \n        admin_panel.auth_as_user(TripConstants.supervisor)\n        trips_list_page.open_trip_by_number(trip_id)\n        trip_page.execute(\"Согласовать\")\n        trip_page.assert_states(\"Рассмотрение проректором управления\")\n    \n        admin_panel.auth_as_user(TripConstants.vice_rector)\n        trips_list_page.open_trip_by_number(trip_id)\n        trip_page.execute(\"Согласовать\")\n        trip_page.assert_states(\"Утверждение директором\")\n    \n        admin_panel.auth_as_user(TripConstants.director)\n        trips_list_page.open_trip_by_number(trip_id)\n        trip_page.execute(\"Утвердить\")\n        trip_page.assert_states(\"Оформление командировки\")\n    \n        admin_panel.auth_as_user(TripConstants.logistic_user)\n        trips_list_page.open_trip_by_number(trip_id)\n        trip_page.execute(\"Подтвердить бронирование билетов\")\n        trip_page.assert_states(\"Оформление командировки\")\n    \n        admin_panel.auth_as_user(TripConstants.hr_manager)\n        trips_list_page.open_trip_by_number(trip_id)\n        trip_page.execute(\"Подтвердить оформление документов\")\n        trip_page.confirm_review_button.click()\n        trip_page.assert_states(\"Предоставление закрывающих документов\")\n    \n        admin_panel.auth_as_user(TripConstants.logistic_user)\n        trips_list_page.open_trip_by_number(trip_id)\n        trip_page.execute(\"Отчитаться по командировке\")\n        trip_page.report_text_are.fill_field(\"Задание выполнено\")\n        trip_page.report_button.click()\n        trip_page.assert_states(\"Проверка закрывающих документов\")\n    \n        admin_panel.auth_as_user(TripConstants.economist)\n        trips_list_page.open_trip_by_number(trip_id)\n        trip_page.execute(\"Подтвердить сдачу закрывающих документов\")\n>       trip_page.assert_states(\"Командировка закрыта\", timeout=30)\n\ntests/test_business_trips/test_business_trips.py:78: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/base_page.py:50: in assert_states\n    self.status_button.have_text(status_text, timeout=timeout)\npages/base_element.py:21: in have_text\n    self.locator.with_(Config(timeout=timeout)).should(have.text(text))\n/usr/local/lib/python3.8/dist-packages/selene/core/entity.py:379: in should\n    super().should(condition)\n/usr/local/lib/python3.8/dist-packages/selene/core/entity.py:122: in should\n    self.wait.for_(condition)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selene.core.wait.Wait object at 0x7f646b6f90d0>\nfn = <selene.core.conditions.ElementCondition object at 0x7f646b6f9250>\n\n        def for_(self, fn: Callable[[E], R]) -> R:\n            finish_time = time.time() + self._timeout\n    \n            while True:\n                try:\n                    return fn(self._entity)\n                except Exception as reason:\n                    if time.time() > finish_time:\n    \n                        reason_message = str(reason)\n    \n                        reason_string = '{name}: {message}'.format(\n                            name=reason.__class__.__name__, message=reason_message\n                        )\n                        # todo: think on how can we improve logging failures in selene, e.g. reverse msg and stacktrace\n                        # stacktrace = getattr(reason, 'stacktrace', None)\n                        timeout = self._timeout\n                        entity = self._entity\n    \n                        failure = TimeoutException(\n                            f'''\n    \n    Timed out after {timeout}s, while waiting for:\n    {entity}.{fn}\n    \n    Reason: {reason_string}'''\n                        )\n    \n>                       raise self._hook_failure(failure)\nE                       selene.core.exceptions.TimeoutException: Message: \nE                       \nE                       Timed out after 30s, while waiting for:\nE                       browser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text КОМАНДИРОВКА ЗАКРЫТА\nE                       \nE                       Reason: AssertionError: actual text: ПОЖАЛУЙСТА, ПОДОЖДИТЕ...\nE                       Screenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436443.png\nE                       PageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436443.html\n\n/usr/local/lib/python3.8/dist-packages/selene/core/wait.py:125: TimeoutException",
+    "steps" : [ {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1646105546964,
+        "stop" : 1646105557216,
+        "duration" : 10252
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1646105546964,
+          "stop" : 1646105547649,
+          "duration" : 685
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "Рамиль Кулеев"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1646105576276,
+        "stop" : 1646105586834,
+        "duration" : 10558
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1646105576276,
+          "stop" : 1646105577012,
+          "duration" : 736
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "Искандер Бариев"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1646105605794,
+        "stop" : 1646105616403,
+        "duration" : 10609
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1646105605794,
+          "stop" : 1646105606528,
+          "duration" : 734
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "Кирилл Семенихин"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1646105636241,
+        "stop" : 1646105645734,
+        "duration" : 9493
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1646105636241,
+          "stop" : 1646105636862,
+          "duration" : 621
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "Лейсан Мухаметзянова"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1646105661587,
+        "stop" : 1646105670942,
+        "duration" : 9355
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1646105661587,
+          "stop" : 1646105662177,
+          "duration" : 590
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "Эльвира Ахунова"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1646105693212,
+        "stop" : 1646105702115,
+        "duration" : 8903
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1646105693212,
+          "stop" : 1646105693871,
+          "duration" : 659
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "Лейсан Мухаметзянова"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1646105721238,
+        "stop" : 1646105730549,
+        "duration" : 9311
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1646105721238,
+          "stop" : 1646105721896,
+          "duration" : 658
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "Наталья Соколова"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Screen-shot done",
+      "time" : {
+        "start" : 1646105776369,
+        "stop" : 1646105776598,
+        "duration" : 229
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "54b2dbecc1ed6bdb",
+        "name" : "screenshot",
+        "source" : "54b2dbecc1ed6bdb.png",
+        "type" : "image/png",
+        "size" : 267007
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "fe40ad1d7d061561",
+      "name" : "log",
+      "source" : "fe40ad1d7d061561.txt",
+      "type" : "text/plain",
+      "size" : 765
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 15,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "trip::0",
+    "time" : {
+      "start" : 1646105776599,
+      "stop" : 1646105800816,
+      "duration" : 24217
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизоваться под администратором портала",
+      "time" : {
+        "start" : 1646105776599,
+        "stop" : 1646105777213,
+        "duration" : 614
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "auth_admin::0",
+    "time" : {
+      "start" : 1646120368874,
+      "stop" : 1646120369069,
+      "duration" : 195
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "trips"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.test_business_trips"
+  }, {
+    "name" : "suite",
+    "value" : "test_business_trips"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBusinessTrips"
+  }, {
+    "name" : "host",
+    "value" : "portal-test-qa-6pqtk"
+  }, {
+    "name" : "thread",
+    "value" : "6-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_business_trips.test_business_trips"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1dfa52f754aa9bca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646060967573,
+        "stop" : 1646061222582,
+        "duration" : 255009
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "43e68a3ff52f82fa",
+        "reportUrl" : "../2/index.html#testresult/43e68a3ff52f82fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646060967573,
+          "stop" : 1646061222582,
+          "duration" : 255009
+        }
+      } ]
+    },
+    "tags" : [ "trips", "smoke" ]
+  },
+  "source" : "fce8bd1b93311e3a.json",
+  "parameterValues" : [ ]
+}

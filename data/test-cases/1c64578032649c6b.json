@@ -1,0 +1,350 @@
+{
+  "uid" : "1c64578032649c6b",
+  "name" : "test_four_simple_signs",
+  "fullName" : "tests.test_other_documents.test_other_docs.TestOtherDocs#test_four_simple_signs",
+  "historyId" : "938c614718cd22eb1ee98bdc09f3ee57",
+  "time" : {
+    "start" : 1646071825408,
+    "stop" : 1646071907391,
+    "duration" : 81983
+  },
+  "description" : "\n        Подписание Иных документов с инициацией на портале. ПЭП. Четыре подписи. doc, docx x2 и pdf\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55941\n        ",
+  "descriptionHtml" : "<pre><code>    Подписание Иных документов с инициацией на портале. ПЭП. Четыре подписи. doc, docx x2 и pdf\n    https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55941\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'BaseElement' object has no attribute 'get'",
+  "statusTrace" : "self = <tests.test_other_documents.test_other_docs.TestOtherDocs object at 0x7f43e976b5b0>\n\n    @pytest.mark.smoke\n    def test_four_simple_signs(self):\n        \"\"\"\n        Подписание Иных документов с инициацией на портале. ПЭП. Четыре подписи. doc, docx x2 и pdf\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55941\n        \"\"\"\n        logger.info(\"Создание документа\")\n        admin_panel.auth_as_user(OtherDocs12thTypeConst.author)\n        create_other_docs_page.open()\n        create_other_docs_page.create_document(OtherDocs12thTypeConst)\n        create_other_docs_page.assert_document_is_created()\n        document_id = other_docs_page.get_document_id()\n    \n        logger.info(\"Отправка на согласование\")\n        other_docs_page.execute(\"Направить на согласование\")\n        other_docs_page.assert_states(\"Рассмотрение первой группой согласующих\")\n    \n        logger.info(\"Согласование руководителем\")\n        admin_panel.auth_as_user(OtherDocs12thTypeConst.supervisors_1st_group[0])\n        other_docs_list_page.open_document_by_id(document_id)\n        other_docs_page.execute(\"Согласовать и подписать ПЭП\")\n        other_docs_page.assert_states(\"Рассмотрение первой группой согласующих\")\n>       other_docs_page.assert_approved_by_user(OtherDocs12thTypeConst.supervisors_1st_group[0])\n\ntests/test_other_documents/test_other_docs.py:515: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <pages.document_management.other_documents.other_docs_page.OtherDocsPage object at 0x7f43c06298b0>\nuser = Евгений Бобров\n\n    @step(\"Проверка наличия отметки о согласовании\")\n    def assert_approved_by_user(self, user):\n>       if self.status_button.get(query.text).upper() not in [\n            \"ПОДГОТОВКА ДОКУМЕНТА К РАССМОТРЕНИЮ\",\n        ]:\nE       AttributeError: 'BaseElement' object has no attribute 'get'\n\npages/document_management/other_documents/other_docs_page.py:51: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1646060863008,
+      "stop" : 1646060863189,
+      "duration" : 181
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_admin",
+    "time" : {
+      "start" : 1646060863189,
+      "stop" : 1646060869695,
+      "duration" : 6506
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        Подписание Иных документов с инициацией на портале. ПЭП. Четыре подписи. doc, docx x2 и pdf\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55941\n        ",
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'BaseElement' object has no attribute 'get'",
+    "statusTrace" : "self = <tests.test_other_documents.test_other_docs.TestOtherDocs object at 0x7f43e976b5b0>\n\n    @pytest.mark.smoke\n    def test_four_simple_signs(self):\n        \"\"\"\n        Подписание Иных документов с инициацией на портале. ПЭП. Четыре подписи. doc, docx x2 и pdf\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/55941\n        \"\"\"\n        logger.info(\"Создание документа\")\n        admin_panel.auth_as_user(OtherDocs12thTypeConst.author)\n        create_other_docs_page.open()\n        create_other_docs_page.create_document(OtherDocs12thTypeConst)\n        create_other_docs_page.assert_document_is_created()\n        document_id = other_docs_page.get_document_id()\n    \n        logger.info(\"Отправка на согласование\")\n        other_docs_page.execute(\"Направить на согласование\")\n        other_docs_page.assert_states(\"Рассмотрение первой группой согласующих\")\n    \n        logger.info(\"Согласование руководителем\")\n        admin_panel.auth_as_user(OtherDocs12thTypeConst.supervisors_1st_group[0])\n        other_docs_list_page.open_document_by_id(document_id)\n        other_docs_page.execute(\"Согласовать и подписать ПЭП\")\n        other_docs_page.assert_states(\"Рассмотрение первой группой согласующих\")\n>       other_docs_page.assert_approved_by_user(OtherDocs12thTypeConst.supervisors_1st_group[0])\n\ntests/test_other_documents/test_other_docs.py:515: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <pages.document_management.other_documents.other_docs_page.OtherDocsPage object at 0x7f43c06298b0>\nuser = Евгений Бобров\n\n    @step(\"Проверка наличия отметки о согласовании\")\n    def assert_approved_by_user(self, user):\n>       if self.status_button.get(query.text).upper() not in [\n            \"ПОДГОТОВКА ДОКУМЕНТА К РАССМОТРЕНИЮ\",\n        ]:\nE       AttributeError: 'BaseElement' object has no attribute 'get'\n\npages/document_management/other_documents/other_docs_page.py:51: AttributeError",
+    "steps" : [ {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1646071825408,
+        "stop" : 1646071836607,
+        "duration" : 11199
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1646071825408,
+          "stop" : 1646071826053,
+          "duration" : 645
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "Лейсан Мухаметзянова"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открытие страницы создания документа",
+      "time" : {
+        "start" : 1646071836607,
+        "stop" : 1646071852345,
+        "duration" : 15738
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список иных документов",
+        "time" : {
+          "start" : 1646071836607,
+          "stop" : 1646071847443,
+          "duration" : 10836
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнение обязательных полей и создание документа",
+      "time" : {
+        "start" : 1646071852345,
+        "stop" : 1646071865129,
+        "duration" : 12784
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "document_data",
+        "value" : "<class 'common.constants.OtherDocs12thTypeConst'>"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка сохранения документа",
+      "time" : {
+        "start" : 1646071865129,
+        "stop" : 1646071865192,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Получение номера документа",
+      "time" : {
+        "start" : 1646071865192,
+        "stop" : 1646071865218,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1646071873931,
+        "stop" : 1646071884935,
+        "duration" : 11004
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1646071873931,
+          "stop" : 1646071874613,
+          "duration" : 682
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "Евгений Бобров"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открыть документ по номеру",
+      "time" : {
+        "start" : 1646071884936,
+        "stop" : 1646071901359,
+        "duration" : 16423
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть список иных документов",
+        "time" : {
+          "start" : 1646071884936,
+          "stop" : 1646071896076,
+          "duration" : 11140
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "'441663'"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка наличия отметки о согласовании",
+      "time" : {
+        "start" : 1646071907391,
+        "stop" : 1646071907391,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "AttributeError: 'BaseElement' object has no attribute 'get'\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.8/dist-packages/allure_commons/_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"/app/pages/document_management/other_documents/other_docs_page.py\", line 51, in assert_approved_by_user\n    if self.status_button.get(query.text).upper() not in [\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "Евгений Бобров"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Screen-shot done",
+      "time" : {
+        "start" : 1646071907407,
+        "stop" : 1646071907651,
+        "duration" : 244
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2f63ebd75d23a8aa",
+        "name" : "screenshot",
+        "source" : "2f63ebd75d23a8aa.png",
+        "type" : "image/png",
+        "size" : 289652
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "ef6c52203c50bfd6",
+      "name" : "log",
+      "source" : "ef6c52203c50bfd6.txt",
+      "type" : "text/plain",
+      "size" : 383
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 13,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "auth_admin::0",
+    "time" : {
+      "start" : 1646076832803,
+      "stop" : 1646076832831,
+      "duration" : 28
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "other_docs"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.test_other_documents"
+  }, {
+    "name" : "suite",
+    "value" : "test_other_docs"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOtherDocs"
+  }, {
+    "name" : "host",
+    "value" : "portal-test-qa-gxmtf"
+  }, {
+    "name" : "thread",
+    "value" : "7-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_other_documents.test_other_docs"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "other_docs", "smoke" ]
+  },
+  "source" : "1c64578032649c6b.json",
+  "parameterValues" : [ ]
+}

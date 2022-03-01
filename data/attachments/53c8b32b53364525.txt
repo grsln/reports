@@ -1,0 +1,17 @@
+2022-03-01 06:33:41 INFO Авторизация Диляра Гайфуллина
+2022-03-01 06:34:36 INFO тестовое исходящее письмо 03:30:37.549143, 441788
+2022-03-01 06:34:45 INFO Login admin.
+2022-03-01 06:34:45 INFO Open admin
+2022-03-01 06:34:52 INFO Find document
+2022-03-01 06:34:52 INFO Approve admin Оксана Ульянова.
+2022-03-01 06:34:52 INFO Admin approve
+2022-03-01 06:34:53 INFO Approve admin Арсен Хабибуллин
+2022-03-01 06:34:53 INFO Admin approve
+2022-03-01 06:35:02 INFO login Лейсан Молтабарова
+2022-03-01 06:35:02 INFO Admin approve
+2022-03-01 06:35:11 INFO Approve admin Искандер Бариев
+2022-03-01 06:35:11 INFO Admin approve
+2022-03-01 06:35:20 INFO Open admin
+2022-03-01 06:35:35 INFO find letter
+2022-03-01 06:35:35 INFO delete
+2022-03-01 06:35:35 INFO accept alert

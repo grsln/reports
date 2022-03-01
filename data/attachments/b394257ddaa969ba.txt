@@ -1,0 +1,32 @@
+2022-03-01 04:00:46 INFO login "Алина Корноухова".
+2022-03-01 04:01:04 INFO Open contract create page
+2022-03-01 04:01:16 INFO title "Договор ГПХ 04:00:56.297468", id "441718".
+2022-03-01 04:01:16 INFO Send for consideration
+2022-03-01 04:01:23 INFO open_contract_admin
+2022-03-01 04:01:29 INFO Approve Мария Образцова
+2022-03-01 04:01:29 INFO Admin approve
+2022-03-01 04:01:34 INFO Approve Диана Якушкина
+2022-03-01 04:01:34 INFO Admin approve
+2022-03-01 04:01:42 INFO Approve Елена Рыбакова
+2022-03-01 04:01:42 INFO Admin approve
+2022-03-01 04:01:48 INFO Approve Лилия Симонова
+2022-03-01 04:01:48 INFO Admin approve
+2022-03-01 04:01:54 INFO Approve Дмитрий Сарайкин
+2022-03-01 04:01:54 INFO Admin approve
+2022-03-01 04:02:00 INFO Approve Павел Зотов
+2022-03-01 04:02:00 INFO Admin approve
+2022-03-01 04:02:08 INFO login Радик Валиев
+2022-03-01 04:02:08 INFO Admin approve
+2022-03-01 04:02:14 INFO login Искандер Бариев
+2022-03-01 04:02:14 INFO Admin approve
+2022-03-01 04:02:21 INFO login "Кирилл Семенихин".
+2022-03-01 04:02:21 INFO Admin approve
+2022-03-01 04:02:29 INFO login Юлия Казаева
+2022-03-01 04:02:29 INFO Admin approve
+2022-03-01 04:02:36 INFO login Алина Корноухова
+2022-03-01 04:02:36 INFO Admin approve
+2022-03-01 04:02:43 INFO login Наталья Румянова
+2022-03-01 04:02:52 INFO open contract page
+2022-03-01 04:03:18 INFO open_contract_admin
+2022-03-01 04:03:40 INFO delete
+2022-03-01 04:03:40 INFO accept alert

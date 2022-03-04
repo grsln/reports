@@ -1,0 +1,4 @@
+2022-03-04 09:03:12 INFO login "Юлия Горохова".
+2022-03-04 09:03:20 INFO open contracts page
+2022-03-04 09:03:28 INFO Open contract create page
+2022-03-04 09:03:32 INFO choice "Самозанятый Валиуллина Диана Абузаровна"

@@ -1,0 +1,8 @@
+2022-03-04 10:22:45 INFO login "Андрейс Блакуновс".
+2022-03-04 10:23:05 INFO Open contract create page
+2022-03-04 10:23:18 INFO title "Договор ГПХ 10:22:55.690153", id "441957".
+2022-03-04 10:23:18 INFO Edit contract gph
+2022-03-04 10:23:26 INFO Send for consideration
+2022-03-04 10:23:33 INFO open_contract_admin
+2022-03-04 10:23:39 INFO delete
+2022-03-04 10:23:39 INFO accept alert

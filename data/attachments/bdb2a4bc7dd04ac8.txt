@@ -1,0 +1,32 @@
+2022-03-04 09:58:25 INFO login "Юлия Мелешкина".
+2022-03-04 09:58:44 INFO Open contract create page
+2022-03-04 09:58:58 INFO title "Договор ГПХ 09:58:35.562277", id "441949".
+2022-03-04 09:58:58 INFO Send for consideration
+2022-03-04 09:59:05 INFO open_contract_admin
+2022-03-04 09:59:11 INFO Approve Мария Образцова
+2022-03-04 09:59:11 INFO Admin approve
+2022-03-04 09:59:17 INFO Approve Диана Якушкина
+2022-03-04 09:59:17 INFO Admin approve
+2022-03-04 09:59:25 INFO Approve Елена Рыбакова
+2022-03-04 09:59:25 INFO Admin approve
+2022-03-04 09:59:31 INFO Approve Лилия Симонова
+2022-03-04 09:59:31 INFO Admin approve
+2022-03-04 09:59:37 INFO Approve Дмитрий Сарайкин
+2022-03-04 09:59:37 INFO Admin approve
+2022-03-04 09:59:44 INFO Approve Павел Зотов
+2022-03-04 09:59:44 INFO Admin approve
+2022-03-04 09:59:51 INFO login Радик Валиев
+2022-03-04 09:59:51 INFO Admin approve
+2022-03-04 09:59:58 INFO login Искандер Бариев
+2022-03-04 09:59:58 INFO Admin approve
+2022-03-04 10:00:06 INFO login "Кирилл Семенихин".
+2022-03-04 10:00:06 INFO Admin approve
+2022-03-04 10:00:14 INFO login Юлия Казаева
+2022-03-04 10:00:14 INFO Admin approve
+2022-03-04 10:00:22 INFO login Юлия Мелешкина
+2022-03-04 10:00:22 INFO Admin approve
+2022-03-04 10:00:30 INFO login Наталья Румянова
+2022-03-04 10:00:39 INFO open contract page
+2022-03-04 10:01:06 INFO open_contract_admin
+2022-03-04 10:01:12 INFO delete
+2022-03-04 10:01:12 INFO accept alert

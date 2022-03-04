@@ -1,0 +1,28 @@
+2022-03-04 09:49:11 INFO login "Наталия Жандарова".
+2022-03-04 09:49:29 INFO Open contract create page
+2022-03-04 09:49:44 INFO title "Договор ГПХ 09:49:21.012491", id "441946".
+2022-03-04 09:49:44 INFO Send for consideration
+2022-03-04 09:49:52 INFO open_contract_admin
+2022-03-04 09:49:58 INFO Approve Елена Рыбакова
+2022-03-04 09:49:58 INFO Admin approve
+2022-03-04 09:50:04 INFO Approve Лилия Симонова
+2022-03-04 09:50:04 INFO Admin approve
+2022-03-04 09:50:10 INFO Approve Дмитрий Сарайкин
+2022-03-04 09:50:10 INFO Admin approve
+2022-03-04 09:50:16 INFO Approve Павел Зотов
+2022-03-04 09:50:16 INFO Admin approve
+2022-03-04 09:50:24 INFO login Радик Валиев
+2022-03-04 09:50:24 INFO Admin approve
+2022-03-04 09:50:30 INFO login Искандер Бариев
+2022-03-04 09:50:30 INFO Admin approve
+2022-03-04 09:50:38 INFO login "Кирилл Семенихин".
+2022-03-04 09:50:38 INFO Admin approve
+2022-03-04 09:50:46 INFO login Юлия Казаева
+2022-03-04 09:50:46 INFO Admin approve
+2022-03-04 09:50:54 INFO login Наталия Жандарова
+2022-03-04 09:50:54 INFO Admin approve
+2022-03-04 09:51:02 INFO login Наталья Румянова
+2022-03-04 09:51:10 INFO open contract page
+2022-03-04 09:51:37 INFO open_contract_admin
+2022-03-04 09:51:43 INFO delete
+2022-03-04 09:51:43 INFO accept alert

@@ -1,0 +1,41 @@
+2022-03-04 09:04:53 INFO login "Инна Шипаева".
+2022-03-04 09:06:01 INFO Open contract create page
+2022-03-04 09:08:14 INFO title "Договор ГПХ 09:05:53.003142", id "441941".
+2022-03-04 09:08:14 INFO Send for consideration
+2022-03-04 09:08:22 INFO login Мария Образцова
+2022-03-04 09:08:33 INFO open contract page
+2022-03-04 09:08:45 INFO login Диана Якушкина
+2022-03-04 09:08:55 INFO open contract page
+2022-03-04 09:09:05 INFO login Елена Рыбакова
+2022-03-04 09:09:18 INFO open contract page
+2022-03-04 09:09:28 INFO Согласование договора "Договор ГПХ 09:05:53.003142"
+2022-03-04 09:09:28 INFO Approve contract modal window
+2022-03-04 09:09:29 INFO login Лилия Симонова
+2022-03-04 09:09:40 INFO open contract page
+2022-03-04 09:09:51 INFO Согласование договора "Договор ГПХ 09:05:53.003142"
+2022-03-04 09:09:51 INFO Approve contract modal window
+2022-03-04 09:09:52 INFO login Дмитрий Сарайкин
+2022-03-04 09:10:02 INFO open contract page
+2022-03-04 09:10:11 INFO Согласование договора "Договор ГПХ 09:05:53.003142"
+2022-03-04 09:10:11 INFO Approve contract modal window
+2022-03-04 09:10:12 INFO login Павел Зотов
+2022-03-04 09:10:21 INFO open contract page
+2022-03-04 09:10:33 INFO Согласование договора "Договор ГПХ 09:05:53.003142"
+2022-03-04 09:10:33 INFO Approve contract modal window
+2022-03-04 09:10:34 INFO login Радик Валиев
+2022-03-04 09:10:48 INFO open contract page
+2022-03-04 09:10:58 INFO Согласование договора "Договор ГПХ 09:05:53.003142"
+2022-03-04 09:10:58 INFO Approve contract modal window
+2022-03-04 09:10:59 INFO login Искандер Бариев
+2022-03-04 09:11:08 INFO open contract page
+2022-03-04 09:11:25 INFO Согласование договора "Договор ГПХ 09:05:53.003142"
+2022-03-04 09:11:25 INFO Approve contract modal window
+2022-03-04 09:11:26 INFO login "Кирилл Семенихин".
+2022-03-04 09:11:38 INFO open contract page
+2022-03-04 09:11:49 INFO Approve contract check box
+2022-03-04 09:11:56 INFO login Юлия Казаева
+2022-03-04 09:12:08 INFO open contract page
+2022-03-04 09:12:26 INFO login Инна Шипаева
+2022-03-04 09:12:37 INFO open contract page
+2022-03-04 09:12:44 INFO login Наталья Румянова
+2022-03-04 09:12:56 INFO open contract page

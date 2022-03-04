@@ -1,0 +1,45 @@
+2022-03-04 11:06:45 INFO login "Мария Осипова".
+2022-03-04 11:07:09 INFO Open hiring request create page
+2022-03-04 11:07:27 INFO title "Сантехник", id "441975".
+2022-03-04 11:07:27 INFO Send for consideration
+2022-03-04 11:07:35 INFO Login Рамиль Кулеев
+2022-03-04 11:07:46 INFO Open hiring request page
+2022-03-04 11:07:59 INFO Approve on page
+2022-03-04 11:07:59 INFO Open hiring request
+2022-03-04 11:08:10 INFO Find hiring request Сантехник
+2022-03-04 11:08:10 INFO Find hiring request
+2022-03-04 11:08:15 INFO Approve supervisor
+2022-03-04 11:08:15 INFO Login Искандер Бариев
+2022-03-04 11:08:25 INFO Open hiring request page
+2022-03-04 11:08:46 INFO Approve on page
+2022-03-04 11:08:46 INFO Open hiring request
+2022-03-04 11:08:58 INFO Find hiring request Сантехник
+2022-03-04 11:08:58 INFO Find hiring request
+2022-03-04 11:09:03 INFO Approve supervisor
+2022-03-04 11:09:03 INFO Login Анна Хасанова
+2022-03-04 11:09:17 INFO Open hiring request page
+2022-03-04 11:09:30 INFO Approve on page
+2022-03-04 11:09:30 INFO Open hiring request
+2022-03-04 11:09:44 INFO Find hiring request Сантехник
+2022-03-04 11:09:44 INFO Find hiring request
+2022-03-04 11:09:49 INFO Approve supervisor
+2022-03-04 11:09:50 INFO Login Радик Валиев
+2022-03-04 11:10:03 INFO Open hiring request page
+2022-03-04 11:10:13 INFO Approve check box
+2022-03-04 11:10:22 INFO Open hiring request
+2022-03-04 11:10:32 INFO Find hiring request Сантехник
+2022-03-04 11:10:32 INFO Find hiring request
+2022-03-04 11:10:38 INFO Approve supervisor
+2022-03-04 11:10:38 INFO Login Кирилл Семенихин
+2022-03-04 11:10:48 INFO Open hiring request page
+2022-03-04 11:11:00 INFO Approve check box
+2022-03-04 11:11:10 INFO Open hiring request
+2022-03-04 11:11:21 INFO Find hiring request Сантехник
+2022-03-04 11:11:21 INFO Find hiring request
+2022-03-04 11:11:26 INFO Approve supervisor
+2022-03-04 11:11:26 INFO Open admin
+2022-03-04 11:11:33 INFO Open hiring request
+2022-03-04 11:11:43 INFO Find hiring request Сантехник
+2022-03-04 11:11:43 INFO Find hiring request
+2022-03-04 11:11:49 INFO delete
+2022-03-04 11:11:49 INFO accept alert

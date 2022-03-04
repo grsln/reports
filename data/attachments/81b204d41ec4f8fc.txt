@@ -1,0 +1,32 @@
+2022-03-04 09:52:12 INFO login "Жанна Гаранина".
+2022-03-04 09:52:30 INFO Open contract create page
+2022-03-04 09:52:43 INFO title "Договор ГПХ 09:52:21.370463", id "441947".
+2022-03-04 09:52:43 INFO Send for consideration
+2022-03-04 09:52:51 INFO open_contract_admin
+2022-03-04 09:52:56 INFO Approve Алексей Павлов
+2022-03-04 09:52:56 INFO Admin approve
+2022-03-04 09:53:02 INFO Approve Ольга Камалова
+2022-03-04 09:53:02 INFO Admin approve
+2022-03-04 09:53:10 INFO Approve Елена Рыбакова
+2022-03-04 09:53:10 INFO Admin approve
+2022-03-04 09:53:16 INFO Approve Лилия Симонова
+2022-03-04 09:53:16 INFO Admin approve
+2022-03-04 09:53:22 INFO Approve Дмитрий Сарайкин
+2022-03-04 09:53:22 INFO Admin approve
+2022-03-04 09:53:28 INFO Approve Павел Зотов
+2022-03-04 09:53:28 INFO Admin approve
+2022-03-04 09:53:36 INFO login Радик Валиев
+2022-03-04 09:53:36 INFO Admin approve
+2022-03-04 09:53:42 INFO login Искандер Бариев
+2022-03-04 09:53:42 INFO Admin approve
+2022-03-04 09:53:50 INFO login "Кирилл Семенихин".
+2022-03-04 09:53:50 INFO Admin approve
+2022-03-04 09:53:57 INFO login Юлия Казаева
+2022-03-04 09:53:57 INFO Admin approve
+2022-03-04 09:54:05 INFO login Жанна Гаранина
+2022-03-04 09:54:05 INFO Admin approve
+2022-03-04 09:54:13 INFO login Наталья Румянова
+2022-03-04 09:54:22 INFO open contract page
+2022-03-04 09:54:49 INFO open_contract_admin
+2022-03-04 09:54:55 INFO delete
+2022-03-04 09:54:55 INFO accept alert

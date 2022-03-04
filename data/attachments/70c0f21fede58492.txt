@@ -1,0 +1,8 @@
+2022-03-04 10:21:42 INFO login "Инна Шипаева".
+2022-03-04 10:22:01 INFO Open contract create page
+2022-03-04 10:22:14 INFO title "Договор ГПХ 10:21:51.508611", id "441956".
+2022-03-04 10:22:14 INFO Edit contract gph
+2022-03-04 10:22:21 INFO Send for consideration
+2022-03-04 10:22:30 INFO open_contract_admin
+2022-03-04 10:22:37 INFO delete
+2022-03-04 10:22:37 INFO accept alert

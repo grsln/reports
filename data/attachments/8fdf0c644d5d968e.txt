@@ -1,0 +1,14 @@
+2022-03-04 08:52:27 INFO execute button command
+2022-03-04 08:52:35 INFO assert states
+2022-03-04 08:53:00 INFO execute button command
+2022-03-04 08:53:00 INFO assert states
+2022-03-04 08:53:30 INFO execute button command
+2022-03-04 08:53:30 INFO assert states
+2022-03-04 08:54:00 INFO execute button command
+2022-03-04 08:54:00 INFO assert states
+2022-03-04 08:54:29 INFO execute button command
+2022-03-04 08:54:29 INFO assert states
+2022-03-04 08:54:56 INFO execute button command
+2022-03-04 08:54:56 INFO assert states
+2022-03-04 08:56:23 INFO delete
+2022-03-04 08:56:23 INFO accept alert

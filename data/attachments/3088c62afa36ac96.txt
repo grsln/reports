@@ -1,0 +1,7 @@
+2022-03-04 09:17:39 INFO login "Аделина Нургалеева".
+2022-03-04 09:18:00 INFO Open contract create page
+2022-03-04 09:20:13 INFO title "Договор ГПХ 09:17:51.488765", id "441943".
+2022-03-04 09:20:13 INFO Send for consideration
+2022-03-04 09:20:21 INFO open_contract_admin
+2022-03-04 09:21:28 INFO Approve Алексей Хабибуллин
+2022-03-04 09:21:28 INFO Admin approve

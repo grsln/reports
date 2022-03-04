@@ -1,185 +1,85 @@
 {
   "38cacc0adb84175eec1734c489f37b80" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "1cb638acbfd00208",
-      "reportUrl" : "../3/index.html#testresult/1cb638acbfd00208",
+      "uid" : "ceb0ade0e2f463c8",
+      "reportUrl" : "../2/index.html#testresult/ceb0ade0e2f463c8",
       "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: Маринина Марина Мариновна\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436456.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436456.html",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: Маринина Марина Мариновна\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817600.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817600.html",
       "time" : {
-        "start" : 1646106186134,
-        "stop" : 1646106186134,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "10b84fd7087fab98",
-      "reportUrl" : "../2/index.html#testresult/10b84fd7087fab98",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: Маринина Марина Мариновна\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861850.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861850.html",
-      "time" : {
-        "start" : 1646061667390,
-        "stop" : 1646061667390,
+        "start" : 1646384623978,
+        "stop" : 1646384623978,
         "duration" : 0
       }
     } ]
   },
   "147b7893b88fa3bd8618298e621b5f6c" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "97e90ab5efa4ea3b",
-      "reportUrl" : "../3/index.html#testresult/97e90ab5efa4ea3b",
+      "uid" : "aff5ce88b6840ea6",
+      "reportUrl" : "../2/index.html#testresult/aff5ce88b6840ea6",
       "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАССМОТРЕНИЕ РАСПОРЯДИТЕЛЕМ БЮДЖЕТА\n\nReason: AssertionError: actual text: ПОДГОТОВКА ЗАЯВКИ К РАССМОТРЕНИЮ\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436477.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436477.html",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 30s, while waiting for:\nbrowser.element(('name', 'PROPERTY_743[n0][VALUE]')).is not not enabled\n\nReason: ConditionNotMatchedError: condition not matched\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817619.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817619.html",
       "time" : {
-        "start" : 1646119169789,
-        "stop" : 1646119198563,
-        "duration" : 28774
-      }
-    }, {
-      "uid" : "fa391ce5e52e4e75",
-      "reportUrl" : "../2/index.html#testresult/fa391ce5e52e4e75",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАССМОТРЕНИЕ РАСПОРЯДИТЕЛЕМ БЮДЖЕТА\n\nReason: AssertionError: actual text: ПОДГОТОВКА ЗАЯВКИ К РАССМОТРЕНИЮ\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861867.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861867.html",
-      "time" : {
-        "start" : 1646075625876,
-        "stop" : 1646075656082,
-        "duration" : 30206
+        "start" : 1646400236585,
+        "stop" : 1646400236585,
+        "duration" : 0
       }
     } ]
   },
   "3e54b17d144d9abc7a15a5962cca4596" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "70e4435dab63ff3",
-      "reportUrl" : "../3/index.html#testresult/70e4435dab63ff3",
+      "uid" : "e27646a958b79322",
+      "reportUrl" : "../2/index.html#testresult/e27646a958b79322",
       "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАССМОТРЕНИЕ РАСПОРЯДИТЕЛЕМ БЮДЖЕТА\n\nReason: AssertionError: actual text: ПОДГОТОВКА ЗАЯВКИ К РАССМОТРЕНИЮ\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436483.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436483.html",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 30s, while waiting for:\nbrowser.element(('name', 'PROPERTY_743[n0][VALUE]')).is not not enabled\n\nReason: ConditionNotMatchedError: condition not matched\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817624.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817624.html",
       "time" : {
-        "start" : 1646120245942,
-        "stop" : 1646120275368,
-        "duration" : 29426
-      }
-    }, {
-      "uid" : "3e5ad98a9cae4ca5",
-      "reportUrl" : "../2/index.html#testresult/3e5ad98a9cae4ca5",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАССМОТРЕНИЕ РАСПОРЯДИТЕЛЕМ БЮДЖЕТА\n\nReason: AssertionError: actual text: ПОДГОТОВКА ЗАЯВКИ К РАССМОТРЕНИЮ\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861874.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861874.html",
-      "time" : {
-        "start" : 1646076678004,
-        "stop" : 1646076706990,
-        "duration" : 28986
+        "start" : 1646401216749,
+        "stop" : 1646401216749,
+        "duration" : 0
       }
     } ]
   },
   "766dcca6873f791706ea66c1fa4389f6" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "38b8c71876a21777",
-      "reportUrl" : "../3/index.html#testresult/38b8c71876a21777",
+      "uid" : "5c4cb79470889c01",
+      "reportUrl" : "../2/index.html#testresult/5c4cb79470889c01",
       "status" : "broken",
       "statusDetails" : "AttributeError: 'BaseElement' object has no attribute 'get'",
       "time" : {
-        "start" : 1646113470960,
-        "stop" : 1646113532624,
-        "duration" : 61664
-      }
-    }, {
-      "uid" : "2022410e4c3db200",
-      "reportUrl" : "../2/index.html#testresult/2022410e4c3db200",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'BaseElement' object has no attribute 'get'",
-      "time" : {
-        "start" : 1646069770811,
-        "stop" : 1646069838924,
-        "duration" : 68113
-      }
-    } ]
-  },
-  "dc92bb3d84027eaeb77631a3dea2b784" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    },
-    "items" : [ {
-      "uid" : "e204fa32b139ef38",
-      "reportUrl" : "../3/index.html#testresult/e204fa32b139ef38",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646112860072,
-        "stop" : 1646112860602,
-        "duration" : 530
-      }
-    }, {
-      "uid" : "f311575db0ac7db9",
-      "reportUrl" : "../2/index.html#testresult/f311575db0ac7db9",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646069053710,
-        "stop" : 1646069054315,
-        "duration" : 605
-      }
-    } ]
-  },
-  "3e1133da6eb4ff62660b7f42240b1c86" : {
-    "statistic" : {
-      "failed" : 2,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 2
-    },
-    "items" : [ {
-      "uid" : "897be7c94bbd66e5",
-      "reportUrl" : "../3/index.html#testresult/897be7c94bbd66e5",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАССМОТРЕНИЕ РАСПОРЯДИТЕЛЕМ БЮДЖЕТА\n\nReason: AssertionError: actual text: ПОДГОТОВКА ЗАЯВКИ К РАССМОТРЕНИЮ\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436475.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436475.html",
-      "time" : {
-        "start" : 1646118835935,
-        "stop" : 1646118865258,
-        "duration" : 29323
-      }
-    }, {
-      "uid" : "b34359068cfd0e4",
-      "reportUrl" : "../2/index.html#testresult/b34359068cfd0e4",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАССМОТРЕНИЕ РАСПОРЯДИТЕЛЕМ БЮДЖЕТА\n\nReason: AssertionError: actual text: ПОДГОТОВКА ЗАЯВКИ К РАССМОТРЕНИЮ\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861864.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861864.html",
-      "time" : {
-        "start" : 1646075310411,
-        "stop" : 1646075338898,
-        "duration" : 28487
+        "start" : 1646393530212,
+        "stop" : 1646393618225,
+        "duration" : 88013
       }
     } ]
   },
@@ -188,120 +88,121 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "ffb7d39acaa7f311",
-      "reportUrl" : "../3/index.html#testresult/ffb7d39acaa7f311",
+      "uid" : "506bd5d7fd3e8594",
+      "reportUrl" : "../2/index.html#testresult/506bd5d7fd3e8594",
       "status" : "passed",
       "time" : {
-        "start" : 1646113450014,
-        "stop" : 1646113470957,
-        "duration" : 20943
+        "start" : 1646393495003,
+        "stop" : 1646393530207,
+        "duration" : 35204
       }
-    }, {
-      "uid" : "7cce3a3760cd631b",
-      "reportUrl" : "../2/index.html#testresult/7cce3a3760cd631b",
+    } ]
+  },
+  "3e1133da6eb4ff62660b7f42240b1c86" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b61aa290e423ea61",
+      "reportUrl" : "../2/index.html#testresult/b61aa290e423ea61",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАСХОД УТВЕРЖДЕН\n\nReason: StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817617.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817617.html",
+      "time" : {
+        "start" : 1646399862485,
+        "stop" : 1646400084992,
+        "duration" : 222507
+      }
+    } ]
+  },
+  "dc92bb3d84027eaeb77631a3dea2b784" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3708fd704c1fadd2",
+      "reportUrl" : "../2/index.html#testresult/3708fd704c1fadd2",
       "status" : "passed",
       "time" : {
-        "start" : 1646069744013,
-        "stop" : 1646069770808,
-        "duration" : 26795
+        "start" : 1646392808359,
+        "stop" : 1646392808877,
+        "duration" : 518
       }
     } ]
   },
   "1774bf97fc1fc1f9e01ec18d75bb03cc" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "1698c8f7288ea13f",
-      "reportUrl" : "../3/index.html#testresult/1698c8f7288ea13f",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАССМОТРЕНИЕ РАСПОРЯДИТЕЛЕМ БЮДЖЕТА\n\nReason: AssertionError: actual text: ПОДГОТОВКА ЗАЯВКИ К РАССМОТРЕНИЮ\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436472.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436472.html",
+      "uid" : "178103ca0d9fb79b",
+      "reportUrl" : "../2/index.html#testresult/178103ca0d9fb79b",
+      "status" : "passed",
       "time" : {
-        "start" : 1646118399110,
-        "stop" : 1646118509023,
-        "duration" : 109913
-      }
-    }, {
-      "uid" : "f755e447bc28ae05",
-      "reportUrl" : "../2/index.html#testresult/f755e447bc28ae05",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАССМОТРЕНИЕ РАСПОРЯДИТЕЛЕМ БЮДЖЕТА\n\nReason: AssertionError: actual text: ПОДГОТОВКА ЗАЯВКИ К РАССМОТРЕНИЮ\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861861.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861861.html",
-      "time" : {
-        "start" : 1646074887520,
-        "stop" : 1646075002279,
-        "duration" : 114759
+        "start" : 1646399191170,
+        "stop" : 1646399390305,
+        "duration" : 199135
       }
     } ]
   },
   "0aa2d7e09423b4d3da85f948012ccac6" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "4f713ada743e8f72",
-      "reportUrl" : "../3/index.html#testresult/4f713ada743e8f72",
+      "uid" : "f60ba93ef1b7baf",
+      "reportUrl" : "../2/index.html#testresult/f60ba93ef1b7baf",
       "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 95s, while waiting for:\nbrowser.element(('css selector', ' .tt-selectable.tt-suggestion.tt-user')).is present in DOM\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\" .tt-selectable.tt-suggestion.tt-user\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436463.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436463.html",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 95s, while waiting for:\nbrowser.element(('css selector', ' .tt-selectable.tt-suggestion.tt-user')).is present in DOM\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\" .tt-selectable.tt-suggestion.tt-user\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817610.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817610.html",
       "time" : {
-        "start" : 1646112721645,
-        "stop" : 1646112846571,
-        "duration" : 124926
-      }
-    }, {
-      "uid" : "15e43cd4f8d70496",
-      "reportUrl" : "../2/index.html#testresult/15e43cd4f8d70496",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 95s, while waiting for:\nbrowser.element(('css selector', ' .tt-selectable.tt-suggestion.tt-user')).is present in DOM\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\" .tt-selectable.tt-suggestion.tt-user\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861855.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861855.html",
-      "time" : {
-        "start" : 1646068913983,
-        "stop" : 1646069040197,
-        "duration" : 126214
+        "start" : 1646392670036,
+        "stop" : 1646392794824,
+        "duration" : 124788
       }
     } ]
   },
   "012ca35323f31b08c27ad7e94d79f5ef" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "83367730f1767d7a",
-      "reportUrl" : "../3/index.html#testresult/83367730f1767d7a",
+      "uid" : "ec6d40bc18b9adec",
+      "reportUrl" : "../2/index.html#testresult/ec6d40bc18b9adec",
       "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАССМОТРЕНИЕ РАСПОРЯДИТЕЛЕМ БЮДЖЕТА\n\nReason: AssertionError: actual text: ПОДГОТОВКА ЗАЯВКИ К РАССМОТРЕНИЮ\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436482.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436482.html",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#year')).click\n\nReason: ElementClickInterceptedException: Message: element click intercepted: Element <select id=\"year\" class=\"form-control\" name=\"YEAR\" style=\"width: 100px\" onchange=\"$(this).closest('form').submit();\">...</select> is not clickable at point (313, 310). Other element would receive the click: <div class=\"grid-loader\" id=\"gridLoader\"></div>\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817623.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817623.html",
       "time" : {
-        "start" : 1646120058971,
-        "stop" : 1646120088204,
-        "duration" : 29233
-      }
-    }, {
-      "uid" : "85250bdfdcd18213",
-      "reportUrl" : "../2/index.html#testresult/85250bdfdcd18213",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАССМОТРЕНИЕ РАСПОРЯДИТЕЛЕМ БЮДЖЕТА\n\nReason: AssertionError: actual text: ПОДГОТОВКА ЗАЯВКИ К РАССМОТРЕНИЮ\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861872.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861872.html",
-      "time" : {
-        "start" : 1646076507629,
-        "stop" : 1646076556000,
-        "duration" : 48371
+        "start" : 1646401191555,
+        "stop" : 1646401191555,
+        "duration" : 0
       }
     } ]
   },
@@ -310,86 +211,38 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "f9bdfc6850343690",
-      "reportUrl" : "../3/index.html#testresult/f9bdfc6850343690",
+      "uid" : "d61414af927e5005",
+      "reportUrl" : "../2/index.html#testresult/d61414af927e5005",
       "status" : "passed",
       "time" : {
-        "start" : 1646113118455,
-        "stop" : 1646113155541,
-        "duration" : 37086
-      }
-    }, {
-      "uid" : "ddcfe601af1a9048",
-      "reportUrl" : "../2/index.html#testresult/ddcfe601af1a9048",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646069320674,
-        "stop" : 1646069360132,
-        "duration" : 39458
+        "start" : 1646393087565,
+        "stop" : 1646393128099,
+        "duration" : 40534
       }
     } ]
   },
   "fdd02a08250e8eca867168a61da22aa1" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "2a0c0e9fd4ab477c",
-      "reportUrl" : "../3/index.html#testresult/2a0c0e9fd4ab477c",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#pagetitle')).has text Новости\n\nReason: AssertionError: actual text: Лента новостей\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436464.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436464.html",
-      "time" : {
-        "start" : 1646112892762,
-        "stop" : 1646112964481,
-        "duration" : 71719
-      }
-    }, {
-      "uid" : "b38283f5d6516125",
-      "reportUrl" : "../2/index.html#testresult/b38283f5d6516125",
+      "uid" : "93a42cc1effc21c4",
+      "reportUrl" : "../2/index.html#testresult/93a42cc1effc21c4",
       "status" : "passed",
       "time" : {
-        "start" : 1646069087323,
-        "stop" : 1646069161201,
-        "duration" : 73878
-      }
-    } ]
-  },
-  "9114293e94afcf8767cac1219e330c39" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    },
-    "items" : [ {
-      "uid" : "eb94e3ff49ed3593",
-      "reportUrl" : "../3/index.html#testresult/eb94e3ff49ed3593",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646116409535,
-        "stop" : 1646116543177,
-        "duration" : 133642
-      }
-    }, {
-      "uid" : "362309208055ea3a",
-      "reportUrl" : "../2/index.html#testresult/362309208055ea3a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646072742171,
-        "stop" : 1646072871942,
-        "duration" : 129771
+        "start" : 1646392843853,
+        "stop" : 1646392918879,
+        "duration" : 75026
       }
     } ]
   },
@@ -398,27 +251,38 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "20f1e3abf7697fb1",
-      "reportUrl" : "../3/index.html#testresult/20f1e3abf7697fb1",
+      "uid" : "eec77726b2dac305",
+      "reportUrl" : "../2/index.html#testresult/eec77726b2dac305",
       "status" : "passed",
       "time" : {
-        "start" : 1646116669997,
-        "stop" : 1646116796969,
-        "duration" : 126972
+        "start" : 1646397033904,
+        "stop" : 1646397159251,
+        "duration" : 125347
       }
-    }, {
-      "uid" : "b723af50fc80bc8f",
-      "reportUrl" : "../2/index.html#testresult/b723af50fc80bc8f",
+    } ]
+  },
+  "9114293e94afcf8767cac1219e330c39" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "32e7b5278db6cfb2",
+      "reportUrl" : "../2/index.html#testresult/32e7b5278db6cfb2",
       "status" : "passed",
       "time" : {
-        "start" : 1646073005178,
-        "stop" : 1646073142253,
-        "duration" : 137075
+        "start" : 1646396735310,
+        "stop" : 1646396903500,
+        "duration" : 168190
       }
     } ]
   },
@@ -427,87 +291,39 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "23459ad0ab353c04",
-      "reportUrl" : "../3/index.html#testresult/23459ad0ab353c04",
+      "uid" : "c68751866b1c260c",
+      "reportUrl" : "../2/index.html#testresult/c68751866b1c260c",
       "status" : "passed",
       "time" : {
-        "start" : 1646115791197,
-        "stop" : 1646116003414,
-        "duration" : 212217
-      }
-    }, {
-      "uid" : "e5b2bab8392f59a1",
-      "reportUrl" : "../2/index.html#testresult/e5b2bab8392f59a1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646072165071,
-        "stop" : 1646072369710,
-        "duration" : 204639
+        "start" : 1646396107228,
+        "stop" : 1646396366095,
+        "duration" : 258867
       }
     } ]
   },
   "8d13308fdc810491e714b702b6444d79" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "d809f83c7cd92fb1",
-      "reportUrl" : "../3/index.html#testresult/d809f83c7cd92fb1",
+      "uid" : "18654e0736de8a5",
+      "reportUrl" : "../2/index.html#testresult/18654e0736de8a5",
       "status" : "broken",
       "statusDetails" : "AttributeError: 'BaseElement' object has no attribute 'get'",
       "time" : {
-        "start" : 1646115249980,
-        "stop" : 1646115333808,
-        "duration" : 83828
-      }
-    }, {
-      "uid" : "cbeb4e7773412607",
-      "reportUrl" : "../2/index.html#testresult/cbeb4e7773412607",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'BaseElement' object has no attribute 'get'",
-      "time" : {
-        "start" : 1646071658146,
-        "stop" : 1646071738750,
-        "duration" : 80604
-      }
-    } ]
-  },
-  "9bc4a5adcb43371f96e150dbb327d38b" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    },
-    "items" : [ {
-      "uid" : "154bb86f555c29e7",
-      "reportUrl" : "../3/index.html#testresult/154bb86f555c29e7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646114990050,
-        "stop" : 1646115022640,
-        "duration" : 32590
-      }
-    }, {
-      "uid" : "65db78b5bd69ff4",
-      "reportUrl" : "../2/index.html#testresult/65db78b5bd69ff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646071388372,
-        "stop" : 1646071424176,
-        "duration" : 35804
+        "start" : 1646395498928,
+        "stop" : 1646395589859,
+        "duration" : 90931
       }
     } ]
   },
@@ -516,58 +332,59 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "97ccf70c0da3cba1",
-      "reportUrl" : "../3/index.html#testresult/97ccf70c0da3cba1",
+      "uid" : "769ddcd9da2fd8b6",
+      "reportUrl" : "../2/index.html#testresult/769ddcd9da2fd8b6",
       "status" : "passed",
       "time" : {
-        "start" : 1646109255653,
-        "stop" : 1646109450018,
-        "duration" : 194365
+        "start" : 1646389110276,
+        "stop" : 1646389302255,
+        "duration" : 191979
       }
-    }, {
-      "uid" : "1b95d8608fbdf321",
-      "reportUrl" : "../2/index.html#testresult/1b95d8608fbdf321",
+    } ]
+  },
+  "9bc4a5adcb43371f96e150dbb327d38b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "408b5503dba5a61c",
+      "reportUrl" : "../2/index.html#testresult/408b5503dba5a61c",
       "status" : "passed",
       "time" : {
-        "start" : 1646065195869,
-        "stop" : 1646065410197,
-        "duration" : 214328
+        "start" : 1646395222971,
+        "stop" : 1646395255022,
+        "duration" : 32051
       }
     } ]
   },
   "768c6ea10126fa4e3ea6556e4808165f" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "58134bef42ab0b29",
-      "reportUrl" : "../3/index.html#testresult/58134bef42ab0b29",
+      "uid" : "4e383da31ef28d0d",
+      "reportUrl" : "../2/index.html#testresult/4e383da31ef28d0d",
       "status" : "broken",
       "statusDetails" : "AttributeError: 'BaseElement' object has no attribute 'get'",
       "time" : {
-        "start" : 1646113739863,
-        "stop" : 1646113808291,
-        "duration" : 68428
-      }
-    }, {
-      "uid" : "577031e44cf7f93c",
-      "reportUrl" : "../2/index.html#testresult/577031e44cf7f93c",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'BaseElement' object has no attribute 'get'",
-      "time" : {
-        "start" : 1646070071579,
-        "stop" : 1646070144159,
-        "duration" : 72580
+        "start" : 1646393849806,
+        "stop" : 1646393930639,
+        "duration" : 80833
       }
     } ]
   },
@@ -576,27 +393,18 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "5dd5f1ec05c5370",
-      "reportUrl" : "../3/index.html#testresult/5dd5f1ec05c5370",
+      "uid" : "22bd579cfba77633",
+      "reportUrl" : "../2/index.html#testresult/22bd579cfba77633",
       "status" : "passed",
       "time" : {
-        "start" : 1646110777707,
-        "stop" : 1646110814310,
-        "duration" : 36603
-      }
-    }, {
-      "uid" : "64923bf517132db4",
-      "reportUrl" : "../2/index.html#testresult/64923bf517132db4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646066881217,
-        "stop" : 1646066915683,
-        "duration" : 34466
+        "start" : 1646390693397,
+        "stop" : 1646390727941,
+        "duration" : 34544
       }
     } ]
   },
@@ -605,27 +413,18 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "f2787158e90cbb95",
-      "reportUrl" : "../3/index.html#testresult/f2787158e90cbb95",
+      "uid" : "5e107a999b331fcc",
+      "reportUrl" : "../2/index.html#testresult/5e107a999b331fcc",
       "status" : "passed",
       "time" : {
-        "start" : 1646116283988,
-        "stop" : 1646116409530,
-        "duration" : 125542
-      }
-    }, {
-      "uid" : "c25489bf7d21636",
-      "reportUrl" : "../2/index.html#testresult/c25489bf7d21636",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646072619554,
-        "stop" : 1646072742167,
-        "duration" : 122613
+        "start" : 1646396572402,
+        "stop" : 1646396735306,
+        "duration" : 162904
       }
     } ]
   },
@@ -634,151 +433,123 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "aadf4808f039b032",
-      "reportUrl" : "../3/index.html#testresult/aadf4808f039b032",
+      "uid" : "d5f14e43d01169a9",
+      "reportUrl" : "../2/index.html#testresult/d5f14e43d01169a9",
       "status" : "passed",
       "time" : {
-        "start" : 1646118031309,
-        "stop" : 1646118138440,
-        "duration" : 107131
-      }
-    }, {
-      "uid" : "c11e56ba8b70d286",
-      "reportUrl" : "../2/index.html#testresult/c11e56ba8b70d286",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646074498011,
-        "stop" : 1646074602653,
-        "duration" : 104642
+        "start" : 1646398750341,
+        "stop" : 1646398856998,
+        "duration" : 106657
       }
     } ]
   },
   "e567e4c0114248fc12db523fe5e8fe1b" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "d7e80ac8cb0cf727",
-      "reportUrl" : "../3/index.html#testresult/d7e80ac8cb0cf727",
+      "uid" : "a8ed748fb3ba9603",
+      "reportUrl" : "../2/index.html#testresult/a8ed748fb3ba9603",
       "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text ОДОБРЕНИЕ ПРИКАЗА ПОДПИСАНТОМ\n\nReason: AssertionError: actual text: РАССМОТРЕНИЕ ПЕРВОЙ ГРУППОЙ СОГЛАСУЮЩИХ\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436461.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436461.html",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text ОДОБРЕНИЕ ПРИКАЗА ПОДПИСАНТОМ\n\nReason: AssertionError: actual text: РАССМОТРЕНИЕ ПЕРВОЙ ГРУППОЙ СОГЛАСУЮЩИХ\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817608.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817608.html",
       "time" : {
-        "start" : 1646110214031,
-        "stop" : 1646110214031,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "6a75a6c18d4d4363",
-      "reportUrl" : "../2/index.html#testresult/6a75a6c18d4d4363",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text ОДОБРЕНИЕ ПРИКАЗА ПОДПИСАНТОМ\n\nReason: AssertionError: actual text: РАССМОТРЕНИЕ ПЕРВОЙ ГРУППОЙ СОГЛАСУЮЩИХ\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861853.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861853.html",
-      "time" : {
-        "start" : 1646066315643,
-        "stop" : 1646066315643,
+        "start" : 1646390128035,
+        "stop" : 1646390128035,
         "duration" : 0
       }
     } ]
   },
   "b9ecba405eebe07df4685a1067bf0bbe" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "5e4876d3e38ae477",
-      "reportUrl" : "../3/index.html#testresult/5e4876d3e38ae477",
+      "uid" : "53df8409f27756cc",
+      "reportUrl" : "../2/index.html#testresult/53df8409f27756cc",
       "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"Техноавиа-Казань\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436450.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436450.html",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"Техноавиа-Казань\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817594.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817594.html",
       "time" : {
-        "start" : 1646105994673,
-        "stop" : 1646105994673,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "3a05dd527959b6f6",
-      "reportUrl" : "../2/index.html#testresult/3a05dd527959b6f6",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"Техноавиа-Казань\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861844.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861844.html",
-      "time" : {
-        "start" : 1646061462902,
-        "stop" : 1646061462902,
+        "start" : 1646384436913,
+        "stop" : 1646384436913,
         "duration" : 0
       }
     } ]
   },
   "da136f020be14e7320c9ba5d01440072" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "de7c8333f10f514f",
-      "reportUrl" : "../3/index.html#testresult/de7c8333f10f514f",
+      "uid" : "abafd151514c0ad8",
+      "reportUrl" : "../2/index.html#testresult/abafd151514c0ad8",
       "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАССМОТРЕНИЕ РАСПОРЯДИТЕЛЕМ БЮДЖЕТА\n\nReason: AssertionError: actual text: ПОДГОТОВКА ЗАЯВКИ К РАССМОТРЕНИЮ\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436479.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436479.html",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 30s, while waiting for:\nbrowser.element(('name', 'PROPERTY_743[n0][VALUE]')).is not not enabled\n\nReason: ConditionNotMatchedError: condition not matched\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817621.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817621.html",
       "time" : {
-        "start" : 1646119503311,
-        "stop" : 1646119532290,
-        "duration" : 28979
-      }
-    }, {
-      "uid" : "5f19c6c7d6d65ef7",
-      "reportUrl" : "../2/index.html#testresult/5f19c6c7d6d65ef7",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАССМОТРЕНИЕ РАСПОРЯДИТЕЛЕМ БЮДЖЕТА\n\nReason: AssertionError: actual text: ПОДГОТОВКА ЗАЯВКИ К РАССМОТРЕНИЮ\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861869.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861869.html",
-      "time" : {
-        "start" : 1646075956728,
-        "stop" : 1646075985502,
-        "duration" : 28774
+        "start" : 1646400466197,
+        "stop" : 1646400466197,
+        "duration" : 0
       }
     } ]
   },
   "666f14fa8d4410175fd86299a8c63248" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "b05883c8785ccfe8",
-      "reportUrl" : "../3/index.html#testresult/b05883c8785ccfe8",
+      "uid" : "da4cea8c30906974",
+      "reportUrl" : "../2/index.html#testresult/da4cea8c30906974",
       "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"Техноавиа-Казань\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436448.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436448.html",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"Техноавиа-Казань\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817592.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817592.html",
       "time" : {
-        "start" : 1646105932922,
-        "stop" : 1646105932922,
+        "start" : 1646384371898,
+        "stop" : 1646384371898,
         "duration" : 0
       }
-    }, {
-      "uid" : "337ad710ee4fa47a",
-      "reportUrl" : "../2/index.html#testresult/337ad710ee4fa47a",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"Техноавиа-Казань\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861842.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861842.html",
+    } ]
+  },
+  "68993f7b9b29b557d2df04bf97325c3f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "19f154281e2d0b44",
+      "reportUrl" : "../2/index.html#testresult/19f154281e2d0b44",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'BaseElement' object has no attribute 'get'",
       "time" : {
-        "start" : 1646061395764,
-        "stop" : 1646061395764,
-        "duration" : 0
+        "start" : 1646393618453,
+        "stop" : 1646393688913,
+        "duration" : 70460
       }
     } ]
   },
@@ -787,58 +558,18 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "66b3d49b84650987",
-      "reportUrl" : "../3/index.html#testresult/66b3d49b84650987",
+      "uid" : "80d3f43a9153f2df",
+      "reportUrl" : "../2/index.html#testresult/80d3f43a9153f2df",
       "status" : "passed",
       "time" : {
-        "start" : 1646109968772,
-        "stop" : 1646110039129,
-        "duration" : 70357
-      }
-    }, {
-      "uid" : "4a6500c80976da16",
-      "reportUrl" : "../2/index.html#testresult/4a6500c80976da16",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646066028498,
-        "stop" : 1646066122079,
-        "duration" : 93581
-      }
-    } ]
-  },
-  "68993f7b9b29b557d2df04bf97325c3f" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 2,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 2
-    },
-    "items" : [ {
-      "uid" : "70bf59649d2ebb43",
-      "reportUrl" : "../3/index.html#testresult/70bf59649d2ebb43",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'BaseElement' object has no attribute 'get'",
-      "time" : {
-        "start" : 1646113532872,
-        "stop" : 1646113596370,
-        "duration" : 63498
-      }
-    }, {
-      "uid" : "7c917aadc705962d",
-      "reportUrl" : "../2/index.html#testresult/7c917aadc705962d",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'BaseElement' object has no attribute 'get'",
-      "time" : {
-        "start" : 1646069839191,
-        "stop" : 1646069912307,
-        "duration" : 73116
+        "start" : 1646389858897,
+        "stop" : 1646389940802,
+        "duration" : 81905
       }
     } ]
   },
@@ -847,87 +578,60 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "a6b2088c91db5611",
-      "reportUrl" : "../3/index.html#testresult/a6b2088c91db5611",
+      "uid" : "6300d87bc6252da9",
+      "reportUrl" : "../2/index.html#testresult/6300d87bc6252da9",
       "status" : "passed",
       "time" : {
-        "start" : 1646109714928,
-        "stop" : 1646109926293,
-        "duration" : 211365
-      }
-    }, {
-      "uid" : "e9f42f3ef70f9048",
-      "reportUrl" : "../2/index.html#testresult/e9f42f3ef70f9048",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646065695176,
-        "stop" : 1646065971783,
-        "duration" : 276607
+        "start" : 1646389559761,
+        "stop" : 1646389812644,
+        "duration" : 252883
       }
     } ]
   },
   "e0f2ddf66656b778f170c2342842e1a6" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "c0d3650b0f307da0",
-      "reportUrl" : "../3/index.html#testresult/c0d3650b0f307da0",
+      "uid" : "8ce8291c7b7f8de",
+      "reportUrl" : "../2/index.html#testresult/8ce8291c7b7f8de",
       "status" : "broken",
       "statusDetails" : "AttributeError: 'BaseElement' object has no attribute 'get'",
       "time" : {
-        "start" : 1646115022644,
-        "stop" : 1646115097430,
-        "duration" : 74786
-      }
-    }, {
-      "uid" : "f86b9b2e6ee032e5",
-      "reportUrl" : "../2/index.html#testresult/f86b9b2e6ee032e5",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'BaseElement' object has no attribute 'get'",
-      "time" : {
-        "start" : 1646071424179,
-        "stop" : 1646071502188,
-        "duration" : 78009
+        "start" : 1646395255025,
+        "stop" : 1646395334617,
+        "duration" : 79592
       }
     } ]
   },
   "e8c5cfcda623a930edf04f65a04b17af" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "34206510d74f4be2",
-      "reportUrl" : "../3/index.html#testresult/34206510d74f4be2",
-      "status" : "passed",
+      "uid" : "9abc53e7ff8c23ca",
+      "reportUrl" : "../2/index.html#testresult/9abc53e7ff8c23ca",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#bx_left_menu_3825669849 > a > span')).click\n\nReason: ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"menu-item-link-text\" data-role=\"item-text\">...</span> is not clickable at point (99, 511). Other element would receive the click: <div class=\"side-panel side-panel-overlay side-panel-overlay-open\" style=\"z-index: 1250 !important; left: 0px; top: 0px; right: 81px; height: 961px; background-color: rgba(0, 0, 0, 0.4);\">...</div>\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817586.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817586.html",
       "time" : {
-        "start" : 1646105452316,
-        "stop" : 1646105513106,
-        "duration" : 60790
-      }
-    }, {
-      "uid" : "9f7c4ef9d713d374",
-      "reportUrl" : "../2/index.html#testresult/9f7c4ef9d713d374",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646060869698,
-        "stop" : 1646060937175,
-        "duration" : 67477
+        "start" : 1646383835085,
+        "stop" : 1646383915924,
+        "duration" : 80839
       }
     } ]
   },
@@ -936,27 +640,18 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "3822a1ce05bcdd03",
-      "reportUrl" : "../3/index.html#testresult/3822a1ce05bcdd03",
+      "uid" : "a9ee7fb08090721f",
+      "reportUrl" : "../2/index.html#testresult/a9ee7fb08090721f",
       "status" : "passed",
       "time" : {
-        "start" : 1646107428997,
-        "stop" : 1646107597150,
-        "duration" : 168153
-      }
-    }, {
-      "uid" : "c67eb3dc13a4a956",
-      "reportUrl" : "../2/index.html#testresult/c67eb3dc13a4a956",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646063107510,
-        "stop" : 1646063290829,
-        "duration" : 183319
+        "start" : 1646386816174,
+        "stop" : 1646387351662,
+        "duration" : 535488
       }
     } ]
   },
@@ -965,57 +660,18 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    },
-    "items" : [ {
-      "uid" : "6c05894edd6fd275",
-      "reportUrl" : "../3/index.html#testresult/6c05894edd6fd275",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646107771987,
-        "stop" : 1646107942140,
-        "duration" : 170153
-      }
-    }, {
-      "uid" : "2b205743f8106a80",
-      "reportUrl" : "../2/index.html#testresult/2b205743f8106a80",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646063482760,
-        "stop" : 1646063665664,
-        "duration" : 182904
-      }
-    } ]
-  },
-  "618ead3dc42fb78307597f9d7b38d72d" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "b5cd93a64efb555e",
-      "reportUrl" : "../3/index.html#testresult/b5cd93a64efb555e",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#pagetitle')).has text Новости\n\nReason: AssertionError: actual text: Лента новостей\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436466.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436466.html",
-      "time" : {
-        "start" : 1646113051566,
-        "stop" : 1646113118172,
-        "duration" : 66606
-      }
-    }, {
-      "uid" : "8d1d9dc3f5dc266a",
-      "reportUrl" : "../2/index.html#testresult/8d1d9dc3f5dc266a",
+      "uid" : "a8b95b93fb55378c",
+      "reportUrl" : "../2/index.html#testresult/a8b95b93fb55378c",
       "status" : "passed",
       "time" : {
-        "start" : 1646069251388,
-        "stop" : 1646069320670,
-        "duration" : 69282
+        "start" : 1646387532090,
+        "stop" : 1646387703305,
+        "duration" : 171215
       }
     } ]
   },
@@ -1024,27 +680,38 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "4a9fb67c4b5269b4",
-      "reportUrl" : "../3/index.html#testresult/4a9fb67c4b5269b4",
+      "uid" : "58046ebf9d0c0fe",
+      "reportUrl" : "../2/index.html#testresult/58046ebf9d0c0fe",
       "status" : "passed",
       "time" : {
-        "start" : 1646117579906,
-        "stop" : 1646117686448,
-        "duration" : 106542
+        "start" : 1646398214992,
+        "stop" : 1646398361321,
+        "duration" : 146329
       }
-    }, {
-      "uid" : "d4aea21e18c910f0",
-      "reportUrl" : "../2/index.html#testresult/d4aea21e18c910f0",
+    } ]
+  },
+  "618ead3dc42fb78307597f9d7b38d72d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b720406fa3d637ad",
+      "reportUrl" : "../2/index.html#testresult/b720406fa3d637ad",
       "status" : "passed",
       "time" : {
-        "start" : 1646073969710,
-        "stop" : 1646074075387,
-        "duration" : 105677
+        "start" : 1646393013016,
+        "stop" : 1646393087555,
+        "duration" : 74539
       }
     } ]
   },
@@ -1053,90 +720,82 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "fce8bd1b93311e3a",
-      "reportUrl" : "../3/index.html#testresult/fce8bd1b93311e3a",
+      "uid" : "dd25c7c913480325",
+      "reportUrl" : "../2/index.html#testresult/dd25c7c913480325",
       "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 30s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text КОМАНДИРОВКА ЗАКРЫТА\n\nReason: AssertionError: actual text: ПОЖАЛУЙСТА, ПОДОЖДИТЕ...\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436443.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436443.html",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text ПРЕДОСТАВЛЕНИЕ ЗАКРЫВАЮЩИХ ДОКУМЕНТОВ\n\nReason: AssertionError: actual text: ОФОРМЛЕНИЕ КОМАНДИРОВКИ\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817587.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817587.html",
       "time" : {
-        "start" : 1646105539426,
-        "stop" : 1646105776170,
-        "duration" : 236744
-      }
-    }, {
-      "uid" : "43e68a3ff52f82fa",
-      "reportUrl" : "../2/index.html#testresult/43e68a3ff52f82fa",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646060967573,
-        "stop" : 1646061222582,
-        "duration" : 255009
+        "start" : 1646383947641,
+        "stop" : 1646384117318,
+        "duration" : 169677
       }
     } ]
   },
   "5e520abb601d761d82a9b1fcfe14fe83" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "c3f9a0a5582c9c08",
-      "reportUrl" : "../3/index.html#testresult/c3f9a0a5582c9c08",
+      "uid" : "f1287ddad39e1ac1",
+      "reportUrl" : "../2/index.html#testresult/f1287ddad39e1ac1",
       "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#bx_left_menu_3825669849 > a > span')).click\n\nReason: ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"menu-item-link-text\" data-role=\"item-text\">...</span> is not clickable at point (99, 262). Other element would receive the click: <div class=\"popup-window-overlay\" id=\"popup-window-overlay-setExpertModePopup\" style=\"width: 1904px; height: 7692px; z-index: 1245 !important; display: block;\"></div>\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436458.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436458.html",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#bx_left_menu_3825669849 > a > span')).click\n\nReason: ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"menu-item-link-text\" data-role=\"item-text\">...</span> is not clickable at point (99, 262). Other element would receive the click: <div class=\"popup-window-overlay\" id=\"popup-window-overlay-setExpertModePopup\" style=\"width: 1904px; height: 7692px; z-index: 1245 !important; display: block;\"></div>\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817605.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817605.html",
       "time" : {
-        "start" : 1646107750616,
-        "stop" : 1646107771641,
-        "duration" : 21025
-      }
-    }, {
-      "uid" : "636a27c7e692aa8",
-      "reportUrl" : "../2/index.html#testresult/636a27c7e692aa8",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#bx_left_menu_3825669849 > a > span')).click\n\nReason: ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"menu-item-link-text\" data-role=\"item-text\">...</span> is not clickable at point (99, 262). Other element would receive the click: <div class=\"popup-window-overlay\" id=\"popup-window-overlay-setExpertModePopup\" style=\"width: 1904px; height: 9279px; z-index: 1245 !important; display: block;\"></div>\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861851.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861851.html",
-      "time" : {
-        "start" : 1646063460580,
-        "stop" : 1646063482441,
-        "duration" : 21861
+        "start" : 1646387511410,
+        "stop" : 1646387531763,
+        "duration" : 20353
       }
     } ]
   },
   "c90a1e19686f11320e14761c7c9e3414" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "24056cd5a55f1dfc",
-      "reportUrl" : "../3/index.html#testresult/24056cd5a55f1dfc",
+      "uid" : "5a0f98435b3151be",
+      "reportUrl" : "../2/index.html#testresult/5a0f98435b3151be",
       "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"ТК \"Сангрео\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436447.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436447.html",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"ТК \"Сангрео\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817591.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817591.html",
       "time" : {
-        "start" : 1646105902032,
-        "stop" : 1646105902032,
+        "start" : 1646384341481,
+        "stop" : 1646384341481,
         "duration" : 0
       }
-    }, {
-      "uid" : "f51bc622cffc370e",
-      "reportUrl" : "../2/index.html#testresult/f51bc622cffc370e",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"ТК \"Сангрео\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861841.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861841.html",
+    } ]
+  },
+  "7aa5446a19cb24d159c2756b5fb8a947" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ec33c9a0c8a3ac53",
+      "reportUrl" : "../2/index.html#testresult/ec33c9a0c8a3ac53",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'BaseElement' object has no attribute 'get'",
       "time" : {
-        "start" : 1646061362306,
-        "stop" : 1646061362306,
-        "duration" : 0
+        "start" : 1646395770633,
+        "stop" : 1646395855714,
+        "duration" : 85081
       }
     } ]
   },
@@ -1145,58 +804,18 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "10c6821ed8415e28",
-      "reportUrl" : "../3/index.html#testresult/10c6821ed8415e28",
+      "uid" : "4ffea5287c88131",
+      "reportUrl" : "../2/index.html#testresult/4ffea5287c88131",
       "status" : "passed",
       "time" : {
-        "start" : 1646109051361,
-        "stop" : 1646109255649,
-        "duration" : 204288
-      }
-    }, {
-      "uid" : "7c81c0f4e613ca6c",
-      "reportUrl" : "../2/index.html#testresult/7c81c0f4e613ca6c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646064983776,
-        "stop" : 1646065195863,
-        "duration" : 212087
-      }
-    } ]
-  },
-  "7aa5446a19cb24d159c2756b5fb8a947" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 2,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 2
-    },
-    "items" : [ {
-      "uid" : "54877ee03602e75f",
-      "reportUrl" : "../3/index.html#testresult/54877ee03602e75f",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'BaseElement' object has no attribute 'get'",
-      "time" : {
-        "start" : 1646115507687,
-        "stop" : 1646115595921,
-        "duration" : 88234
-      }
-    }, {
-      "uid" : "ebc6c3faf2dad989",
-      "reportUrl" : "../2/index.html#testresult/ebc6c3faf2dad989",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'BaseElement' object has no attribute 'get'",
-      "time" : {
-        "start" : 1646071907655,
-        "stop" : 1646071985804,
-        "duration" : 78149
+        "start" : 1646388922981,
+        "stop" : 1646389110266,
+        "duration" : 187285
       }
     } ]
   },
@@ -1205,88 +824,59 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "8b2ff41ea842000",
-      "reportUrl" : "../3/index.html#testresult/8b2ff41ea842000",
+      "uid" : "a46f1d25416a430a",
+      "reportUrl" : "../2/index.html#testresult/a46f1d25416a430a",
       "status" : "passed",
       "time" : {
-        "start" : 1646110889339,
-        "stop" : 1646111082482,
-        "duration" : 193143
-      }
-    }, {
-      "uid" : "ddda553336c4321d",
-      "reportUrl" : "../2/index.html#testresult/ddda553336c4321d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646066989594,
-        "stop" : 1646067179367,
-        "duration" : 189773
+        "start" : 1646390804096,
+        "stop" : 1646391012755,
+        "duration" : 208659
       }
     } ]
   },
   "c0a96520cf33c154aae41f0b6cf9a93f" : {
     "statistic" : {
-      "failed" : 2,
-      "broken" : 0,
+      "failed" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "bec4e837e38af069",
-      "reportUrl" : "../3/index.html#testresult/bec4e837e38af069",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', 'h2')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"h2\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436470.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436470.html",
+      "uid" : "427f4f0fc20ec325",
+      "reportUrl" : "../2/index.html#testresult/427f4f0fc20ec325",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'BaseElement' object has no attribute 'press_enter'",
       "time" : {
-        "start" : 1646118245060,
-        "stop" : 1646118288540,
-        "duration" : 43480
-      }
-    }, {
-      "uid" : "214aa0f0ff1e601f",
-      "reportUrl" : "../2/index.html#testresult/214aa0f0ff1e601f",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', 'h2')).text\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"h2\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861859.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861859.html",
-      "time" : {
-        "start" : 1646074709876,
-        "stop" : 1646074756818,
-        "duration" : 46942
+        "start" : 1646398965643,
+        "stop" : 1646399020420,
+        "duration" : 54777
       }
     } ]
   },
   "6121dc078d5afd054520ff0a09a54390" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "4019a9b90c54f343",
-      "reportUrl" : "../3/index.html#testresult/4019a9b90c54f343",
+      "uid" : "8615f9092b7b17eb",
+      "reportUrl" : "../2/index.html#testresult/8615f9092b7b17eb",
       "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"ТК \"Сангрео\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436444.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436444.html",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"ТК \"Сангрео\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817588.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817588.html",
       "time" : {
-        "start" : 1646105800819,
-        "stop" : 1646105800819,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "60564d9a05fd6d44",
-      "reportUrl" : "../2/index.html#testresult/60564d9a05fd6d44",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"ТК \"Сангрео\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861838.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861838.html",
-      "time" : {
-        "start" : 1646061251280,
-        "stop" : 1646061251280,
+        "start" : 1646384192437,
+        "stop" : 1646384192437,
         "duration" : 0
       }
     } ]
@@ -1296,58 +886,39 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "edc300f45006ecf5",
-      "reportUrl" : "../3/index.html#testresult/edc300f45006ecf5",
+      "uid" : "15987fce4a1d1a0",
+      "reportUrl" : "../2/index.html#testresult/15987fce4a1d1a0",
       "status" : "passed",
       "time" : {
-        "start" : 1646109549154,
-        "stop" : 1646109581379,
-        "duration" : 32225
-      }
-    }, {
-      "uid" : "7f6c81bd5e4b4349",
-      "reportUrl" : "../2/index.html#testresult/7f6c81bd5e4b4349",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646065515897,
-        "stop" : 1646065548963,
-        "duration" : 33066
+        "start" : 1646389398429,
+        "stop" : 1646389428102,
+        "duration" : 29673
       }
     } ]
   },
   "eb18c938822b842c2adc92f9ac084549" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "1be445cd89d8765a",
-      "reportUrl" : "../3/index.html#testresult/1be445cd89d8765a",
+      "uid" : "6b58929f9908fcbd",
+      "reportUrl" : "../2/index.html#testresult/6b58929f9908fcbd",
       "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#pagetitle')).has text Список: Договоры\n\nReason: AssertionError: actual text: Список: Приказы\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436467.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436467.html",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#pagetitle')).has text ДМС\n\nReason: AssertionError: actual text: Абонемент в спорткомплекс «Иннополис»\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817611.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817611.html",
       "time" : {
-        "start" : 1646113187561,
-        "stop" : 1646113230490,
-        "duration" : 42929
-      }
-    }, {
-      "uid" : "ff6154df7aac55c7",
-      "reportUrl" : "../2/index.html#testresult/ff6154df7aac55c7",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#pagetitle')).has text Поиск сотрудника\n\nReason: AssertionError: actual text: График отсутствий\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861856.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861856.html",
-      "time" : {
-        "start" : 1646069390808,
-        "stop" : 1646069446418,
-        "duration" : 55610
+        "start" : 1646393163040,
+        "stop" : 1646393198272,
+        "duration" : 35232
       }
     } ]
   },
@@ -1356,27 +927,18 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "c754111e6350b550",
-      "reportUrl" : "../3/index.html#testresult/c754111e6350b550",
+      "uid" : "f0bf9e522d5d5b5",
+      "reportUrl" : "../2/index.html#testresult/f0bf9e522d5d5b5",
       "status" : "passed",
       "time" : {
-        "start" : 1646112882620,
-        "stop" : 1646112883068,
-        "duration" : 448
-      }
-    }, {
-      "uid" : "d464b97d77d61e0b",
-      "reportUrl" : "../2/index.html#testresult/d464b97d77d61e0b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646069076866,
-        "stop" : 1646069077367,
-        "duration" : 501
+        "start" : 1646392830776,
+        "stop" : 1646392831206,
+        "duration" : 430
       }
     } ]
   },
@@ -1385,58 +947,39 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "3e605a888eeb72c2",
-      "reportUrl" : "../3/index.html#testresult/3e605a888eeb72c2",
+      "uid" : "b6a967f62675f176",
+      "reportUrl" : "../2/index.html#testresult/b6a967f62675f176",
       "status" : "passed",
       "time" : {
-        "start" : 1646117228721,
-        "stop" : 1646117339398,
-        "duration" : 110677
-      }
-    }, {
-      "uid" : "fba89fe51f96d7d1",
-      "reportUrl" : "../2/index.html#testresult/fba89fe51f96d7d1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646073610377,
-        "stop" : 1646073719799,
-        "duration" : 109422
+        "start" : 1646397830505,
+        "stop" : 1646397984778,
+        "duration" : 154273
       }
     } ]
   },
   "e1973fbe08f4580dc2062853268cfde6" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "46445b2e40c0e80c",
-      "reportUrl" : "../3/index.html#testresult/46445b2e40c0e80c",
+      "uid" : "2f4329d514e39229",
+      "reportUrl" : "../2/index.html#testresult/2f4329d514e39229",
       "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#errorText')).has text Неверный идентификатор пользователя или пароль. Введите верный идентификатор пользователя и пароль и повторите попытку.\n\nReason: AssertionError: actual text: Incorrect user ID or password. Type the correct user ID and password, and try again.\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436468.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436468.html",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#errorText')).has text Неверный идентификатор пользователя или пароль. Введите верный идентификатор пользователя и пароль и повторите попытку.\n\nReason: AssertionError: actual text: Incorrect user ID or password. Type the correct user ID and password, and try again.\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817613.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817613.html",
       "time" : {
-        "start" : 1646113282937,
-        "stop" : 1646113295691,
-        "duration" : 12754
-      }
-    }, {
-      "uid" : "55e73c4b44e19e11",
-      "reportUrl" : "../2/index.html#testresult/55e73c4b44e19e11",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#errorText')).has text Неверный идентификатор пользователя или пароль. Введите верный идентификатор пользователя и пароль и повторите попытку.\n\nReason: AssertionError: actual text: Incorrect user ID or password. Type the correct user ID and password, and try again.\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861858.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861858.html",
-      "time" : {
-        "start" : 1646069517068,
-        "stop" : 1646069529833,
-        "duration" : 12765
+        "start" : 1646393264321,
+        "stop" : 1646393278190,
+        "duration" : 13869
       }
     } ]
   },
@@ -1445,87 +988,60 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "fd29adb55a0c6925",
-      "reportUrl" : "../3/index.html#testresult/fd29adb55a0c6925",
+      "uid" : "fc86fd17ed1b698e",
+      "reportUrl" : "../2/index.html#testresult/fc86fd17ed1b698e",
       "status" : "passed",
       "time" : {
-        "start" : 1646110573443,
-        "stop" : 1646110702999,
-        "duration" : 129556
-      }
-    }, {
-      "uid" : "e7673a47fb0b82e3",
-      "reportUrl" : "../2/index.html#testresult/e7673a47fb0b82e3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646066677400,
-        "stop" : 1646066806920,
-        "duration" : 129520
+        "start" : 1646390487927,
+        "stop" : 1646390620240,
+        "duration" : 132313
       }
     } ]
   },
   "4b407bf6e2e5e8b08f74e05033a9771c" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "9b41c26c06db8c21",
-      "reportUrl" : "../3/index.html#testresult/9b41c26c06db8c21",
-      "status" : "passed",
+      "uid" : "1bcff5d5da0cb841",
+      "reportUrl" : "../2/index.html#testresult/1bcff5d5da0cb841",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#bx_left_menu_3825669849 > a > span')).click\n\nReason: ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"menu-item-link-text\" data-role=\"item-text\">...</span> is not clickable at point (99, 262). Other element would receive the click: <div class=\"side-panel side-panel-overlay side-panel-overlay-open\" style=\"z-index: 1250 !important; left: 0px; top: 0px; right: 81px; height: 961px; background-color: rgba(0, 0, 0, 0.4);\">...</div>\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817615.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817615.html",
       "time" : {
-        "start" : 1646117686452,
-        "stop" : 1646117790691,
-        "duration" : 104239
-      }
-    }, {
-      "uid" : "c4928b3afb46b5ba",
-      "reportUrl" : "../2/index.html#testresult/c4928b3afb46b5ba",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646074075391,
-        "stop" : 1646074180144,
-        "duration" : 104753
+        "start" : 1646398361324,
+        "stop" : 1646398382522,
+        "duration" : 21198
       }
     } ]
   },
   "264ead927cf33217ce076e9e16fcfbbc" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "a0e215024c6c2505",
-      "reportUrl" : "../3/index.html#testresult/a0e215024c6c2505",
+      "uid" : "63a88696450f1ed1",
+      "reportUrl" : "../2/index.html#testresult/63a88696450f1ed1",
       "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАССМОТРЕНИЕ РАСПОРЯДИТЕЛЕМ БЮДЖЕТА\n\nReason: AssertionError: actual text: ПОДГОТОВКА ЗАЯВКИ К РАССМОТРЕНИЮ\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436474.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436474.html",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 30s, while waiting for:\nbrowser.element(('name', 'PROPERTY_743[n0][VALUE]')).is not not enabled\n\nReason: ConditionNotMatchedError: condition not matched\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817616.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817616.html",
       "time" : {
-        "start" : 1646118686147,
-        "stop" : 1646118714652,
-        "duration" : 28505
-      }
-    }, {
-      "uid" : "c280c8943139c52e",
-      "reportUrl" : "../2/index.html#testresult/c280c8943139c52e",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАССМОТРЕНИЕ РАСПОРЯДИТЕЛЕМ БЮДЖЕТА\n\nReason: AssertionError: actual text: ПОДГОТОВКА ЗАЯВКИ К РАССМОТРЕНИЮ\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861863.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861863.html",
-      "time" : {
-        "start" : 1646075164897,
-        "stop" : 1646075193409,
-        "duration" : 28512
+        "start" : 1646399630965,
+        "stop" : 1646399630965,
+        "duration" : 0
       }
     } ]
   },
@@ -1534,27 +1050,18 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "b92cbc9a928c8d6e",
-      "reportUrl" : "../3/index.html#testresult/b92cbc9a928c8d6e",
+      "uid" : "5c6db63a2b6ab3b2",
+      "reportUrl" : "../2/index.html#testresult/5c6db63a2b6ab3b2",
       "status" : "passed",
       "time" : {
-        "start" : 1646117014039,
-        "stop" : 1646117116418,
-        "duration" : 102379
-      }
-    }, {
-      "uid" : "b0b9e3b47e59f45e",
-      "reportUrl" : "../2/index.html#testresult/b0b9e3b47e59f45e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646073397137,
-        "stop" : 1646073501890,
-        "duration" : 104753
+        "start" : 1646397506997,
+        "stop" : 1646397677407,
+        "duration" : 170410
       }
     } ]
   },
@@ -1563,27 +1070,18 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "146016fd9adb920f",
-      "reportUrl" : "../3/index.html#testresult/146016fd9adb920f",
+      "uid" : "f14cc351bde10c55",
+      "reportUrl" : "../2/index.html#testresult/f14cc351bde10c55",
       "status" : "passed",
       "time" : {
-        "start" : 1646113155544,
-        "stop" : 1646113171592,
-        "duration" : 16048
-      }
-    }, {
-      "uid" : "53f828a2348c6393",
-      "reportUrl" : "../2/index.html#testresult/53f828a2348c6393",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646069360136,
-        "stop" : 1646069376890,
-        "duration" : 16754
+        "start" : 1646393128102,
+        "stop" : 1646393147632,
+        "duration" : 19530
       }
     } ]
   },
@@ -1592,87 +1090,39 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "7cf5c0f8745d013d",
-      "reportUrl" : "../3/index.html#testresult/7cf5c0f8745d013d",
+      "uid" : "8edb7c7bdf598d2f",
+      "reportUrl" : "../2/index.html#testresult/8edb7c7bdf598d2f",
       "status" : "passed",
       "time" : {
-        "start" : 1646113382425,
-        "stop" : 1646113450011,
-        "duration" : 67586
-      }
-    }, {
-      "uid" : "91aef0effa7b33bc",
-      "reportUrl" : "../2/index.html#testresult/91aef0effa7b33bc",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646069642407,
-        "stop" : 1646069744009,
-        "duration" : 101602
+        "start" : 1646393401842,
+        "stop" : 1646393494999,
+        "duration" : 93157
       }
     } ]
   },
   "cc347fa4fcd1b0a5c766fa66c9aabeeb" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "134527e5682bc6b0",
-      "reportUrl" : "../3/index.html#testresult/134527e5682bc6b0",
+      "uid" : "a7c7ff5ad12baed1",
+      "reportUrl" : "../2/index.html#testresult/a7c7ff5ad12baed1",
       "status" : "broken",
       "statusDetails" : "AttributeError: 'BaseElement' object has no attribute 'get'",
       "time" : {
-        "start" : 1646115171831,
-        "stop" : 1646115249687,
-        "duration" : 77856
-      }
-    }, {
-      "uid" : "35db794e4defaec9",
-      "reportUrl" : "../2/index.html#testresult/35db794e4defaec9",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'BaseElement' object has no attribute 'get'",
-      "time" : {
-        "start" : 1646071578981,
-        "stop" : 1646071657880,
-        "duration" : 78899
-      }
-    } ]
-  },
-  "e14fbb78c0a93ef1e7019ebfcb4a89fd" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    },
-    "items" : [ {
-      "uid" : "438075ba834fc91",
-      "reportUrl" : "../3/index.html#testresult/438075ba834fc91",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646112094927,
-        "stop" : 1646112366900,
-        "duration" : 271973
-      }
-    }, {
-      "uid" : "fbc55329adee9a6",
-      "reportUrl" : "../2/index.html#testresult/fbc55329adee9a6",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646068242262,
-        "stop" : 1646068527117,
-        "duration" : 284855
+        "start" : 1646395420952,
+        "stop" : 1646395498686,
+        "duration" : 77734
       }
     } ]
   },
@@ -1681,58 +1131,59 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "b21a4c2a35bdddbe",
-      "reportUrl" : "../3/index.html#testresult/b21a4c2a35bdddbe",
+      "uid" : "132e7ef4033d233c",
+      "reportUrl" : "../2/index.html#testresult/132e7ef4033d233c",
       "status" : "passed",
       "time" : {
-        "start" : 1646113318920,
-        "stop" : 1646113382422,
-        "duration" : 63502
+        "start" : 1646393304597,
+        "stop" : 1646393401834,
+        "duration" : 97237
       }
-    }, {
-      "uid" : "8f8355287d3bfd3c",
-      "reportUrl" : "../2/index.html#testresult/8f8355287d3bfd3c",
+    } ]
+  },
+  "e14fbb78c0a93ef1e7019ebfcb4a89fd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9cc233fc49456c29",
+      "reportUrl" : "../2/index.html#testresult/9cc233fc49456c29",
       "status" : "passed",
       "time" : {
-        "start" : 1646069557211,
-        "stop" : 1646069642404,
-        "duration" : 85193
+        "start" : 1646392047252,
+        "stop" : 1646392316477,
+        "duration" : 269225
       }
     } ]
   },
   "0266985a0f3a25fd2ada57c189cb6e96" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "bb9833905c791930",
-      "reportUrl" : "../3/index.html#testresult/bb9833905c791930",
+      "uid" : "973687fb50f76c90",
+      "reportUrl" : "../2/index.html#testresult/973687fb50f76c90",
       "status" : "broken",
       "statusDetails" : "AttributeError: 'BaseElement' object has no attribute 'get'",
       "time" : {
-        "start" : 1646115334063,
-        "stop" : 1646115419161,
-        "duration" : 85098
-      }
-    }, {
-      "uid" : "a96de6a202590e0",
-      "reportUrl" : "../2/index.html#testresult/a96de6a202590e0",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'BaseElement' object has no attribute 'get'",
-      "time" : {
-        "start" : 1646071739019,
-        "stop" : 1646071825109,
-        "duration" : 86090
+        "start" : 1646395590169,
+        "stop" : 1646395682654,
+        "duration" : 92485
       }
     } ]
   },
@@ -1741,58 +1192,38 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "6dcb0c343cb0516e",
-      "reportUrl" : "../3/index.html#testresult/6dcb0c343cb0516e",
+      "uid" : "b5ec2eda512d1a79",
+      "reportUrl" : "../2/index.html#testresult/b5ec2eda512d1a79",
       "status" : "passed",
       "time" : {
-        "start" : 1646110418737,
-        "stop" : 1646110499545,
-        "duration" : 80808
-      }
-    }, {
-      "uid" : "a5fcb2195d184f6e",
-      "reportUrl" : "../2/index.html#testresult/a5fcb2195d184f6e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646066523598,
-        "stop" : 1646066603254,
-        "duration" : 79656
+        "start" : 1646390333510,
+        "stop" : 1646390413776,
+        "duration" : 80266
       }
     } ]
   },
   "835e1266a9299f9ef73dc05f70cf7c67" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "9a02080a6d34c862",
-      "reportUrl" : "../3/index.html#testresult/9a02080a6d34c862",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАССМОТРЕНИЕ РАСПОРЯДИТЕЛЕМ БЮДЖЕТА\n\nReason: AssertionError: actual text: ПОДГОТОВКА ЗАЯВКИ К РАССМОТРЕНИЮ\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436471.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436471.html",
+      "uid" : "25e6c54e52f9717f",
+      "reportUrl" : "../2/index.html#testresult/25e6c54e52f9717f",
+      "status" : "passed",
       "time" : {
-        "start" : 1646118288809,
-        "stop" : 1646118398597,
-        "duration" : 109788
-      }
-    }, {
-      "uid" : "606105f3a313f259",
-      "reportUrl" : "../2/index.html#testresult/606105f3a313f259",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАССМОТРЕНИЕ РАСПОРЯДИТЕЛЕМ БЮДЖЕТА\n\nReason: AssertionError: actual text: ПОДГОТОВКА ЗАЯВКИ К РАССМОТРЕНИЮ\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861860.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861860.html",
-      "time" : {
-        "start" : 1646074757181,
-        "stop" : 1646074886815,
-        "duration" : 129634
+        "start" : 1646399020975,
+        "stop" : 1646399191167,
+        "duration" : 170192
       }
     } ]
   },
@@ -1801,87 +1232,38 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "1859ba0d75f79587",
-      "reportUrl" : "../3/index.html#testresult/1859ba0d75f79587",
+      "uid" : "8886ba32b0426657",
+      "reportUrl" : "../2/index.html#testresult/8886ba32b0426657",
       "status" : "passed",
       "time" : {
-        "start" : 1646111760244,
-        "stop" : 1646112021926,
-        "duration" : 261682
-      }
-    }, {
-      "uid" : "c3b3d4fbe4c97db5",
-      "reportUrl" : "../2/index.html#testresult/c3b3d4fbe4c97db5",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646067877013,
-        "stop" : 1646068164289,
-        "duration" : 287276
+        "start" : 1646391712212,
+        "stop" : 1646391973953,
+        "duration" : 261741
       }
     } ]
   },
   "f76ef2a37debf970aafab373e9dd05f1" : {
     "statistic" : {
-      "failed" : 2,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 2
-    },
-    "items" : [ {
-      "uid" : "86ed8e3c1e7698e5",
-      "reportUrl" : "../3/index.html#testresult/86ed8e3c1e7698e5",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАССМОТРЕНИЕ РАСПОРЯДИТЕЛЕМ БЮДЖЕТА\n\nReason: AssertionError: actual text: ПОДГОТОВКА ЗАЯВКИ К РАССМОТРЕНИЮ\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436480.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436480.html",
-      "time" : {
-        "start" : 1646119687051,
-        "stop" : 1646119716037,
-        "duration" : 28986
-      }
-    }, {
-      "uid" : "ad4cdae669a77a3",
-      "reportUrl" : "../2/index.html#testresult/ad4cdae669a77a3",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАССМОТРЕНИЕ РАСПОРЯДИТЕЛЕМ БЮДЖЕТА\n\nReason: AssertionError: actual text: ПОДГОТОВКА ЗАЯВКИ К РАССМОТРЕНИЮ\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861870.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861870.html",
-      "time" : {
-        "start" : 1646076137838,
-        "stop" : 1646076167675,
-        "duration" : 29837
-      }
-    } ]
-  },
-  "446602c3b40e73075ae03b3dd516e48f" : {
-    "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "8576ce62c2416a4b",
-      "reportUrl" : "../3/index.html#testresult/8576ce62c2416a4b",
+      "uid" : "15f4f028c9a2607",
+      "reportUrl" : "../2/index.html#testresult/15f4f028c9a2607",
       "status" : "passed",
       "time" : {
-        "start" : 1646116003418,
-        "stop" : 1646116126695,
-        "duration" : 123277
-      }
-    }, {
-      "uid" : "389fe2a5749f6823",
-      "reportUrl" : "../2/index.html#testresult/389fe2a5749f6823",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646072369715,
-        "stop" : 1646072493679,
-        "duration" : 123964
+        "start" : 1646400733402,
+        "stop" : 1646400849625,
+        "duration" : 116223
       }
     } ]
   },
@@ -1890,28 +1272,40 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "a7b221133aae815",
-      "reportUrl" : "../3/index.html#testresult/a7b221133aae815",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646113247984,
-        "stop" : 1646113263699,
-        "duration" : 15715
-      }
-    }, {
-      "uid" : "b1e82278fe90cd8",
-      "reportUrl" : "../2/index.html#testresult/b1e82278fe90cd8",
+      "uid" : "f943564d3194c5ed",
+      "reportUrl" : "../2/index.html#testresult/f943564d3194c5ed",
       "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//*[@class='bx-messenger-panel-title bx-messenger-panel-title-middle']\")).has text Уведомления\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class='bx-messenger-panel-title bx-messenger-panel-title-middle']\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861857.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861857.html",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//*[@class='bx-messenger-panel-title bx-messenger-panel-title-middle']\")).has text Уведомления\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class='bx-messenger-panel-title bx-messenger-panel-title-middle']\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817612.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817612.html",
       "time" : {
-        "start" : 1646069463797,
-        "stop" : 1646069486620,
-        "duration" : 22823
+        "start" : 1646393214982,
+        "stop" : 1646393237192,
+        "duration" : 22210
+      }
+    } ]
+  },
+  "446602c3b40e73075ae03b3dd516e48f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "517eec84d3549fa",
+      "reportUrl" : "../2/index.html#testresult/517eec84d3549fa",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#bx_left_menu_3825669849 > a > span')).click\n\nReason: ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"menu-item-link-text\" data-role=\"item-text\">...</span> is not clickable at point (99, 688). Other element would receive the click: <div class=\"side-panel side-panel-overlay side-panel-overlay-open\" style=\"z-index: 1250 !important; left: 0px; top: 0px; right: 81px; height: 961px; background-color: rgba(0, 0, 0, 0.4);\">...</div>\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817614.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817614.html",
+      "time" : {
+        "start" : 1646396366099,
+        "stop" : 1646396440888,
+        "duration" : 74789
       }
     } ]
   },
@@ -1920,27 +1314,18 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "704e33bc53745cd2",
-      "reportUrl" : "../3/index.html#testresult/704e33bc53745cd2",
+      "uid" : "b4f32982df4a863a",
+      "reportUrl" : "../2/index.html#testresult/b4f32982df4a863a",
       "status" : "passed",
       "time" : {
-        "start" : 1646116796973,
-        "stop" : 1646116912051,
-        "duration" : 115078
-      }
-    }, {
-      "uid" : "635327902154cc4a",
-      "reportUrl" : "../2/index.html#testresult/635327902154cc4a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646073142265,
-        "stop" : 1646073274061,
-        "duration" : 131796
+        "start" : 1646397159255,
+        "stop" : 1646397360866,
+        "duration" : 201611
       }
     } ]
   },
@@ -1949,58 +1334,39 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "64a325fb6e6960d1",
-      "reportUrl" : "../3/index.html#testresult/64a325fb6e6960d1",
+      "uid" : "850e3f4b2881c09b",
+      "reportUrl" : "../2/index.html#testresult/850e3f4b2881c09b",
       "status" : "passed",
       "time" : {
-        "start" : 1646116912055,
-        "stop" : 1646117014034,
-        "duration" : 101979
-      }
-    }, {
-      "uid" : "58e14874caa36621",
-      "reportUrl" : "../2/index.html#testresult/58e14874caa36621",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646073274065,
-        "stop" : 1646073397132,
-        "duration" : 123067
+        "start" : 1646397360870,
+        "stop" : 1646397506993,
+        "duration" : 146123
       }
     } ]
   },
   "7a08dc6a202a5e6fe8f9c812108a2d88" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "c2490b75967f7f7e",
-      "reportUrl" : "../3/index.html#testresult/c2490b75967f7f7e",
+      "uid" : "411eb6545ea3c3b7",
+      "reportUrl" : "../2/index.html#testresult/411eb6545ea3c3b7",
       "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#bx_left_menu_3825669849 > a > span')).click\n\nReason: ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"menu-item-link-text\" data-role=\"item-text\">...</span> is not clickable at point (99, 262). Other element would receive the click: <div class=\"popup-window-overlay\" id=\"popup-window-overlay-setExpertModePopup\" style=\"width: 1904px; height: 7692px; z-index: 1245 !important; display: block;\"></div>\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436459.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436459.html",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#bx_left_menu_3825669849 > a > span')).click\n\nReason: ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"menu-item-link-text\" data-role=\"item-text\">...</span> is not clickable at point (99, 262). Other element would receive the click: <div class=\"popup-window-overlay\" id=\"popup-window-overlay-setExpertModePopup\" style=\"width: 1904px; height: 7692px; z-index: 1245 !important; display: block;\"></div>\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817606.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817606.html",
       "time" : {
-        "start" : 1646107942144,
-        "stop" : 1646107962925,
-        "duration" : 20781
-      }
-    }, {
-      "uid" : "fb9c9ff36196c857",
-      "reportUrl" : "../2/index.html#testresult/fb9c9ff36196c857",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#bx_left_menu_3825669849 > a > span')).click\n\nReason: ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"menu-item-link-text\" data-role=\"item-text\">...</span> is not clickable at point (99, 262). Other element would receive the click: <div class=\"popup-window-overlay\" id=\"popup-window-overlay-setExpertModePopup\" style=\"width: 1904px; height: 9245px; z-index: 1245 !important; display: block;\"></div>\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861852.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861852.html",
-      "time" : {
-        "start" : 1646063665668,
-        "stop" : 1646063687511,
-        "duration" : 21843
+        "start" : 1646387703309,
+        "stop" : 1646387723794,
+        "duration" : 20485
       }
     } ]
   },
@@ -2009,86 +1375,59 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "4594c89123a782f0",
-      "reportUrl" : "../3/index.html#testresult/4594c89123a782f0",
+      "uid" : "c84f535fdaf30c03",
+      "reportUrl" : "../2/index.html#testresult/c84f535fdaf30c03",
       "status" : "passed",
       "time" : {
-        "start" : 1646112871072,
-        "stop" : 1646112871549,
-        "duration" : 477
-      }
-    }, {
-      "uid" : "ce6bce07594484db",
-      "reportUrl" : "../2/index.html#testresult/ce6bce07594484db",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646069065004,
-        "stop" : 1646069065510,
-        "duration" : 506
+        "start" : 1646392819556,
+        "stop" : 1646392820035,
+        "duration" : 479
       }
     } ]
   },
   "895876314fa7570acd40005c79213c2a" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "1c74cbb9451010d3",
-      "reportUrl" : "../3/index.html#testresult/1c74cbb9451010d3",
-      "status" : "passed",
+      "uid" : "a7c3b4845c560e6",
+      "reportUrl" : "../2/index.html#testresult/a7c3b4845c560e6",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', 'div.input-group.user-input > div > span > div > div > div')).click\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div.input-group.user-input > div > span > div > div > div\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817601.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817601.html",
       "time" : {
-        "start" : 1646106219025,
-        "stop" : 1646106460802,
-        "duration" : 241777
-      }
-    }, {
-      "uid" : "21803b7ce17712be",
-      "reportUrl" : "../2/index.html#testresult/21803b7ce17712be",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646061703067,
-        "stop" : 1646061986764,
-        "duration" : 283697
+        "start" : 1646384659864,
+        "stop" : 1646384693486,
+        "duration" : 33622
       }
     } ]
   },
   "b13bc05edbff0e53fec196010564ae65" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "e08959084ecef42",
-      "reportUrl" : "../3/index.html#testresult/e08959084ecef42",
+      "uid" : "69e02df1aaafd408",
+      "reportUrl" : "../2/index.html#testresult/69e02df1aaafd408",
       "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"Техноавиа-Казань\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436449.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436449.html",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"Техноавиа-Казань\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817593.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817593.html",
       "time" : {
-        "start" : 1646105963953,
-        "stop" : 1646105963953,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "84c75b2acb9bd1f4",
-      "reportUrl" : "../2/index.html#testresult/84c75b2acb9bd1f4",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"Техноавиа-Казань\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861843.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861843.html",
-      "time" : {
-        "start" : 1646061429647,
-        "stop" : 1646061429647,
+        "start" : 1646384403291,
+        "stop" : 1646384403291,
         "duration" : 0
       }
     } ]
@@ -2098,27 +1437,18 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "3df31216804ab876",
-      "reportUrl" : "../3/index.html#testresult/3df31216804ab876",
+      "uid" : "a56000cb61c789c3",
+      "reportUrl" : "../2/index.html#testresult/a56000cb61c789c3",
       "status" : "passed",
       "time" : {
-        "start" : 1646117790695,
-        "stop" : 1646117896955,
-        "duration" : 106260
-      }
-    }, {
-      "uid" : "3b053b2923bf7a52",
-      "reportUrl" : "../2/index.html#testresult/3b053b2923bf7a52",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646074180149,
-        "stop" : 1646074282375,
-        "duration" : 102226
+        "start" : 1646398382882,
+        "stop" : 1646398524722,
+        "duration" : 141840
       }
     } ]
   },
@@ -2127,57 +1457,38 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "d5d0d2079d24d6dd",
-      "reportUrl" : "../3/index.html#testresult/d5d0d2079d24d6dd",
+      "uid" : "e6ce6b7ba23d558f",
+      "reportUrl" : "../2/index.html#testresult/e6ce6b7ba23d558f",
       "status" : "passed",
       "time" : {
-        "start" : 1646108155302,
-        "stop" : 1646108338999,
-        "duration" : 183697
-      }
-    }, {
-      "uid" : "4a0cff26d43bded9",
-      "reportUrl" : "../2/index.html#testresult/4a0cff26d43bded9",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646064040873,
-        "stop" : 1646064230653,
-        "duration" : 189780
+        "start" : 1646387905488,
+        "stop" : 1646388080980,
+        "duration" : 175492
       }
     } ]
   },
   "672d64de427ea4b813d838b91720f0a1" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "5c8d345b8d925ff6",
-      "reportUrl" : "../3/index.html#testresult/5c8d345b8d925ff6",
+      "uid" : "30924f255ab550f8",
+      "reportUrl" : "../2/index.html#testresult/30924f255ab550f8",
       "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"ТК \"Сангрео\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436454.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436454.html",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"ТК \"Сангрео\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817598.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817598.html",
       "time" : {
-        "start" : 1646106124703,
-        "stop" : 1646106124703,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "f54d920f3aaa1b27",
-      "reportUrl" : "../2/index.html#testresult/f54d920f3aaa1b27",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"ТК \"Сангрео\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861848.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861848.html",
-      "time" : {
-        "start" : 1646061597983,
-        "stop" : 1646061597983,
+        "start" : 1646384561385,
+        "stop" : 1646384561385,
         "duration" : 0
       }
     } ]
@@ -2185,122 +1496,63 @@
   "d10e3270ec7a198065704aa4826188c9" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "4c51b0bd484885bc",
-      "reportUrl" : "../3/index.html#testresult/4c51b0bd484885bc",
+      "uid" : "63e051f9109bb324",
+      "reportUrl" : "../2/index.html#testresult/63e051f9109bb324",
       "status" : "broken",
       "statusDetails" : "AttributeError: 'Element' object has no attribute 'have_text'",
       "time" : {
-        "start" : 1646109581384,
-        "stop" : 1646109664777,
-        "duration" : 83393
-      }
-    }, {
-      "uid" : "58a716a360c2c94c",
-      "reportUrl" : "../2/index.html#testresult/58a716a360c2c94c",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'Element' object has no attribute 'have_text'",
-      "time" : {
-        "start" : 1646065548971,
-        "stop" : 1646065632354,
-        "duration" : 83383
+        "start" : 1646389428106,
+        "stop" : 1646389502603,
+        "duration" : 74497
       }
     } ]
   },
   "c2eaf3735898ff053fce6fd44bce19cb" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "a139af61c5341e1d",
-      "reportUrl" : "../3/index.html#testresult/a139af61c5341e1d",
+      "uid" : "4a94f19c6cd2e918",
+      "reportUrl" : "../2/index.html#testresult/4a94f19c6cd2e918",
       "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"ТК \"Сангрео\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436452.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436452.html",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"ТК \"Сангрео\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817596.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817596.html",
       "time" : {
-        "start" : 1646106063152,
-        "stop" : 1646106063152,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "315aed84a514c0bc",
-      "reportUrl" : "../2/index.html#testresult/315aed84a514c0bc",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"ТК \"Сангрео\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861846.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861846.html",
-      "time" : {
-        "start" : 1646061530795,
-        "stop" : 1646061530795,
+        "start" : 1646384498802,
+        "stop" : 1646384498802,
         "duration" : 0
       }
     } ]
   },
   "c66a031e889b74c72001011439dd2af3" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "4dfbd1aa49e06ea",
-      "reportUrl" : "../3/index.html#testresult/4dfbd1aa49e06ea",
+      "uid" : "dfbd0814fddbf289",
+      "reportUrl" : "../2/index.html#testresult/dfbd0814fddbf289",
       "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАССМОТРЕНИЕ РАСПОРЯДИТЕЛЕМ БЮДЖЕТА\n\nReason: AssertionError: actual text: ПОДГОТОВКА ЗАЯВКИ К РАССМОТРЕНИЮ\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436481.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436481.html",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 30s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАССМОТРЕНИЕ ПРОРЕКТОРОМ УПРАВЛЕНИЯ\n\nReason: AssertionError: actual text: РАССМОТРЕНИЕ РАСПОРЯДИТЕЛЕМ БЮДЖЕТА\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817622.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817622.html",
       "time" : {
-        "start" : 1646119871770,
-        "stop" : 1646119901077,
-        "duration" : 29307
-      }
-    }, {
-      "uid" : "1f3d571827e0fa21",
-      "reportUrl" : "../2/index.html#testresult/1f3d571827e0fa21",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАССМОТРЕНИЕ РАСПОРЯДИТЕЛЕМ БЮДЖЕТА\n\nReason: AssertionError: actual text: ПОДГОТОВКА ЗАЯВКИ К РАССМОТРЕНИЮ\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861871.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861871.html",
-      "time" : {
-        "start" : 1646076322728,
-        "stop" : 1646076352462,
-        "duration" : 29734
-      }
-    } ]
-  },
-  "cceac1936c056ca344bb35f00217c02f" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    },
-    "items" : [ {
-      "uid" : "1e531838ce04f78b",
-      "reportUrl" : "../3/index.html#testresult/1e531838ce04f78b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646108696315,
-        "stop" : 1646108876096,
-        "duration" : 179781
-      }
-    }, {
-      "uid" : "9cb8b6bfeb2e3aca",
-      "reportUrl" : "../2/index.html#testresult/9cb8b6bfeb2e3aca",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646064603416,
-        "stop" : 1646064800056,
-        "duration" : 196640
+        "start" : 1646401022579,
+        "stop" : 1646401129402,
+        "duration" : 106823
       }
     } ]
   },
@@ -2309,27 +1561,59 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "291da05a2899247",
-      "reportUrl" : "../3/index.html#testresult/291da05a2899247",
+      "uid" : "e96172cbaa3e822e",
+      "reportUrl" : "../2/index.html#testresult/e96172cbaa3e822e",
       "status" : "passed",
       "time" : {
-        "start" : 1646117116429,
-        "stop" : 1646117228715,
-        "duration" : 112286
+        "start" : 1646397677410,
+        "stop" : 1646397830501,
+        "duration" : 153091
       }
-    }, {
-      "uid" : "ba73354f7b00cc70",
-      "reportUrl" : "../2/index.html#testresult/ba73354f7b00cc70",
+    } ]
+  },
+  "cceac1936c056ca344bb35f00217c02f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "10d26251c9aa4e1b",
+      "reportUrl" : "../2/index.html#testresult/10d26251c9aa4e1b",
       "status" : "passed",
       "time" : {
-        "start" : 1646073501895,
-        "stop" : 1646073610373,
-        "duration" : 108478
+        "start" : 1646388425653,
+        "stop" : 1646388607828,
+        "duration" : 182175
+      }
+    } ]
+  },
+  "dc959d9441ab5c0ccc27968b91c05ec0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "55e7f8d09432e290",
+      "reportUrl" : "../2/index.html#testresult/55e7f8d09432e290",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'BaseElement' object has no attribute 'get'",
+      "time" : {
+        "start" : 1646395334866,
+        "stop" : 1646395420702,
+        "duration" : 85836
       }
     } ]
   },
@@ -2338,88 +1622,38 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "4a4845a0dad33710",
-      "reportUrl" : "../3/index.html#testresult/4a4845a0dad33710",
+      "uid" : "5e85318bf930379d",
+      "reportUrl" : "../2/index.html#testresult/5e85318bf930379d",
       "status" : "passed",
       "time" : {
-        "start" : 1646110107941,
-        "stop" : 1646110186946,
-        "duration" : 79005
-      }
-    }, {
-      "uid" : "27fef4baa10f4af2",
-      "reportUrl" : "../2/index.html#testresult/27fef4baa10f4af2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646066201049,
-        "stop" : 1646066284443,
-        "duration" : 83394
-      }
-    } ]
-  },
-  "dc959d9441ab5c0ccc27968b91c05ec0" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 2,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 2
-    },
-    "items" : [ {
-      "uid" : "390fb91c336d9bc2",
-      "reportUrl" : "../3/index.html#testresult/390fb91c336d9bc2",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'BaseElement' object has no attribute 'get'",
-      "time" : {
-        "start" : 1646115097698,
-        "stop" : 1646115171575,
-        "duration" : 73877
-      }
-    }, {
-      "uid" : "71bf34b5c623960b",
-      "reportUrl" : "../2/index.html#testresult/71bf34b5c623960b",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'BaseElement' object has no attribute 'get'",
-      "time" : {
-        "start" : 1646071502438,
-        "stop" : 1646071578732,
-        "duration" : 76294
+        "start" : 1646390015895,
+        "stop" : 1646390099197,
+        "duration" : 83302
       }
     } ]
   },
   "522457af00c4bcac18847ce9476b40a5" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "46b9ffc5a98abdd5",
-      "reportUrl" : "../3/index.html#testresult/46b9ffc5a98abdd5",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#bx_left_menu_3825669849 > a > span')).click\n\nReason: ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"menu-item-link-text\" data-role=\"item-text\">...</span> is not clickable at point (99, 334). Other element would receive the click: <div class=\"side-panel side-panel-overlay side-panel-overlay-open\" style=\"z-index: 1250 !important; left: 0px; top: 0px; right: 81px; height: 961px; background-color: rgba(0, 0, 0, 0.4);\">...</div>\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436469.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436469.html",
-      "time" : {
-        "start" : 1646118003403,
-        "stop" : 1646118030917,
-        "duration" : 27514
-      }
-    }, {
-      "uid" : "ffc14ecd0fc5dfbb",
-      "reportUrl" : "../2/index.html#testresult/ffc14ecd0fc5dfbb",
+      "uid" : "3c5a498bfbe60121",
+      "reportUrl" : "../2/index.html#testresult/3c5a498bfbe60121",
       "status" : "passed",
       "time" : {
-        "start" : 1646074385943,
-        "stop" : 1646074498006,
-        "duration" : 112063
+        "start" : 1646398633779,
+        "stop" : 1646398750337,
+        "duration" : 116558
       }
     } ]
   },
@@ -2428,27 +1662,18 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "75fbfa9521305352",
-      "reportUrl" : "../3/index.html#testresult/75fbfa9521305352",
+      "uid" : "8206cc778645c12c",
+      "reportUrl" : "../2/index.html#testresult/8206cc778645c12c",
       "status" : "passed",
       "time" : {
-        "start" : 1646116126699,
-        "stop" : 1646116283984,
-        "duration" : 157285
-      }
-    }, {
-      "uid" : "a0e1d4d84debcdb6",
-      "reportUrl" : "../2/index.html#testresult/a0e1d4d84debcdb6",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646072493684,
-        "stop" : 1646072619550,
-        "duration" : 125866
+        "start" : 1646396441392,
+        "stop" : 1646396572398,
+        "duration" : 131006
       }
     } ]
   },
@@ -2457,89 +1682,60 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "867cd5164f7d52ae",
-      "reportUrl" : "../3/index.html#testresult/867cd5164f7d52ae",
+      "uid" : "98f0dd97c5b85411",
+      "reportUrl" : "../2/index.html#testresult/98f0dd97c5b85411",
       "status" : "passed",
       "time" : {
-        "start" : 1646117896959,
-        "stop" : 1646118003399,
-        "duration" : 106440
-      }
-    }, {
-      "uid" : "4ad42a2410b2c4d0",
-      "reportUrl" : "../2/index.html#testresult/4ad42a2410b2c4d0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646074282380,
-        "stop" : 1646074385939,
-        "duration" : 103559
+        "start" : 1646398524725,
+        "stop" : 1646398633776,
+        "duration" : 109051
       }
     } ]
   },
   "8f2f57482f584b88ef1091919ab7c288" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "1b796a60e3ce4481",
-      "reportUrl" : "../3/index.html#testresult/1b796a60e3ce4481",
+      "uid" : "bcadabf8ad2f1ff7",
+      "reportUrl" : "../2/index.html#testresult/bcadabf8ad2f1ff7",
       "status" : "broken",
       "statusDetails" : "AttributeError: 'BaseElement' object has no attribute 'get'",
       "time" : {
-        "start" : 1646113669762,
-        "stop" : 1646113739592,
-        "duration" : 69830
-      }
-    }, {
-      "uid" : "6f6389a11d2ccc8e",
-      "reportUrl" : "../2/index.html#testresult/6f6389a11d2ccc8e",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'BaseElement' object has no attribute 'get'",
-      "time" : {
-        "start" : 1646069992682,
-        "stop" : 1646070071330,
-        "duration" : 78648
+        "start" : 1646393769936,
+        "stop" : 1646393849571,
+        "duration" : 79635
       }
     } ]
   },
   "938c614718cd22eb1ee98bdc09f3ee57" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "c72196ecd399c899",
-      "reportUrl" : "../3/index.html#testresult/c72196ecd399c899",
+      "uid" : "d64d12cdfcc5292f",
+      "reportUrl" : "../2/index.html#testresult/d64d12cdfcc5292f",
       "status" : "broken",
       "statusDetails" : "AttributeError: 'BaseElement' object has no attribute 'get'",
       "time" : {
-        "start" : 1646115419435,
-        "stop" : 1646115507281,
-        "duration" : 87846
-      }
-    }, {
-      "uid" : "b0ae9e7cdd597882",
-      "reportUrl" : "../2/index.html#testresult/b0ae9e7cdd597882",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'BaseElement' object has no attribute 'get'",
-      "time" : {
-        "start" : 1646071825408,
-        "stop" : 1646071907391,
-        "duration" : 81983
+        "start" : 1646395682899,
+        "stop" : 1646395770383,
+        "duration" : 87484
       }
     } ]
   },
@@ -2548,27 +1744,18 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "5081a94b7e271a76",
-      "reportUrl" : "../3/index.html#testresult/5081a94b7e271a76",
+      "uid" : "439b7699f98509d9",
+      "reportUrl" : "../2/index.html#testresult/439b7699f98509d9",
       "status" : "passed",
       "time" : {
-        "start" : 1646117339403,
-        "stop" : 1646117467147,
-        "duration" : 127744
-      }
-    }, {
-      "uid" : "e70fc6260fa7001b",
-      "reportUrl" : "../2/index.html#testresult/e70fc6260fa7001b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646073719802,
-        "stop" : 1646073829057,
-        "duration" : 109255
+        "start" : 1646397984782,
+        "stop" : 1646398105119,
+        "duration" : 120337
       }
     } ]
   },
@@ -2577,27 +1764,18 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "5a8d070f7a57c5cf",
-      "reportUrl" : "../3/index.html#testresult/5a8d070f7a57c5cf",
+      "uid" : "acf2bccd78c08508",
+      "reportUrl" : "../2/index.html#testresult/acf2bccd78c08508",
       "status" : "passed",
       "time" : {
-        "start" : 1646107985181,
-        "stop" : 1646108155298,
-        "duration" : 170117
-      }
-    }, {
-      "uid" : "c11399ff83ab1148",
-      "reportUrl" : "../2/index.html#testresult/c11399ff83ab1148",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646063865216,
-        "stop" : 1646064040868,
-        "duration" : 175652
+        "start" : 1646387744791,
+        "stop" : 1646387905484,
+        "duration" : 160693
       }
     } ]
   },
@@ -2606,87 +1784,39 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "94d7f241526b0d02",
-      "reportUrl" : "../3/index.html#testresult/94d7f241526b0d02",
+      "uid" : "9e01a80aacd48c68",
+      "reportUrl" : "../2/index.html#testresult/9e01a80aacd48c68",
       "status" : "passed",
       "time" : {
-        "start" : 1646107597155,
-        "stop" : 1646107750611,
-        "duration" : 153456
-      }
-    }, {
-      "uid" : "e01dbfe38f7a355b",
-      "reportUrl" : "../2/index.html#testresult/e01dbfe38f7a355b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646063290833,
-        "stop" : 1646063460576,
-        "duration" : 169743
+        "start" : 1646387351666,
+        "stop" : 1646387511406,
+        "duration" : 159740
       }
     } ]
   },
   "d9c8c3d87372218464684a47013b0c20" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "305d625ccc78307",
-      "reportUrl" : "../3/index.html#testresult/305d625ccc78307",
+      "uid" : "7d482bd9fe0ae18a",
+      "reportUrl" : "../2/index.html#testresult/7d482bd9fe0ae18a",
       "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"ТК \"Сангрео\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436453.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436453.html",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"ТК \"Сангрео\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817597.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817597.html",
       "time" : {
-        "start" : 1646106093920,
-        "stop" : 1646106093920,
+        "start" : 1646384530067,
+        "stop" : 1646384530067,
         "duration" : 0
-      }
-    }, {
-      "uid" : "fa03e4a3fcc9bcc1",
-      "reportUrl" : "../2/index.html#testresult/fa03e4a3fcc9bcc1",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"ТК \"Сангрео\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861847.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861847.html",
-      "time" : {
-        "start" : 1646061564602,
-        "stop" : 1646061564602,
-        "duration" : 0
-      }
-    } ]
-  },
-  "5522e794219390c259ee44aafc26545c" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    },
-    "items" : [ {
-      "uid" : "7ef3fb2cb9b23d09",
-      "reportUrl" : "../3/index.html#testresult/7ef3fb2cb9b23d09",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646108339002,
-        "stop" : 1646108523677,
-        "duration" : 184675
-      }
-    }, {
-      "uid" : "662bbbda74722f4a",
-      "reportUrl" : "../2/index.html#testresult/662bbbda74722f4a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646064230657,
-        "stop" : 1646064421740,
-        "duration" : 191083
       }
     } ]
   },
@@ -2695,27 +1825,38 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "56f08b43a0cd362c",
-      "reportUrl" : "../3/index.html#testresult/56f08b43a0cd362c",
+      "uid" : "2e6d2985ae3e9788",
+      "reportUrl" : "../2/index.html#testresult/2e6d2985ae3e9788",
       "status" : "passed",
       "time" : {
-        "start" : 1646112406090,
-        "stop" : 1646112721640,
-        "duration" : 315550
+        "start" : 1646392357846,
+        "stop" : 1646392670031,
+        "duration" : 312185
       }
-    }, {
-      "uid" : "897fea890b79d6e0",
-      "reportUrl" : "../2/index.html#testresult/897fea890b79d6e0",
+    } ]
+  },
+  "5522e794219390c259ee44aafc26545c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b421d023e955db8e",
+      "reportUrl" : "../2/index.html#testresult/b421d023e955db8e",
       "status" : "passed",
       "time" : {
-        "start" : 1646068573947,
-        "stop" : 1646068913973,
-        "duration" : 340026
+        "start" : 1646388080984,
+        "stop" : 1646388253126,
+        "duration" : 172142
       }
     } ]
   },
@@ -2724,27 +1865,18 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "cfd28189f3ba67ac",
-      "reportUrl" : "../3/index.html#testresult/cfd28189f3ba67ac",
+      "uid" : "ea6d36d9b64199f5",
+      "reportUrl" : "../2/index.html#testresult/ea6d36d9b64199f5",
       "status" : "passed",
       "time" : {
-        "start" : 1646107246387,
-        "stop" : 1646107428993,
-        "duration" : 182606
-      }
-    }, {
-      "uid" : "be0f710897e0c2fa",
-      "reportUrl" : "../2/index.html#testresult/be0f710897e0c2fa",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646062925788,
-        "stop" : 1646063107506,
-        "duration" : 181718
+        "start" : 1646385837949,
+        "stop" : 1646386816170,
+        "duration" : 978221
       }
     } ]
   },
@@ -2753,27 +1885,18 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "af1e6a0ebd4512ec",
-      "reportUrl" : "../3/index.html#testresult/af1e6a0ebd4512ec",
+      "uid" : "490eb73f3de1bf71",
+      "reportUrl" : "../2/index.html#testresult/490eb73f3de1bf71",
       "status" : "passed",
       "time" : {
-        "start" : 1646111160303,
-        "stop" : 1646111263900,
-        "duration" : 103597
-      }
-    }, {
-      "uid" : "e3d1e197f3e37f81",
-      "reportUrl" : "../2/index.html#testresult/e3d1e197f3e37f81",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646067258938,
-        "stop" : 1646067358107,
-        "duration" : 99169
+        "start" : 1646391097325,
+        "stop" : 1646391204033,
+        "duration" : 106708
       }
     } ]
   },
@@ -2782,57 +1905,38 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "8075f4bec3a25e7",
-      "reportUrl" : "../3/index.html#testresult/8075f4bec3a25e7",
+      "uid" : "64e9148c58b46abd",
+      "reportUrl" : "../2/index.html#testresult/64e9148c58b46abd",
       "status" : "passed",
       "time" : {
-        "start" : 1646108523743,
-        "stop" : 1646108696311,
-        "duration" : 172568
-      }
-    }, {
-      "uid" : "da008fc37cc7f881",
-      "reportUrl" : "../2/index.html#testresult/da008fc37cc7f881",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646064421744,
-        "stop" : 1646064603411,
-        "duration" : 181667
+        "start" : 1646388253130,
+        "stop" : 1646388425640,
+        "duration" : 172510
       }
     } ]
   },
   "36c51d4141da9646e70d0bb523f9d37e" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "6628170d824afc7a",
-      "reportUrl" : "../3/index.html#testresult/6628170d824afc7a",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//text()[contains(.,'Документ подписан второй стороной и передан на регистрацию')]/../../../../../..//a[contains(.,'Андрейс Блакуновс')]\")).is visible\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//text()[contains(.,'Документ подписан второй стороной и передан на регистрацию')]/../../../../../..//a[contains(.,'Андрейс Блакуновс')]\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436457.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436457.html",
-      "time" : {
-        "start" : 1646106791856,
-        "stop" : 1646106907762,
-        "duration" : 115906
-      }
-    }, {
-      "uid" : "143298e9230b1731",
-      "reportUrl" : "../2/index.html#testresult/143298e9230b1731",
+      "uid" : "a5d50ceefd1f9e7d",
+      "reportUrl" : "../2/index.html#testresult/a5d50ceefd1f9e7d",
       "status" : "passed",
       "time" : {
-        "start" : 1646062378446,
-        "stop" : 1646062566607,
-        "duration" : 188161
+        "start" : 1646385216042,
+        "stop" : 1646385459453,
+        "duration" : 243411
       }
     } ]
   },
@@ -2841,57 +1945,38 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "ae8a318071dd4dee",
-      "reportUrl" : "../3/index.html#testresult/ae8a318071dd4dee",
+      "uid" : "6f357e0aef0fba43",
+      "reportUrl" : "../2/index.html#testresult/6f357e0aef0fba43",
       "status" : "passed",
       "time" : {
-        "start" : 1646113171596,
-        "stop" : 1646113187558,
-        "duration" : 15962
-      }
-    }, {
-      "uid" : "9a9b24836051988",
-      "reportUrl" : "../2/index.html#testresult/9a9b24836051988",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646069376894,
-        "stop" : 1646069390805,
-        "duration" : 13911
+        "start" : 1646393147635,
+        "stop" : 1646393163037,
+        "duration" : 15402
       }
     } ]
   },
   "a56bc86d0abcdb75feb3047d62ea35e7" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "965e9571d6f9b70f",
-      "reportUrl" : "../3/index.html#testresult/965e9571d6f9b70f",
+      "uid" : "43f57fc7146a3aac",
+      "reportUrl" : "../2/index.html#testresult/43f57fc7146a3aac",
       "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ИП Шафигуллин Айдар Раисович\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436445.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436445.html",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#bx_left_menu_3825669849 > a > span')).click\n\nReason: ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"menu-item-link-text\" data-role=\"item-text\">...</span> is not clickable at point (99, 616). Other element would receive the click: <div class=\"side-panel side-panel-overlay side-panel-overlay-open\" style=\"z-index: 1250 !important; left: 0px; top: 0px; right: 81px; height: 961px; background-color: rgba(0, 0, 0, 0.4);\">...</div>\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817589.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817589.html",
       "time" : {
-        "start" : 1646105834716,
-        "stop" : 1646105834716,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "3f3015b593c9259a",
-      "reportUrl" : "../2/index.html#testresult/3f3015b593c9259a",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ИП Шафигуллин Айдар Раисович\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861839.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861839.html",
-      "time" : {
-        "start" : 1646061289279,
-        "stop" : 1646061289279,
+        "start" : 1646384228973,
+        "stop" : 1646384228973,
         "duration" : 0
       }
     } ]
@@ -2901,243 +1986,164 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "3ecca8f75ff5ac04",
-      "reportUrl" : "../3/index.html#testresult/3ecca8f75ff5ac04",
+      "uid" : "1ff301d87a3dc47",
+      "reportUrl" : "../2/index.html#testresult/1ff301d87a3dc47",
       "status" : "passed",
       "time" : {
-        "start" : 1646118138444,
-        "stop" : 1646118245056,
-        "duration" : 106612
-      }
-    }, {
-      "uid" : "3747755d3017aa67",
-      "reportUrl" : "../2/index.html#testresult/3747755d3017aa67",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646074602658,
-        "stop" : 1646074709872,
-        "duration" : 107214
-      }
-    } ]
-  },
-  "f5b80ba6143171975f38b3716118d24b" : {
-    "statistic" : {
-      "failed" : 2,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 2
-    },
-    "items" : [ {
-      "uid" : "f347f964a16cf7d7",
-      "reportUrl" : "../3/index.html#testresult/f347f964a16cf7d7",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: Самозанятый Валиуллина Диана Абузаровна\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436455.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436455.html",
-      "time" : {
-        "start" : 1646106155406,
-        "stop" : 1646106155406,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "7499498bd9e16397",
-      "reportUrl" : "../2/index.html#testresult/7499498bd9e16397",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: Самозанятый Валиуллина Диана Абузаровна\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861849.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861849.html",
-      "time" : {
-        "start" : 1646061633594,
-        "stop" : 1646061633594,
-        "duration" : 0
+        "start" : 1646398857008,
+        "stop" : 1646398965639,
+        "duration" : 108631
       }
     } ]
   },
   "68497733a1ebd0c73593b7a5ec6203e1" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "c857198415a42a58",
-      "reportUrl" : "../3/index.html#testresult/c857198415a42a58",
+      "uid" : "afe175f03b015da2",
+      "reportUrl" : "../2/index.html#testresult/afe175f03b015da2",
       "status" : "failed",
       "statusDetails" : "AssertionError: Пункт левого меню <Документооборот> не переведен на английский язык",
       "time" : {
-        "start" : 1646113263702,
-        "stop" : 1646113278206,
-        "duration" : 14504
+        "start" : 1646393237824,
+        "stop" : 1646393258009,
+        "duration" : 20185
       }
-    }, {
-      "uid" : "b9268a2ab385e787",
-      "reportUrl" : "../2/index.html#testresult/b9268a2ab385e787",
+    } ]
+  },
+  "f5b80ba6143171975f38b3716118d24b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ebcb350b3cc23816",
+      "reportUrl" : "../2/index.html#testresult/ebcb350b3cc23816",
       "status" : "failed",
-      "statusDetails" : "AssertionError: Пункт левого меню <Документооборот> не переведен на английский язык",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: Самозанятый Валиуллина Диана Абузаровна\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817599.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817599.html",
       "time" : {
-        "start" : 1646069487305,
-        "stop" : 1646069510433,
-        "duration" : 23128
+        "start" : 1646384592607,
+        "stop" : 1646384592607,
+        "duration" : 0
       }
     } ]
   },
   "8b0148e1661fd0fbc2daf4c08ddbf506" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "b599621a00d04957",
-      "reportUrl" : "../3/index.html#testresult/b599621a00d04957",
+      "uid" : "273450e9ae936cfd",
+      "reportUrl" : "../2/index.html#testresult/273450e9ae936cfd",
       "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text ОДОБРЕНИЕ ПРИКАЗА ПОДПИСАНТОМ\n\nReason: AssertionError: actual text: РАССМОТРЕНИЕ ВТОРОЙ ГРУППОЙ СОГЛАСУЮЩИХ\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436462.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436462.html",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text ОДОБРЕНИЕ ПРИКАЗА ПОДПИСАНТОМ\n\nReason: AssertionError: actual text: РАССМОТРЕНИЕ ВТОРОЙ ГРУППОЙ СОГЛАСУЮЩИХ\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817609.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817609.html",
       "time" : {
-        "start" : 1646111635155,
-        "stop" : 1646111683508,
-        "duration" : 48353
-      }
-    }, {
-      "uid" : "2af4b6040380ad81",
-      "reportUrl" : "../2/index.html#testresult/2af4b6040380ad81",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text ОДОБРЕНИЕ ПРИКАЗА ПОДПИСАНТОМ\n\nReason: AssertionError: actual text: РАССМОТРЕНИЕ ВТОРОЙ ГРУППОЙ СОГЛАСУЮЩИХ\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861854.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861854.html",
-      "time" : {
-        "start" : 1646067743602,
-        "stop" : 1646067793903,
-        "duration" : 50301
+        "start" : 1646391586487,
+        "stop" : 1646391634123,
+        "duration" : 47636
       }
     } ]
   },
   "c41d69d2211b94317ad51e340a06e424" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "258af177b4b4d621",
-      "reportUrl" : "../3/index.html#testresult/258af177b4b4d621",
+      "uid" : "e12e364a2640da47",
+      "reportUrl" : "../2/index.html#testresult/e12e364a2640da47",
       "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"ТК \"Сангрео\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436451.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436451.html",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"ТК \"Сангрео\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817595.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817595.html",
       "time" : {
-        "start" : 1646106028992,
-        "stop" : 1646106028992,
+        "start" : 1646384467804,
+        "stop" : 1646384467804,
         "duration" : 0
-      }
-    }, {
-      "uid" : "fd17f27565736faf",
-      "reportUrl" : "../2/index.html#testresult/fd17f27565736faf",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"ТК \"Сангрео\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861845.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861845.html",
-      "time" : {
-        "start" : 1646061496878,
-        "stop" : 1646061496878,
-        "duration" : 0
-      }
-    } ]
-  },
-  "1383d685507711f7ba26f34d5862478e" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 2
-    },
-    "items" : [ {
-      "uid" : "b9019f7f178c2001",
-      "reportUrl" : "../3/index.html#testresult/b9019f7f178c2001",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#pagetitle')).has text Новости\n\nReason: AssertionError: actual text: Лента новостей\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436465.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436465.html",
-      "time" : {
-        "start" : 1646112974515,
-        "stop" : 1646113041691,
-        "duration" : 67176
-      }
-    }, {
-      "uid" : "2e58cb13d772cf07",
-      "reportUrl" : "../2/index.html#testresult/2e58cb13d772cf07",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646069171546,
-        "stop" : 1646069241596,
-        "duration" : 70050
       }
     } ]
   },
   "fae217360b9e0b02ffc31837252a37ba" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "c162b2479428ff06",
-      "reportUrl" : "../3/index.html#testresult/c162b2479428ff06",
+      "uid" : "e7eca3bd1a64dd6a",
+      "reportUrl" : "../2/index.html#testresult/e7eca3bd1a64dd6a",
       "status" : "broken",
       "statusDetails" : "AttributeError: 'BaseElement' object has no attribute 'press_enter'",
       "time" : {
-        "start" : 1646120313714,
-        "stop" : 1646120368513,
-        "duration" : 54799
+        "start" : 1646401298775,
+        "stop" : 1646401380311,
+        "duration" : 81536
       }
-    }, {
-      "uid" : "3553c402fb8e8132",
-      "reportUrl" : "../2/index.html#testresult/3553c402fb8e8132",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'BaseElement' object has no attribute 'press_enter'",
+    } ]
+  },
+  "1383d685507711f7ba26f34d5862478e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "597b2aa556519f28",
+      "reportUrl" : "../2/index.html#testresult/597b2aa556519f28",
+      "status" : "passed",
       "time" : {
-        "start" : 1646076779160,
-        "stop" : 1646076832449,
-        "duration" : 53289
+        "start" : 1646392930185,
+        "stop" : 1646392999532,
+        "duration" : 69347
       }
     } ]
   },
   "54b6b33e55d3fa6431845bc7c4b6ac12" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "74b02a273c7a15fd",
-      "reportUrl" : "../3/index.html#testresult/74b02a273c7a15fd",
+      "uid" : "1f85ff473e5f19f",
+      "reportUrl" : "../2/index.html#testresult/1f85ff473e5f19f",
       "status" : "broken",
       "statusDetails" : "AttributeError: 'BaseElement' object has no attribute 'get'",
       "time" : {
-        "start" : 1646113596624,
-        "stop" : 1646113669503,
-        "duration" : 72879
-      }
-    }, {
-      "uid" : "b170bb9841752fc5",
-      "reportUrl" : "../2/index.html#testresult/b170bb9841752fc5",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'BaseElement' object has no attribute 'get'",
-      "time" : {
-        "start" : 1646069912650,
-        "stop" : 1646069992249,
-        "duration" : 79599
+        "start" : 1646393689145,
+        "stop" : 1646393769703,
+        "duration" : 80558
       }
     } ]
   },
@@ -3146,149 +2152,80 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "465fb207f79f77ef",
-      "reportUrl" : "../3/index.html#testresult/465fb207f79f77ef",
+      "uid" : "95e7a2eccc3d6e71",
+      "reportUrl" : "../2/index.html#testresult/95e7a2eccc3d6e71",
       "status" : "passed",
       "time" : {
-        "start" : 1646109484575,
-        "stop" : 1646109514435,
-        "duration" : 29860
-      }
-    }, {
-      "uid" : "1fb5b88563854fa8",
-      "reportUrl" : "../2/index.html#testresult/1fb5b88563854fa8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646065448331,
-        "stop" : 1646065479580,
-        "duration" : 31249
+        "start" : 1646389334897,
+        "stop" : 1646389365598,
+        "duration" : 30701
       }
     } ]
   },
   "a343691d408f0e47a90be6e1f8b3079c" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "ebf49a17323adeae",
-      "reportUrl" : "../3/index.html#testresult/ebf49a17323adeae",
+      "uid" : "57dc7d377b45a8a2",
+      "reportUrl" : "../2/index.html#testresult/57dc7d377b45a8a2",
       "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАССМОТРЕНИЕ РАСПОРЯДИТЕЛЕМ БЮДЖЕТА\n\nReason: AssertionError: actual text: ПОДГОТОВКА ЗАЯВКИ К РАССМОТРЕНИЮ\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436476.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436476.html",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 30s, while waiting for:\nbrowser.element(('name', 'PROPERTY_743[n0][VALUE]')).is not not enabled\n\nReason: ConditionNotMatchedError: condition not matched\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817618.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817618.html",
       "time" : {
-        "start" : 1646118993219,
-        "stop" : 1646119022061,
-        "duration" : 28842
-      }
-    }, {
-      "uid" : "dac58cbe5d4ec7ee",
-      "reportUrl" : "../2/index.html#testresult/dac58cbe5d4ec7ee",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАССМОТРЕНИЕ РАСПОРЯДИТЕЛЕМ БЮДЖЕТА\n\nReason: AssertionError: actual text: ПОДГОТОВКА ЗАЯВКИ К РАССМОТРЕНИЮ\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861865.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861865.html",
-      "time" : {
-        "start" : 1646075465128,
-        "stop" : 1646075494570,
-        "duration" : 29442
+        "start" : 1646400153050,
+        "stop" : 1646400153050,
+        "duration" : 0
       }
     } ]
   },
   "6d45411ebf3111771bb9c20544901309" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "f800ec4af40a8e54",
-      "reportUrl" : "../3/index.html#testresult/f800ec4af40a8e54",
+      "uid" : "39654e192bbc9729",
+      "reportUrl" : "../2/index.html#testresult/39654e192bbc9729",
       "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАССМОТРЕНИЕ РАСПОРЯДИТЕЛЕМ БЮДЖЕТА\n\nReason: AssertionError: actual text: ПОДГОТОВКА ЗАЯВКИ К РАССМОТРЕНИЮ\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436478.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436478.html",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 30s, while waiting for:\nbrowser.element(('name', 'PROPERTY_743[n0][VALUE]')).is not not enabled\n\nReason: ConditionNotMatchedError: condition not matched\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817620.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817620.html",
       "time" : {
-        "start" : 1646119319722,
-        "stop" : 1646119348965,
-        "duration" : 29243
-      }
-    }, {
-      "uid" : "85fe631d3cf32ae4",
-      "reportUrl" : "../2/index.html#testresult/85fe631d3cf32ae4",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАССМОТРЕНИЕ РАСПОРЯДИТЕЛЕМ БЮДЖЕТА\n\nReason: AssertionError: actual text: ПОДГОТОВКА ЗАЯВКИ К РАССМОТРЕНИЮ\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861868.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861868.html",
-      "time" : {
-        "start" : 1646075777375,
-        "stop" : 1646075806523,
-        "duration" : 29148
+        "start" : 1646400351389,
+        "stop" : 1646400351389,
+        "duration" : 0
       }
     } ]
   },
   "373cd5f86c6c0c8c0bfc42908c407b7f" : {
     "statistic" : {
-      "failed" : 2,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 2
-    },
-    "items" : [ {
-      "uid" : "ace4cfa263748a51",
-      "reportUrl" : "../3/index.html#testresult/ace4cfa263748a51",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАССМОТРЕНИЕ РАСПОРЯДИТЕЛЕМ БЮДЖЕТА\n\nReason: AssertionError: actual text: ПОДГОТОВКА ЗАЯВКИ К РАССМОТРЕНИЮ\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436473.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436473.html",
-      "time" : {
-        "start" : 1646118509587,
-        "stop" : 1646118596896,
-        "duration" : 87309
-      }
-    }, {
-      "uid" : "422d32783e5275a0",
-      "reportUrl" : "../2/index.html#testresult/422d32783e5275a0",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 20s, while waiting for:\nbrowser.element(('xpath', '//*[@id=\"content-table\"]/table/tbody/tr[1]/td/div/div[3]/div/div/div/div[1]/span/a')).has text РАССМОТРЕНИЕ РАСПОРЯДИТЕЛЕМ БЮДЖЕТА\n\nReason: AssertionError: actual text: ПОДГОТОВКА ЗАЯВКИ К РАССМОТРЕНИЮ\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861862.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861862.html",
-      "time" : {
-        "start" : 1646075002794,
-        "stop" : 1646075086826,
-        "duration" : 84032
-      }
-    } ]
-  },
-  "5fecab322bb7281e1c7e0e4758bc5fa2" : {
-    "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "3f78b7c85ada138f",
-      "reportUrl" : "../3/index.html#testresult/3f78b7c85ada138f",
+      "uid" : "fa845dcd3e7b53e4",
+      "reportUrl" : "../2/index.html#testresult/fa845dcd3e7b53e4",
       "status" : "passed",
       "time" : {
-        "start" : 1646113296582,
-        "stop" : 1646113318917,
-        "duration" : 22335
-      }
-    }, {
-      "uid" : "3d70eca699bc0cc0",
-      "reportUrl" : "../2/index.html#testresult/3d70eca699bc0cc0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646069530736,
-        "stop" : 1646069557208,
-        "duration" : 26472
+        "start" : 1646399390310,
+        "stop" : 1646399630963,
+        "duration" : 240653
       }
     } ]
   },
@@ -3297,85 +2234,59 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "ae22692964a8abc",
-      "reportUrl" : "../3/index.html#testresult/ae22692964a8abc",
+      "uid" : "632ebd1cc24138d0",
+      "reportUrl" : "../2/index.html#testresult/632ebd1cc24138d0",
       "status" : "passed",
       "time" : {
-        "start" : 1646108876100,
-        "stop" : 1646109051357,
-        "duration" : 175257
+        "start" : 1646388607832,
+        "stop" : 1646388922978,
+        "duration" : 315146
       }
-    }, {
-      "uid" : "ef9dcab01d784705",
-      "reportUrl" : "../2/index.html#testresult/ef9dcab01d784705",
+    } ]
+  },
+  "5fecab322bb7281e1c7e0e4758bc5fa2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "74cedc0e4f33fd0f",
+      "reportUrl" : "../2/index.html#testresult/74cedc0e4f33fd0f",
       "status" : "passed",
       "time" : {
-        "start" : 1646064800061,
-        "stop" : 1646064983767,
-        "duration" : 183706
+        "start" : 1646393279091,
+        "stop" : 1646393304595,
+        "duration" : 25504
       }
     } ]
   },
   "ec2a8137632d62131e0e9d455a5ec009" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "51a48cce6bb94700",
-      "reportUrl" : "../3/index.html#testresult/51a48cce6bb94700",
-      "status" : "passed",
+      "uid" : "41b23f9a7159d1d4",
+      "reportUrl" : "../2/index.html#testresult/41b23f9a7159d1d4",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#bx_left_menu_3825669849 > a > span')).click\n\nReason: ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"menu-item-link-text\" data-role=\"item-text\">...</span> is not clickable at point (99, 511). Other element would receive the click: <div class=\"side-panel side-panel-overlay side-panel-overlay-open\" style=\"z-index: 1250 !important; left: 0px; top: 0px; right: 81px; height: 961px; background-color: rgba(0, 0, 0, 0.4);\">...</div>\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817604.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817604.html",
       "time" : {
-        "start" : 1646107074952,
-        "stop" : 1646107246383,
-        "duration" : 171431
-      }
-    }, {
-      "uid" : "2cdc734f69e19e68",
-      "reportUrl" : "../2/index.html#testresult/2cdc734f69e19e68",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646062746494,
-        "stop" : 1646062925784,
-        "duration" : 179290
-      }
-    } ]
-  },
-  "a38ed2ac7074ed25747a0bcb58fc542e" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    },
-    "items" : [ {
-      "uid" : "27cb7e03e14ea965",
-      "reportUrl" : "../3/index.html#testresult/27cb7e03e14ea965",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646113231076,
-        "stop" : 1646113247981,
-        "duration" : 16905
-      }
-    }, {
-      "uid" : "5614f02910004d26",
-      "reportUrl" : "../2/index.html#testresult/5614f02910004d26",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646069447007,
-        "stop" : 1646069463794,
-        "duration" : 16787
+        "start" : 1646385757868,
+        "stop" : 1646385837432,
+        "duration" : 79564
       }
     } ]
   },
@@ -3384,56 +2295,38 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "123f0060a0662533",
-      "reportUrl" : "../3/index.html#testresult/123f0060a0662533",
+      "uid" : "877d97527dbfe1ab",
+      "reportUrl" : "../2/index.html#testresult/877d97527dbfe1ab",
       "status" : "passed",
       "time" : {
-        "start" : 1646113808546,
-        "stop" : 1646114990044,
-        "duration" : 1181498
-      }
-    }, {
-      "uid" : "3c5d1417dacf5869",
-      "reportUrl" : "../2/index.html#testresult/3c5d1417dacf5869",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646070144432,
-        "stop" : 1646071388357,
-        "duration" : 1243925
+        "start" : 1646393930892,
+        "stop" : 1646395222966,
+        "duration" : 1292074
       }
     } ]
   },
-  "f2a8f50d5d902012bccebe5c8a00928e" : {
+  "a38ed2ac7074ed25747a0bcb58fc542e" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "2d298d13ae16a0e6",
-      "reportUrl" : "../3/index.html#testresult/2d298d13ae16a0e6",
+      "uid" : "e8f521713b3c7c37",
+      "reportUrl" : "../2/index.html#testresult/e8f521713b3c7c37",
       "status" : "passed",
       "time" : {
-        "start" : 1646117467151,
-        "stop" : 1646117579902,
-        "duration" : 112751
-      }
-    }, {
-      "uid" : "794528b6dbff279e",
-      "reportUrl" : "../2/index.html#testresult/794528b6dbff279e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646073829060,
-        "stop" : 1646073969707,
-        "duration" : 140647
+        "start" : 1646393198882,
+        "stop" : 1646393214979,
+        "duration" : 16097
       }
     } ]
   },
@@ -3442,27 +2335,38 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "5c1b50e605174122",
-      "reportUrl" : "../3/index.html#testresult/5c1b50e605174122",
+      "uid" : "bd93106bc047fa41",
+      "reportUrl" : "../2/index.html#testresult/bd93106bc047fa41",
       "status" : "passed",
       "time" : {
-        "start" : 1646115596349,
-        "stop" : 1646115791193,
-        "duration" : 194844
+        "start" : 1646395855996,
+        "stop" : 1646396107224,
+        "duration" : 251228
       }
-    }, {
-      "uid" : "cc352604dd893262",
-      "reportUrl" : "../2/index.html#testresult/cc352604dd893262",
+    } ]
+  },
+  "f2a8f50d5d902012bccebe5c8a00928e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7afee6ebf492dc12",
+      "reportUrl" : "../2/index.html#testresult/7afee6ebf492dc12",
       "status" : "passed",
       "time" : {
-        "start" : 1646071986046,
-        "stop" : 1646072165067,
-        "duration" : 179021
+        "start" : 1646398105123,
+        "stop" : 1646398214988,
+        "duration" : 109865
       }
     } ]
   },
@@ -3471,27 +2375,18 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "6b080ad08987ae31",
-      "reportUrl" : "../3/index.html#testresult/6b080ad08987ae31",
+      "uid" : "a55ccdd51fffad32",
+      "reportUrl" : "../2/index.html#testresult/a55ccdd51fffad32",
       "status" : "passed",
       "time" : {
-        "start" : 1646116543182,
-        "stop" : 1646116669992,
-        "duration" : 126810
-      }
-    }, {
-      "uid" : "421818420d7bcaae",
-      "reportUrl" : "../2/index.html#testresult/421818420d7bcaae",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646072871946,
-        "stop" : 1646073005172,
-        "duration" : 133226
+        "start" : 1646396903504,
+        "stop" : 1646397033900,
+        "duration" : 130396
       }
     } ]
   },
@@ -3500,87 +2395,60 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "d16387cb4afdc83a",
-      "reportUrl" : "../3/index.html#testresult/d16387cb4afdc83a",
+      "uid" : "28b0718c73b08f1d",
+      "reportUrl" : "../2/index.html#testresult/28b0718c73b08f1d",
       "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#bx_left_menu_3825669849 > a > span')).click\n\nReason: ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"menu-item-link-text\" data-role=\"item-text\">...</span> is not clickable at point (99, 262). Other element would receive the click: <div class=\"popup-window-overlay\" id=\"popup-window-overlay-setExpertModePopup\" style=\"width: 1904px; height: 8693px; z-index: 1245 !important; display: block;\"></div>\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436460.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436460.html",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '#bx_left_menu_3825669849 > a > span')).click\n\nReason: ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"menu-item-link-text\" data-role=\"item-text\">...</span> is not clickable at point (99, 262). Other element would receive the click: <div class=\"popup-window-overlay\" id=\"popup-window-overlay-setExpertModePopup\" style=\"width: 1904px; height: 7692px; z-index: 1245 !important; display: block;\"></div>\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817607.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817607.html",
       "time" : {
-        "start" : 1646107963231,
-        "stop" : 1646107984875,
-        "duration" : 21644
-      }
-    }, {
-      "uid" : "f6fd9849743a8fa3",
-      "reportUrl" : "../2/index.html#testresult/f6fd9849743a8fa3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646063687831,
-        "stop" : 1646063865211,
-        "duration" : 177380
+        "start" : 1646387724119,
+        "stop" : 1646387744481,
+        "duration" : 20362
       }
     } ]
   },
   "bd85b05f9cf9f330f53b8b1058581aed" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "cf3d2009c9158cea",
-      "reportUrl" : "../3/index.html#testresult/cf3d2009c9158cea",
-      "status" : "passed",
+      "uid" : "9eeb2ec0a61e43e0",
+      "reportUrl" : "../2/index.html#testresult/9eeb2ec0a61e43e0",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//text()[contains(.,'Документ зарегистрирован')]/../../../../../..//a[contains(.,'Наталья Румянова')]\")).is visible\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//text()[contains(.,'Документ зарегистрирован')]/../../../../../..//a[contains(.,'Наталья Румянова')]\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817602.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817602.html",
       "time" : {
-        "start" : 1646106488922,
-        "stop" : 1646106791848,
-        "duration" : 302926
-      }
-    }, {
-      "uid" : "6ba2c37df690d2d4",
-      "reportUrl" : "../2/index.html#testresult/6ba2c37df690d2d4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646062021987,
-        "stop" : 1646062378435,
-        "duration" : 356448
+        "start" : 1646384894801,
+        "stop" : 1646385215720,
+        "duration" : 320919
       }
     } ]
   },
   "165baa3f8941e1ab21ea1c076304208c" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "64c925e34ae58bdb",
-      "reportUrl" : "../3/index.html#testresult/64c925e34ae58bdb",
+      "uid" : "20ed4627cb5fa8d9",
+      "reportUrl" : "../2/index.html#testresult/20ed4627cb5fa8d9",
       "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"ТК \"Сангрео\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646105436442/1646105436446.png\nPageSource: file:///home/seluser/.selene/screenshots/1646105436442/1646105436446.html",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"ТК \"Сангрео\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817590.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817590.html",
       "time" : {
-        "start" : 1646105867960,
-        "stop" : 1646105867960,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "d8de411b14723b4",
-      "reportUrl" : "../2/index.html#testresult/d8de411b14723b4",
-      "status" : "failed",
-      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('css selector', '.twitter-typeahead > .form-control.tt-input')).type: ООО \"ТК \"Сангрео\"\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".twitter-typeahead > .form-control.tt-input\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646060861837/1646060861840.png\nPageSource: file:///home/seluser/.selene/screenshots/1646060861837/1646060861840.html",
-      "time" : {
-        "start" : 1646061325935,
-        "stop" : 1646061325935,
+        "start" : 1646384307773,
+        "stop" : 1646384307773,
         "duration" : 0
       }
     } ]
@@ -3590,56 +2458,39 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "46cd4bad2204d60",
-      "reportUrl" : "../3/index.html#testresult/46cd4bad2204d60",
+      "uid" : "d58d812a26101e7",
+      "reportUrl" : "../2/index.html#testresult/d58d812a26101e7",
       "status" : "passed",
       "time" : {
-        "start" : 1646111340455,
-        "stop" : 1646111444939,
-        "duration" : 104484
-      }
-    }, {
-      "uid" : "5d680d5a077ba154",
-      "reportUrl" : "../2/index.html#testresult/5d680d5a077ba154",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646067434599,
-        "stop" : 1646067541443,
-        "duration" : 106844
+        "start" : 1646391286761,
+        "stop" : 1646391393040,
+        "duration" : 106279
       }
     } ]
   },
   "d5d0b3606761241d19c180af87b85b32" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "631dcef098bb3f00",
-      "reportUrl" : "../3/index.html#testresult/631dcef098bb3f00",
-      "status" : "passed",
+      "uid" : "4b2a03cb630fdedb",
+      "reportUrl" : "../2/index.html#testresult/4b2a03cb630fdedb",
+      "status" : "failed",
+      "statusDetails" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 10s, while waiting for:\nbrowser.element(('xpath', \"//text()[contains(.,'Документ согласован')]/../../../../../..//a[contains(.,'Алексей Хабибуллин')]\")).is visible\n\nReason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//text()[contains(.,'Документ согласован')]/../../../../../..//a[contains(.,'Алексей Хабибуллин')]\"}\n  (Session info: chrome=98.0.4758.102)\n\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817603.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817603.html",
       "time" : {
-        "start" : 1646106908069,
-        "stop" : 1646107074948,
-        "duration" : 166879
-      }
-    }, {
-      "uid" : "7a6158f11852fb5c",
-      "reportUrl" : "../2/index.html#testresult/7a6158f11852fb5c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646062566611,
-        "stop" : 1646062746490,
-        "duration" : 179879
+        "start" : 1646385459456,
+        "stop" : 1646385757488,
+        "duration" : 298032
       }
     } ]
   }

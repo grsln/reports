@@ -1,0 +1,30 @@
+2022-03-04 09:13:36 INFO login "Андрейс Блакуновс".
+2022-03-04 09:13:54 INFO Open contract create page
+2022-03-04 09:14:07 INFO title "Договор ГПХ 09:13:45.745241", id "441942".
+2022-03-04 09:14:07 INFO Send for consideration
+2022-03-04 09:14:17 INFO open_contract_admin
+2022-03-04 09:14:28 INFO Approve Евгений Серочудинов
+2022-03-04 09:14:28 INFO Admin approve
+2022-03-04 09:14:36 INFO Approve Елена Рыбакова
+2022-03-04 09:14:36 INFO Admin approve
+2022-03-04 09:14:42 INFO Approve Лилия Симонова
+2022-03-04 09:14:42 INFO Admin approve
+2022-03-04 09:14:49 INFO Approve Дмитрий Сарайкин
+2022-03-04 09:14:49 INFO Admin approve
+2022-03-04 09:14:55 INFO Approve Павел Зотов
+2022-03-04 09:14:55 INFO Admin approve
+2022-03-04 09:15:03 INFO login Радик Валиев
+2022-03-04 09:15:03 INFO Admin approve
+2022-03-04 09:15:09 INFO login Евгений Бобров
+2022-03-04 09:15:09 INFO Admin approve
+2022-03-04 09:15:22 INFO login "Кирилл Семенихин".
+2022-03-04 09:15:22 INFO Admin approve
+2022-03-04 09:15:29 INFO login Юлия Казаева
+2022-03-04 09:15:29 INFO Admin approve
+2022-03-04 09:15:37 INFO login Андрейс Блакуновс
+2022-03-04 09:15:37 INFO Admin approve
+2022-03-04 09:15:44 INFO login Наталья Румянова
+2022-03-04 09:15:54 INFO open contract page
+2022-03-04 09:16:20 INFO open_contract_admin
+2022-03-04 09:17:27 INFO delete
+2022-03-04 09:17:27 INFO accept alert

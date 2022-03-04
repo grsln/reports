@@ -1,24 +1,12 @@
 [ {
-  "buildOrder" : 3,
-  "reportUrl" : "../3/index.html",
-  "reportName" : "portal",
-  "data" : {
-    "failed" : 42,
-    "broken" : 14,
-    "skipped" : 0,
-    "passed" : 66,
-    "unknown" : 0,
-    "total" : 122
-  }
-}, {
   "buildOrder" : 2,
   "reportUrl" : "../2/index.html",
   "reportName" : "portal",
   "data" : {
-    "failed" : 36,
-    "broken" : 14,
+    "failed" : 40,
+    "broken" : 15,
     "skipped" : 0,
-    "passed" : 72,
+    "passed" : 67,
     "unknown" : 0,
     "total" : 122
   }

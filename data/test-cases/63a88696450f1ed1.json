@@ -1,0 +1,232 @@
+{
+  "uid" : "63a88696450f1ed1",
+  "name" : "test_request_without_transfer",
+  "fullName" : "tests.test_requests_spending_budget_funds.test_requests_spending_budget_funds.TestSpendingBudgetFunds#test_request_without_transfer",
+  "historyId" : "264ead927cf33217ce076e9e16fcfbbc",
+  "time" : {
+    "start" : 1646399630965,
+    "stop" : 1646399630965,
+    "duration" : 0
+  },
+  "description" : "\n        Заявки на расходование средств бюджета. Проход по стадиям\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61420\n        ",
+  "descriptionHtml" : "<pre><code>    Заявки на расходование средств бюджета. Проход по стадиям\n    https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61420\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 30s, while waiting for:\nbrowser.element(('name', 'PROPERTY_743[n0][VALUE]')).is not not enabled\n\nReason: ConditionNotMatchedError: condition not matched\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817616.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817616.html",
+  "statusTrace" : "self = <selene.core.wait.Wait object at 0x7f9f2e49fa30>\nfn = <selene.core.conditions.ElementCondition object at 0x7f9f2e7a5b80>\n\n    def for_(self, fn: Callable[[E], R]) -> R:\n        finish_time = time.time() + self._timeout\n    \n        while True:\n            try:\n>               return fn(self._entity)\n\n/usr/local/lib/python3.8/dist-packages/selene/core/wait.py:102: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selene.core.conditions.ElementCondition object at 0x7f9f2e7a5b80>\nargs = (<selene.core.entity.Element object at 0x7f9f2e49ff70>,), kwargs = {}\n\n    def __call__(self, *args, **kwargs):\n>       return self._fn(*args, **kwargs)\n\n/usr/local/lib/python3.8/dist-packages/selene/core/condition.py:136: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nentity = <selene.core.entity.Element object at 0x7f9f2e49ff70>\n\n    def fn(entity):\n        try:\n            condition.call(entity)\n        except Exception:\n            return\n>       raise ConditionNotMatchedError()  # todo: try to handle printing actual values here too...\nE       selene.core.exceptions.ConditionNotMatchedError: condition not matched\n\n/usr/local/lib/python3.8/dist-packages/selene/core/condition.py:74: ConditionNotMatchedError\n\nDuring handling of the above exception, another exception occurred:\n\n    @pytest.fixture\n    def request_spending_budget():\n        logger.info(\"Проверка бюджета\")\n        admin_panel.auth_as_admin()\n        budget_page.open()\n        budget_page.assert_budget_limits_not_exceeded()\n    \n        logger.info(\"Создание заявки на расходование средств бюджета\")\n        admin_panel.auth_as_user(SpendingBudgetFundsConstants.author)\n        create_request_spending_budget_funds_page.open()\n>       create_request_spending_budget_funds_page.fill_required_fields()\n\ntests/test_requests_spending_budget_funds/conftest.py:34: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/document_management/requests_spending_budget_funds/create_page.py:67: in fill_required_fields\n    self.contract_select.should(be.disabled.not_, timeout=30)\n/usr/local/lib/python3.8/dist-packages/selene/core/entity.py:377: in should\n    return self.with_(Config(timeout=timeout)).should(condition)\n/usr/local/lib/python3.8/dist-packages/selene/core/entity.py:379: in should\n    super().should(condition)\n/usr/local/lib/python3.8/dist-packages/selene/core/entity.py:122: in should\n    self.wait.for_(condition)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selene.core.wait.Wait object at 0x7f9f2e49fa30>\nfn = <selene.core.conditions.ElementCondition object at 0x7f9f2e7a5b80>\n\n        def for_(self, fn: Callable[[E], R]) -> R:\n            finish_time = time.time() + self._timeout\n    \n            while True:\n                try:\n                    return fn(self._entity)\n                except Exception as reason:\n                    if time.time() > finish_time:\n    \n                        reason_message = str(reason)\n    \n                        reason_string = '{name}: {message}'.format(\n                            name=reason.__class__.__name__, message=reason_message\n                        )\n                        # todo: think on how can we improve logging failures in selene, e.g. reverse msg and stacktrace\n                        # stacktrace = getattr(reason, 'stacktrace', None)\n                        timeout = self._timeout\n                        entity = self._entity\n    \n                        failure = TimeoutException(\n                            f'''\n    \n    Timed out after {timeout}s, while waiting for:\n    {entity}.{fn}\n    \n    Reason: {reason_string}'''\n                        )\n    \n>                       raise self._hook_failure(failure)\nE                       selene.core.exceptions.TimeoutException: Message: \nE                       \nE                       Timed out after 30s, while waiting for:\nE                       browser.element(('name', 'PROPERTY_743[n0][VALUE]')).is not not enabled\nE                       \nE                       Reason: ConditionNotMatchedError: condition not matched\nE                       Screenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817616.png\nE                       PageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817616.html\n\n/usr/local/lib/python3.8/dist-packages/selene/core/wait.py:125: TimeoutException",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1646383818661,
+      "stop" : 1646383818786,
+      "duration" : 125
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_admin",
+    "time" : {
+      "start" : 1646383818786,
+      "stop" : 1646383835082,
+      "duration" : 16296
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "request_spending_budget",
+    "time" : {
+      "start" : 1646399630965,
+      "stop" : 1646399713167,
+      "duration" : 82202
+    },
+    "status" : "failed",
+    "statusMessage" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 30s, while waiting for:\nbrowser.element(('name', 'PROPERTY_743[n0][VALUE]')).is not not enabled\n\nReason: ConditionNotMatchedError: condition not matched\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817616.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817616.html\n\n",
+    "statusTrace" : "  File \"/usr/local/lib/python3.8/dist-packages/pluggy/_callers.py\", line 39, in _multicall\n    res = hook_impl.function(*args)\n  File \"/usr/local/lib/python3.8/dist-packages/_pytest/fixtures.py\", line 1126, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/usr/local/lib/python3.8/dist-packages/_pytest/fixtures.py\", line 925, in call_fixture_func\n    fixture_result = next(generator)\n  File \"/app/tests/test_requests_spending_budget_funds/conftest.py\", line 34, in request_spending_budget\n    create_request_spending_budget_funds_page.fill_required_fields()\n  File \"/usr/local/lib/python3.8/dist-packages/allure_commons/_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"/app/pages/document_management/requests_spending_budget_funds/create_page.py\", line 67, in fill_required_fields\n    self.contract_select.should(be.disabled.not_, timeout=30)\n  File \"/usr/local/lib/python3.8/dist-packages/selene/core/entity.py\", line 377, in should\n    return self.with_(Config(timeout=timeout)).should(condition)\n  File \"/usr/local/lib/python3.8/dist-packages/selene/core/entity.py\", line 379, in should\n    super().should(condition)\n  File \"/usr/local/lib/python3.8/dist-packages/selene/core/entity.py\", line 122, in should\n    self.wait.for_(condition)\n  File \"/usr/local/lib/python3.8/dist-packages/selene/core/wait.py\", line 125, in for_\n    raise self._hook_failure(failure)\n",
+    "steps" : [ {
+      "name" : "Авторизоваться под администратором портала",
+      "time" : {
+        "start" : 1646399630966,
+        "stop" : 1646399631559,
+        "duration" : 593
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Авторизоваться на портале под ответственным пользователем",
+      "time" : {
+        "start" : 1646399652652,
+        "stop" : 1646399662853,
+        "duration" : 10201
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться под администратором портала",
+        "time" : {
+          "start" : 1646399652652,
+          "stop" : 1646399653358,
+          "duration" : 706
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "Фарид Гайнуллин"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открытие страницы создания заявки на расходование средств бюджета",
+      "time" : {
+        "start" : 1646399662854,
+        "stop" : 1646399681236,
+        "duration" : 18382
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Заполнить обязательные поля",
+      "time" : {
+        "start" : 1646399681236,
+        "stop" : 1646399713166,
+        "duration" : 31930
+      },
+      "status" : "failed",
+      "statusMessage" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 30s, while waiting for:\nbrowser.element(('name', 'PROPERTY_743[n0][VALUE]')).is not not enabled\n\nReason: ConditionNotMatchedError: condition not matched\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817616.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817616.html\n\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.8/dist-packages/allure_commons/_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"/app/pages/document_management/requests_spending_budget_funds/create_page.py\", line 67, in fill_required_fields\n    self.contract_select.should(be.disabled.not_, timeout=30)\n  File \"/usr/local/lib/python3.8/dist-packages/selene/core/entity.py\", line 377, in should\n    return self.with_(Config(timeout=timeout)).should(condition)\n  File \"/usr/local/lib/python3.8/dist-packages/selene/core/entity.py\", line 379, in should\n    super().should(condition)\n  File \"/usr/local/lib/python3.8/dist-packages/selene/core/entity.py\", line 122, in should\n    self.wait.for_(condition)\n  File \"/usr/local/lib/python3.8/dist-packages/selene/core/wait.py\", line 125, in for_\n    raise self._hook_failure(failure)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "\n        Заявки на расходование средств бюджета. Проход по стадиям\n        https://tfs.university.innopolis.ru/tfs/DefaultCollection/%D0%92%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/_workitems/edit/61420\n        ",
+    "status" : "failed",
+    "statusMessage" : "selene.core.exceptions.TimeoutException: Message: \n\nTimed out after 30s, while waiting for:\nbrowser.element(('name', 'PROPERTY_743[n0][VALUE]')).is not not enabled\n\nReason: ConditionNotMatchedError: condition not matched\nScreenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817616.png\nPageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817616.html",
+    "statusTrace" : "self = <selene.core.wait.Wait object at 0x7f9f2e49fa30>\nfn = <selene.core.conditions.ElementCondition object at 0x7f9f2e7a5b80>\n\n    def for_(self, fn: Callable[[E], R]) -> R:\n        finish_time = time.time() + self._timeout\n    \n        while True:\n            try:\n>               return fn(self._entity)\n\n/usr/local/lib/python3.8/dist-packages/selene/core/wait.py:102: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selene.core.conditions.ElementCondition object at 0x7f9f2e7a5b80>\nargs = (<selene.core.entity.Element object at 0x7f9f2e49ff70>,), kwargs = {}\n\n    def __call__(self, *args, **kwargs):\n>       return self._fn(*args, **kwargs)\n\n/usr/local/lib/python3.8/dist-packages/selene/core/condition.py:136: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nentity = <selene.core.entity.Element object at 0x7f9f2e49ff70>\n\n    def fn(entity):\n        try:\n            condition.call(entity)\n        except Exception:\n            return\n>       raise ConditionNotMatchedError()  # todo: try to handle printing actual values here too...\nE       selene.core.exceptions.ConditionNotMatchedError: condition not matched\n\n/usr/local/lib/python3.8/dist-packages/selene/core/condition.py:74: ConditionNotMatchedError\n\nDuring handling of the above exception, another exception occurred:\n\n    @pytest.fixture\n    def request_spending_budget():\n        logger.info(\"Проверка бюджета\")\n        admin_panel.auth_as_admin()\n        budget_page.open()\n        budget_page.assert_budget_limits_not_exceeded()\n    \n        logger.info(\"Создание заявки на расходование средств бюджета\")\n        admin_panel.auth_as_user(SpendingBudgetFundsConstants.author)\n        create_request_spending_budget_funds_page.open()\n>       create_request_spending_budget_funds_page.fill_required_fields()\n\ntests/test_requests_spending_budget_funds/conftest.py:34: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/document_management/requests_spending_budget_funds/create_page.py:67: in fill_required_fields\n    self.contract_select.should(be.disabled.not_, timeout=30)\n/usr/local/lib/python3.8/dist-packages/selene/core/entity.py:377: in should\n    return self.with_(Config(timeout=timeout)).should(condition)\n/usr/local/lib/python3.8/dist-packages/selene/core/entity.py:379: in should\n    super().should(condition)\n/usr/local/lib/python3.8/dist-packages/selene/core/entity.py:122: in should\n    self.wait.for_(condition)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selene.core.wait.Wait object at 0x7f9f2e49fa30>\nfn = <selene.core.conditions.ElementCondition object at 0x7f9f2e7a5b80>\n\n        def for_(self, fn: Callable[[E], R]) -> R:\n            finish_time = time.time() + self._timeout\n    \n            while True:\n                try:\n                    return fn(self._entity)\n                except Exception as reason:\n                    if time.time() > finish_time:\n    \n                        reason_message = str(reason)\n    \n                        reason_string = '{name}: {message}'.format(\n                            name=reason.__class__.__name__, message=reason_message\n                        )\n                        # todo: think on how can we improve logging failures in selene, e.g. reverse msg and stacktrace\n                        # stacktrace = getattr(reason, 'stacktrace', None)\n                        timeout = self._timeout\n                        entity = self._entity\n    \n                        failure = TimeoutException(\n                            f'''\n    \n    Timed out after {timeout}s, while waiting for:\n    {entity}.{fn}\n    \n    Reason: {reason_string}'''\n                        )\n    \n>                       raise self._hook_failure(failure)\nE                       selene.core.exceptions.TimeoutException: Message: \nE                       \nE                       Timed out after 30s, while waiting for:\nE                       browser.element(('name', 'PROPERTY_743[n0][VALUE]')).is not not enabled\nE                       \nE                       Reason: ConditionNotMatchedError: condition not matched\nE                       Screenshot: file:///home/seluser/.selene/screenshots/1646383817585/1646383817616.png\nE                       PageSource: file:///home/seluser/.selene/screenshots/1646383817585/1646383817616.html\n\n/usr/local/lib/python3.8/dist-packages/selene/core/wait.py:125: TimeoutException",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f5d5fbdd1c824a2d",
+      "name" : "log",
+      "source" : "f5d5fbdd1c824a2d.txt",
+      "type" : "text/plain",
+      "size" : 171
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "auth_admin::0",
+    "time" : {
+      "start" : 1646401380670,
+      "stop" : 1646401380911,
+      "duration" : 241
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "spending_funds"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.test_requests_spending_budget_funds"
+  }, {
+    "name" : "suite",
+    "value" : "test_requests_spending_budget_funds"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSpendingBudgetFunds"
+  }, {
+    "name" : "host",
+    "value" : "portal-test-qa-nth69"
+  }, {
+    "name" : "thread",
+    "value" : "6-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_requests_spending_budget_funds.test_requests_spending_budget_funds"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "spending_funds" ]
+  },
+  "source" : "63a88696450f1ed1.json",
+  "parameterValues" : [ ]
+}

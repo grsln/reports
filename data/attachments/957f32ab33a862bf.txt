@@ -1,0 +1,7 @@
+2022-03-04 12:04:58 INFO Создание документа
+2022-03-04 12:05:39 INFO Отправка на согласование
+2022-03-04 12:05:39 INFO execute button command
+2022-03-04 12:05:48 INFO assert states
+2022-03-04 12:05:48 INFO Согласование руководителем
+2022-03-04 12:06:20 INFO execute button command
+2022-03-04 12:06:20 INFO assert states

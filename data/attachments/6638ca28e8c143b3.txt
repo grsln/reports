@@ -1,0 +1,17 @@
+2022-03-04 12:46:34 INFO Авторизация Гульназ Тимуршина
+2022-03-04 12:47:28 INFO тестовое исходящее письмо 08:50:18.617970, 442049
+2022-03-04 12:47:36 INFO Login admin.
+2022-03-04 12:47:36 INFO Open admin
+2022-03-04 12:47:42 INFO Find document
+2022-03-04 12:47:42 INFO Approve admin Оксана Ульянова.
+2022-03-04 12:47:42 INFO Admin approve
+2022-03-04 12:47:42 INFO Approve admin Светлана Соколова
+2022-03-04 12:47:42 INFO Admin approve
+2022-03-04 12:47:50 INFO login Лейсан Молтабарова
+2022-03-04 12:47:50 INFO Admin approve
+2022-03-04 12:47:58 INFO Approve admin Искандер Бариев
+2022-03-04 12:47:58 INFO Admin approve
+2022-03-04 12:48:05 INFO Open admin
+2022-03-04 12:48:18 INFO find letter
+2022-03-04 12:48:18 INFO delete
+2022-03-04 12:48:18 INFO accept alert
